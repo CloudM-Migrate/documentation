@@ -1,35 +1,66 @@
 Getting Started with CloudM Migrate
+
 How to Migrate a Mailbox and OneDrive from O365 to O365
-#1.	OVERVIEW
+
+# 1.	OVERVIEW
+
 This document will give an overview on to use CloudM Migrate to perform a test mailbox and OneDrive migration. Before attempting a migration you’ll need to gather some information and prepare the source and destination tenants. 
-#2.	O365 SOURCE
-A Global Admin account will be needed in the source tenant and Multi-Factor Authentication will need to be temporarily disabled when creating the migration project within CloudM Migrate. The Tenant ID will also be required in the migration project. For the OneDrive to OneDrive content you’ll need the SharePoint Admin URL from the source tenant. 
-#3.	O365 DESTINATION
+
+# 2.	O365 SOURCE
+
+A Global Admin account will be needed in the source tenant and Multi-Factor Authentication will need to be temporarily disabled when creating the migration project within CloudM Migrate. The Tenant ID will also be required in the migration project. For the OneDrive to OneDrive content you’ll need the SharePoint Admin URL from the source tenant.
+
+# 3.	O365 DESTINATION
+
 A Global Admin account will be needed in the destination and Multi-Factor Authentication will need to be temporarily disabled when creating the migration project within CloudM Migrate. The Tenant ID will also be required in the migration project. For the OneDrive to OneDrive content you’ll need the SharePoint Admin URL from the destination tenant.
 With this information you are ready to create a CloudM Migrate project. 
-#4.	CREATING A MIGRATION PROJECT
+
+# 4.	CREATING A MIGRATION PROJECT
+
 A CloudM sales representative can provide you some testing licenses. When you receive the license it will contain a link to access CloudM Migrate. 
+
 Feel free to explore and when ready select the **Orange Plus** symbol in the upper right corner and then **Create a New Project** to begin creating a migration project. 
+
 Select the **Destination Platform** type as **Microsoft Office 365** and enter the target **Domain**. The **Configuration Name** is the name of the Batch you are creating, call it Test.
+
 Enter in the **License Key** that was provided to you and select **Continue**. 
+
 In the next screen you’ll populate the information you previously gathered for the source, the domain name, the service account and upload the P12 key. 
-Under **Advance Settings** populate the **SharePoint Admin URL** with the source address. 
+
+Under **Advance Settings** populate the **SharePoint Admin URL** with the source address.
+
 Optionally you can enable the **Slider** for **SharePoint Migration API**. This will increase migration velocity but has associated costs. 
+
 Select **Next** and CloudM Migrate will validate it can access the source. 
+
 Select **Next** and then select what type of destination tenant you’ll be migrating too. 
+
 At the bottom of the destination detail expand the section labeled **Platform Configuration** and **Provisioning** and make sure the field labeled **Usage Location** is set to the country the destination is located, by default it will be set to the United Kingdom. 
+
 Under **Advance Settings** populate the **SharePoint Admin URL** with destination address. Validate the **slider** for **SharePoint Migration API** in enabled. 
+
 Now is when Multi-Factor Authentication will need to be disabled so CloudM Migrate can contact the destination tenant. Typically you’ll want to set the **Authentication Method** to **Modern**. 
+
 Select **Create Azure AD Application** and then select it a second time to start the validation of the destination. If successful you can now re-enable Multi-Factor Authentication. 
+
 Select **Next** and now you are able to select users to migrate. Select **Add items to migrate** and then **Get items from source**. 
+
 After the list populates, select a single mailbox to migrate as a test. The license provided to you will be consumed by this test migration. 
+
 The **Export Field** column will show the source addresses and the **Import Field** will display the destination address. 
+
 On right side of the line that contains your test mailbox unselect all options besides **Mail, Contacts, Calendar, Tasks and OneDrive**.
-Select the **Save** option under the Actions column to save changes 
+
+Select the **Save** option under the Actions column to save changes.
+
 Validate that only your test mailbox has the **slider in orange** under the Migrate column. 
+
 On the left select the **Paper Airplane **to view the migration batch summary. 
+
 Select **Start** and then **Start Now** to begin the test migration. 
+
 CloudM Migrate will now show you the status of the migration. When completed you can see details of the migration by selecting **More Statistics** and you can view the destination mailbox to validate all mailbox items were successfully migrated. 
+
 It’s that simple! 
 
 
