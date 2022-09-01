@@ -1,5 +1,3 @@
-# Getting Started with CloudM Migrate
-
 ## How to Migrate a Google Mailbox and MyDrive to O365
 
 1. [Overview](#overview)
