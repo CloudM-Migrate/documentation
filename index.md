@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Get started
+title: Get started with CloudM
 nav_order: 1
 redirect_from: /404.html
 permalink: /
