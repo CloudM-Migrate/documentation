@@ -13,4 +13,4 @@ This will site contain the technical documentation for [Cloudm Migrate](https://
 ---
 
 ## CloudM Migrate
-###Migration and management for Microsoft 365 and Google Workspace
+### Migration and management for Microsoft 365 and Google Workspace
