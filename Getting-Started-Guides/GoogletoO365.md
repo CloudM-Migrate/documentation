@@ -1,3 +1,12 @@
+---
+layout: default
+title: Migrate a Google Mailbox and MyDrive to O365
+nav_order: 1
+redirect_from: /404.html
+permalink: /
+---
+
+
 ## How to Migrate a Google Mailbox and MyDrive to O365
 
 1. [Overview](#overview)
