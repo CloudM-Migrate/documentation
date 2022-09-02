@@ -10,13 +10,18 @@ nav_order: 1
 
 How to pick if an On-Premises install or our hosted SaaS solution is correct for you.
 
-### Overview
+1. [Overview](#overview)
+2. [On-Premises](#onpremises)
+3. [Hosted](#hosted)
+4. [Why CloudM](#whycloudm)
+
+### Overview <a name="overview"></a>
 
 This document will give an overview of the reasons to use CloudM migrate as a hosted solution or an on-premises solution. On-premises refers to resources that are owned and managed by the customer regardless of if it is onsite or in a cloud tenant.
 
 This document will cover some security aspects of CloudM Migrate but will not be all inclusive. We at CloudM take security very seriously and if have any security questions or need to perform a security review please reach out to your sales rep and they can help get that setup for you.
 
-### On-Premises
+### On-Premises <a name="onpremises"></a>
 
 Pros
 
@@ -30,7 +35,7 @@ Cons
 
 - If you use Azure VMs there maybe additional charges for ingress and egress of data.
 
-### Hosted
+### Hosted <a name="hosted"></a>
 
 Pros
 
@@ -46,7 +51,7 @@ Cons-
 
 - CloudM Cons? Never!
 
-### Why CloudM Migrate?
+### Why CloudM Migrate? <a name="whycloudm"></a>
 
 Here is why CloudM migrate stands out in the industry. The underlying technology for migrations is the same across the industry. It is small features and the company's staff that sets CloudM Migrate apart from the other solutions.
 
@@ -60,6 +65,6 @@ Here is why CloudM migrate stands out in the industry. The underlying technology
 - White labeled migration professionals augment your staff.
 - Sign up to be a CloudM Partner and receive discounts up to 30%.
 
-### In Conclusion
+### In Conclusion 
 
 All CloudM staff at the end of the day cares about the success of your project no matter how big or small. We will do whatever we can to ensure the success or your CloudM Migrate projects.
