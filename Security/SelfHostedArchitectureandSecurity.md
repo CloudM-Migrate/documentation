@@ -8,23 +8,33 @@ nav_order: 1
 
 ## CloudM Migrate Self Hosted Architecture & Security
 
-### Introduction
+1. [Introduction](#introduction)
+2. [Architecture](#architecture)
+3. [User Interface](#userinterface)
+4. [Servers](#servers)
+5. [Platforms](#platforms)
+6. [Data Storage](#datastorage)
+7. [Certification](#certification)
+8. [GDPR](#GDPR)
+9. [Penetration Testing](#penetrationtesting)
+
+### Introduction <a name="introduction"></a>
 
 The purpose of this document is to provide an overview of the technical architecture of CloudM Migrate Self Hosted and the security measures used within the software.
 
 Our Migration servers are configured in a way that you DO NOT have to open any inbound ports for our tool to work. If you do expose the server to inbound traffic on the internet we are not responsible for your network's security.
 
-### Server Architecture & Security
+### Server Architecture & Security <a name="architecture"></a>
 
 CloudM Migrate Self Hosted can be installed and used in a single or multi-server environment, it is useful to understand the architecture and how CloudM Migrate Self Hosted operates to highlight the security measures implemented.
 
 ![image](https://user-images.githubusercontent.com/100392692/188200044-ba45f354-fc03-4f30-8dd9-33a157036f7b.png)
           
-### User Interface
+### User Interface <a name="userinterface"></a>
 
 The user interface is the central point of administration for CloudM Migrate Self Hosted in both single and multi-server modes. Migrations are started and stopped from the interface, and feedback on the progress of the migration is provided through the interface. The user interface is always installed to the same server as the primary server.
 
-### Primary & Secondary Servers
+### Primary & Secondary Servers <a name="servers"></a>
 
 The primary server is the main point of control for the migration processes. The user interface communicates with the primary to start and stop migrations. The primary server allocates individual data items to secondary servers and provides control and load balancing of migrations.
 
@@ -51,7 +61,7 @@ It is recommended that both primary and secondary servers meet the following req
 
 CloudM Migrate Self Hosted migrates data over HTTPS, and therefore, outbound port 443 can be used on the primary server and secondary servers.
 
-### Source and Destination Platforms
+### Source and Destination Platforms <a name="platforms"></a>
 
 The source and destination platforms are the platforms that data is being migrated from (Source) and to (Destination). CloudM Migrate Self Hosted supports a wide range of source and destination platforms for migration from almost any platform. Communication between secondary servers and source/destination platforms is encrypted using a combination of HTTPS and native API encryption provided by the platforms in question.
 
@@ -88,7 +98,7 @@ See below an overview for each destination platform:
 
 For details on native encryption please refer to the native API documentation for the platform in question.
 
-### Data Storage
+### Data Storage <a name="datastorage"></a>
 
 Both primary and secondary servers use the following components to temporarily store migration data during a migration.
 
@@ -105,14 +115,14 @@ All of these store non-sensitive data such as item IDs in order to provide repor
 
 Where CloudM Migrate requires a username or password to interact with a system, and stores sensitive data like this, that data is stored encrypted within SQL Server (AES256). SQL Server 2019 Express is installed by default, or a customer can specify their own SQL server.
 
-### Certification
+### Certification <a name="certification"></a>
 
 CloudM is an ISO 27001 and Cyber Essentials certified organization.
 
-### GDPR
+### GDPR <a name="GDPR"></a>
 
 There is a dedicated Data Protection Manager in-place. The business has the relevant systems to comply with its obligations as a data controller and processor and the requirements around the data processing principles, rights of the data subject and security of processing.
 
-### Penetration Testing
+### Penetration Testing <a name="penetrationtesting"></a>
 
 Regular third party penetration testing is conducted on the product to verify this protection is in place. Testing takes place every 12 -16 months.
