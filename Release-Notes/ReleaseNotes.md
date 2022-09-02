@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started Guides
+title: Release Notes
 nav_order: 7
 has_children: true
 ---
