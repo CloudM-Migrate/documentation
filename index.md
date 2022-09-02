@@ -6,7 +6,7 @@ redirect_from: /404.html
 permalink: /
 ---
 
-# CloudM Migrate Documnetation Repository
+# CloudM Migrate Documentation Repository
 
 This will site contain the technical documentation for [Cloudm Migrate](https://www.cloudm.io/), a cloud migration solution.
 
