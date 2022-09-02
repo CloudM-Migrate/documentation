@@ -13,7 +13,7 @@ This will site contain the technical documentation for [CloudM Migrate](https://
 ---
 
 ## CloudM Migrate
-### Data Migration for Microsoft 365 and Google Workspace
+### Data Migration for Microsoft Office 365 and Google Workspace
 
 Scale your business, avoid vendor lock-in and experience true cloud freedom
 
