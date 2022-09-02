@@ -1,6 +1,6 @@
 ---
 layout: default
-title: on Premises or SaaS
+title: On Premises or SaaS
 parent: Getting Started Guides
 nav_order: 1
 ---
