@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Security
-nav_order: 3
-has_children: true
+parent: Security
+nav_order: 1
+
 ---
 
 ## CloudM Migrate Self Hosted Architecture & Security
