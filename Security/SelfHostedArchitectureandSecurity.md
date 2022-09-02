@@ -18,8 +18,8 @@ Our Migration servers are configured in a way that you DO NOT have to open any i
 
 CloudM Migrate Self Hosted can be installed and used in a single or multi-server environment, it is useful to understand the architecture and how CloudM Migrate Self Hosted operates to highlight the security measures implemented.
 
-![](https://github.com/CloudM-Migrate/documentation/blob/main/Security/dataflowsecurity.png)
-
+![image](https://user-images.githubusercontent.com/100392692/188200044-ba45f354-fc03-4f30-8dd9-33a157036f7b.png)
+          
 ### User Interface
 
 The user interface is the central point of administration for CloudM Migrate Self Hosted in both single and multi-server modes. Migrations are started and stopped from the interface, and feedback on the progress of the migration is provided through the interface. The user interface is always installed to the same server as the primary server.
