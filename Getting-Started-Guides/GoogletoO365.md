@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Migrate a Google Mailbox and MyDrive to O365
-nav_order: 1
+nav_order: 2
 redirect_from: /404.html
 permalink: /
 ---
