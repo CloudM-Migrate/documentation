@@ -6,7 +6,7 @@ nav_order: 1
 ---
 
 
-## On-Prem or SaaS solution
+## On-Premises or SaaS solution
 
 How to pick if an On-Premises install or our hosted SaaS solution is correct for you.
 
