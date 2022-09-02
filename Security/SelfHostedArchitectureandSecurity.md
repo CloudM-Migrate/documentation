@@ -40,16 +40,14 @@ It is recommended that both primary and secondary servers meet the following req
 
 - NET Framework 3.5 (for SQL Server Express) and 4.5
 - Primary Server - recommended system specification:
-
-- 3GHz 8 Core Processor or better
-- 200+GB Disk space
-- 16+GB Memory
+  - 3GHz 8 Core Processor or better 
+  - 200+GB Disk space
+  - 16+GB Memory
 
 - Secondary Server - recommended system specification:
-
-- 3GHz 4 Core Processor or better
-- 100GB Disk space
-- 8+GB Memory
+  - 3GHz 4 Core Processor or better
+  - 100GB Disk space
+  - 8+GB Memory
 
 CloudM Migrate Self Hosted migrates data over HTTPS, and therefore, outbound port 443 can be used on the primary server and secondary servers.
 
