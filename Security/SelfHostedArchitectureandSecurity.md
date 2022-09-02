@@ -18,7 +18,7 @@ Our Migration servers are configured in a way that you DO NOT have to open any i
 
 CloudM Migrate Self Hosted can be installed and used in a single or multi-server environment, it is useful to understand the architecture and how CloudM Migrate Self Hosted operates to highlight the security measures implemented.
 
-![](RackMultipart20220902-1-g9nos9_html_996c8bc96ed9c9e4.png)
+![Self Hosted Data Flow](https://github.com/CloudM-Migrate/documentation/blob/main/Security/dataflowsecurity.png)
 
 ### User Interface
 
