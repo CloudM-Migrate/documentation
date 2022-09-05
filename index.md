@@ -8,7 +8,7 @@ permalink: /
 
 # CloudM Migrate Documentation Repository
 
-This will site contain the technical documentation for [CloudM Migrate](https://www.cloudm.io/), a cloud migration solution.
+This site will contain the technical documentation for [CloudM Migrate](https://www.cloudm.io/), a cloud migration solution.
 
 ---
 
