@@ -2,7 +2,7 @@
 layout: default
 title: On Premises or SaaS
 parent: Getting Started Guides
-nav_order: 1
+nav_order: 2
 ---
 
 
