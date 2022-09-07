@@ -31,7 +31,7 @@ Default Value: All
 
 Specify the list of file extensions, one per line in the format '*.ext', that will be migrated from email attachments (*.* for all).
 
-Change Conditions: 
+Change Conditions: ??
 
 ### Drop Migrated Attachments <a name="dropmigrateattach"></a>
 Default Value: On
@@ -39,8 +39,6 @@ Default Value: On
 If documents are uploaded to Drive for an email message, remove the attachments from the original message.
 
 Change Conditions: Enable to move attachments to a users Drive.
-
-The email will be modified to include a link to the former attachments location in Drive.
 
 ### Oversized Attachments Folder/Label <a name="oversizeattachfolder"></a>
 Default Value: None
@@ -61,7 +59,7 @@ Default Value: On
 
 If documents are uploaded to Drive for an email message, modify that message to include links to the documents.
 
-Change Conditions: Disable to still move attachments to Onedrive, but not replace with a link. 
+Change Conditions: Disable to still move attachments to Drive, but not replace with a link. 
 
 ### Minimum Email Attachment Size <a name="minemailsize"></a>
 Default Value: 20971520
