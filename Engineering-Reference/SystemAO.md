@@ -7,6 +7,8 @@ nav_order: 1
 
 ## Advanced Options Reference
 
+## System Advanced Settings
+
 1. [Auto Cancel Period](#autocancel)
 2. [Validate SSL Certificates](#validatessl)
 3. [Migration Performance Interval](#migrateperf)
@@ -19,9 +21,6 @@ nav_order: 1
 10. [Simultaneous Migrations per Configuration Limit](#simmigateper)
 11. [Drive Thread Count](#drivethread)
 12. [Allow Multiple Sources](#allowmultiple)
-
-
-## System Advanced Settings
 
 ### Auto Cancel Period <a name="autocancel"></a>
 Default Value: Never
