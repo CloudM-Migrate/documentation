@@ -8,7 +8,7 @@ nav_order: 5
 
 ## Project Advanced Options Reference
 
-## Document Aadvanced Options
+## Document Advanced Options
 
 1. [Top Level Folder](#topfolder)
 2. [File Extensions/MIME Type Exclude](#fileexeexclude)
