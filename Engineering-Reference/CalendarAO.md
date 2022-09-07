@@ -8,7 +8,7 @@ nav_order: 4
 
 ## Project Advanced Options Reference
 
-## Calendar Aadvanced Options
+## Calendar Advanced Options
 
 1. [All Calendars](#allcalendar)
 2. [Appointment Subject Tag](#appointmentsubject)
