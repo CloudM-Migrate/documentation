@@ -35,7 +35,7 @@ Default Value: On
 SSL certificates must keep valid while migrating. Recommended to leave on but can be disabled for testing if needed. 
 
 ### Migration Performance Interval <a name="migrateperf"></a>
-Defualt Vale: 600
+Defualt Value: 600
 
 Set the interval used for calculating migration performance metrics in seconds.
 
