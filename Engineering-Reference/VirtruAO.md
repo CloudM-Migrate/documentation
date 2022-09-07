@@ -11,7 +11,7 @@ nav_order: 11
 ## Virtru Advanced Options
 
 1. [Virtru Enabled](#virtruenable)
-2. [Vitru Default Policy Owner Email Address](#defaultowneremail)
+2. [Virtru Default Policy Owner Email Address](#defaultowneremail)
 3. [Virtru Secret](#virtsecret)
 4. [Include Folders](#includefold)
 5. [Migration Domains](#migratedom)
@@ -26,7 +26,7 @@ Enable Virtru encryption for migrated emails.
 
 Change Conditions: ??
 
-### Vitru Default Policy Owner Email Address <a name="defaultowneremail"></a>
+### Virtru Default Policy Owner Email Address <a name="defaultowneremail"></a>
 Default Value: None
 
 Specify the default policy owner email address for Virtru encryption.
