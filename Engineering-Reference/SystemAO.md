@@ -15,12 +15,15 @@ Default Value: Never
 Select a time period after which the migration will be automatically be stopped. 
 
 ### Validate SSL Certificates
-Default: On
+Default Value: On
 
 SSL certificates must keep valid while migrating. Recommended to leave on but can be disabled for testing if needed. 
 
 ### Migration Performance Interval
+Default Value:
 
 Time between logging point capture.
 
-##  Item Export Delay 
+###  Item Export Delay 
+Devault Value: 
+
