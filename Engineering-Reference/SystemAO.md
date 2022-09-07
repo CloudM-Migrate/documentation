@@ -18,3 +18,9 @@ Select a time period after which the migration will be automatically be stopped.
 Default: On
 
 SSL certificates must keep valid while migrating. Recommended to leave on but can be disabled for testing if needed. 
+
+### Migration Performance Interval
+
+Time between logging point capture.
+
+##  Item Export Delay 
