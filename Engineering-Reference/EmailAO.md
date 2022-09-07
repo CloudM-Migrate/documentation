@@ -18,7 +18,7 @@ nav_order: 2
 6. [Archive Folder Structure](#archivefolderstruc)
 7. [Private Chat Top Level Folder Name](#privatechattop)
 8. [Included Folders](#includefolders)
-9. [Migrate Attachments](#migrateattach")
+9. [Migrate Attachments](#migrateattach)
 10. [Modify Invalid Messages](#modifyinvalid)
 11. [Label Modified Messages](#labelmodified)
 12. [Migrate Headers Only](#migrateheader)
