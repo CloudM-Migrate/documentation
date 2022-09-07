@@ -25,24 +25,31 @@ nav_order: 1
 
 ### Auto Cancel Period <a name="autocancel"></a>
 Default Value: Never
-Change Requirements:
 
 Select a time period after which the migration will be automatically be stopped. 
+
+Change Conditions: You want the migration to end in a specified period of time. 
 
 ### Validate SSL Certificates <a name="validatessl"></a>
 Default Value: On
 
 SSL certificates must keep valid while migrating. Recommended to leave on but can be disabled for testing if needed. 
 
+Change Conditions: SSL Certification checking disabled to test a migration. It's not recommended to disable. 
+
 ### Migration Performance Interval <a name="migrateperf"></a>
 Defualt Value: 600
 
 Set the interval used for calculating migration performance metrics in seconds.
 
+Change Conditions: Increase or decrease the performance data fidelity.
+
 ### Memory Usage Minimum Available Memory <a name="memoryusemin"></a>
 Default Value: 250
 
 Specify the minimum available system memory in MB required to prevent rate limiting.
+
+Change Conditions: ??
 
 ### Item Export Delay <a name="itemexportdelay"></a>
 Default Value: 0
