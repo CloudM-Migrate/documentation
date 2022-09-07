@@ -1,7 +1,7 @@
 ---
 layout: default
 title: O365 Endpoint Guides
-nav_order: 3
+nav_order: 4
 has_children: true
 ---
 
