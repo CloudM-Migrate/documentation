@@ -47,14 +47,14 @@ When 'Migrate Files From' - 'Migrate Files To' ranges are set, filter files base
 Change Conditions: ??
 
 ### File Extensions/MIME Type Include <a name="fileexeinclude"></a>
-Default Value: *.*
+Default Value: All
 
 Specify the list of file extensions, one per line in the format '*.ext', that will be migrated. (*.* for all) or MIME types in the format of 'image/jpeg'.
 
 Change Conditions: Set document types to migated to the destination, those not specified are excluded. 
 
 ### File Names Include <a name="filenameinclude"></a>
-Default Value: *.*
+Default Value: All
 
 Specify the list of wildcard patterns for file names, one per line, that will be migrated (*.* for all).
 
