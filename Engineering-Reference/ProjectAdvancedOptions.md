@@ -11,6 +11,6 @@ This document will give an overview on all the project advanced options in Cloud
 
 We recommend reviewing these options as they can have a fundamental impact on the success of your project. 
 
-### Advanced Options 
+### Project Advanced Options 
 
 The Project Advanced Option are found when configuing a Migration Project under Section 4 at the bottom of the dialog window. Select the down arrow on the right to expand the dialog menu with the tabs of advanced options. 
