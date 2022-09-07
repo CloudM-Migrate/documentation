@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Advanced Option Reference 
-parent: Engineering Reference
+parent: System
+grand_parent: Engineering Reference
 nav_order: 1
 ---
 
