@@ -8,7 +8,7 @@ nav_order: 2
 
 ## Project Advanced Options Reference
 
-## Email Aadvanced Options
+## Email Advanced Options
 
 1. [Migration Folders](#migratefolder)
 2. [Excluded Folders](#excludefolder)
