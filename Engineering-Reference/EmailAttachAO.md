@@ -11,7 +11,7 @@ nav_order: 6
 ## Email Attachment to Drive Advanced Options
 
 1. [Email Attachment Document Migration](#emailattachdoc)
-2. [File Extensions ](#fileextens)
+2. [File Extensions](#fileextens)
 3. [Drop Migrated Attachments](#dropmigrateattach)
 4. [Oversized Attachments Folder/Label](#oversizeattachfolder)
 5. [Email Attachment Document Sharing](#emailattachdocshare)
