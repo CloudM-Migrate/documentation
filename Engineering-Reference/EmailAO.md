@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Email
-parent: Advanced Options
+parent: Project Advanced Options
 grand_parent: Engineering Reference
 nav_order: 2
 ---
 
-## Advanced Options Reference
+## Project Advanced Options Reference
 
 ## Email Aadvanced Options
 
