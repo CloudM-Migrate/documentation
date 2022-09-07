@@ -8,7 +8,7 @@ nav_order: 3
 
 ## Project Advanced Options Reference
 
-## Contact Aadvanced Options
+## Contact Advanced Options
 
 1. [Address Book Groups](#addressbook)
 2. [Skip Quest Migration Manager System Contacts](#skipquestcontacts)
