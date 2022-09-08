@@ -52,7 +52,7 @@ Default Value: No Sharing
 
 When migrating email attachments or file system files, choose whether the document should be shared with recipients of the original email.
 
-Change Conditions: Set to Share Documents to enable sharing on attachment moved to OneDrive. Set to Share Documents and Send Notification Email to also send an email to notify sharing was enabled. 
+Change Conditions: Set to Share Documents to enable sharing on attachment moved to Drive. Set to Share Documents and Send Notification Email to also send an email to notify sharing was enabled. 
 
 ### Add Document Links <a name="adddoclink"></a>
 Default Value: On
