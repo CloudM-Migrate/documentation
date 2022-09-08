@@ -70,6 +70,8 @@ Default Value: Debug
 
 Specify the trace level of the debug output (from 0 (off) to 5 (debug)).
 
+Change Condition: Recommend to keep at 5 for troubleshooting and required for regulatory compliance.
+
 ### Migration History Interval <a name="migratehistory"></a>
 Default Value: 30000
 
