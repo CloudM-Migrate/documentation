@@ -213,7 +213,7 @@ Change Conditions: ??
 3. [Retry Count](#retrycount)
 4. [Teams Chat API licensing model](#teamschatapi)
 5. [Maximum Results Per Request](#maxresultper)
-6. [Timeout](#timeout)
+6. [Timeout](#teamtimeout)
 7. [Migrate Teams Planner](#migrateteamplan)
 8. [Use EWS API for Teams Private Chats](#migrateteamplan)
 
@@ -257,7 +257,7 @@ The maximum number of results to return for individual queries.
 
 Change Conditions: ??
 
-### Timeout <a name="timeout"></a>
+### Timeout <a name="teamtimeout"></a>
 {: .no_toc }
 Default Value: 1800000
 
@@ -373,7 +373,7 @@ Change Conditions: ??
 [Back to Top](#top)
 
 1. [Retry Count](#retrycount)
-2. [Timeout](#timeout)
+2. [Timeout](#trantimeout)
 3. [Max Wait Time](#maxwaittime)
 4. [Use X-AnchorMailbox Header](#usexachor)
 
@@ -385,7 +385,7 @@ The number of times an operation will be attempted before failing.
 
 Change Conditions: ??
 
-### Timeout <a name="timeout"></a>
+### Timeout <a name="trantimeout"></a>
 {: .no_toc }
 Default Value: 1200000
 
