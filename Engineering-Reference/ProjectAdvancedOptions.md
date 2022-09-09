@@ -261,6 +261,9 @@ Change Conditions: ??
 ## Contact
 [Back to Top](#top)
 
+1. [Address Book Groups](#addressbook)
+2. [Skip Quest Migration Manager System Contacts](#skipquestcontacts)
+
 ### Address Book Groups <a name="addressbook"></a>
 {: .no_toc }
 Default Value: Off
@@ -281,6 +284,13 @@ Change Conditions: ??
 
 ## Calendar
 [Back to Top](#top)
+
+1. [All Calendars](#allcalendar)
+2. [Appointment Subject Tag](#appointmentsubject)
+3. [Common ID Prefix Value ](#commonidpre)
+4. [Shared Calendar Information](#sharedcalendarinfo)
+5. [Prefix Common ID](#prefixcommon)
+6. [Send Calendar Sharing Notifications](#sendcalendarsharing)
 
 ### All Calendars <a name="allcalendar"></a>
 {: .no_toc }
