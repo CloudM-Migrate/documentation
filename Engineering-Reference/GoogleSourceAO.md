@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Google Source Advanced Options
+title: Google
 grand_parent: Engineering Reference
 parent: Source Advanced Options
 has_children: true
