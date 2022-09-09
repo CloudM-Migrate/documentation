@@ -26,6 +26,19 @@ We recommend reviewing these options as they can have a fundamental impact on th
 
 ## System
 
+1. [Auto Cancel Period](#autocancel)
+2. [Validate SSL Certificates](#validatessl)
+3. [Migration Performance Interval](#migrateperf)
+4. [Memory Usage Minimum Available Memory](#memoryusemin)
+5. [Item Export Delay](#itemexportdelay)
+6. [Auto Restart Crashed Users](#autorestart)
+7. [Trace Level](#tracelevel)
+8. [Migration History Interval](#migratehistory)
+9. [Memory Usage Check](#memuse)
+10. [Simultaneous Migrations per Configuration Limit](#simmigateper)
+11. [Drive Thread Count](#drivethread)
+12. [Allow Multiple Sources](#allowmultiple)
+
 ### Auto Cancel Period 
 {: .no_toc }
 Default Value: Never
@@ -125,6 +138,20 @@ Change Conditions: ??
 ---
 ## Email <a name="email"></a> 
 [Back to Top](#top)
+
+1. [Migration Folders](#migratefolder)
+2. [Excluded Folders](#excludefolder)
+3. [Exclude Attachment Extensions](#excludeattachexe)
+4. [Modified Messages Label](#modifiedlabel)
+5. [Message Labels](#messagelabel)
+6. [Archive Folder Structure](#archivefolderstruc)
+7. [Private Chat Top Level Folder Name](#privatechattop)
+8. [Included Folders](#includefolders)
+9. [Migrate Attachments](#migrateattach)
+10. [Modify Invalid Messages](#modifyinvalid)
+11. [Label Modified Messages](#labelmodified)
+12. [Migrate Headers Only](#migrateheader)
+13. [Archive Folder Structure Name](#archivefolderstruc)
 
 ### Migration Folders <a name="migratefolder"></a>
 {: .no_toc }
