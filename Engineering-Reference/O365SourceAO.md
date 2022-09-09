@@ -156,3 +156,123 @@ Default Value: Recoverable Items
 Apply the specified label/category to items migrated from within the Recoverable Items folder. Leave empty to not apply a label/category.
 
 Change Conditions: ??
+
+---
+## Contact
+
+1. [Primary Contact Type](#primarycontact)
+2. [Exclude Group GAL Contact Aliases](#exludegalcontact)
+
+### Primary Contact Type <a name="primarycontact"></a>
+{: .no_toc }
+Default Value: SMTP
+
+Choose either SMTP or SIP address when resolving contact email addresses.
+
+Change Conditions: ??
+
+### Exclude Group GAL Contact Aliases <a name="exludegalcontact"></a>
+{: .no_toc }
+Default Value: SMTP
+
+Exclude additional email addresses (aliases) when resolving a Group GAL contact.
+
+Change Conditions: ??
+
+---
+## Calendar
+
+1. [Migrate Non-Organizer Attendee Statuses](#migratenonorgattend)
+2. [Exchange 2007 Calendar Timezone](#exchange2007cal)
+
+### Migrate Non-Organizer Attendee Statuses <a name="migratenonorgattend"></a>
+{: .no_toc }
+Default Value: Off
+
+Attempt to migrate attendee statuses for appointments where the migrating user is not the owner (when the owner is being migrated attendee statuses are always preserved). Due to API limitations, for any appointments from outside of the domain and from any accounts that no longer exist the attendee status will always not be migrated.
+
+Change Conditions: ??
+
+### Exchange 2007 Calendar Timezone <a name="exchange2007cal"></a>
+{: .no_toc }
+Default Value: GMT Standard Time
+
+The default timezone to use with appointments when migrating from Exchange 2007 when the timezone is not identified by other means.
+
+Change Conditions: ??
+
+---
+## Microsoft Teams/Groups
+
+1. [Export Chat Message Type](#exportchatmessage)
+2. [Test Office 365 Group Email](#testoffice365group)
+3. [Retry Count](#retrycount)
+4. [Teams Chat API licensing model](#teamschatapi)
+5. [Maximum Results Per Request](#maxresultper)
+6. [Timeout](#timeout)
+7. [Migrate Teams Planner](#migrateteamplan)
+8. [Use EWS API for Teams Private Chats](#migrateteamplan)
+
+### Export Chat Message Type <a name="exportchatmessage"></a>
+{: .no_toc }
+Default Value: Email
+
+Export Microsoft Team Channel Conversations as: Email, Document or both.
+
+Change Conditions: ??
+
+### Test Office 365 Group Email <a name="testoffice365group"></a>
+{: .no_toc }
+Default Value: None
+
+The email address of an Office 365 Group that already exists.
+
+Change Conditions: ??
+
+### Retry Count <a name="retrycount"></a>
+{: .no_toc }
+Default Value: 10
+
+The number of times an operation will be attempted before failing.
+
+Change Conditions: ??
+
+### Teams Chat API licensing model <a name="teamschatapi"></a>
+{: .no_toc }
+Default Value: None
+
+Some Teams APIs provide the option to choose a licensing and payment model. Default model enables access to APIs with limited usage per requesting application for evaluation purposes. Model A is restricted to applications performing a security or compliance function, and requires a supported license. Model B is restricted to applications that do not perform a security or compliance function.
+
+Change Conditions: ??
+
+### Maximum Results Per Request <a name="maxresultper"></a>
+{: .no_toc }
+Default Value: 999
+
+The maximum number of results to return for individual queries.
+
+Change Conditions: ??
+
+### Timeout <a name="timeout"></a>
+{: .no_toc }
+Default Value: 1800000
+
+The timeout for operations with the server.
+
+Change Conditions: ??
+
+### Migrate Teams Planner <a name="migrateteamplan"></a>
+{: .no_toc }
+Default Value: Off
+
+The timeout for operations with the server.
+
+Change Conditions: ??
+
+### Use EWS API for Teams Private Chats <a name="migrateteamplan"></a>
+{: .no_toc }
+Default Value: On
+
+Export Teams Private Chat Messages using EWS API instead of billable Graph API
+
+Change Conditions: ??
