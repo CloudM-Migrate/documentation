@@ -22,7 +22,6 @@ We recommend reviewing these options as they can have a fundamental impact on th
 </details>
 
 ---
-
 ## System
 
 1. [Auto Cancel Period](#autocancel)
@@ -525,6 +524,7 @@ Perform email addresses and domain replacements from the CSV file specified in '
 
 Change Conditions: Turn on to only change address of users specified in the CSV under Address Replacements (.csv)
 
+---
 ## Domain Replacment
 [Back to Top](#top)
 
@@ -693,8 +693,7 @@ The password for the specified non-default proxy (optional)
 Change Conditions: 
 
 ---
-
-## Virtru -
+## Virtru
 
 1. [Virtru Enabled](#virtruenable)
 2. [Virtru Default Policy Owner Email Address](#defaultowneremail)
