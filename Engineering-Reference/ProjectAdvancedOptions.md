@@ -2,7 +2,6 @@
 layout: default
 title: Project Advanced Options
 parent: Engineering Reference
-has_children: true
 nav_order: 4
 ---
 ## Project Advanced Options Overview 
