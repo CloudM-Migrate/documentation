@@ -1,5 +1,3 @@
-
-
 ---
 layout: default
 title: Personal Gmail, Outlook and Yahoo
