@@ -226,8 +226,9 @@ Change Conditions: ??
 
 1. [Migrate Signature](#migratesig)
 2. [Migrate Account Delegation](#accountdel)
-2. [Maintain Cabinet Name in Folder Hierarchy](#cabname)
-2. [Migrate Rules/Filters](#migrules)
+3. [Maintain Cabinet Name in Folder Hierarchy](#cabname)
+4. [Migrate Rules/Filters](#migrules)
+5. [Absolute Maximum Attachment Size](#maxattach)
 
 ### Migrate Signature <a name="migratesig"></a>
 {: .no_toc }
@@ -261,7 +262,7 @@ Set to true to migrate the user's account rules (GroupWise 8 only).
 
 Change Conditions: ??
 
-### Absolute Maximum Attachment Size<a name="servermime"></a>
+### Absolute Maximum Attachment Size <a name="maxattach"></a>
 {: .no_toc }
 Default Value: 524288000
 
