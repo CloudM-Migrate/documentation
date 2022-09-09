@@ -14,17 +14,7 @@ We recommend reviewing these options as they can have a fundamental impact on th
 ## Project Advanced Options 
 
 1. [System](#system)
-2. [email](#email)
-3. [Migration Performance Interval](#migrateperf)
-4. [Memory Usage Minimum Available Memory](#memoryusemin)
-5. [Item Export Delay](#itemexportdelay)
-6. [Auto Restart Crashed Users](#autorestart)
-7. [Trace Level](#tracelevel)
-8. [Migration History Interval](#migratehistory)
-9. [Memory Usage Check](#memuse)
-10. [Simultaneous Migrations per Configuration Limit](#simmigateper)
-11. [Drive Thread Count](#drivethread)
-12. [Allow Multiple Sources](#allowmultiple)
+2. [Email](#email)
 
 ## System Advanced Settings <a name="system"></a>
 
@@ -113,3 +103,94 @@ Allow the migration of multiple source items, of the same type, to a single dest
 Change Conditions: ??
 
 ## Email <a name="email"></a>
+
+### Migration Folders <a name="migratefolder"></a>
+Default Value: All Folders
+ 
+Select the folders to migrate. 
+
+Change Conditions: You want to select specific folders to migrate. 
+
+### Excluded Folders <a name="excludefolder"></a>
+Default Value: None
+
+Specify a list of folder names that will be excluded from the migration.
+
+Change Conditions: Some folders are not needed on the destination.
+
+### Exclude Attachment Extensions <a name="excludeattachexe"></a>
+Default Value: None
+
+Specify the list of file extensions of attachments that will not be migrated, Leave empty to migrate all attachments.
+
+Change Conditions: Certain file types are not needed on the destination such as a .pdf. 
+
+###  Modified Messages Label <a name="modifiedlabel"></a>
+Default Value: Modified
+
+The label/category to use when labeling modified messages if the 'Label Modified Messages' option has been set.
+
+Change Conditions: ??
+
+### Message Labels <a name="messagelabel"></a>
+Default Value: None
+
+Apply the specified label or category to all messages. To specify multiple labels, provide a semi-colon delimited list.
+
+Change Conditions: You only want to migration email that contain a specified label. 
+
+### Archive Folder Structure <a name="archivefolderstruc"></a>
+Default Value: Off
+
+Archive the entire message folder structure under the folder specified by 'Archive Folder Structure Name'.
+
+Change Conditions: You wish to store all source email into a specific folder on the destination.
+
+### Private Chat Top Level Folder Name <a name="privatechattop"></a>
+Default Value: Private Chats
+
+If migrating Teams Private Chats, places all conversations within a folder of the specified name.
+
+Change Conditions: Change the folder name where MS Teams private chats older then 7 days are stored in Outlook. 
+
+### Included Folders <a name="includefolders"></a>
+Default Value: None
+
+Specify a list of folder names that will be included with the migration when Migration Folders is set to Specified Only.
+
+Change Conditions: When specifcing to only migrate certain folders, this setting will require the folder you wish to migrate. 
+
+### Migrate Attachments <a name="migrateattach"></a>
+Default Value: On
+
+Migrate email attachments to GMail. Note that any email message attachments will always be processed.
+
+Change Conditions: You wish to not migrate email attachments. 
+
+### Modify Invalid Messages <a name="modifyinvalid"></a>
+Default Value: On
+
+Attempt to modify messages if they are oversized or have bad attachments before importing to the destination system.
+
+Change Conditions: ??
+
+### Label Modified Messages <a name="labelmodified"></a>
+Default Value: Off
+
+Apply a label or category to messages that have been modified as part of the migration process (such as having an oversized attachment removed).
+
+Change Conditions: You want a message labeled if it was modified during migration. 
+
+### Migrate Headers Only <a name="migrateheader"></a>
+Default Value: Off
+
+Migrate only message headers from supported systems.
+
+Change Conditions: You only want a retroactive record of sent and received email, all message content is stripped. 
+
+### Archive Folder Structure Name <a name="archivefolderstruc"></a>
+Default Value: None
+
+The name of the base folder when using 'Archive Folder Structure'.
+
+Change Conditions: ??
