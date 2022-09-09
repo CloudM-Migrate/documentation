@@ -276,3 +276,198 @@ Default Value: On
 Export Teams Private Chat Messages using EWS API instead of billable Graph API
 
 Change Conditions: ??
+
+---
+## Public Folders
+
+1. [Include Public Folders in User List](#includepublic)
+2. [Public Folder User Name](#publicfolderuser)
+
+### Include Public Folders in User List <a name="includepublic"></a>
+{: .no_toc }
+Default Value: Off
+
+Specifies whether Public Folders will be obtained when getting a user list.
+
+Change Conditions: ??
+
+### Public Folder User Name <a name="publicfolderuser"></a>
+{: .no_toc }
+Default Value: None
+
+The primary SMTP email address of the user that will be used when migrating Public Folders. This user must have an active mailbox.
+
+Change Conditions: ??
+
+---
+## Authentication
+
+1. [Exchange Version](#exchangever)
+2. [Use Workstation Credentials](#workcred)
+
+### Exchange Version <a name="exchangever"></a>
+{: .no_toc }
+Default Value: Microsoft Exchange 2019
+
+Specifies whether Public Folders will be obtained when getting a user list.
+
+Change Conditions: ??
+
+### Use Workstation Credentials <a name="workcred"></a>
+{: .no_toc }
+Default Value: Off
+
+Use the credentials of the logged in user of the workstation to perform migrations rather than the provided username and password. The admin username and password is still required for auto-discovery.
+
+Change Conditions: ??
+
+---
+## User
+
+1. [Migrate Account Delegates](#migrateaccountdel)
+2. [Migrate Out Of Office](#workcred)
+3. [Migrate Signature](#exchangever)
+4. [Migrate Mailbox Rules](#workcred)
+
+### Migrate Account Delegates <a name="migrateaccountdel"></a>
+{: .no_toc }
+Default Value: On
+
+Migrate user account delegation.
+
+Change Conditions: ??
+
+### Migrate Out Of Office <a name="exchangever"></a>
+{: .no_toc }
+Default Value: On
+
+Migrate user Out Of Office settings.
+
+Change Conditions: ??
+
+### Migrate Signature <a name="exchangever"></a>
+{: .no_toc }
+Default Value: On
+
+Migrate user signature settings.
+
+Change Conditions: ??
+
+### Migrate Mailbox Rules <a name="exchangever"></a>
+{: .no_toc }
+Default Value: On
+
+Migrate Microsoft 365 Mailbox Mail Rules
+
+Change Conditions: ??
+
+---
+## Transfer and Performance
+
+1. [Retry Count](#retrycount)
+2. [Timeout](#timeout)
+3. [Max Wait Time](#maxwaittime)
+4. [Use X-AnchorMailbox Header](#usexachor)
+
+### Retry Count <a name="retrycount"></a>
+{: .no_toc }
+Default Value: 10
+
+The number of times an operation will be attempted before failing.
+
+Change Conditions: ??
+
+### Timeout <a name="timeout"></a>
+{: .no_toc }
+Default Value: 1200000
+
+The timeout that will apply to communications with the Exchange server.
+
+Change Conditions: ??
+
+### Max Wait Time <a name="maxwaittime"></a>
+{: .no_toc }
+Default Value: 1200000
+
+Specify the maximum time that a wait operation can wait between exponential backoff retry attempts.
+
+Change Conditions: ??
+
+### Use X-AnchorMailbox Header <a name="usexachor"></a>
+{: .no_toc }
+Default Value: On
+
+When using application impersonation, use the X-AnchorMailbox header to improve performance.
+
+Change Conditions: ??
+
+---
+## PowerShell
+
+1. [PowerShell Variables](#psvariable)
+2. [PowerShell Get User Init Script](#psuserinit)
+
+### PowerShell Variables <a name="psvariable"></a>
+{: .no_toc }
+Default Value: [!ps-url]:https://ps.outlook.com/PowerShell-LiveID;[!o365-location]:GB;[!o365-subscription-sku]:ENTERPRISEPACK;
+
+The collection of user-defined substitution variables that can be used in PowerShell scripts.
+
+Change Conditions: ??
+
+### PowerShell Get User Init Script <a name="psuserinit"></a>
+{: .no_toc }
+Default Value: # Set this so that errors are thrown from Cmdlets
+
+The PowerShell script that will be run to obtain the user list.
+
+Change Conditions: ??
+
+---
+## Archive2Anywhere
+
+1. [Archive Type](#archivetype)
+2. [API Key](#apikey)
+3. [Timeout](#archtimeout)
+4. [Server URL](#serverurl)
+5. [Retry Count](#aretrycount)
+
+### Archive Type <a name="archivetype"></a>
+{: .no_toc }
+Default Value: Enterprise Vault
+
+The type of the archive that will be processed from Archive2Anywhere.
+
+Change Conditions: ??
+
+### API Key <a name="apikey"></a>
+{: .no_toc }
+Default Value: None
+
+The API key required for calling the Archive2Anywhere endpoint.
+
+Change Conditions: ??
+
+### Timeout <a name="archtimeout"></a>
+{: .no_toc }
+Default Value: 120000
+
+The time (in milliseconds) before a connection will fail.
+
+Change Conditions: ??
+
+### Server URL <a name="serverurl"></a>
+{: .no_toc }
+Default Value: None
+
+The URL that will be used to make requests to re-hydrate email stubs from Archive2Anywhere.
+
+Change Conditions: ??
+
+### Retry Count <a name="aretrycount"></a>
+{: .no_toc }
+Default Value: 3
+
+The number of times to retry rehydrating a stub before failing.
+
+Change Conditions: ??
