@@ -48,9 +48,9 @@ Change Conditions: Your source uses a custom port.
 ## Email
 [Back to Top](#top)
 
-1. [Server Port](#catlabel)
+1. [Category Labels](#catlabel)
 2. [Use Expanded Recipients](#expandreci)
-2. [Plain Text Only ](#plaintext)
+2. [Plain Text Only](#plaintext)
 2. [Server MIME Generation](#servermime)
 
 ### Category Labels <a name="catlabel"></a>
@@ -86,12 +86,15 @@ Change Conditions:
 ## Contact
 [Back to Top](#top)
 
-1. [Server Port](#catlabel)
-2. [Use Expanded Recipients](#expandreci)
-2. [Plain Text Only ](#plaintext)
-2. [Server MIME Generation](#servermime)
+1. [Address Book Processing](#addybook)
+2. [Contact Extraction Language](#conextra)
+3. [Excluded Sync Addresses](#excludsync)
+4. [System Address Book Sync Type](#sysaddbook)
+5. [Incoming Shared Address Books](#insharebook)
+6. [Excluded Frequent Contact Addresses](#excludefreq)
+5. [Migrate All Group Members](#migallgroup)
 
-### Address Book Processing <a name="servermime"></a>
+### Address Book Processing <a name="addybook"></a>
 {: .no_toc }
 Default Value: Personal and Frequent
 
@@ -99,7 +102,7 @@ Choose the combination of address books to migrate.
 
 Change Conditions: ??
 
-### Contact Extraction Language <a name="servermime"></a>
+### Contact Extraction Language <a name="conextra"></a>
 {: .no_toc }
 Default Value: English
 
@@ -107,7 +110,7 @@ Specify the language that will be used to extract some information from GroupWis
 
 Change Conditions: ??
 
-### Excluded Sync Addresses <a name="servermime"></a>
+### Excluded Sync Addresses <a name="excludsync"></a>
 {: .no_toc }
 Default Value: Off
 
@@ -115,7 +118,7 @@ Specify a list of addresses that will be excluded from the GroupWise global addr
 
 Change Conditions: ??
 
-### System Address Book Sync Type <a name="servermime"></a>
+### System Address Book Sync Type <a name="sysaddbook"></a>
 {: .no_toc }
 Default Value: Domain Profile and Shared Contracts
 
@@ -123,7 +126,7 @@ Select to sync the GroupWise System Address Book with Domain Profiles, Shared Co
 
 Change Conditions: ??
 
-### Incoming Shared Address Books <a name="servermime"></a>
+### Incoming Shared Address Books <a name="insharebook"></a>
 {: .no_toc }
 Default Value: On
 
@@ -131,7 +134,7 @@ Choose whether to migrate incoming shared address books (GroupWise 8 only, for e
 
 Change Conditions: ??
 
-### Excluded Frequent Contact Addresses <a name="servermime"></a>
+### Excluded Frequent Contact Addresses <a name="excludefreq"></a>
 {: .no_toc }
 Default Value: None
 
@@ -139,7 +142,7 @@ Generate MIME messages on the GroupWise server rather than on the client.
 
 Change Conditions: ??
 
-### Migrate All Group Members <a name="servermime"></a>
+### Migrate All Group Members <a name="migallgroup"></a>
 {: .no_toc }
 Default Value: On
 
@@ -150,12 +153,11 @@ Change Conditions: ??
 ## Calendar
 [Back to Top](#top)
 
-1. [Migrate Notes](#catlabel)
-2. [Incoming Shared Calendars](#expandreci)
-2. [Migrate Appointments from Mail Attachments](#plaintext)
-2. [Server MIME Generation](#servermime)
+1. [Migrate Notes](#mignotes)
+2. [Incoming Shared Calendars](#insharecal)
+3. [Migrate Appointments from Mail Attachments](#migappmail)
 
-### Migrate Notes <a name="servermime"></a>
+### Migrate Notes <a name="mignotes"></a>
 {: .no_toc }
 Default Value: On
 
@@ -163,7 +165,7 @@ Migrate GroupWise notes as all day appointments.
 
 Change Conditions: ??
 
-### Incoming Shared Calendars <a name="servermime"></a>
+### Incoming Shared Calendars <a name="insharecal"></a>
 {: .no_toc }
 Default Value: Off
 
@@ -171,7 +173,7 @@ Migrate incoming shared calendars from GroupWise. This will result in duplicatio
 
 Change Conditions: ??
 
-### Migrate Appointments from Mail Attachments <a name="servermime"></a>
+### Migrate Appointments from Mail Attachments <a name="migappmail"></a>
 {: .no_toc }
 Default Value: On
 
@@ -182,12 +184,12 @@ Change Conditions: ??
 ## Account/Archive
 [Back to Top](#top)
 
-1. [Archive Label/Folder Method](#catlabel)
-2. [Incoming Shared Folders](#expandreci)
-2. [Archive Label/Folder](#plaintext)
-2. [Message Export Method](#servermime)
+1. [Archive Label/Folder Method](#archfoldmet)
+2. [Incoming Shared Folders](#incomingshare)
+2. [Archive Label/Folder](#archfold)
+2. [Message Export Method](#mesexportmet)
 
-### Archive Label/Folder Method <a name="servermime"></a>
+### Archive Label/Folder Method <a name="archfoldmet"></a>
 {: .no_toc }
 Default Value: Folder Structure and Label/Category
 
@@ -195,7 +197,7 @@ Migrate GroupWise notes as all day appointments.
 
 Change Conditions: ??
 
-### Incoming Shared Folders <a name="servermime"></a>
+### Incoming Shared Folders <a name="incomingshare"></a>
 {: .no_toc }
 Default Value: Off
 
@@ -203,7 +205,7 @@ Migrate GroupWise notes as all day appointments.
 
 Change Conditions: ??
 
-### Archive Label/Folder <a name="servermime"></a>
+### Archive Label/Folder <a name="archfold"></a>
 {: .no_toc }
 Default Value: GroupWise Archive
 
@@ -211,7 +213,7 @@ Migrate GroupWise notes as all day appointments.
 
 Change Conditions: ??
 
-### Message Export Method <a name="servermime"></a>
+### Message Export Method <a name="mesexportmet"></a>
 {: .no_toc }
 Default Value: Quick Messages
 
