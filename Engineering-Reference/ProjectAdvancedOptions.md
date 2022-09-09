@@ -525,3 +525,52 @@ Default Value: Off
 Perform email addresses and domain replacements from the CSV file specified in 'Address Replacements' and do not attempt to perform replacements using any other method.
 
 Change Conditions: Turn on to only change address of users specified in the CSV under Address Replacements (.csv)
+
+## Domain Replacment
+[Back to Top](#top)
+
+1. [Email](#emaildom)
+2. [Contact](#contactdom)
+3. [Tasks](#taskdom)
+4. [Appointments](#appointdom)
+5. [Users](#userdom)
+
+### Email <a name="emaildom"></a>
+{: .no_toc }
+Default Value: On
+
+Apply domain replacements to all email addresses (To, CC and From) within migrated Emails.
+
+Change Conditions: Turn off to not replace the domain in email.
+
+### Contacts <a name="contactdom"></a>
+{: .no_toc }
+Default Value: On
+
+Apply domain replacements to all email addresses in Contacts.
+
+Change Conditions: Turn off to not replace the domain in contacts.
+
+### Tasks <a name="taskdom"></a>
+{: .no_toc }
+Default Value: On
+
+Apply domain replacements to all email addresses in Tasks.
+
+Change Conditions: Turn off to not replace the domain in tasks. 
+
+### Appointments <a name="appointdom"></a>
+{: .no_toc }
+Default Value: On
+
+Apply domain replacements to all email addresses in Appointments.
+
+Change Conditions: Turn off to not replace the domain in appointments. 
+
+### Users <a name="userdom"></a>
+{: .no_toc }
+Default Value: On
+
+Apply domain replacements to all email addresses for delegated users and other permissions.
+
+Change Conditions: Turn off to not replace the domain for users. 
