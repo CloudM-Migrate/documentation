@@ -231,7 +231,8 @@ The name of the base folder when using 'Archive Folder Structure'.
 Change Conditions: ??
 
 ---
-## Contact Advanced Options
+## Contact
+[Back to Top](#top)
 
 ### Address Book Groups <a name="addressbook"></a>
 {: .no_toc }
@@ -248,3 +249,4 @@ Default Value: Off
 Do not process contacts that may have been created with Quest Migration Manager.
 
 Change Conditions: ??
+
