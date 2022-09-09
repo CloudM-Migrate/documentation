@@ -341,7 +341,6 @@ Send notifications on calendar sharing change.
 Change Conditions: ??
 
 ---
-
 ## Document
 [Back to Top](#top)
 
@@ -409,7 +408,9 @@ Enable delta migrations, where a re-migration will cause any items that have bee
 
 Change Conditions: Turn off you not migrate document with a newer modified date. 
 
+---
 ## Email Attachment to Drive
+[Back to Top](#top)
 
 1. [Email Attachment Document Migration](#emailattachdoc)
 2. [File Extensions](#fileextens)
@@ -484,7 +485,9 @@ When a message is greater than the permitted size, move all attachments to Drive
 
 Change Conditions: Turn on to move attachments of a greater size speicifed in Minimum Email Attachment Size to Drive. 
 
+---
 ## Address Replacement
+[Back to Top](#top)
 
 1. [Replace Usernames](#replaceuser)
 2. [Address Replacements (.csv)](#addreplacecsv)
