@@ -34,7 +34,6 @@ This document will give an overview on all the O365 Source Advanced Options in C
 6. [Document Sharing/Permissions](#retrycount)
 7. [Hybrid Environment](#hybridenv)
 
-
 ### SharePoint Migration API <a name="sharepointapi"></a>
 {: .no_toc }
 Default Value: Off
@@ -94,3 +93,66 @@ Change Conditions: ??
 ---
 ## Email
 
+1. [Excluded Item Classes](#excludeitem)
+2. [Log Excluded Items](#logexcludeitem)
+3. [Recoverable Mail Items](#recovermailitem)
+4. [Extended MAPI Properties](#extendmapiprop)
+5. [Included Item Classes](#includeitemclass)
+6. [Migrate SMIME Signed Messages Without Modification ](#migratesmime)
+7. [Recoverable Mail Items Label/Category](#recovermailitemlabel)
+
+### Excluded Item Classes <a name="excludeitem"></a>
+{: .no_toc }
+Default Value: None
+
+Specify the list of item classes that will not be processed as part of a migration. Exact matches are made on the value specified here.
+
+Change Conditions: ??
+
+### Log Excluded Items <a name="logexcludeitem"></a>
+{: .no_toc }
+Default Value: Off
+
+Include excluded mail items in the migration reports. May produce large reports where many items are not migrated due to matching rules.
+
+Change Conditions: ??
+
+### Recoverable Mail Items <a name="recovermailitem"></a>
+{: .no_toc }
+Default Value: None
+
+Select how to include recoverable mail items when migrating from Exchange and Office 365.
+
+Change Conditions: ??
+
+### Extended MAPI Properties <a name="extendmapiprop"></a>
+{: .no_toc }
+Default Value: Archive ID:String;Saveset ID:String;ExMD5:String;ExShortcut:Integer;PR_MSGID2:String;
+
+Specify the list of custom MAPI properties to migrate (valid when migrating to Exchange/Office 365 only).
+
+Change Conditions: ??
+
+### Included Item Classes <a name="includeitemclass"></a>
+{: .no_toc }
+Default Value: IPM.Note;IPM.Note.*
+
+Specify the list of item classes that will be processed as part of a migration. Wildcard matches can be used.
+
+Change Conditions: ??
+
+### Migrate SMIME Signed Messages Without Modification <a name="migratesmime"></a>
+{: .no_toc }
+Default Value: On
+
+When migrating SMIME signed messages, perform no modification of the messages. This could mean some other features of CloudM Migrate may not be executed, such as moving attachments to Drive or ensuring the sent address is correct. It will ensure however that the digital signature verifies.
+
+Change Conditions: ??
+
+### Recoverable Mail Items Label/Category <a name="recovermailitemlabel"></a>
+{: .no_toc }
+Default Value: Recoverable Items
+
+Apply the specified label/category to items migrated from within the Recoverable Items folder. Leave empty to not apply a label/category.
+
+Change Conditions: ??
