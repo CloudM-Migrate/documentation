@@ -17,6 +17,7 @@ We recommend reviewing these options as they can have a fundamental impact on th
 ## Project Advanced Options 
 {: .no_toc }
 
+
 <details open markdown="block">
   <summary>
     Table of contents
@@ -28,7 +29,7 @@ We recommend reviewing these options as they can have a fundamental impact on th
 
 ---
 
-## System Advanced Settings 
+## System
 
 ### Auto Cancel Period 
 {: .no_toc }
