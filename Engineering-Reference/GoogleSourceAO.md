@@ -208,3 +208,116 @@ The maximum number of results to return for individual queries to the Comments A
 
 Change Conditions: ??
 
+---
+## Chat
+[Back to Top](#top)
+
+1. [Migrate Chat History](#migratechathis)
+2. [Migrated Chat Label](#migratechatlabel)
+
+### Migrate Chat History <a name="migratechathis"></a>
+{: .no_toc }
+Default Value: Off
+
+Migrate chat history.
+
+Change Conditions: ??
+
+### Migrated Chat Label <a name="migratechatlabel"></a>
+{: .no_toc }
+Default Value: Migrated Chats
+
+The label that will be applied to migrated chats.
+
+Change Conditions: ??
+
+---
+## Migration
+[Back to Top](#top)
+
+1. [Allow Missing Special Folders](#allowspecfolder)
+2. [Strip Google Test Domain](#stripgoogletestdom)
+
+### Allow Missing Special Folders <a name="allowspecfolder"></a>
+{: .no_toc }
+Default Value: Off
+
+Permit migrations when some special folders do not exist. WARNING: this can result in missing messages if users have hidden IMAP folders.
+
+Change Conditions: ??
+
+### Strip Google Test Domain <a name="stripgoogletestdom"></a>
+{: .no_toc }
+Default Value: Off
+
+Permit migrations when some special folders do not exist. WARNING: this can result in missing messages if users have hidden IMAP folders.
+
+Change Conditions: ??
+
+---
+## User
+[Back to Top](#top)
+
+1. [Migrate Account Delegates](#migrateaccountdel)
+2. [Migrate Forwarding Settings](#migrateforwordset)
+3. [Migrate POP Settings](#migratepopset)
+4. [Migrate Out Of Office](#migrateooo)
+5. [Migrate Signature](#migratesig)
+6. [Migrate Signature](#migrateforwordset)
+7. [Migrate IMAP Settings](#migrateimap)
+
+### Migrate Account Delegates <a name="migrateaccountdel"></a>
+{: .no_toc }
+Default Value: On
+
+Migrate user account delegation.
+
+Change Conditions: ??
+
+### Migrate Forwarding Settings <a name="migrateforwordset"></a>
+{: .no_toc }
+Default Value: On
+
+Migrate user forwarding settings.
+
+Change Conditions: ??
+
+### Migrate POP Settings <a name="migratepopset"></a>
+{: .no_toc }
+Default Value: On
+
+Migrate user POP email settings.
+
+Change Conditions: ??
+
+### Migrate Out Of Office <a name="migrateooo"></a>
+{: .no_toc }
+Default Value: On
+
+Migrate user Out Of Office settings.
+
+Change Conditions: ??
+
+### Migrate Signature <a name="migratesig"></a>
+{: .no_toc }
+Default Value: On
+
+Migrate user signature settings.
+
+Change Conditions: ??
+
+### Migrate Aliases<a name="migratealias"></a>
+{: .no_toc }
+Default Value: On
+
+Migrate account aliases.
+
+Change Conditions: ??
+
+### Migrate IMAP Settings <a name="migrateimap"></a>
+{: .no_toc }
+Default Value: On
+
+Migrate user IMAP settings.
+
+Change Conditions: ??
