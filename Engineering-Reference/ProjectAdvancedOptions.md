@@ -250,3 +250,52 @@ Do not process contacts that may have been created with Quest Migration Manager.
 
 Change Conditions: ??
 
+## Calendar
+
+### All Calendars <a name="allcalendar"></a>
+{: .no_toc }
+Default Value: On
+
+Migrate all calendars and not just the primary calendar. Additional calendars are created as secondary calendars within the destination system.
+
+Change Conditions: Disable if additional calendars are not desired on the destination. 
+
+### Appointment Subject Tag <a name="appointmentsubject"></a>
+{: .no_toc }
+Default Value: None
+
+Tag all migrated appointment subjects with this text (leave blank for no extra tag).
+
+Change Conditions: Add a value to all migrated appointments. 
+
+### Common ID Prefix Value <a name="commonidpre"></a>
+{: .no_toc }
+Default Value: 
+
+The prefix ID to apply to appointment Common IDs.
+
+Change Conditions: ??
+
+### Shared Calendar Information <a name="sharedcalendarinfo"></a>
+{: .no_toc }
+Default Value: On
+
+Migrate all sharing settings for calendars.
+
+Change Conditions: Disable to unshare calendar items on the destination. 
+
+### Prefix Common ID <a name="prefixcommon"></a>
+{: .no_toc }
+Default Value: Off
+
+Prefix the common appointment ID (ICAL UID) to prevent ID clashes between systems. Turn off when performing calendar co-existence.
+
+Change Conditions: ??
+
+### Send Calendar Sharing Notifications <a name="sendcalendarsharing"></a>
+{: .no_toc }
+Default Value: Off
+
+Send notifications on calendar sharing change.
+
+Change Conditions: ??
