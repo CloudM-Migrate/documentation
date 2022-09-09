@@ -18,7 +18,7 @@ We recommend reviewing these options as they can have a fundamental impact on th
     Table of contents
   </summary>
   {: .text-delta }
-- TOC
+1. TOC
 {:toc}
 </details>
 
@@ -227,5 +227,24 @@ Change Conditions: You only want a retroactive record of sent and received email
 Default Value: None
 
 The name of the base folder when using 'Archive Folder Structure'.
+
+Change Conditions: ??
+
+---
+## Contact Advanced Options
+
+### Address Book Groups <a name="addressbook"></a>
+{: .no_toc }
+Default Value: Off
+
+Create contact groups based on Address Book names when migrating from GroupWise, Exchange/Office 365 or Oracle Communications.
+
+Change Conditions: You want to migrate current contacts in the Global Address Book. 
+
+### Skip Quest Migration Manager System Contacts <a name="skipquestcontacts"></a>
+{: .no_toc }
+Default Value: Off
+
+Do not process contacts that may have been created with Quest Migration Manager.
 
 Change Conditions: ??
