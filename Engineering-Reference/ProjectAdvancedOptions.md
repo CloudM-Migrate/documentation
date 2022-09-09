@@ -12,7 +12,7 @@ This document will give an overview on all the project advanced options in Cloud
 We recommend reviewing these options as they can have a fundamental impact on the success of your project. 
 
 ---
-
+<a name="top"></a>
 <details open markdown="block">
   <summary>
     Table of contents
@@ -122,7 +122,9 @@ Allow the migration of multiple source items, of the same type, to a single dest
 
 Change Conditions: ??
 
-## Email <a name="email"></a>
+## Email <a name="email"></a> 
+---
+[Back to Top](#top)
 
 ### Migration Folders <a name="migratefolder"></a>
 {: .no_toc }
