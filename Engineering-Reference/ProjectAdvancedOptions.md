@@ -122,8 +122,8 @@ Allow the migration of multiple source items, of the same type, to a single dest
 
 Change Conditions: ??
 
-## Email <a name="email"></a> 
 ---
+## Email <a name="email"></a> 
 [Back to Top](#top)
 
 ### Migration Folders <a name="migratefolder"></a>
