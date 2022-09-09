@@ -575,6 +575,7 @@ Apply domain replacements to all email addresses for delegated users and other p
 
 Change Conditions: Turn off to not replace the domain for users. 
 
+---
 ## Reporting
 [Back to Top](#top)
 
@@ -650,3 +651,44 @@ Default Value: Off
 Write CSV report files as each user migration completes rather than at the end of all migrations.
 
 Change Conditions: ??
+
+---
+## Proxy
+[Back to Top](#top)
+
+1. [Proxy Type](#proxytype)
+2. [Username](#user)
+3. [Address](#address)
+4. [Password](#password)
+
+### Proxy Type <a name="proxytype"></a>
+{: .no_toc }
+Default Value: None
+
+Specify the proxy type to use: 'Default' for the default system proxy; or ‘Explicit’ to specify a proxy. Changing this option may require a restart of CloudM Migrate.
+
+Change Conditions: 
+
+### Username <a name="user"></a>
+{: .no_toc }
+Default Value: None
+
+The username for the specified non-default proxy (optional).
+
+Change Conditions: 
+
+### Address <a name="address"></a>
+{: .no_toc }
+Default Value: None
+
+The address of the proxy that will be used to perform migrations that require HTTP. For example, http://my.proxy.com:8080.
+
+Change Conditions: 
+
+### Password <a name="password"></a>
+{: .no_toc }
+Default Value: None
+
+The password for the specified non-default proxy (optional)
+
+Change Conditions: 
