@@ -279,7 +279,6 @@ Do not process contacts that may have been created with Quest Migration Manager.
 Change Conditions: ??
 
 ---
-
 ## Calendar
 [Back to Top](#top)
 
@@ -525,7 +524,7 @@ Perform email addresses and domain replacements from the CSV file specified in '
 Change Conditions: Turn on to only change address of users specified in the CSV under Address Replacements (.csv)
 
 ---
-## Domain Replacment
+## Domain Replacement
 [Back to Top](#top)
 
 1. [Email](#emaildom)
