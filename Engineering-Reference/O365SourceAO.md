@@ -31,7 +31,7 @@ This document will give an overview on all the O365 Source Advanced Options in C
 3. [Timeout](#sharepointtime)
 4. [Include Classic Team Sites in User List](#includeclassicteam)
 5. [Retry Count](#retrycount)
-6. [Document Sharing/Permissions](#retrycount)
+6. [Document Sharing/Permissions](#docsharingoperm)
 7. [Hybrid Environment](#hybridenv)
 
 ### SharePoint Migration API <a name="sharepointapi"></a>
