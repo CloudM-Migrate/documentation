@@ -332,9 +332,9 @@ Change Conditions: ??
 [Back to Top](#top)
 
 1. [Migrate Account Delegates](#migrateaccountdel)
-2. [Migrate Out Of Office](#workcred)
-3. [Migrate Signature](#exchangever)
-4. [Migrate Mailbox Rules](#workcred)
+2. [Migrate Out Of Office](#migooo)
+3. [Migrate Signature](#migsig)
+4. [Migrate Mailbox Rules](#mailboxrule)
 
 ### Migrate Account Delegates <a name="migrateaccountdel"></a>
 {: .no_toc }
@@ -344,7 +344,7 @@ Migrate user account delegation.
 
 Change Conditions: ??
 
-### Migrate Out Of Office <a name="exchangever"></a>
+### Migrate Out Of Office <a name="migooo"></a>
 {: .no_toc }
 Default Value: On
 
@@ -352,7 +352,7 @@ Migrate user Out Of Office settings.
 
 Change Conditions: ??
 
-### Migrate Signature <a name="exchangever"></a>
+### Migrate Signature <a name="migsig"></a>
 {: .no_toc }
 Default Value: On
 
@@ -360,7 +360,7 @@ Migrate user signature settings.
 
 Change Conditions: ??
 
-### Migrate Mailbox Rules <a name="exchangever"></a>
+### Migrate Mailbox Rules <a name="mailboxrule"></a>
 {: .no_toc }
 Default Value: On
 
