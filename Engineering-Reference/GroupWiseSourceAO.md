@@ -45,6 +45,7 @@ The port the GroupWise 2014+ Admin service is running on, normally 9710.
 
 Change Conditions: Your source uses a custom port. 
 
+---
 ## Email
 [Back to Top](#top)
 
@@ -83,6 +84,7 @@ Generate MIME messages on the GroupWise server rather than on the client.
 
 Change Conditions:
 
+---
 ## Contact
 [Back to Top](#top)
 
@@ -150,6 +152,7 @@ Migrate all members of distribution lists from the selected address books, regar
 
 Change Conditions: ??
 
+---
 ## Calendar
 [Back to Top](#top)
 
@@ -181,6 +184,7 @@ Migrate GroupWise appointments that are attached to mail messages.
 
 Change Conditions: ??
 
+---
 ## Account/Archive
 [Back to Top](#top)
 
@@ -221,6 +225,7 @@ Select to use an alternate means of enumerating messages in a GroupWise folder.
 
 Change Conditions: ??
 
+---
 ## User
 [Back to Top](#top)
 
