@@ -5,7 +5,6 @@ parent: Getting Started Guides
 nav_order: 4
 ---
 
-
 ## How to Migrate a Google Mailbox and MyDrive to O365
 
 1. [Overview](#overview)
