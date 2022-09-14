@@ -11,7 +11,7 @@ nav_order: 16
 
 ---
 
-This document will give an overview on all the Scalix Source Advanced Options in CloudM Migrate. 
+This document will give an overview on all the DropBox Source Advanced Options in CloudM Migrate. 
 
 ---
 <a name="top"></a>
