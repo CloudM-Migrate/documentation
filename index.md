@@ -47,9 +47,9 @@ We know how important security is during migrations. Move to the cloud with conf
 In an effort to better serve our customers and partners CloudM is going opensource with our documentation. You can make contributions or clone anything you need to start building documenation for your migration projects using CloudM. 
 
 ### Sales
-For Google Endpoint: sales@cloudm.io
+<a href = "mailto: sales@cloudm.io">Migrating to a Google Endpoint</a>
 
-For Microsoft Endpoint: microsoft.sales@cloud.io
+<a href = "mailto: microsoft.sales@cloud.io">Migrating to a Microsoft Endpoint</a>
 
 ### Getting Support
 <a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
