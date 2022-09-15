@@ -48,6 +48,7 @@ In an effort to better serve our customers and partners CloudM is going opensour
 
 ### Sales
 For Google Endpoint: sales@cloudm.io
+
 For Microsoft Endpoint: microsoft.sales@cloud.io
 
 ### Getting Support
