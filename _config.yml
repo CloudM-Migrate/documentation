@@ -2,8 +2,4 @@ remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
 logo: /assets/logo.PNG
 
-
-$link-color: $orange-000;
-
-
 search.button: true
