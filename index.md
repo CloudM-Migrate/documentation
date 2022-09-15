@@ -47,17 +47,15 @@ We know how important security is during migrations. Move to the cloud with conf
 
 
 ### Getting Support
-
 <a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
 
 ### License
 
 
 ### Contributing
-
+This repo is closed to submissions at this time. We're working on our V1 and will be open for contributions when completed. 
 
 #### Thank you to the contributors
-
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
   <li class="d-inline-block mr-1">
@@ -67,8 +65,6 @@ We know how important security is during migrations. Move to the cloud with conf
 </ul>
 
 ### Code of Conduct
+We're inline and agree with the <a href="https://docs.github.com/en/site-policy/github-terms/github-event-code-of-conduct#code-of-conduct">GitHub Code of Conduct,/a.. 
 
-
-CloudM is committed to fostering a welcoming community.
-
-TBD
+CloudM is committed to fostering a welcoming community. Please be respectful and happy migrating!
