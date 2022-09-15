@@ -56,6 +56,11 @@ For Microsoft Endpoint: microsoft.sales@cloud.io
 ### GitHub License
 TBD
 
+### Code of Conduct
+We're inline and agree with the <a href="https://docs.github.com/en/site-policy/github-terms/github-event-code-of-conduct#code-of-conduct">GitHub Code of Conduct</a>. 
+
+CloudM is committed to fostering a welcoming community. Please be respectful and happy migrating!
+
 ### Contributing
 This repo is closed to submissions at this time. We're working on our V1 and will be open for contributions when completed. 
 
@@ -67,8 +72,3 @@ This repo is closed to submissions at this time. We're working on our V1 and wil
   </li>
 {% endfor %}
 </ul>
-
-### Code of Conduct
-We're inline and agree with the <a href="https://docs.github.com/en/site-policy/github-terms/github-event-code-of-conduct#code-of-conduct">GitHub Code of Conduct</a>. 
-
-CloudM is committed to fostering a welcoming community. Please be respectful and happy migrating!
