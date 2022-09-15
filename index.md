@@ -68,6 +68,7 @@ We know how important security is during migrations. Move to the cloud with conf
 
 ### Code of Conduct
 
+
 CloudM is committed to fostering a welcoming community.
 
-[View our Code of Conduct] on our GitHub repository.
+TBD
