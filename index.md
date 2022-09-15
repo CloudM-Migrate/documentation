@@ -40,3 +40,34 @@ No need to wait to get the most out of the cloud. Our cloud migration tool lets 
 
 #### Secure
 We know how important security is during migrations. Move to the cloud with confidence with guaranteed data integrity with zero downtime for users with our secure cloud migration tool.
+
+---
+
+## About This Repository
+
+
+### Getting Support
+
+<a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
+
+### License
+
+
+### Contributing
+
+
+#### Thank you to the contributors
+
+<ul class="list-style-none">
+{% for contributor in site.github.contributors %}
+  <li class="d-inline-block mr-1">
+     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
+  </li>
+{% endfor %}
+</ul>
+
+### Code of Conduct
+
+CloudM is committed to fostering a welcoming community.
+
+[View our Code of Conduct] on our GitHub repository.
