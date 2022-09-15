@@ -44,13 +44,17 @@ We know how important security is during migrations. Move to the cloud with conf
 ---
 
 ## About This Repository
+In an effort to better serve our customers and partners CloudM is going opensource with our documentation. You can make contributions or clone anything you need to start building documenation for your migration projects using CloudM. 
 
+### Sales
+For Google Endpoint: sales@cloudm.io
+For Microsoft Endpoint: microsoft.sales@cloud.io
 
 ### Getting Support
 <a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
 
-### License
-
+### GitHub License
+TBD
 
 ### Contributing
 This repo is closed to submissions at this time. We're working on our V1 and will be open for contributions when completed. 
