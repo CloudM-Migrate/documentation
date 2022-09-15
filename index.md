@@ -10,6 +10,10 @@ permalink: /
 
 This site will contain the technical documentation for [CloudM Migrate](https://www.cloudm.io/), a cloud migration solution.
 
+{: .new }
+
+Welcome the new CloudM Knowledgebase!
+
 ---
 
 ## CloudM Migrate
