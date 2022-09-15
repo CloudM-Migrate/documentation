@@ -2,8 +2,6 @@ remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
 logo: /assets/logo.PNG
 
-permalink: pretty
-
 search.button: true
 
 back_to_top: true
@@ -11,3 +9,21 @@ back_to_top_text: "Back to top"
 
 
 footer_content: Return to <a href="https://www.cloudm.io/resources">CloudM</a>
+
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
