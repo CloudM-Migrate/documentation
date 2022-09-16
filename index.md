@@ -12,7 +12,7 @@ This site will contain the technical documentation for [CloudM Migrate](https://
 
 {: .new }
 
-Welcome the new CloudM Knowledgebase!
+Welcome to the new CloudM Knowledgebase!
 
 ---
 
