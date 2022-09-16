@@ -1,7 +1,7 @@
 title: CloudM Migrate
 
 remote_theme: just-the-docs/just-the-docs
-color_scheme: dark
+color_scheme: nil
 logo: /assets/cloudmlogo.png
 
 search.button: true
