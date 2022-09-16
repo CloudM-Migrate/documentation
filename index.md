@@ -18,8 +18,6 @@ Welcome to the new CloudM Knowledgebase!
 
 ---
 
-See [Customization]({{ site.baseurl }}{% link docs/customization.md %})
-
 ## CloudM Migrate
 ### Data Migration for Microsoft Office 365 and Google Workspace
 
