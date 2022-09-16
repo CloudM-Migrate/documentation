@@ -9,9 +9,7 @@ search.button: true
 back_to_top: true
 back_to_top_text: "Back to top"
 
-
 footer_content: Return to <a href="https://www.cloudm.io/resources">CloudM</a>
-
 
 callouts_level: quiet # or loud
 callouts:
