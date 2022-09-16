@@ -16,6 +16,10 @@ Welcome to the new CloudM Knowledgebase!
 
 ---
 
+<script> const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); jtd.addEvent(toggleDarkMode, 'click', function(){ if (jtd.getTheme() === 'dark') { jtd.setTheme('light'); toggleDarkMode.textContent = 'Dark Mode'; } else { jtd.setTheme('dark'); toggleDarkMode.textContent = 'Bright Mode'; } }); </script>
+
+See [Customization]({{ site.baseurl }}{% link docs/customization.md %})
+
 ## CloudM Migrate
 ### Data Migration for Microsoft Office 365 and Google Workspace
 
