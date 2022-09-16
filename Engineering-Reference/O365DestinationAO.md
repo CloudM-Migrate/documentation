@@ -27,9 +27,8 @@ This document will give an overview on all the Office 365 Destination Advanced O
 ---
 ## SharePoint
 
-1. [Document Sharing/Permissions](#docsharperm)
-2. [Document Library BaseTemplate IDs](#doclibbase)
-3. [Batch Size](#batchsize)
+
+
 
 ### Document Sharing/Permissions <a name="docsharperm"></a>
 {: .no_toc }
@@ -103,9 +102,7 @@ Change Conditions: ??
 ---
 ## Microsoft Teams/Group 
 
-1. [Document Sharing/Permissions](#docsharperm)
-2. [Document Library BaseTemplate IDs](#doclibbase)
-3. [Batch Size](#batchsize)
+1.
 
 ### Teams Direct Migration <a name="docsharperm"></a>
 {: .no_toc }
