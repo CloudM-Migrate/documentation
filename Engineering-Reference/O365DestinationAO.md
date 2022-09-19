@@ -27,8 +27,22 @@ This document will give an overview on all the Office 365 Destination Advanced O
 ---
 ## SharePoint Online
 
+1. [SharePoint Migration API](#sharepointapi)
+2. [Retry Backoff](#retryback)
+3. [SharePoint Admin Url](#shareadurl)
+4. [Timeout](#stimeout)
+5. [Preserve File Created and Modified Dates](#persfilemoddate)
+6. [Provision Sites](#provsites)
+7. [Hybrid Environment](#hybridenv)
+8. [SharePoint Storage](#sharstor)
+9. [Retry Count](#sretry)
+10. [Retry Count](#sfretry)
+11. [Truncate Folders and Files](#trunfoldfil)
+12. [Orphaned Items Folder](#orphfold)
+13. [Provision Sites Timeout Check](#provsitetime)
+14. [Patch Permissions](#patchperm)
 
-### DSharePoint Migration API <a name="docsharperm"></a>
+### SharePoint Migration API <a name="docsharperm"></a>
 {: .no_toc }
 Default Value: On
 
@@ -38,7 +52,7 @@ https://support.cloudm.io/hc/en-us/articles/360021044840
 
 Change Conditions: ??
 
-### Retry Backoff (seconds) <a name="docsharperm"></a>
+### Retry Backoff (seconds) <a name="retryback"></a>
 {: .no_toc }
 Default Value: 3
 
@@ -46,7 +60,7 @@ SharePoint Migration API Retry Backoff in seconds.
 
 Change Conditions: ??
 
-### SharePoint Admin Url <a name="docsharperm"></a>
+### SharePoint Admin Url <a name="shareadurl"></a>
 {: .no_toc }
 Default Value: None
 
@@ -54,7 +68,7 @@ The Url for the SharePoint admin center e.g. https://tenant-admin.sharepoint.com
 
 Change Conditions: ??
 
-### Timeout <a name="docsharperm"></a>
+### Timeout <a name="stimeout"></a>
 {: .no_toc }
 Default Value: 1800000
 
@@ -62,7 +76,7 @@ The timeout that will apply to communications with the SharePoint server.
 
 Change Conditions: ??
 
-### Preserve File Created and Modified Dates <a name="docsharperm"></a>
+### Preserve File Created and Modified Dates <a name="persfilemoddate"></a>
 {: .no_toc }
 Default Value: On
 
@@ -70,7 +84,7 @@ Preserve the Original File Created and Modified Dates.
 
 Change Conditions: ??
 
-### Provision Sites <a name="docsharperm"></a>
+### Provision Sites <a name="provsites"></a>
 {: .no_toc }
 Default Value: On
 
@@ -78,7 +92,7 @@ Provision any Sites that do not exist.
 
 Change Conditions: ??
 
-### Hybrid Environment <a name="docsharperm"></a>
+### Hybrid Environment <a name="hybridenv"></a>
 {: .no_toc }
 Default Value: On
 
@@ -86,7 +100,7 @@ Allows a custom 'SharePoint Admin Url' and 'SharePoint My Sites Url' to be enter
 
 Change Conditions: ??
 
-### SharePoint Storage <a name="docsharperm"></a>
+### SharePoint Storage <a name="sharstor"></a>
 {: .no_toc }
 Default Value: Office 365
 
@@ -94,7 +108,7 @@ Choose whether the document should be shared as per the source file ACLs if they
 
 Change Conditions: ??
 
-### Retry Count <a name="docsharperm"></a>
+### Retry Count <a name="sretry"></a>
 {: .no_toc }
 Default Value: 20
 
@@ -102,7 +116,7 @@ SharePoint Migration API Retry Count
 
 Change Conditions: ??
 
-### Retry Count<a name="docsharperm"></a>
+### Retry Count <a name="sfretry"></a>
 {: .no_toc }
 Default Value: 10
 
@@ -110,21 +124,44 @@ The number of times an operation will be attempted before failing.
 
 Change Conditions: ??
 
-### Truncate Folders and Files <a name="docsharperm"></a>
+### Truncate Folders and Files <a name="trunfoldfil"></a>
 {: .no_toc }
-Default Value: 
+Default Value: On
 
 Attempt to truncate folders and files to fall within the 400 characters limit.
 
 Change Conditions: ??
 
-### SharePoint Storage <a name="docsharperm"></a>
+### Orphaned Items Folder <a name="orphfold"></a>
 {: .no_toc }
-Default Value: Office 365
+Default Value: None
 
-Choose whether the document should be shared as per the source file ACLs if they can be resolved to email addresses (see documentation).
+Optionally place all failed truncated folders in the specified 'Orphan Items Folder'. Leave empty to fail migration if folders can not be truncated.
 
 Change Conditions: ??
+
+### Provision Sites Timeout Check <a name="provsitetime"></a>
+{: .no_toc }
+Default Value: 180000
+
+The maximum period of time used to check if a OneDrive site has been provisioned.
+
+Change Conditions: ??
+
+### Patch Permissions <a name="patchperm"></a>
+{: .no_toc }
+Default Value: None
+
+Add/Update/Delete permissions for existing items. If disabled, only new permissions will be applied to existing items (see documentation).
+
+Change Conditions: ??
+
+
+
+
+
+
+
 
 
 
