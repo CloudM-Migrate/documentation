@@ -224,3 +224,105 @@ Default Value: None
 When migrating appointment attachments to Drive, choose whether the attachment should be shared with the appointment attendees.
 
 Change Conditions: ??
+
+---
+## Document
+
+1. [Use Cached Items Mapping](#usecacitemap)
+2. [Allow Non-Google Sharing](#allnogoosha)
+3. [Maximum Results Per Request](#maxreperre)
+4. [Notify Sharing Link Members](#notshlinmem)
+5. [Replace Comment Mentions with Display Name](#recommendis)
+6. [Preserve Modified Date](#persmodda)
+7. [Allow Alternate Item Ownership](#allalitow)
+8. [Batch Permissions](#dbatperm)
+9. [Skip Post Processing of Existing Items ](#skippoproex)
+
+### Use Cached Items Mapping <a name="usecacitemap"></a>
+{: .no_toc }
+Default Value: On
+
+Force acceptance of all migrated appointments.
+
+Change Conditions: ??
+
+### Allow Non-Google Sharing <a name="allnogoosha"></a>
+{: .no_toc }
+Default Value: Off
+
+Allow permissions to be added for users without Google accounts by sending notification emails to those users. Note this can result in many emails being sent to any non-Google addresses.
+
+Change Conditions: ??
+
+### Maximum Results Per Request <a name="maxreperre"></a>
+{: .no_toc }
+Default Value: 100
+
+The maximum number of results to return for individual queries to the Drive API.
+
+Change Conditions: ??
+
+### Notify Sharing Link Members <a name="notshlinmem"></a>
+{: .no_toc }
+Default Value: Off
+
+Send email notification containing Drive sharing link to SharePoint Sharing Link members.
+
+Change Conditions: ??
+
+### Replace Comment Mentions with Display Name <a name="recommendis"></a>
+{: .no_toc }
+Default Value: Off
+
+Replace an email address mention in a comment with the associated user's display name.
+
+Change Conditions: ??
+
+### Preserve Modified Date <a name="persmodda"></a>
+{: .no_toc }
+Default Value: On
+
+When migrating Google Drive items, attempt to preserve the last modified date in the destination domain.
+
+Change Conditions: ??
+
+### Allow Alternate Item Ownership <a name="allalitow"></a>
+{: .no_toc }
+Default Value: Off
+
+When migrating items, allow the owner to be changed if the actual owner does not exist or is disabled in the destination Google Workspace domain. WARNING: setting this option can cause the ownership of items to change, use only in specialized scenarios.
+
+Change Conditions: ??
+
+### Batch Permissions <a name="dbatperm"></a>
+{: .no_toc }
+Default Value: Off
+
+Use batching to provide faster, but more error prone, Google Drive migrations.
+
+Change Conditions: ??
+
+### Skip Post Processing of Existing Items <a name="skippoproex"></a>
+{: .no_toc }
+Default Value: Off
+
+Skip permission and parent folder patching of existing Drive items. Items that have been explicitly updated will still be processed.
+
+Change Conditions: ??
+
+---
+## Document Conversion
+
+1. [Use Cached Items Mapping](#usecacitemap)
+2. [Allow Non-Google Sharing](#allnogoosha)
+3. [Maximum Results Per Request](#maxreperre)
+4. [Notify Sharing Link Members](#notshlinmem)
+5. [Replace Comment Mentions with Display Name](#recommendis)
+
+### Convert Text <a name="usecacitemap"></a>
+{: .no_toc }
+Default Value: On
+
+Force acceptance of all migrated appointments.
+
+Change Conditions: ??
