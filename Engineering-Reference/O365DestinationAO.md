@@ -234,10 +234,19 @@ Change Conditions: ??
 ---
 ## Microsoft Teams/Group 
 
-1. [Exchange 2007 Calendar Timezone](#exc2007cal)
-2. [Exchange 2010/Office 365 Calendar Timezone](#exc2010cal)
+1. [Timeout](#ttimeout)
+2. [Maximum Results Per Request](#maxresreq)
+3. [Provision Office 365 Group Timeout Check](#prov365time)
+4. [Default Document Library Name](#defdoclib)
+5. [Teams Direct Migration](#teamdirmig)
+6. [Migrate Team Channel Tabs](#migteamtab)
+7. [Retry Count](#tretryc)
+8. [Create Office 365 Group](#crea365grou)
+9. [Test Office 365 Group Email](#test365gemail)
+10. [Chat Message Library Name](#chatmeslib)
+11. [Finalize Teams Direct Migration](#finteamdir)
 
-### Timeout <a name="exc2007cal"></a>
+### Timeout <a name="ttimeout"></a>
 {: .no_toc }
 Default Value: 1800000
 
@@ -245,7 +254,7 @@ The timeout for operations with the server.
 
 Change Conditions: ??
 
-### Maximum Results Per Request <a name="exc2007cal"></a>
+### Maximum Results Per Request <a name="maxresreq"></a>
 {: .no_toc }
 Default Value: 999
 
@@ -253,7 +262,7 @@ The maximum number of results to return for individual queries.
 
 Change Conditions: ??
 
-### Provision Office 365 Group Timeout Check <a name="exc2007cal"></a>
+### Provision Office 365 Group Timeout Check <a name="prov365time"></a>
 {: .no_toc }
 Default Value: 600000
 
@@ -261,7 +270,7 @@ The maximum period of time used to check if an Office 365 Group has been created
 
 Change Conditions: ??
 
-### Default Document Library Name <a name="exc2007cal"></a>
+### Default Document Library Name <a name="defdoclib"></a>
 {: .no_toc }
 Default Value: Documents
 
@@ -269,60 +278,229 @@ The default timezone to use with appointments when migrating to Exchange 2007 wh
 
 Change Conditions: ??
 
-### Teams Direct Migration <a name="exc2007cal"></a>
-{: .no_toc }
-Default Value: Gmt
-
-The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
-
-Change Conditions: ??
-
-### Exchange 2007 Calendar Timezone <a name="exc2007cal"></a>
-{: .no_toc }
-Default Value: Gmt
-
-The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
-
-Change Conditions: ??
-
-### Exchange 2007 Calendar Timezone <a name="exc2007cal"></a>
-{: .no_toc }
-Default Value: Gmt
-
-The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
-
-Change Conditions: ??
-
-### Exchange 2007 Calendar Timezone <a name="exc2007cal"></a>
-{: .no_toc }
-Default Value: Gmt
-
-The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
-
-Change Conditions: ??
-
-### Exchange 2007 Calendar Timezone <a name="exc2007cal"></a>
-{: .no_toc }
-Default Value: Gmt
-
-The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
-
-Change Conditions: ??
-
-### Exchange 2007 Calendar Timezone <a name="exc2007cal"></a>
-{: .no_toc }
-Default Value: Gmt
-
-The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
-
-Change Conditions: ??
-
-
-### Teams Direct Migration <a name="docsharperm"></a>
+### Teams Direct Migration <a name="teamdirmig"></a>
 {: .no_toc }
 Default Value: Off
 
-This is the items I spoke with lloyd about, prestaging vs already exisiting destination team
+If thems site does not exist in the destination, keep this off so the migration uses a Prestage Teams location. This is a faster migration and more user friendly. If the destination Team site already exists, turn this on to prevent an error from occuring.
+
+Change Conditions: ??
+
+### Migrate Team Channel Tabs <a name="migteamtab"></a>
+{: .no_toc }
+Default Value: Off
+
+Migrate Team channel tabs such as: Web, Document (Word, Excel, PDF, Powerpoint). For more information, see article 'Team Channel Tabs'
+
+Change Conditions: ??
+
+### Retry Count <a name="tretryc"></a>
+{: .no_toc }
+Default Value: Gmt
+
+The number of times an operation will be attempted before failing.
+
+Change Conditions: ??
+
+### Create Office 365 Group <a name="crea365grou"></a>
+{: .no_toc }
+Default Value: Gmt
+
+Create Office 365 Group if it does not exist.
+
+Change Conditions: ??
+
+### Test Office 365 Group Email <a name="test365gemail"></a>
+{: .no_toc }
+Default Value: Gmt
+
+The email address of an Office 365 Group that already exists.
+
+Change Conditions: ??
+
+### Chat Message Library Name <a name="chatmeslib"></a>
+{: .no_toc }
+Default Value: Gmt
+
+When migrating 'Microsoft Teams' and 'Export Chat Message Type' is set to 'Document' or 'Email and Document', the channel conversation history document will be migrated to this library.
+
+Change Conditions: ??
+
+### Finalize Teams Direct Migration <a name="finteamdir"></a>
+{: .no_toc }
+Default Value: Gmt
+
+Mark Teams Direct Migration as completed. Migrating Teams data with this option enabled will take Team out of the migration mode. This option opens the team and channel resources for general use by team members. No further migrations can be performed against finalized team.
+
+Change Conditions: ??
+
+---
+## Public Folders
+
+1. [Nest Public Folders](#nestpubfol)
+2. [Nested Public Folder Name](#nestpubfolna)
+
+### Nest Public Folders <a name="nestpubfol"></a>
+{: .no_toc }
+Default Value: On
+
+Nest Public Folders under a specific top-level Public Folder.
+
+Change Conditions: ??
+
+### Nested Public Folder Name <a name="nestpubfolna"></a>
+{: .no_toc }
+Default Value: Top Level Folder
+
+The name of the top-level Public Folder under which other Public Folders will be nested if 'Nest Public Folders' is true.
+
+Change Conditions: ??
+
+---
+## Authentication
+
+1. [Exchange Version](#exchvers)
+2. [Use Workstation Credentials](#useworkcred)
+
+### Exchange Version <a name="exchvers"></a>
+{: .no_toc }
+Default Value: Microsoft Exchange 2019
+
+The version of the Exchange destination platform.
+
+Change Conditions: ??
+
+### Use Workstation Credentials <a name="useworkcred"></a>
+{: .no_toc }
+Default Value: Off
+
+Use the credentials of the logged in user of the workstation to perform migrations rather than the provided username and password. The admin username and password is still required for auto-discovery.
+
+Change Conditions: ??
+
+
+---
+## Transfer and Performance
+
+1. [Retry Count](#tpretry)
+2. [Timeout](#tptimeout)
+3. [Max Wait Time](#maxwaitt)
+4. [Use X-AnchorMailbox Header](#uxauthhead)
+
+### Retry Count <a name="tpretry"></a>
+{: .no_toc }
+Default Value: 10
+
+The version of the Exchange destination platform.
+
+Change Conditions: ??
+
+### Timeout <a name="tptimeout"></a>
+{: .no_toc }
+Default Value: 1200000
+
+The version of the Exchange destination platform.
+
+Change Conditions: ??
+
+### Max Wait Time <a name="maxwaitt"></a>
+{: .no_toc }
+Default Value: 120000
+
+The version of the Exchange destination platform.
+
+Change Conditions: ??
+
+### Use X-AnchorMailbox Header <a name="uxauthhead"></a>
+{: .no_toc }
+Default Value: On
+
+When using application impersonation, use the X-AnchorMailbox header to improve performance.
+
+Change Conditions: ??
+
+---
+## PowerShell
+
+1. [PowerShell Variables](#psvar)
+2. [PowerShell Init Script](#psinits)
+3. [PowerShell Before Script](#psbefore)
+4. [PowerShell After Script](#psafter)
+5. [PowerShell Finalize Script](#psfinal)
+6. [Run PowerShell Init Script](#runpsinit)
+7. [Run PowerShell Before Script](#runpsbefore)
+8. [Run PowerShell After Script](#runpsafter)
+9. [Run PowerShell Finalize Script](#runpsfin)
+
+### PowerShell Variables <a name="psvar"></a>
+{: .no_toc }
+Default Value: [!ps-url]:https://ps.outlook.com/PowerShell-LiveID;[!o365-location]:GB;[!o365-subscription-sku]:ENTERPRISEPACK;
+
+The collection of user-defined substitution variables that can be used in PowerShell scripts.
+
+Change Conditions: ??
+
+### PowerShell Init Script <a name="psinits"></a>
+{: .no_toc }
+Default Value: # Set this so that errors are thrown from Cmdlets
+
+The PowerShell script that will be run once at the start of a migration.
+
+Change Conditions: ??
+
+### PowerShell Before Script <a name="psbefore"></a>
+{: .no_toc }
+Default Value: # Set this so that errors are thrown from Cmdlets
+
+The PowerShell script that will be run at the beginning of every user migration.
+
+Change Conditions: ??
+
+### PowerShell After Script <a name="psafter"></a>
+{: .no_toc }
+Default Value: None
+
+The PowerShell script that will be run at the end of every user migration.
+
+Change Conditions: ??
+
+### PowerShell Finalize Script <a name="psfinal"></a>
+{: .no_toc }
+Default Value: try{Get-PSSession | Remove-PSSession}catch
+
+The PowerShell script that will be run when all migrations have been completed.
+
+Change Conditions: ??
+
+### Run PowerShell Init Script <a name="runpsinit"></a>
+{: .no_toc }
+Default Value: Never
+
+Choose whether to run the PowerShell initialisation script. This script will be run once only per migration (not once per user).
+
+Change Conditions: ??
+
+### Run PowerShell Before Script <a name="runpsbefore"></a>
+{: .no_toc }
+Default Value: Never
+
+Choose whether to run the PowerShell before script. This script will be run at the start of every user migration.
+
+Change Conditions: ??
+
+### Run PowerShell After Script <a name="runpsafter"></a>
+{: .no_toc }
+Default Value: Never
+
+The version of the Exchange destination platform.
+
+Change Conditions: ??
+
+### Run PowerShell Finalize Script <a name="runpsfin"></a>
+{: .no_toc }
+Default Value: Always
+
+Choose whether to run the PowerShell after script. This script will be run at the end of every user migration.
 
 Change Conditions: ??
 
