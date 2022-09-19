@@ -125,12 +125,102 @@ Change Conditions: ??
 ---
 ## Calendar
 
-1. [Force Appointment Acceptance](#migmycon)
+1. [Force Appointment Acceptance](#forappacc)
+2. [Appointment Privacy](#apppriv)
+3. [Default Calendar Timezone](#defcaltime)
+4. [Color Categorized Appointments](#colcatapp)
+5. [Migrate Attachments](#migatta)
+6. [Exclude Appointment Attachment Extensions](#exappattext)
+7. [Force Busy Status](#forbusy)
+8. [Maximum Attendees](#maxattend)
+9. [Send Individual Events](#sendindeve)
+10. [Appointment Attachment Document Sharing](#appattdocs)
+11. [Migrate Attachments Folder ](#migattfol)
 
-### Force Appointment Acceptance <a name="migmycon"></a>
+### Force Appointment Acceptance <a name="forappacc"></a>
+{: .no_toc }
+Default Value: Off
+
+Force acceptance of all migrated appointments.
+
+Change Conditions: ??
+
+### Appointment Privacy <a name="apppriv"></a>
+{: .no_toc }
+Default Value: Original
+
+Set the privacy of migrated appointments to the following setting.
+
+Change Conditions: ??
+
+### Default Calendar Timezone <a name="defcaltime"></a>
+{: .no_toc }
+Default Value: Europe/London
+
+Specify the default calendar timezone to use where a timezone could not otherwise be obtained. This only applies to recurring items without a timezone and where the Google calendar timezone is UTC.
+
+Change Conditions: ??
+
+### Color Categorized Appointments <a name="colcatapp"></a>
 {: .no_toc }
 Default Value: On
 
-Force acceptance of all migrated appointments.
+Color appointments based on categories in the source system when the source system supports categories.
+
+Change Conditions: ??
+
+### Migrate Attachments <a name="migatta"></a>
+{: .no_toc }
+Default Value: Off
+
+Migrate appointment attachments to Google Drive.
+
+Change Conditions: ??
+
+### Exclude Appointment Attachment Extensions <a name="exappattext"></a>
+{: .no_toc }
+Default Value: None
+
+Specify the list of file extensions of attachments that will not be migrated, Leave empty to migrate all attachments.
+
+Change Conditions: ??
+
+### Force Busy Status <a name="forbusy"></a>
+{: .no_toc }
+Default Value: Off
+
+Force busy status when appointments have been tentatively accepted.
+
+Change Conditions: ??
+
+### Maximum Attendees <a name="maxattend"></a>
+{: .no_toc }
+Default Value: 500
+
+The maximum number of event attendees. When this number has been reached, no more will be added.
+
+Change Conditions: ??
+
+### Send Individual Events <a name="sendindeve"></a>
+{: .no_toc }
+Default Value: Off
+
+Send individual appointment events rather than as a batch (recommended in some cases if rate limits are exceeded).
+
+Change Conditions: ??
+
+### Appointment Attachment Document Sharing <a name="appattdocs"></a>
+{: .no_toc }
+Default Value: On
+
+When migrating appointment attachments to Drive, choose whether the attachment should be shared with the appointment attendees.
+
+Change Conditions: ??
+
+### Migrate Attachments Folder <a name="migattfol"></a>
+{: .no_toc }
+Default Value: None
+
+When migrating appointment attachments to Drive, choose whether the attachment should be shared with the appointment attendees.
 
 Change Conditions: ??
