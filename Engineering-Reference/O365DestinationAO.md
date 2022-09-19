@@ -25,16 +25,16 @@ This document will give an overview on all the Office 365 Destination Advanced O
 </details>
 
 ---
-## SharePoint
+## SharePoint Online
 
 
-
-
-### Document Sharing/Permissions <a name="docsharperm"></a>
+### DSharePoint Migration API <a name="docsharperm"></a>
 {: .no_toc }
 Default Value: On
 
-Choose whether the document should be shared as per the source file ACLs if they can be resolved to email addresses (see documentation).
+SharePoint Migration API is recommended for all migrations to SharePoint Online and OneDrive for Business. For more information see the article here
+
+https://support.cloudm.io/hc/en-us/articles/360021044840
 
 Change Conditions: ??
 
@@ -94,7 +94,37 @@ Choose whether the document should be shared as per the source file ACLs if they
 
 Change Conditions: ??
 
+### Retry Count <a name="docsharperm"></a>
+{: .no_toc }
+Default Value: 20
 
+SharePoint Migration API Retry Count
+
+Change Conditions: ??
+
+### Retry Count<a name="docsharperm"></a>
+{: .no_toc }
+Default Value: 10
+
+The number of times an operation will be attempted before failing.
+
+Change Conditions: ??
+
+### Truncate Folders and Files <a name="docsharperm"></a>
+{: .no_toc }
+Default Value: 
+
+Attempt to truncate folders and files to fall within the 400 characters limit.
+
+Change Conditions: ??
+
+### SharePoint Storage <a name="docsharperm"></a>
+{: .no_toc }
+Default Value: Office 365
+
+Choose whether the document should be shared as per the source file ACLs if they can be resolved to email addresses (see documentation).
+
+Change Conditions: ??
 
 
 
