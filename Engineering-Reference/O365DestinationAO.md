@@ -199,88 +199,130 @@ Change Conditions: ??
 ---
 ## Calendar
 
-1. [Max Message Size](#maxmess)
-2. [Use Chunked HTTP Web Requests](#usehttpweb)
-3. [Strip Received Headers](#striprechead)
-4. [Recoverable Items Destination](#recovitemdes)
+1. [Exchange 2007 Calendar Timezone](#exc2007cal)
+2. [Exchange 2010/Office 365 Calendar Timezone](#exc2010cal)
 
-### Max Message Size <a name="maxmess"></a>
+### Exchange 2007 Calendar Timezone <a name="exc2007cal"></a>
 {: .no_toc }
-Default Value: 52428800
+Default Value: Gmt
 
-The maximum message size (in bytes) that will be migrated.
+The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
 
 Change Conditions: ??
 
+### Exchange 2010/Office 365 Calendar Timezone <a name="exc2010cal"></a>
+{: .no_toc }
+Default Value: GMT Stadard Time
 
+The default timezone to use with appointments when migrating to Exchange 2010/Office 365 when the timezone is not identified by other means.
+
+Change Conditions: ??
+
+---
+## Calendar Appointments
+
+1. [Appointment Body Type](#appbodtyp)
+
+### Appointment Body Type <a name="appbodtyp"></a>
+{: .no_toc }
+Default Value: Undefined
+
+Identifies how the appointment body content is formatted. If left undefined it will be assigned based on appointment HtmlContent or TextContent properties. If set to 'Best' the body will be formatted based on the richest available content.
+
+Change Conditions: ??
 
 ---
 ## Microsoft Teams/Group 
 
-1.
+1. [Exchange 2007 Calendar Timezone](#exc2007cal)
+2. [Exchange 2010/Office 365 Calendar Timezone](#exc2010cal)
+
+### Timeout <a name="exc2007cal"></a>
+{: .no_toc }
+Default Value: 1800000
+
+The timeout for operations with the server.
+
+Change Conditions: ??
+
+### Maximum Results Per Request <a name="exc2007cal"></a>
+{: .no_toc }
+Default Value: 999
+
+The maximum number of results to return for individual queries.
+
+Change Conditions: ??
+
+### Provision Office 365 Group Timeout Check <a name="exc2007cal"></a>
+{: .no_toc }
+Default Value: 600000
+
+The maximum period of time used to check if an Office 365 Group has been created.
+
+Change Conditions: ??
+
+### Default Document Library Name <a name="exc2007cal"></a>
+{: .no_toc }
+Default Value: Documents
+
+The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
+
+Change Conditions: ??
+
+### Teams Direct Migration <a name="exc2007cal"></a>
+{: .no_toc }
+Default Value: Gmt
+
+The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
+
+Change Conditions: ??
+
+### Exchange 2007 Calendar Timezone <a name="exc2007cal"></a>
+{: .no_toc }
+Default Value: Gmt
+
+The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
+
+Change Conditions: ??
+
+### Exchange 2007 Calendar Timezone <a name="exc2007cal"></a>
+{: .no_toc }
+Default Value: Gmt
+
+The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
+
+Change Conditions: ??
+
+### Exchange 2007 Calendar Timezone <a name="exc2007cal"></a>
+{: .no_toc }
+Default Value: Gmt
+
+The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
+
+Change Conditions: ??
+
+### Exchange 2007 Calendar Timezone <a name="exc2007cal"></a>
+{: .no_toc }
+Default Value: Gmt
+
+The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
+
+Change Conditions: ??
+
+### Exchange 2007 Calendar Timezone <a name="exc2007cal"></a>
+{: .no_toc }
+Default Value: Gmt
+
+The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
+
+Change Conditions: ??
+
 
 ### Teams Direct Migration <a name="docsharperm"></a>
 {: .no_toc }
 Default Value: Off
 
 This is the items I spoke with lloyd about, prestaging vs already exisiting destination team
-
-
-Change Conditions: ??
-
-### Retry Backoff (seconds) <a name="docsharperm"></a>
-{: .no_toc }
-Default Value: 3
-
-SharePoint Migration API Retry Backoff in seconds.
-
-Change Conditions: ??
-
-### SharePoint Admin Url <a name="docsharperm"></a>
-{: .no_toc }
-Default Value: None
-
-The Url for the SharePoint admin center e.g. https://tenant-admin.sharepoint.com
-
-Change Conditions: ??
-
-### Timeout <a name="docsharperm"></a>
-{: .no_toc }
-Default Value: 1800000
-
-The timeout that will apply to communications with the SharePoint server.
-
-Change Conditions: ??
-
-### Preserve File Created and Modified Dates <a name="docsharperm"></a>
-{: .no_toc }
-Default Value: On
-
-Preserve the Original File Created and Modified Dates.
-
-Change Conditions: ??
-
-### Provision Sites <a name="docsharperm"></a>
-{: .no_toc }
-Default Value: On
-
-Provision any Sites that do not exist.
-
-Change Conditions: ??
-
-### Hybrid Environment <a name="docsharperm"></a>
-{: .no_toc }
-Default Value: On
-
-Allows a custom 'SharePoint Admin Url' and 'SharePoint My Sites Url' to be entered for hybrid migration.
-
-Change Conditions: ??
-
-### SharePoint Storage <a name="docsharperm"></a>
-{: .no_toc }
-Default Value: Office 365
-
-Choose whether the document should be shared as per the source file ACLs if they can be resolved to email addresses (see documentation).
 
 Change Conditions: ??
 
