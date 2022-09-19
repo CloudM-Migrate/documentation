@@ -156,13 +156,61 @@ Add/Update/Delete permissions for existing items. If disabled, only new permissi
 
 Change Conditions: ??
 
+---
+## Email
 
+1. [Max Message Size](#maxmess)
+2. [Use Chunked HTTP Web Requests](#usehttpweb)
+3. [Strip Received Headers](#striprechead)
+4. [Recoverable Items Destination](#recovitemdes)
 
+### Max Message Size <a name="maxmess"></a>
+{: .no_toc }
+Default Value: 52428800
 
+The maximum message size (in bytes) that will be migrated.
 
+Change Conditions: ??
 
+### Use Chunked HTTP Web Requests <a name="usehttpweb"></a>
+{: .no_toc }
+Default Value: Off
 
+When creating Mail items in Exchange, use HTTP web request chunking to increase performance. WARNING: some hosted Exchange environments do not support this method of communication.
 
+Change Conditions: ??
+
+### Strip Received Headers <a name="striprechead"></a>
+{: .no_toc }
+Default Value: Off
+
+Strip any 'Received' headers and add a single 'Received' header with a value the same as the 'Date' header.
+
+Change Conditions: ??
+
+### Recoverable Items Destination <a name="recovitemdes"></a>
+{: .no_toc }
+Default Value: Recoverable Items
+
+When migrating items from the recoverable items folders, choose whether to place them in Recoverable Items or in the Mailbox.
+
+Change Conditions: ??
+
+---
+## Calendar
+
+1. [Max Message Size](#maxmess)
+2. [Use Chunked HTTP Web Requests](#usehttpweb)
+3. [Strip Received Headers](#striprechead)
+4. [Recoverable Items Destination](#recovitemdes)
+
+### Max Message Size <a name="maxmess"></a>
+{: .no_toc }
+Default Value: 52428800
+
+The maximum message size (in bytes) that will be migrated.
+
+Change Conditions: ??
 
 
 
