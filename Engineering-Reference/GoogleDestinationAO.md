@@ -109,3 +109,28 @@ Instead of labels based on nested folder structure create one label per folder.
 
 Change Conditions: ??
 
+---
+## Contact
+
+1. [Archive Inbox Email](#migmycon)
+
+### Migrate to 'My Contacts' <a name="migmycon"></a>
+{: .no_toc }
+Default Value: On
+
+Migrate user contacts to 'My Contacts' instead of only to 'All Contacts'.
+
+Change Conditions: ??
+
+---
+## Calendar
+
+1. [Force Appointment Acceptance](#migmycon)
+
+### Force Appointment Acceptance <a name="migmycon"></a>
+{: .no_toc }
+Default Value: On
+
+Force acceptance of all migrated appointments.
+
+Change Conditions: ??
