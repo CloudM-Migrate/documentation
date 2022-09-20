@@ -1,6 +1,6 @@
 ---
 layout: default
-title: O365 Troubleshooting
+title: O365
 parent: Troubleshooting
 has_children: false
 nav_order: 1
