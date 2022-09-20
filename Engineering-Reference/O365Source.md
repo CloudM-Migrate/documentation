@@ -35,8 +35,6 @@ Default Value: Modern
 
 Choose the authetication type that will be used with the server. For Office 365 this should be set to 'Modern'.
 
-Change Conditions: ??
-
 ### Admin Username <a name="sharepointadmin"></a>
 Default Value: None
 
