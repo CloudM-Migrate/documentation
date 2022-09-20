@@ -6,7 +6,7 @@ parent: Destination Options
 nav_order: 1
 ---
 
-## O365 Destination Source Options
+## O365 Destination Options
 {: .no_toc }
 
 ---
