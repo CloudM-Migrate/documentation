@@ -124,6 +124,7 @@ Change Conditions: ??
 
 ---
 ## Calendar
+[Back to Top](#top)
 
 1. [Force Appointment Acceptance](#forappacc)
 2. [Appointment Privacy](#apppriv)
@@ -227,6 +228,7 @@ Change Conditions: ??
 
 ---
 ## Document
+[Back to Top](#top)
 
 1. [Use Cached Items Mapping](#usecacitemap)
 2. [Allow Non-Google Sharing](#allnogoosha)
@@ -312,6 +314,7 @@ Change Conditions: ??
 
 ---
 ## Document Conversion
+[Back to Top](#top)
 
 1. [Convert Text](#dcontxt)
 2. [Convert Presentations](#dconpre)
@@ -361,6 +364,7 @@ Change Conditions: ??
 
 ---
 ## Shared Drive
+[Back to Top](#top)
 
 1. [Shared Drive File Permissions](#shadrifiper)
 2. [Shared Drive Same Domain Migration Type](#shasammigt)
@@ -428,16 +432,109 @@ Change Conditions: ??
 
 ---
 ## User
+[Back to Top](#top)
 
-1. [hared Drive File Permissions](#shadrifiper)
-2. [Shared Drive Same Domain Migration Type](#shasammigt)
-3. [Shared Drive Default Managers](#shdrideman)
-4. [Migrate External Shared Drive Members](#migexshdrmem)
+1. [Check Users/Resources/Groups/Shared Drives Exist](#checrgsdex)
+2. [Check Services Enabled](#cheseren)
+3. [Create Users/Resources/Groups/Shared Drives](#crergsd)
+4. [Change Password On Login](#chapasslog)
 
-### Check Users/Resources/Groups/Shared Drives Exist <a name="shadrifiper"></a>
+### Check Users/Resources/Groups/Shared Drives Exist <a name="checrgsdex"></a>
 {: .no_toc }
-Default Value: File
+Default Value: On
 
-Select how file permissions will be applied when migrating to Shared Drive.
+Check that users/resources/groups/shared drives exist within the destination system.
+
+Change Conditions: ??
+
+### Check Services Enabled <a name="cheseren"></a>
+{: .no_toc }
+Default Value: Off
+
+When running the 'Check Users' action, also check if the selected Google services for that user are enabled.
+
+Change Conditions: ??
+
+### Create Users/Resources/Groups/Shared Drives <a name="crergsd"></a>
+{: .no_toc }
+Default Value: Off
+
+Create any Users (Resources, Groups or Shared Drives) that do not exist within the Google Workspace domain.
+
+Change Conditions: ??
+
+### Change Password On Login <a name="chapasslog"></a>
+{: .no_toc }
+Default Value: Off
+
+Set this to force the user to change their password on first login.
+
+Change Conditions: ??
+
+---
+## Transfer and Performance
+[Back to Top](#top)
+
+1. [Timeout](#tptimeo)
+2. [Retry Count](#tpretryc)
+3. [Modify Request](#tmodreq)
+4. [Drive Locks from Listed Users](#drilolisuse)
+5. [Maximum Batch Count](#maxbatco)
+6. [Lock Retry Count](#tplockretrco)
+7. [Multi-Server Drive Migration](#muldmig)
+
+### Timeout <a name="tptimeo"></a>
+{: .no_toc }
+Default Value: 3600000
+
+The timeout (in milliseconds) that will be used for all calls to the Google Workspace services. This should be set to a high value to ensure large transfers can be made, unless there is a specific reason to change it, the default value should be retained.
+
+Change Conditions: ??
+
+### Retry Count <a name="tpretryc"></a>
+{: .no_toc }
+Default Value: 20
+
+The number of times a failed transfer will be attempted before aborting.
+
+Change Conditions: ??
+
+### Modify Request <a name="tmodreq"></a>
+{: .no_toc }
+Default Value: Off
+
+Remove the 'Expect-100' header from requests (required for use behind some proxies).
+
+Change Conditions: ??
+
+### Drive Locks from Listed Users <a name="drilolisuse"></a>
+{: .no_toc }
+Default Value: Off
+
+Use only users from the user list to obtain locks for Drive files when migrating in multi-server configurations. WARNING: You must always perform migrations with the same user list at any one time to use this option or duplicate items will be migrated.
+
+Change Conditions: ??
+
+### Maximum Batch Count <a name="maxbatco"></a>
+{: .no_toc }
+Default Value: 10
+
+The count of (non-mail) items that will be sent in a single request. Maximum 100.
+
+Change Conditions: ??
+
+### Lock Retry Count <a name="tplockretrco"></a>
+{: .no_toc }
+Default Value: 20
+
+The number of times a failed distributed lock will be attempted before aborting.
+
+Change Conditions: ??
+
+### Multi-Server Drive Migration <a name="muldmig"></a>
+{: .no_toc }
+Default Value: On
+
+Allow Google Drive migrations to be run on multiple servers (may slightly degrade performance on a single server).
 
 Change Conditions: ??
