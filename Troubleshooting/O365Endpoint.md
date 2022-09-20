@@ -1,3 +1,11 @@
+---
+layout: default
+title: O365 Troubleshooting
+parent: Troubleshooting
+has_children: false
+nav_order: 1
+---
+
 ## O365 Troubleshooting
 
 ---
@@ -20,3 +28,4 @@ The 429 error is caused by throttling from Microsoft to protect their own system
 There are two ways that you can try to delay the throttling, Divide the submission of your migrations into different batches, and use a different Global Admin account for each batch
 
 ### 
+ 
