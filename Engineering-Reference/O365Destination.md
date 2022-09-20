@@ -3,7 +3,7 @@ layout: default
 title: O365
 grand_parent: Engineering Reference
 parent: Destination Options
-nav_order: 1
+nav_order: 2
 ---
 
 ## O365 Destination Options
