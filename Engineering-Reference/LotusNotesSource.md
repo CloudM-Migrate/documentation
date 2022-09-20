@@ -3,7 +3,7 @@ layout: default
 title: Lotus Notes
 grand_parent: Engineering Reference
 parent: Source Options
-nav_order: 10
+nav_order: 5
 ---
 
 ## Lotus Notes Source Options
