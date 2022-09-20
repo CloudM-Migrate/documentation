@@ -56,7 +56,7 @@ Change Conditions: Your source uses a custom port.
 
 ### Category Labels <a name="catlabel"></a>
 {: .no_toc }
-Default Value: 1677
+Default Value: Off
 
 Apply category labels or categories to migrated messages in both accounts and archives (GroupWise 8 or higher only).
 
