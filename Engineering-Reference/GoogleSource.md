@@ -24,3 +24,10 @@ This document will give an overview on all the Google Source Options in CloudM M
 </details>
 
 ---
+
+### Domain Name <a name="off365plan"></a>
+
+The name of the domain that is being transferred from Google Apps. This can be either a primary or secondary domain.
+
+###  Admin Username
+
