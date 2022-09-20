@@ -25,9 +25,18 @@ This document will give an overview on all the Google Source Options in CloudM M
 
 ---
 
-### Domain Name <a name="off365plan"></a>
+### Domain Name
 
 The name of the domain that is being transferred from Google Apps. This can be either a primary or secondary domain.
 
-###  Admin Username
+### Admin Username
 
+The Google Apps admin email that will be used to perform email migration and user creation (this must be a primary domain administrator account).
+
+### Service Account Email Address
+
+Your service account Email address, available after setting up a service account as described in the documentation.
+
+### Private Key
+
+The location of your service account private key. Please provide the full path.
