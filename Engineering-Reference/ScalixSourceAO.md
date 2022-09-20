@@ -3,7 +3,7 @@ layout: default
 title: Scalix
 grand_parent: Engineering Reference
 parent: Source Advanced Options
-nav_order: 12
+nav_order: 7
 ---
 
 ## Scalix Source Advanced Options
