@@ -2,7 +2,7 @@
 layout: default
 title: Platform Configuration and Provisioning 
 parent: Engineering Reference
-nav_order: 5
+nav_order: 6
 ---
 
 ## Platform Configuration and Provisioning 
