@@ -16,6 +16,10 @@ This site will contain the technical documentation for [CloudM Migrate](https://
 
 Welcome to the new CloudM Knowledgebase!
 
+{: .new }
+
+V1 Destination Advanced Setting Reference Completed. 
+
 ---
 
 ## CloudM Migrate
