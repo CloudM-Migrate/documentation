@@ -3,7 +3,7 @@ layout: default
 title: Google Vault
 grand_parent: Engineering Reference
 parent: Source Advanced Options
-nav_order: 6
+nav_order: 13
 ---
 
 ## Google Vault Source Advanced Options
