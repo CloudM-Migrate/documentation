@@ -36,41 +36,33 @@ Default Value: Modern
 Choose the authetication type that will be used with the server. For Office 365 this should be set to 'Modern'.
 
 ### Admin Username <a name="sharepointadmin"></a>
-Default Value: None
 
 The email address of an administrator (for Office 365), or an email or username in the form 'domain\\user name' (for on-premise installations), setup to perform migrations.
 
 ### Admin Password <a name="sharepointadmin"></a>
-Default Value: None
 
 The password for the specified admin account.
 
 ### Client ID <a name="sharepointadmin"></a>
-Default Value: None
 
 Client Id can be obtained by registering an application under 'App registrations' in Azure Active Directory (see documentation)
 
 ### Application Password <a name="sharepointadmin"></a>
-Default Value: None
 
 The pasword for the azure application.
 
 ### Domain Name <a name="sharepointadmin"></a>
-Default Value: None
 
 The domain name of the Exchange domain. This should be the internet domain of the Exchange system, not the local domain name.
 
 ### Test Username <a name="sharepointadmin"></a>
-Default Value: None
 
 The email of a non-admin user within the system to test Impersonation or Delegation. Specify a primary SMTP email address or just the part before the '@' symbol and the domain name will be appended. This user must have an active mailbox.
 
 ### PFX Certificate Path <a name="sharepointadmin"></a>
-Default Value: None
 
 The location of your pfx certificate. Please provide the full path.
 
 ### PFX Certificate Password <a name="sharepointadmin"></a>
-Default Value: None
 
 The pasword for the pfx certificate (leave blank if there is no password).
