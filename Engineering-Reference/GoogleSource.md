@@ -12,7 +12,7 @@ nav_order: 1
 ---
 This document will give an overview on all the Google Source Options in CloudM Migrate. 
 
-<a name="https://cloudm-migrate.github.io/documentation/Engineering-Reference/GoogleSourceAO.html">Google Source Advanced Options</a>
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/GoogleSourceAO.html">Google Source Advanced Options</a>
 
 ---
 <a name="top"></a>
