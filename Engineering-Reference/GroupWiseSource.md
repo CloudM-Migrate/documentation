@@ -3,7 +3,7 @@ layout: default
 title: GroupWise
 grand_parent: Engineering Reference
 parent: Source Options
-nav_order: 7
+nav_order: 4
 ---
 
 ## GroupWise Source Options
