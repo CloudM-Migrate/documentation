@@ -313,16 +313,48 @@ Change Conditions: ??
 ---
 ## Document Conversion
 
-1. [Use Cached Items Mapping](#usecacitemap)
-2. [Allow Non-Google Sharing](#allnogoosha)
-3. [Maximum Results Per Request](#maxreperre)
-4. [Notify Sharing Link Members](#notshlinmem)
-5. [Replace Comment Mentions with Display Name](#recommendis)
+1. [Convert Text](#dcontxt)
+2. [Convert Presentations](#dconpre)
+3. [Convert OCR](#conocr)
+4. [Convert Spreadsheets](#conspread)
+5. [Convert Drawings](#condraw)
 
-### Convert Text <a name="usecacitemap"></a>
+### Convert Text <a name="dcontxt"></a>
 {: .no_toc }
-Default Value: On
+Default Value: Off
 
-Force acceptance of all migrated appointments.
+Where possible, convert Text (*.doc, *.txt, etc.) documents to Google Documents format.
+
+Change Conditions: ??
+
+### Convert Presentations <a name="dconpre"></a>
+{: .no_toc }
+Default Value: Off
+
+Where possible, convert Presentations (.ppt, etc.) to Google Documents format.
+
+Change Conditions: ??
+
+### Convert OCR <a name="conocr"></a>
+{: .no_toc }
+Default Value: Off
+
+Where possible, convert images (*.png, *.jpg, etc.) via OCR to Google Documents format.
+
+Change Conditions: ??
+
+### Convert Spreadsheets <a name="conspread"></a>
+{: .no_toc }
+Default Value: Off
+
+Where possible, convert Spreadsheets (*.csv, *.xls, etc.) to Google Documents format.
+
+Change Conditions: ??
+
+### Convert Drawings <a name="condraw"></a>
+{: .no_toc }
+Default Value: Off
+
+Where possible, convert Drawings (.wmf) to Google Documents format.
 
 Change Conditions: ??
