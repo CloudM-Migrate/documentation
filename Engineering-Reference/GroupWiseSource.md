@@ -45,8 +45,8 @@ The password for the admin user.
 
 The trusted application name that has been allocated to this program. The trusted application entry must be created in GroupWise prior to use.
 
-https://www.novell.com/documentation/groupwise18/gw18_guide_admin/data/adm_sys_tools_trusted_applications.html
-
+<a name="https://www.novell.com/documentation/groupwise18/gw18_guide_admin/data/adm_sys_tools_trusted_applications.html">Novell Guidance on creating a Trusted Application</a>
+  
 ### Trusted Application Key <a name="serverport"></a>
 
 The trusted application key as provided when registering the trusted application. The key should be entered exactly as provided.
