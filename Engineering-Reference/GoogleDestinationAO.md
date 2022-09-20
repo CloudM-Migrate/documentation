@@ -323,7 +323,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: Off
 
-Where possible, convert Text (*.doc, *.txt, etc.) documents to Google Documents format.
+Where possible, convert Text (.doc, .txt, etc.) documents to Google Documents format.
 
 Change Conditions: ??
 
@@ -356,5 +356,88 @@ Change Conditions: ??
 Default Value: Off
 
 Where possible, convert Drawings (.wmf) to Google Documents format.
+
+Change Conditions: ??
+
+---
+## Shared Drive
+
+1. [Shared Drive File Permissions](#shadrifiper)
+2. [Shared Drive Same Domain Migration Type](#shasammigt)
+3. [Shared Drive Default Managers](#shdrideman)
+4. [Migrate External Shared Drive Members](#migexshdrmem)
+5. [Shared Drive Folder Permissions](#shdrfolper)
+6. [Migrate Shared Drive Members](#migshdmem)
+7. [Remove Shared Drive Default Managers](#reshdrdman)
+
+### Shared Drive File Permissions <a name="shadrifiper"></a>
+{: .no_toc }
+Default Value: File
+
+Select how file permissions will be applied when migrating to Shared Drive.
+
+Change Conditions: ??
+
+### Shared Drive Same Domain Migration Type <a name="shasammigt"></a>
+{: .no_toc }
+Default Value: Move
+
+When migrating a Google Drive to Shared Drive within the same domain, move or copy the files and folders.
+
+Change Conditions: ??
+
+### Shared Drive Default Managers <a name="shdrideman"></a>
+{: .no_toc }
+Default Value: None
+
+Specify the list of managers email addresses. Should be valid user emails. Group emails are not allowed. These will be applied temporarily during migration of the Shared Drive, in order to improve performance, and removed upon completion if 'Remove Shared Drive Default Managers' is set to true.
+
+Change Conditions: ??
+
+### Migrate External Shared Drive Members <a name="migexshdrmem"></a>
+{: .no_toc }
+Default Value: Off
+
+Migrate External Shared Drive members when migrating a Shared Drive to Shared Drive. Please note sharing with external users will also be migrated.
+
+Change Conditions: ??
+
+### Shared Drive Folder Permissions <a name="shdrfolper"></a>
+{: .no_toc }
+Default Value: None
+
+Select how folder permissions will be applied when migrating to Shared Drive.
+
+Change Conditions: ??
+
+### Migrate Shared Drive Members <a name="migshdmem"></a>
+{: .no_toc }
+Default Value: Off
+
+Migrate Shared Drive members when migrating a Shared Drive to Shared Drive.
+
+Change Conditions: ??
+
+### Remove Shared Drive Default Managers <a name="reshdrdman"></a>
+{: .no_toc }
+Default Value: Off
+
+Remove the Shared Drive Default Managers specified in 'Shared Drive Default Managers' field.
+
+Change Conditions: ??
+
+---
+## User
+
+1. [hared Drive File Permissions](#shadrifiper)
+2. [Shared Drive Same Domain Migration Type](#shasammigt)
+3. [Shared Drive Default Managers](#shdrideman)
+4. [Migrate External Shared Drive Members](#migexshdrmem)
+
+### Check Users/Resources/Groups/Shared Drives Exist <a name="shadrifiper"></a>
+{: .no_toc }
+Default Value: File
+
+Select how file permissions will be applied when migrating to Shared Drive.
 
 Change Conditions: ??
