@@ -34,7 +34,7 @@ Choose the hosted Exchange Platform
 
 ---
 
-Depending on the choosing Provider, you'll see the following additional options. 
+Depending on the choosen Provider the following additional options will be displayed. 
 
 ---
 
