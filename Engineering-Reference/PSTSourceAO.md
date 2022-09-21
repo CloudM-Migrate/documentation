@@ -12,6 +12,8 @@ nav_order: 11
 ---
 This document will give an overview on all the PST Source Advanced Options in CloudM Migrate. 
 
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/PSTSource.html">PST Source Options</a>
+
 ---
 <a name="top"></a>
 <details open markdown="block">
