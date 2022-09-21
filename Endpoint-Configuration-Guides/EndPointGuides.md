@@ -1,10 +1,9 @@
 ---
 layout: default
-title: O365
-parent: Endpoint Configration Guides
-has_children: false
+title: Endpoint Configuration Guide
+has_children: true 
 nav_order: 3
 ---
 
-
+## Endpoint Configuration Guides
 
