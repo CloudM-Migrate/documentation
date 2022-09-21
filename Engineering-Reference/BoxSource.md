@@ -10,9 +10,9 @@ nav_order: 18
 {: .no_toc }
 
 ---
-This document will give an overview on all the Dropbox Source Options in CloudM Migrate. 
+This document will give an overview on all the Box Source Options in CloudM Migrate. 
 
-<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/DropBoxSourceAO.html">Dropbox Source Advanced Options</a>
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/BoxSourceAO.html">Box Source Advanced Options</a>
          
 ---
 <a name="top"></a>
@@ -26,28 +26,41 @@ This document will give an overview on all the Dropbox Source Options in CloudM 
 </details>
 
 ---
+### Client ID
+
+Client Id can be obtained by creating an app in the Box app creation page (see documentation).
+
+### Client Secret
+
+Client secret can be obtained by creating an app in the Box app creation page (see documentation).
+
+### Redirect URI
+Default Value: https://cloudm.co/callback
+
+Redirect URI entered in Box API console.
+
 ### Admin Email
 
-Team Admin Email Address
-
-### Authorisation Code
-
-Authorisation Code returned from Dropbox when authorising CloudM Migrate.
+Admin Email
 
 ### Test User Name
 
-The login email address of a non-admin user within the system to test. This user must have the active status in Dropbox.
+The login email address of a non-admin user within the system to test. This user must have the active status in Box.
 
-### Team Folder Owner
+### Use JWT Authentication
 
-The email address of the user who will take ownership of 'Team Folders' in the destination (see documentation).
+Select whether to enable JWT authentication for access to users and data.
+
+### Authorisation Code
+
+Authorisation Code
 
 ### Retry Count
-Default Value: 10
+Default Value:10
 
 The number of times an operation will be attempted before failing.
 
 ### Timeout
 Default Value: 1800000
 
-The timeout that will apply to communications with the Dropbox server.
+The timeout that will apply to communications with the Box server.
