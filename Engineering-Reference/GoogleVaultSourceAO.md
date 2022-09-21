@@ -12,6 +12,8 @@ nav_order: 13
 ---
 This document will give an overview on all the Google Vault Source Advanced Options in CloudM Migrate. 
 
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/GoogleVaultSource.html">Google Vault Source Options</a>
+         
 ---
 <a name="top"></a>
 <details open markdown="block">
