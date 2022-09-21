@@ -2,7 +2,7 @@
 layout: default
 title: Azure Storage
 grand_parent: Engineering Reference
-parent: Advanced Source Options
+parent: Source Advanced Options
 nav_order: 14
 ---
 
