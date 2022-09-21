@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Google To O365
+title: O365 To O365
 parent: O365 Endpoint Guides
 nav_order: 2
 ---
