@@ -7,6 +7,7 @@ nav_order: 12
 ---
 
 ## Mail Archive Source Options
+{: .no_toc }
 
 ---
 This document will give an overview on all the Mail Archive Source Options in CloudM Migrate. 
