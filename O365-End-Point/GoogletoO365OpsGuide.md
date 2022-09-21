@@ -2,7 +2,7 @@
 layout: default
 title: Google To O365
 parent: O365 Endpoint Guides
-nav_order: 2
+nav_order: 1
 ---
 
 ## Operations Process Guide - Google to O365
