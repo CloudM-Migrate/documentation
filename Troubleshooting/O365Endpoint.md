@@ -39,8 +39,3 @@ Run the PowerShell script in the following article to create a new app registrat
 Enter the new app registration details in step 1. Make sure to upload the new certificate.
 
 Run the connection test again.
-
- 
-
-### 
- 
