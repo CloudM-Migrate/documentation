@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Platform Configuration and Provisioning 
+title: O365 Platform Configuration and Provisioning 
 parent: Engineering Reference
 nav_order: 6
 ---
