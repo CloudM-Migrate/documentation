@@ -24,7 +24,9 @@ A Domain Admin account will be needed in the source and a Service Account will n
 
 ### O365 Destination <a name="destination"></a>
 
-A Global Admin account will be needed in the destination and Multi-Factor Authentication will need to be temporarily disabled when creating the migration project within CloudM Migrate. The Tenant ID will also be required in the migration project. For the MyDrive to OneDrive content you'll need the SharePoint Admin URL.
+You'll need to have an existing O365 tenant with at least one target test mailbox already created. 
+
+A Global Admin account will be needed in the destination and Multi-Factor Authentication will need to be temporarily disabled when creating the migration project within CloudM Migrate. For the MyDrive to OneDrive content you'll need the SharePoint Admin URL.
 
 With this information you are ready to create a CloudM Migrate project.
 
@@ -34,23 +36,19 @@ A CloudM sales representative can provide you some testing licenses. When you re
 
 Feel free to explore and when ready select the **Orange Plus** symbol in the upper right corner and then **Create a New Project** to begin creating a migration project.
 
-Select the **Destination Platform** type as **Microsoft Office 365** and enter the target **Domain**. The **Configuration Name** is the name of the Batch you are creating, call it Test.
-
-Enter in the **License Key** that was provided to you and select **Continue**.
-
-In the first screen you'll populate the information you previously gathered for the Google source, the domain name, the service account and upload the private key. The **Configuration Name** is the name of the Batch you are creating, call it Test.
+Select source platform as **Google Workspace**. Enter the source **Domain**, **Service Account Email Address, Admin Username** and the **Private Key** you previously created. 
 
 Select **Next** and CloudM Migrate will validate it can access the source.
 
-Select **Next** and then select O365 as the destination tenant you'll be migrating too.
+Select the **Destination Platform** type as **Microsoft Office 365** and enter the **Global Admin Username**, **Global Admin Password** and the **Test Username** which is the precreated test mailbox. At the bottom of the destination detail expand the section labeled **Platform Configuration and Provisioning** and make sure the field labeled **Usage Location** is set to the country the destination is located, by default it will be set to the United Kingdom.
 
-At the bottom of the destination detail expand the section labeled **Platform Configuration and Provisioning** and make sure the field labeled **Usage Location** is set to the country the destination is located, by default it will be set to the United Kingdom.
+Now is when Multi-Factor Authentication in O365 will need to be disabled so CloudM Migrate can contact the destination tenant. Typically you'll want to set the **Authentication Method** to **Modern**. When MFA is disabled select the **Create Azure AD Application** to generate the PFX Certificate and Tenant ID. 
 
-Under **Advance Settings** populate the **SharePoint Admin URL**.
+Under **Advance Settings** validate the **SharePoint Admin URL** is correct. 
 
-Now is when Multi-Factor Authentication will need to be disabled so CloudM Migrate can contact the destination tenant. Typically you'll want to set the **Authentication Method** to **Modern**.
+Select **Next** and then the destination connection will validated. 
 
-Select **Create Azure AD Application** and then select it a second time to start the validation of the destination. If successful you can now re-enable Multi-Factor Authentication.
+If successful you can now re-enable Multi-Factor Authentication.
 
 Select **Next** and now you are able to select users to migrate. Select **Add items to migrate** and then **Get items from source**.
 
@@ -58,7 +56,7 @@ After the list populates, select a single mailbox to migrate as a test. The lice
 
 The **Export Field** column will show the source addresses and the **Import Field** will display the destination address.
 
-On right side of the line that contains your test mailbox unselect all options besides **Mail, Contacts, Calendar, Tasks and OneDrive**.
+On right side of the line that contains your test mailbox unselect all options besides **Mail, Contacts, Calendar, Tasks and Drive**.
 
 Select the **Save** option under the Actions column to save changes
 
