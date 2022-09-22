@@ -6,7 +6,7 @@ parent: Endpoint Options
 nav_order: 8
 ---
 
-## Generic IMAP Endpoint Advanced Options
+## Generic IMAP Endpoint Options
 {: .no_toc }
 
 ---
