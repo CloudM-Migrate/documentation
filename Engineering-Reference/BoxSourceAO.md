@@ -13,7 +13,7 @@ nav_order: 17
 
 This document will give an overview on all the Box Source Advanced Options in CloudM Migrate. 
 
-<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/BoxSource.html">Box Source Options</a>
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/Box.html">Box Endpoint Options</a>
 
 ---
 <a name="top"></a>
