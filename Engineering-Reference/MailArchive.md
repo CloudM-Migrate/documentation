@@ -2,15 +2,15 @@
 layout: default
 title: Mail Archive
 grand_parent: Engineering Reference
-parent: Source Options
+parent: Endpoint Options
 nav_order: 12
 ---
 
-## Mail Archive Source Options
+## Mail Archive Endpoint Options
 {: .no_toc }
 
 ---
-This document will give an overview on all the Mail Archive Source Options in CloudM Migrate. 
+This document will give an overview on all the Mail Archive Endpoint Options in CloudM Migrate. 
 
 ---
 <a name="top"></a>
