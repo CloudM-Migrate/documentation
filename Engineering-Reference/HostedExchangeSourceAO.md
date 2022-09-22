@@ -12,7 +12,7 @@ nav_order: 3
 ---
 This document will give an overview on all the Hosted Exchange Source Advanced Options in CloudM Migrate. 
 
-<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/HostedExchangeSource.html">Hosted Exchange Source Options</a>
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/HostedExchange.html">Hosted Exchange Source Options</a>
 
 ---
 <a name="top"></a>
