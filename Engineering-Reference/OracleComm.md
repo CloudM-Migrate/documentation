@@ -2,15 +2,15 @@
 layout: default
 title: Oracle Communications
 grand_parent: Engineering Reference
-parent: Source Options
+parent: Endpoint Options
 nav_order: 10
 ---
 
-## Oracle Communication Source Options
+## Oracle Communication Endpoint Options
 {: .no_toc }
 
 ---
-This document will give an overview on all the Oracle Source Options in CloudM Migrate. 
+This document will give an overview on all the Oracle Endpoint Options in CloudM Migrate. 
 
 <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/OracleCommSourceAO.html">Oracle Communications Source Advanced Options</a>
 
