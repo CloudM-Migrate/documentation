@@ -2,15 +2,15 @@
 layout: default
 title: Google
 grand_parent: Engineering Reference
-parent: Source Options
+parent: Endpoint Options
 nav_order: 1
 ---
 
-## Google Source Options
+## Google Endpoint Options
 {: .no_toc }
 
 ---
-This document will give an overview on all the Google Source Options in CloudM Migrate. 
+This document will give an overview on all the Google Endpoint Options in CloudM Migrate. 
 
 <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/GoogleSourceAO.html">Google Source Advanced Options</a>
 
