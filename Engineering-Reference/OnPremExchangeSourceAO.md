@@ -13,6 +13,8 @@ nav_order: 9
 
 This document will give an overview on all the On Premises Source Advanced Options in CloudM Migrate. 
 
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/OnPremExchange.html">On Premises Exchange Endpoint Options</a>
+
 ---
 <a name="top"></a>
 <details open markdown="block">
