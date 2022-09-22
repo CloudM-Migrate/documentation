@@ -2,16 +2,16 @@
 layout: default
 title: Generic IMAP
 grand_parent: Engineering Reference
-parent: Source Options
+parent: Endpoint Options
 nav_order: 8
 ---
 
-## Generic IMAP Source Advanced Options
+## Generic IMAP Endpoint Advanced Options
 {: .no_toc }
 
 ---
 
-This document will give an overview on all the Generic IMAP Source Options in CloudM Migrate. 
+This document will give an overview on all the Generic IMAP Endpoint Options in CloudM Migrate. 
 
 <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/GenericIMAPSourceAO.html">Generic IMAP Source Advanced Options</a>
 
