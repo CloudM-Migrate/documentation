@@ -2,16 +2,16 @@
 layout: default
 title: GroupWise
 grand_parent: Engineering Reference
-parent: Source Options
+parent: Endpoint Options
 nav_order: 4
 ---
 
-## GroupWise Source Options
+## GroupWise Endpoint Options
 {: .no_toc }
 
 ---
 
-This document will give an overview on all the GroupWise Source Options in CloudM Migrate. 
+This document will give an overview on all the GroupWise Endpoint Options in CloudM Migrate. 
 
 ---
 <a name="top"></a>
