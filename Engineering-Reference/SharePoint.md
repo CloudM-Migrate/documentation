@@ -2,15 +2,15 @@
 layout: default
 title: SharePoint
 grand_parent: Engineering Reference
-parent: Source Options
+parent: Endpoint Options
 nav_order: 19
 ---
 
-## SharePoint Source Options
+## SharePoint Endpoint Options
 {: .no_toc }
 
 ---
-This document will give an overview on all the SharePoint Source Options in CloudM Migrate. 
+This document will give an overview on all the SharePoint Endpoint Options in CloudM Migrate. 
 
 <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/SharePointSourceAO.html">SharePoint Source Advanced Options</a>
          
