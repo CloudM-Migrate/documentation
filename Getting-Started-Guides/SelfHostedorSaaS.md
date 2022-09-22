@@ -17,7 +17,7 @@ How to pick if an Self-Hosted install or our hosted SaaS solution is correct for
 
 ### Overview <a name="overview"></a>
 
-This document will give an overview of the reasons to use CloudM migrate as a hosted solution or an on-premises solution. Self-Hosted refers to resources that are owned and managed by the customer regardless of if it is onsite or in a cloud tenant.
+This document will give an overview of the reasons to use CloudM migrate as a hosted solution or an Self-Hosted solution. Self-Hosted refers to resources that are owned and managed by the customer regardless of if it is onsite or in a cloud tenant.
 
 This document will cover some security aspects of CloudM Migrate but will not be all inclusive. We at CloudM take security very seriously and if have any security questions or need to perform a security review please reach out to your sales rep and they can help get that setup for you.
 
@@ -35,7 +35,7 @@ Cons
 
 - If you use Azure VMs there maybe additional charges for ingress and egress of data.
 
-### Hosted <a name="hosted"></a>
+### SaaS <a name="hosted"></a>
 
 Pros
 
