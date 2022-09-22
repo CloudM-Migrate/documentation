@@ -12,6 +12,8 @@ nav_order: 6
 ---
 This document will give an overview on all the Zimbra Source Advanced Options in CloudM Migrate. 
 
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/Zimbra.html">Zimbra Endpoint Options</a>
+
 ---
 <a name="top"></a>
 <details open markdown="block">
