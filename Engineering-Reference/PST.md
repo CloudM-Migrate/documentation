@@ -2,14 +2,14 @@
 layout: default
 title: PST Archive
 grand_parent: Engineering Reference
-parent: Source Options
+parent: Endpoint Options
 nav_order: 11
 ---
 
-## PST Archive Source Options
+## PST Archive Endpoint Options
 
 ---
-This document will give an overview on all the PST Source Options in CloudM Migrate. 
+This document will give an overview on all the PST Endpoint Options in CloudM Migrate. 
 
 <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/PSTSourceAO.html">PST Archive Source Advanced Options</a>
 
