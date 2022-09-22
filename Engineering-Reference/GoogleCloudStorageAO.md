@@ -12,7 +12,7 @@ nav_order: 15
 ---
 This document will give an overview on all the Google Cloud Storage Source Options in CloudM Migrate. 
 
-<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/AzureStorage.html">Google Cloud Storage Endpoint Options</a>
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/GoogleCloudStorage.html">Google Cloud Storage Endpoint Options</a>
          
 ---
 <a name="top"></a>
