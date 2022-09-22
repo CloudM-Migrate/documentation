@@ -13,7 +13,7 @@ nav_order: 18
 
 This document will give an overview on all the SharePoint Source Advanced Options in CloudM Migrate. 
 
-<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/SharePointSource.html">SharePoint Source Options</a>
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/SharePoint.html">SharePoint Endpoint Options</a>
 
 ---
 <a name="top"></a>
