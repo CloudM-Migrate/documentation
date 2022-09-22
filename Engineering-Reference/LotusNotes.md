@@ -12,6 +12,8 @@ nav_order: 5
 ---
 This document will give an overview on all the Lotus Notes Endpoint Options in CloudM Migrate. 
 
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/LotusNotesSourceAO.html">Lotus Notes Source Advanced Options</a>
+
 ---
 <a name="top"></a>
 <details open markdown="block">
