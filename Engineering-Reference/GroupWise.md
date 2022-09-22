@@ -53,6 +53,8 @@ The trusted application name that has been allocated to this program. The truste
 
 The trusted application key as provided when registering the trusted application. The key should be entered exactly as provided.
 
+If you already have a Trusted Application but do not know the Key you'll need to create a new Trusted Application for your migration. 
+
 ### Account Processing <a name="serverport"></a>
 
 Choose the combination of accounts and archives to migrate.
