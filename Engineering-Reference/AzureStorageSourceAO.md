@@ -12,7 +12,7 @@ nav_order: 14
 ---
 This document will give an overview on all the Azure Storage Source Options in CloudM Migrate. 
 
-<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/AzureStorageSource.html">Azure Storage Source Options</a>
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/AzureStorage.html">Azure Storage Endpoint Options</a>
          
 ---
 <a name="top"></a>
