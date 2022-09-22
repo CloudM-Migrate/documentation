@@ -11,7 +11,9 @@ nav_order: 16
 
 ---
 
-This document will give an overview on all the Dropbox Source Advanced Options in CloudM Migrate. 
+This document will give an overview on all the Dropbox Source Advanced Options in CloudM Migrate.
+
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/DropBox.html">Dropbox Endpoint Options</a>
 
 ---
 <a name="top"></a>
