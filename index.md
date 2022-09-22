@@ -61,7 +61,7 @@ In an effort to better serve our customers and partners CloudM is going opensour
 <a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
 
 ### GitHub License
-TBD
+<a href="https://www.apache.org/licenses/LICENSE-2.0">Licensed under Apache License, Version 2.0</a>
 
 ### Code of Conduct
 We're inline and agree with the <a href="https://docs.github.com/en/site-policy/github-terms/github-event-code-of-conduct#code-of-conduct">GitHub Code of Conduct</a>. 
