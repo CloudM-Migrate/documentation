@@ -30,7 +30,7 @@ A Global Admin account will be needed in the destination and Multi-Factor Authen
 
 With this information you are ready to create a CloudM Migrate project.
 
-### Creating a Migration project <a name="project"></a>
+### Creating a Migration Project <a name="project"></a>
 
 A CloudM sales representative can provide you some testing licenses. When you receive the license it will contain a link to access CloudM Migrate.
 
