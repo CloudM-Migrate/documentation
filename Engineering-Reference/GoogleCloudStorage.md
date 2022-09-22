@@ -2,15 +2,15 @@
 layout: default
 title: Google Cloud Storage
 grand_parent: Engineering Reference
-parent: Source Options
+parent: Endpoint Options
 nav_order: 15
 ---
 
-## Google Cloud Storage Source Options
+## Google Cloud Storage Endpoint Options
 {: .no_toc }
 
 ---
-This document will give an overview on all the Google Cloud Storage Options in CloudM Migrate. 
+This document will give an overview on all the Google Cloud Storage Endpoint Options in CloudM Migrate. 
 
 <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/GoogleCloudStorageAO.html">Google Cloud Storage Source Advanced Options</a>
          
