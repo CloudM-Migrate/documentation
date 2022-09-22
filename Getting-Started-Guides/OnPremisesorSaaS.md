@@ -1,14 +1,14 @@
 ---
 layout: default
-title: On Premises or SaaS
+title: Self-Hosted or SaaS
 parent: Getting Started Guides
 nav_order: 2
 ---
 
 
-## On-Premises or SaaS solution
+## Self-Hosted or SaaS solution
 
-How to pick if an On-Premises install or our hosted SaaS solution is correct for you.
+How to pick if an Self-Hosted install or our hosted SaaS solution is correct for you.
 
 1. [Overview](#overview)
 2. [On-Premises](#onpremises)
@@ -17,11 +17,11 @@ How to pick if an On-Premises install or our hosted SaaS solution is correct for
 
 ### Overview <a name="overview"></a>
 
-This document will give an overview of the reasons to use CloudM migrate as a hosted solution or an on-premises solution. On-premises refers to resources that are owned and managed by the customer regardless of if it is onsite or in a cloud tenant.
+This document will give an overview of the reasons to use CloudM migrate as a hosted solution or an on-premises solution. Self-Hosted refers to resources that are owned and managed by the customer regardless of if it is onsite or in a cloud tenant.
 
 This document will cover some security aspects of CloudM Migrate but will not be all inclusive. We at CloudM take security very seriously and if have any security questions or need to perform a security review please reach out to your sales rep and they can help get that setup for you.
 
-### On-Premises <a name="onpremises"></a>
+### Self-Hosted <a name="onpremises"></a>
 
 Pros
 
