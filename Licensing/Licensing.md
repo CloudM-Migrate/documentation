@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Licensing
-parent: Getting Started Guides
+has_children: true
 nav_order: 3
 ---
 
