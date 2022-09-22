@@ -6,7 +6,7 @@ parent: Endpoint Options
 nav_order: 14
 ---
 
-## Azure Storage Options
+## Azure Storage Endpoint Options
 {: .no_toc }
 
 ---
