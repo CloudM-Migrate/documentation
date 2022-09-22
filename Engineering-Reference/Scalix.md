@@ -12,6 +12,8 @@ nav_order: 7
 ---
 This document will give an overview on all the Scalix Endpoint Options in CloudM Migrate. 
 
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ScalixSourceAO.html">Scalix Source Advanced Options</a>
+
 ---
 <a name="top"></a>
 <details open markdown="block">
