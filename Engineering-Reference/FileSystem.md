@@ -2,15 +2,15 @@
 layout: default
 title: File System
 grand_parent: Engineering Reference
-parent: Source Options
+parent: Endpoint Options
 nav_order: 16
 ---
 
-## File System Source Options
+## File System Endpoint Options
 {: .no_toc }
 
 ---
-This document will give an overview on all the File System Source Options in CloudM Migrate. 
+This document will give an overview on all the File System Endpoint Options in CloudM Migrate. 
        
 ---
 <a name="top"></a>
