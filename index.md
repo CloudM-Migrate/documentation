@@ -16,10 +16,6 @@ This site will contain the technical documentation for [CloudM Migrate](https://
 
 Welcome to the new CloudM Knowledgebase!
 
-{: .new }
-
-21/9/22 - V1 Engineering Reference Completed. 
-
 ---
 
 ## CloudM Migrate
