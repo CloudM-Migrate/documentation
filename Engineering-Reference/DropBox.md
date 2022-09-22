@@ -2,15 +2,15 @@
 layout: default
 title: Dropbox
 grand_parent: Engineering Reference
-parent: Source Options
+parent: Endpoint Options
 nav_order: 17
 ---
 
-## Dropbox Source Options
+## Dropbox Endpoint Options
 {: .no_toc }
 
 ---
-This document will give an overview on all the Dropbox Source Options in CloudM Migrate. 
+This document will give an overview on all the Dropbox Endpoint Options in CloudM Migrate. 
 
 <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/DropBoxSourceAO.html">Dropbox Source Advanced Options</a>
          
