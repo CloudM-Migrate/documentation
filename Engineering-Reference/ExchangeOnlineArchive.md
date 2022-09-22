@@ -2,15 +2,15 @@
 layout: default
 title: Exchange Online Archive
 grand_parent: Engineering Reference
-parent: Source Options
+parent: Endpoint Options
 nav_order: 13
 ---
 
-## Exchange Online Archive Source Options
+## Exchange Online Archive Endpoint Options
 {: .no_toc }
 
 ---
-This document will give an overview on all the Exchange Online Archive Source Options in CloudM Migrate. 
+This document will give an overview on all the Exchange Online Archive Endpoint Options in CloudM Migrate. 
 
 <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ExchangeOnlineArchiveAO.html">Exchange Online Archive Source Advanced Options</a>
 
