@@ -13,6 +13,8 @@ nav_order: 4
 
 This document will give an overview on all the GroupWise Endpoint Options in CloudM Migrate. 
 
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/GroupWise.html">GroupWise Endpoint Options</a>
+
 ---
 <a name="top"></a>
 <details open markdown="block">
