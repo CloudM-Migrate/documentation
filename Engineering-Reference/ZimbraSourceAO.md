@@ -67,7 +67,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: Off
 
-Migrate folders that have been shared with the user being migrated.
+Migrate all members of contact groups, even if the contacts are inline contacts or from the GAL.
 
 Change Conditions: ??
 
