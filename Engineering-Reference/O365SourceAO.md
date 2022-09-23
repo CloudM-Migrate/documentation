@@ -271,7 +271,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: Off
 
-The timeout for operations with the server.
+Migrate Teams Planner Plans, Buckets and Tasks.
 
 Change Conditions: ??
 
