@@ -199,7 +199,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: Folder Structure and Label/Category
 
-Migrate GroupWise notes as all day appointments.
+Specify the type of label that will be applied to migrated archived GroupWise messages.
 
 Change Conditions: ??
 
@@ -207,7 +207,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: Off
 
-Migrate GroupWise notes as all day appointments.
+Migrate incoming shared folders from GroupWise. This will result in duplication of many items between accounts and is not recommended.
 
 Change Conditions: ??
 
@@ -215,7 +215,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: GroupWise Archive
 
-Migrate GroupWise notes as all day appointments.
+Set the name of the label that will be applied to archived GroupWise messages.
 
 Change Conditions: ??
 
