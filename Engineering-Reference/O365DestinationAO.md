@@ -286,7 +286,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: Off
 
-If thems site does not exist in the destination, keep this off so the migration uses a Prestage Teams location. This is a faster migration and more user friendly. If the destination Team site already exists, turn this on to prevent an error from occuring.
+If the Teams site does not exist in the destination, keep this off so the migration uses a Prestage Teams location. This is a faster migration and more user friendly. If the destination Team site already exists, turn this on to prevent an error from occuring.
 
 Change Conditions: ??
 
