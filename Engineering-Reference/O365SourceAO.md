@@ -317,7 +317,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: Microsoft Exchange 2019
 
-Specifies whether Public Folders will be obtained when getting a user list.
+The version of the Exchange source platform.
 
 Change Conditions: ??
 
