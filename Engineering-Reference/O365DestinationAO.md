@@ -384,7 +384,6 @@ Use the credentials of the logged in user of the workstation to perform migratio
 
 Change Conditions: ??
 
-
 ---
 ## Transfer and Performance
 [Back to Top](#top)
@@ -406,7 +405,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: 1200000
 
-The version of the Exchange destination platform.
+The timeout that will apply to communications with the Exchange server.
 
 Change Conditions: ??
 
@@ -414,7 +413,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: 120000
 
-The version of the Exchange destination platform.
+Specify the maximum time that a wait operation can wait between exponential backoff retry attempts.
 
 Change Conditions: ??
 
@@ -500,7 +499,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: Never
 
-The version of the Exchange destination platform.
+Choose whether to run the PowerShell after script. This script will be run at the end of every user migration.
 
 Change Conditions: ??
 
@@ -508,7 +507,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: Always
 
-Choose whether to run the PowerShell after script. This script will be run at the end of every user migration.
+Choose whether to run the PowerShell finalize script. This script will be run when all migrations have completed.
 
 Change Conditions: ??
 
