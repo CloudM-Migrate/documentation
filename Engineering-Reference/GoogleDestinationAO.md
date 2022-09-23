@@ -222,7 +222,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: None
 
-When migrating appointment attachments to Drive, choose whether the attachment should be shared with the appointment attendees.
+Migrate appointment attachments to the specified folder when 'Migrate Attachments' is enabled.
 
 Change Conditions: ??
 
