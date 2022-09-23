@@ -252,7 +252,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: Off
 
-Permit migrations when some special folders do not exist. WARNING: this can result in missing messages if users have hidden IMAP folders.
+Removes the Google test domain (test-google-a.com) suffix from source email addresses, e.g. when applying address replacements to file ACLs.
 
 Change Conditions: ??
 
