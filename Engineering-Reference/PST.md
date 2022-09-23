@@ -49,7 +49,7 @@ Allow migration of duplicate messages when they may have been copied to multiple
 Include a folder in the Export even if it is missing a Folder Container Class.
 
 ### Archive Label Method
-Default Value: Orginal Folder Structure and Label/Category
+Default Value: Original Folder Structure and Label/Category
 
 The folder structure and/or label/catogories that will be applied to migrated archive messages.
 
