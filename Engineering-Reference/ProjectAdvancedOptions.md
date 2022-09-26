@@ -386,7 +386,7 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: All
 
-Specify the list of file extensions, one per line in the format '*.ext', that will be migrated. (*.* for all) or MIME types in the format of 'image/jpeg'.
+Specify the list of file extensions, one per line in the format '.ext', that will be migrated. (*.* for all) or MIME types in the format of 'image/jpeg'.
 
 Change Conditions: Set document types to migated to the destination, those not specified are excluded. 
 
@@ -431,7 +431,7 @@ Change Conditions: Change to migrate email attachments.
 {: .no_toc }
 Default Value: All
 
-Specify the list of file extensions, one per line in the format '*.ext', that will be migrated from email attachments (*.* for all).
+Specify the list of file extensions, one per line in the format '.ext', that will be migrated from email attachments (*.* for all).
 
 Change Conditions: ??
 
@@ -522,7 +522,7 @@ Default Value: Off
 
 Perform email addresses and domain replacements from the CSV file specified in 'Address Replacements' and do not attempt to perform replacements using any other method.
 
-Change Conditions: Turn on to only change address of users specified in the CSV under Address Replacements (.csv)
+Change Conditions: Turn on to only change address of users specified in the CSV under Address Replacements.
 
 ---
 ## Domain Replacement
