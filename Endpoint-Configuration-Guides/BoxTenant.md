@@ -15,7 +15,7 @@ nav_order: 18
 4. Select Create **New App**.
 5. Select **Enterprise Integration**.
 6. On the **Authentication Method** screen, select **Standard OAuth 2.0 (User Authentication)**.
-7. Give your application a name, such as 'CloudM Migration'.
-8. In the section OAuth 2.0 Credentials, copy the Client ID and Client Secret values for later use.
+7. Give your application a name such as 'CloudM Migration'.
+8. In the section OAuth 2.0 Credentials copy the Client ID and Client Secret Key values.
 9. Update the Redirect URI field with the below URL: https://oauth.pingone.com/ocs/ppm/rest/v1/oauth/oastempcredresponse/
 10. Select **Save Changes**. 
