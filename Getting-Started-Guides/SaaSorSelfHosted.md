@@ -11,8 +11,8 @@ nav_order: 2
 How to pick if an Self-Hosted install or our hosted SaaS solution is correct for you.
 
 1. [Overview](#overview)
-2. [On-Premises](#onpremises)
-3. [Hosted](#hosted)
+2. [Hosted](#hosted)
+3. [On-Premises](#onpremises)
 4. [Why CloudM](#whycloudm)
 
 ### Overview <a name="overview"></a>
