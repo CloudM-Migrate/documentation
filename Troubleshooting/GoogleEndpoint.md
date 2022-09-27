@@ -56,7 +56,7 @@ This error can occur when migrating to or from G Suite and the API requests bein
 
 ---
 
-### Insufficient Permission 403 
+### Insufficient Permission 403 or 401 
 
 This error for example is happening on Google Import, indicating that there is an issue with permissions in either for the service account or API Scopes.  Can you make sure that all the scopes have been added to the service account and that your API's all have been enabled?  Also, check if you have the Admin SDK API enabled. This sometimes causes the issue. For reason in the logs for every failure states " “ Not retrying Forbidden[403] error,”
 
@@ -64,6 +64,10 @@ This error for example is happening on Google Import, indicating that there is a
 Not retrying Forbidden[403] error Google.Apis.Requests.RequestError Insufficient Permission [403] Errors [ Message[Insufficient Permission] Location[ - ] Reason[insufficientPermissions] Domain[global] ]
 
 
-That particular error refers to the forwarding setting in a user's mailbox, for example when they are on holiday, to forward their mail to another member of staff. The error simply means there has been no forwarding instructions set up on the account. It can be ignored, but the way to get rid of it would be to set up account forwarding in the destination. 
+For a 401 That particular error refers to the forwarding setting in a user's mailbox, for example when they are on holiday, to forward their mail to another member of staff. The error simply means there has been no forwarding instructions set up on the account. It can be ignored, but the way to get rid of it would be to set up account forwarding in the destination. 
 
- 
+- Ensure that the admin user you are using to migrate has logged into Google Workspace at least once
+- Check you have followed all of the steps in the documentation for configuring the source and destination platforms
+- Double check all usernames and password
+- Check that OAuth access is setup and enabled correctly
+- Ensure that the time on the workstation/server that is running the migration tool is correct
