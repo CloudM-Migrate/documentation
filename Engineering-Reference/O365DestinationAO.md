@@ -28,7 +28,7 @@ This document will give an overview on all the Office 365 Destination Advanced O
 ## SharePoint Online
 
 1. [SharePoint Migration API](#sharepointapi)
-2. [Retry Backoff](#retryback)
+2. [Retry Backoff](#sretryback)
 3. [SharePoint Admin Url](#shareadurl)
 4. [Timeout](#stimeout)
 5. [Preserve File Created and Modified Dates](#persfilemoddate)
@@ -52,7 +52,7 @@ https://support.cloudm.io/hc/en-us/articles/360021044840
 
 Change Conditions: ??
 
-### Retry Backoff (seconds) <a name="retryback"></a>
+### Retry Backoff (seconds) <a name="sretryback"></a>
 {: .no_toc }
 Default Value: 3
 
