@@ -144,7 +144,6 @@ Change Conditions: ??
 [Back to Top](#top)
 
 1. [Include Public Folders in User List](#includepublic)
-2. [Public Folder User Name](#publicfolderuser)
 
 ### Include Public Folders in User List <a name="includepublic"></a>
 {: .no_toc }
