@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Self-Hosted or SaaS
+title: SaaS or Self-Hosted
 parent: Getting Started Guides
 nav_order: 2
 ---
 
 
-## Self-Hosted or SaaS solution
+## SaaS or Self-Hosted
 
 How to pick if an Self-Hosted install or our hosted SaaS solution is correct for you.
 
