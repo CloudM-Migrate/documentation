@@ -61,6 +61,7 @@ Change Conditions: ??
 ## Transfer and Performance
 
 1. [Trace Folder Requests](#tracefold)
+2. [Time Out](#timeou)
 
 ### Retry Count<a name="tracefold"></a>
 {: .no_toc }
@@ -70,7 +71,7 @@ The number of times an operation will be attempted before failing.
 
 Change Conditions: ??
 
-### Time Out <a name="tracefold"></a>
+### Time Out <a name="timeou"></a>
 {: .no_toc }
 Default Value: 1800000
 
