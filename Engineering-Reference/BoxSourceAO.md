@@ -33,6 +33,7 @@ This document will give an overview on all the Box Source Advanced Options in Cl
 
 ### Box Document Sharing <a name=boxshare"></a>
 {: .no_toc }
+  
 Default Value: Share Documents
 
 Choose whether the document should be shared as per the source file ACLs if they can be resolved to email addresses (see documentation).
