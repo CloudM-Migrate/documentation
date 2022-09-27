@@ -31,7 +31,7 @@ This document will give an overview on all the Box Source Advanced Options in Cl
 
 1. [Box Document Sharing](#boxshare)
 
-### Box Document Sharing <a name=boxshare"></a>
+### Box Document Sharing <a name="boxshare"></a>
 {: .no_toc }
   
 Default Value: Share Documents
