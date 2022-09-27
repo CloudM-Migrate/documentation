@@ -51,7 +51,9 @@ Any request can be evaluated against multiple limits, depending on the scope of 
 
 ---
 
-Microsoft - 403 Forbidden Auth Methods Error  - The error indicates there is an issue with modern authentication
+### 403 Forbidden Auth Methods Error  
+
+The error indicates there is an issue with modern authentication
 
 Delete the existing app registration in Azure - https://portal.azure.com > App Registrations.
 
