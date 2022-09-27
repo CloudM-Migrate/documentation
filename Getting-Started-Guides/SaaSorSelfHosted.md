@@ -21,20 +21,6 @@ This document will give an overview of the reasons to use CloudM migrate as a ho
 
 This document will cover some security aspects of CloudM Migrate but will not be all inclusive. We at CloudM take security very seriously and if have any security questions or need to perform a security review please reach out to your sales rep and they can help get that setup for you.
 
-### Self-Hosted <a name="onpremises"></a>
-
-Pros
-
-- ISO 27001:2013
-- Custom scaling, configure as many instances of the CloudM Migrate application with no additional charge.
-- The ingress and egress of data is contained within your network environment.
-- Only license meta data is submitted to CloudM servers.
-- CloudM migrate is a self-contained install that is easy to deploy.
-
-Cons
-
-- If you use Azure VMs there maybe additional charges for ingress and egress of data.
-
 ### SaaS <a name="hosted"></a>
 
 Pros
@@ -50,6 +36,20 @@ Pros
 Cons-
 
 - CloudM Cons? Never!
+
+### Self-Hosted <a name="onpremises"></a>
+
+Pros
+
+- ISO 27001:2013
+- Custom scaling, configure as many instances of the CloudM Migrate application with no additional charge.
+- The ingress and egress of data is contained within your network environment.
+- Only license meta data is submitted to CloudM servers.
+- CloudM migrate is a self-contained install that is easy to deploy.
+
+Cons
+
+- If you use Azure VMs there maybe additional charges for ingress and egress of data.
 
 ### Why CloudM Migrate? <a name="whycloudm"></a>
 
