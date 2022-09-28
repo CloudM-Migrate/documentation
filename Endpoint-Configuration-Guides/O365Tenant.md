@@ -55,8 +55,6 @@ It most instances of using Exchange/O365 as a endpoint a Global Admin account is
 
 #### Global Admin Account
 
-### The Account Used
-
 ### The O365 Tenant ID
 
 ### A Test Acount
