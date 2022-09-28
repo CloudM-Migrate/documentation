@@ -56,6 +56,7 @@ In most instances of using Exchange/O365 as a endpoint a Global Admin account is
 4. An Account with impresenation access to all accounts in scope of the migration
 
 #### Global Admin Account
+{: .no_toc }
 
 ### The O365 Tenant ID
 
