@@ -8,6 +8,8 @@ nav_order: 1
 ## O365 
 {: .no_toc }
 
+---
+
 This guide will show how to configure O365 as a source or destination endpoint. 
 
 If you are planning a migration the approach matters and prepping your source and destination tenants is fundamental to project success. 
