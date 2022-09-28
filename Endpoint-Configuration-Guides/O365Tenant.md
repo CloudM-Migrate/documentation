@@ -29,8 +29,6 @@ For O365 this is defined by the following requirements:
 
 ClouldM Migrate uses Modern Authentication as a default. If Multi-Factor Authentication is enabled on the endpoint it'll need to be disabled temporarily or a PFX certificate has to be generated for access. 
 
-#### Global Admin Account
-
 ### The Account Used
 
 It most instances of using Exchange/O365 as a endpoint a Global Admin account is the widest and easist way to provide CloudM Migrate access to everything it needs. However that account is not always availble to use. In order of ease of use here are the available access methods: 
@@ -40,5 +38,6 @@ It most instances of using Exchange/O365 as a endpoint a Global Admin account is
 3. Receiptant Admin Account. 
 4. An Account with impresenation access to all accounts in scope of the migration. 
 
+#### Global Admin Account
 
 
