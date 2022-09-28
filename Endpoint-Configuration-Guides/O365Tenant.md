@@ -60,4 +60,8 @@ When you specify the domain CloudM Migrate can auto populate the Tenant ID. If i
 
 ### A Test Acount
 
+CloudM Migrate will test the connectivity with a Test Mailbox. Specify a typical mailbox with the migration scope. 
+
 ### The SaaS to SaaS Access
+
+After completing the configuration of the source and destination endpoints a prompt to create the Azure AD Application will be avilable. Select this will begin a connectivity test to both endpoints. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
