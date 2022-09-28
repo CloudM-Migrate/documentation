@@ -56,6 +56,8 @@ In O365 the Global Admin account is the needed to provide CloudM Migrate access 
 
 ### The O365 Tenant ID
 
+When you specify the domain CloudM Migrate can auto populate the Tenant ID. If it doesn't auto populate the Tenant ID can be found by in the <a href="https://learn.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id">Tenant Properties</a>
+
 ### A Test Acount
 
 ### The SaaS to SaaS Access
