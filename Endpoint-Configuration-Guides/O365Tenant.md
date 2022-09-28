@@ -5,7 +5,7 @@ parent: Endpoint Configuration Guides
 nav_order: 1
 ---
 
-## O365 Tenant
+## O365 
 {: .no_toc }
 
 This guide will show how to configure O365 as a source or destination endpoint. 
@@ -38,7 +38,7 @@ For O365 this is defined by the following requirements:
 - The Account Used
 - The O365 Tenant ID
 - A Test Acount
-- The SaaS to SaaS access
+- The SaaS to SaaS Access
 
 ### The Authentication Method
 
@@ -55,4 +55,10 @@ It most instances of using Exchange/O365 as a endpoint a Global Admin account is
 
 #### Global Admin Account
 
+### The Account Used
 
+### The O365 Tenant ID
+
+### A Test Acount
+
+### The SaaS to SaaS Access
