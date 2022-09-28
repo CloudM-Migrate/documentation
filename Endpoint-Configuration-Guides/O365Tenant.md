@@ -1,6 +1,6 @@
 ---
 layout: default
-title: O365 Tenant
+title: O365
 parent: Endpoint Configuration Guides
 nav_order: 1
 ---
