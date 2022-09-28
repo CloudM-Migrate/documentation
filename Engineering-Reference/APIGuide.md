@@ -2,7 +2,7 @@
 layout: default
 title: API Reference
 parent: Engineering Reference
-has_children: true
+has_children: false
 nav_order: 6
 ---
 
