@@ -48,12 +48,21 @@ ClouldM Migrate uses Modern Authentication as a default. If Multi-Factor Authent
 
 ### The Account Used
 
-In most instances of using Exchange/O365 as a endpoint a Global Admin account is the widest and easist way to provide CloudM Migrate access to everything it needs. However that account is not always availble to use. In order of ease of use here are the available access methods: 
+In most instances of using Exchange/O365 as a endpoint a Global Admin account is the widest and easist way to provide CloudM Migrate access to everything it needs. However that account is not always availble to use. Here are the best alternatives:
 
-1. Global Admin Account
-2. Exchange Admin Account
-3. Receiptant Admin Account
-4. An Account with impresenation access to all accounts in scope of the migration
+For O365:
+
+- Global Admin Account
+
+For On-Premises Exchange
+
+- Global Admin
+- A Exchange Admin with delegation access to all accounts in scope of the migration
+- An regular Account with delegation access to all accounts in scope of the migration
+
+For Hosted Exchange:
+
+- An regular account with delegation access to all accounts in scope of the migration
 
 #### Global Admin Account
 {: .no_toc }
