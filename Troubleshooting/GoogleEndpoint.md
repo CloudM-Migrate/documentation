@@ -50,10 +50,23 @@ Following the proper migration steps will help avoid a lot of this:
 - Delta migration with calendar, contacts
 
 ---
+### 400 Bad Request or 400 Invalid Sharing 
 
-### 500 error internal server error
+400 Bad Request a Google error and is typically caused by data that cannot be imported into Gmail for one of the following reasons:
 
-This error can occur when migrating to or from G Suite and the API requests being made by CloudMigrator are exceeding Google's rate limits.  
+- Blocked attachment types which are not allowed in Gmail per https://support.google.com/mail/answer/6590
+- Emails containing virus attachments
+- Emails not conforming to RFC 822 per https://www.ietf.org/rfc/rfc2822.txt
+
+**Also focusing on 400 Invalid Sharing**
+
+Resolve a 400 error: Invalid sharing request
+This error can occur for several reasons. To determine the limit that has been exceeded, evaluate the reason field of the returned JSON. This error most commonly occurs because:
+
+- Sharing succeeded, but the notification email was not correctly delivered.
+- The Access Control List (ACL) change is not allowed for this user.
+- The message field indicates the actual error.
+-  Sharing succeeded, but the notification email was not correctly delivered
 
 ---
 
@@ -72,3 +85,21 @@ For a 401 That particular error refers to the forwarding setting in a user's mai
 - Double check all usernames and password
 - Check that OAuth access is setup and enabled correctly
 - Ensure that the time on the workstation/server that is running the migration tool is correct
+
+---
+
+### 500 error internal server errors 
+
+This error can occur when migrating to or from G Suite and the API requests being made by CloudMigrator are exceeding Google's rate limits.  
+
+This error can occur when migrating to or from Google Workspace and the API requests being made by CloudM Migrate are exceeding Google's rate limits. This is the most likely scenario for a Backend Error [500], but there may be other causes. CloudM Migrate uses exponential backoff to minimise these errors, but on the rare occasion they do cause a failure in migration.
+
+Other Examples of 500 errors can include 
+
+- 500 Backend error
+- 502 Bad Gateway
+- 503 Service Unavailable
+- 504 Gateway Timeout
+
+These errors occur when an unexpected error arises while processing the request. This can be caused by various issues, including a request's timing overlapping with another request or a request for an unsupported action, such as attempting to update permissions for a single page in a Google Site instead of the site itself.
+The best course of action is the wait a 24 hours period for this to reset. 
