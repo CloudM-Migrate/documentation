@@ -11,7 +11,7 @@ This guide will show how to configure O365 as a source or destination endpoint.
 
 If you are planning a migration the approach matters and prepping your source and destination tenants is fundamental to project success. 
 
-CloudM Migrate will need to have the right settings to successfull connect to both the source and destination and those settings differ by endpoint type. All tenants require the following basics: 
+CloudM Migrate will need to have the right settings to successfully connect to both the source and destination and those settings differ by endpoint type. All tenants require the following basics: 
 
 - An account that can access the data. 
 - The source or destination location of that data. 
