@@ -26,9 +26,25 @@ nav_order: 2
 
 You should ensure that the <a href="https://developers.google.com/workspace/guides/configure-oauth-consent">Configure the OAuth consent screen</a> and the API Scopes added in the admin console.
 
+- 403 error: The user does not have sufficient permissions for file {fileId}
+A insufficientFilePermissions error occurs when the user doesn't have write access to a file, and your app is attempting to modify the file.
+To fix this error, instruct the user to contact the file's owner and request edit access. You can also check user access levels in the metadata retrieved by files.get and display a read-only UI when permissions are missing.
+
+An error 403 occurs when a usage limit has been exceeded or the user doesn't have the correct privileges. To determine the specific type of error. This error occurs for the following situations:
+
+- The daily limit was exceeded.
+- The user rate limit was exceeded.
+- The project rate limit was exceeded.
+- The sharing rate limit was exceeded.
+- The user hasn't granted your app rights to a file.
+- The user doesn't have sufficient permissions for a file.
+- Your app can't be used within the signed in user's domain.
+- Number of items in a folder was exceeded.
+- For information on Drive API limits, refer to Usage limits. For information on Drive folder limits, refer to Folder limits in Google Drive.
+
 ---
 
-### File Not Found: (404) Forbidden
+### 404 error: File not found
 
  404 error is "File not found." This can happen when a file is deleted or there is an error in a hyperlink. It can also happen if a file is copied and the original deleted. The new file will have a new address and previous links will not work.
  
@@ -85,6 +101,13 @@ For a 401 That particular error refers to the forwarding setting in a user's mai
 - Double check all usernames and password
 - Check that OAuth access is setup and enabled correctly
 - Ensure that the time on the workstation/server that is running the migration tool is correct
+---
+
+### 429 error: Too many requests
+
+A rate LimitExceeded error occurs when the user has sent too many requests in a given amount of time
+
+To fix this error, use exponential backoff to retry the request.
 
 ---
 
