@@ -57,12 +57,12 @@ For O365:
 For On-Premises Exchange
 
 - Global Admin
-- A Exchange Admin with delegation access to all accounts in scope of the migration
-- An regular Account with delegation access to all accounts in scope of the migration
+- A Exchange Admin with <a href="https://support.microsoft.com/en-us/office/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926">delegate access</a> to all accounts in scope of the migration
+- An regular Account with <a href="https://support.microsoft.com/en-us/office/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926">delegate access</a> to all accounts in scope of the migration
 
 For Hosted Exchange:
 
-- An regular account with delegation access to all accounts in scope of the migration
+- An regular account with <a href="https://support.microsoft.com/en-us/office/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926">delegate access</a> to all accounts in scope of the migration
 
 #### Global Admin Account
 {: .no_toc }
