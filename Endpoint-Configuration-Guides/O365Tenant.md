@@ -5,7 +5,7 @@ parent: Endpoint Configuration Guides
 nav_order: 1
 ---
 
-## Office 365 
+## Office 365 Endpoint Configuration
 {: .no_toc }
 
 ---
