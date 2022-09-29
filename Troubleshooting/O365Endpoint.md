@@ -71,5 +71,3 @@ Run the connection test again.
 ### Migration Failed The remote server returned an error: (401) Unauthorized
 
 Ask if the admin has full access rights over the users account that is failing and to check credentials.
-
----
