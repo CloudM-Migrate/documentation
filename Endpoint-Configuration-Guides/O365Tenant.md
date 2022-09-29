@@ -52,7 +52,7 @@ Once the Azure Application is created, MFA can be renabled.
 
 ### Account Used
 
-In O365 the Global Admin account is needed to provide CloudM Migrate access to everything to everything in scope for migration. Once the Global Admin account is used to create the SaaS application it can be removed from CloudM Migrate. 
+In O365 the Global Admin account is needed to provide CloudM Migrate access to everything in scope for migration. Once the Global Admin account is used to create the SaaS application it can be removed from CloudM Migrate. 
 
 ### O365 Tenant ID
 
