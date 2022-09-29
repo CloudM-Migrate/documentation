@@ -46,7 +46,7 @@ For O365 this is defined by the following requirements:
 
 ClouldM Migrate uses Modern Authentication as a default. If Multi-Factor Authentication is enabled on the endpoint it'll need to be disabled temporarily or a PFX certificate has to be generated for access. As a destination it's recommended to disable MFA. 
 
-If O365 is the source and MFA can not be disabled the Azure Application used to perform migration can be created with a PowerShell script <a href="https://bitbucket.org/cloudsols/cloudm-public/src/main/Migrate/PowerShell/CreateAzureADApplication.ps1">CreateAzureADApplication.ps1</a>. This script will output a PFX Certificate that will need to be uploaded in CloudM Migate.
+If O365 is the source and MFA can not be disabled the Azure Application used to perform migration can be created with a PowerShell script <a href="https://bitbucket.org/cloudsols/cloudm-public/src/main/Migrate/PowerShell/CreateAzureADApplication.ps1">CreateAzureADApplication.ps1</a>. This script will output a PFX Certificate that will need to be uploaded to CloudM Migate.
 
 Once the Azure Application is created, MFA can be renabled. 
 
@@ -60,7 +60,7 @@ When you specify the domain CloudM Migrate can auto populate the Tenant ID. If i
 
 ### A Test Acount
 
-CloudM Migrate will test the connectivity with a Test Mailbox. Specify a typical mailbox with the migration scope. 
+CloudM Migrate will test the connectivity with a Test Mailbox. Specify a typical mailbox within the migration scope. 
 
 ### The SaaS to SaaS Access
 
