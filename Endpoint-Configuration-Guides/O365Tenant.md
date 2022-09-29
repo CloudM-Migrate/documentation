@@ -36,13 +36,13 @@ CloudM Migrate will need to have the right settings to successfully connect to b
 
 For O365 this is defined by the following requirements:
 
-- The Authenticaton Method
-- The Account Used
-- The O365 Tenant ID
-- A Test Acount
-- The SaaS to SaaS Access
+- Authenticaton Method
+- Account Used
+- O365 Tenant ID
+- Test Acount
+- SaaS to SaaS Access
 
-### The Authentication Method
+### Authentication Method
 
 ClouldM Migrate uses Modern Authentication as a default. If Multi-Factor Authentication is enabled on the endpoint it'll need to be disabled temporarily or a PFX certificate has to be generated for access. As a destination it's recommended to disable MFA. 
 
@@ -50,19 +50,19 @@ If O365 is the source and MFA can not be disabled the Azure Application used to 
 
 Once the Azure Application is created, MFA can be renabled. 
 
-### The Account Used
+### Account Used
 
 In O365 the Global Admin account is the needed to provide CloudM Migrate access to everything it needs. Once the Global Admin account is used to create the SaaS application it can be removed from CloudM Migrate. 
 
-### The O365 Tenant ID
+### O365 Tenant ID
 
 When you specify the domain CloudM Migrate can auto populate the Tenant ID. If it doesn't auto populate the Tenant ID can be found by in the <a href="https://learn.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id">Tenant Properties</a>
 
-### A Test Acount
+### Test Acount
 
 CloudM Migrate will test the connectivity with a Test Mailbox. Specify a typical mailbox within the migration scope. 
 
-### The SaaS to SaaS Access
+### SaaS to SaaS Access
 
 After completing the configuration of the source and destination endpoints a prompt to create the Azure AD Application will be avilable. Select this will begin a connectivity test to both endpoints. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
 
