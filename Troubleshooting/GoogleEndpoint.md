@@ -6,6 +6,11 @@ has_children: false
 nav_order: 2
 ---
 
+## Google Troubleshooting
+{: .no_toc }
+
+---
+
 <a name="top"></a>
 <details open markdown="block">
   <summary>
@@ -18,11 +23,7 @@ nav_order: 2
 
 ---
 
-## Google Troubleshooting
-{: .no_toc }
-
 ### The remote server returned an error: (403) Forbidden
-
 
 You should ensure that the <a href="https://developers.google.com/workspace/guides/configure-oauth-consent">Configure the OAuth consent screen</a> and the API Scopes added in the admin console.
 
@@ -49,7 +50,7 @@ An error 403 occurs when a usage limit has been exceeded or the user doesn't hav
  404 error is "File not found." This can happen when a file is deleted or there is an error in a hyperlink. It can also happen if a file is copied and the original deleted. The new file will have a new address and previous links will not work.
  
  ---
-**Migration failed: Unexpected exception processing import. Message is: Google.Apis.Requests.RequestError,File not found: 1mqirFN7_zXaNCeroDW5pJR7zHsGcOmiZ [404],Errors [, Message[File not found: 1mqirFN7_zXaNCeroDW5pJR7zHsGcOmiZ] Location[file - other]**
+**Migration failed: Unexpected exception processing import. Message is: Google.Apis.Requests.RequestError,File not found: FileGuid [404],Errors [, Message[File not found: ] Location[file - other]**
 
 This error usually means that after the permissions change the file no longer has permission to be added to one of its parent folders, often due to group membership reason[notFound] Domain[global],],
 
