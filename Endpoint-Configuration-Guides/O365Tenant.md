@@ -66,4 +66,4 @@ CloudM Migrate will test the connectivity with a Test Mailbox. Specify a typical
 
 After completing the configuration of the source and destination endpoints a prompt to create the Azure AD Application will be avilable. Select this will begin a connectivity test to both endpoints. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
 
-When both your endpoints are ready, read our Project Migration Guide for your endpoint combination and read how CloudM can be flexible to fit your requirements. 
+When both your endpoints are ready our Project Migration Guide for your endpoint combination can fill in the next steps toward project completion. 
