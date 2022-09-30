@@ -69,7 +69,6 @@ After completing the configuration of the source and destination endpoints a pro
 
 ### The Country of the Destination
 
-If O365 is the destination it important to set the country of the destination O365 is ClouydM Migrate as Azure blocks connections from outside the country. Go to Step 2 on the left and select Platform Configuration and Provisioning. Under the Usage Location select the country that will host the O365 tenant, this is defaulted to the United Kingdom. 
-
+If O365 is the destination it's important to set the country of the destination O365 tenant for ClouldM Migrate as Azure blocks connections from outside the country. Go to Step 2 on the left and select Platform Configuration and Provisioning. Under the Usage Location select the country that will host the O365 tenant, this is defaulted to the United Kingdom. 
 
 When both your endpoints are ready our Project Migration Guide for your endpoint combination can fill in the next steps toward project completion. 
