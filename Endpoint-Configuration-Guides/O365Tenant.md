@@ -33,15 +33,21 @@ CloudM Migrate will need to have the right settings to successfully connect to b
 - An account that can access the data
 - The source or destination location of that data
 - Environment to SaaS access rights for the transfer
+- What region should host the VM used to facilate the migration
 
 For O365 this is defined by the following requirements:
 
+- What Region for the Vitrual Machine
 - Authenticaton Method
 - Account Used
 - O365 Tenant ID
 - Test Acount
 - O365 to SaaS Access
 - The Country of the Destination
+
+### What Region for the Virtual Machine
+
+Upon receipt of the license for CloudM Migrate you'll have a link to access the application. When selecting the link a prompt will come up asking to choose which region of the world the migration will be performed for the purpose of define where the VM will be created. 
 
 ### Authentication Method
 
