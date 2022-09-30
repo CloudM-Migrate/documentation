@@ -10,7 +10,7 @@ nav_order: 3
 
 ---
 
-This guide will show how to configure Hosted Exchange as a source or destination endpoint. 
+This guide will show how to configure Hosted Exchange as a source endpoint. 
 
 If you are planning a migration the approach matters and prepping your source and destination tenants is fundamental to project success. 
 
