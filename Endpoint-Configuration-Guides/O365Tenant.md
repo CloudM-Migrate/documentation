@@ -14,6 +14,15 @@ This guide will show how to configure Office 365 as a source or destination endp
 
 If you are planning a migration the approach matters and prepping your source and destination tenants is fundamental to project success. 
 
+CloudM Migrate will need to have the right settings to successfully connect to both the source and destination and those settings differ by endpoint type. All endpoints require the following basics: 
+
+- An account that can access the data
+- The source or destination location of that data
+- Environment to SaaS access rights for the transfer
+- What region should host the VM used to facilate the migration
+
+For O365 this is defined by the following requirements:
+
 ---
 
 <a name="top"></a>
@@ -28,22 +37,7 @@ If you are planning a migration the approach matters and prepping your source an
 
 ---
 
-CloudM Migrate will need to have the right settings to successfully connect to both the source and destination and those settings differ by endpoint type. All endpoints require the following basics: 
 
-- An account that can access the data
-- The source or destination location of that data
-- Environment to SaaS access rights for the transfer
-- What region should host the VM used to facilate the migration
-
-For O365 this is defined by the following requirements:
-
-- What Region for the Vitrual Machine
-- Authenticaton Method
-- Account Used
-- O365 Tenant ID
-- Test Acount
-- O365 to SaaS Access Validation
-- The Country of the Destination
 
 ### What Region for the Virtual Machine
 
