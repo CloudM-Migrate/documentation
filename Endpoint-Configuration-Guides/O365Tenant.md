@@ -69,17 +69,19 @@ Once the Azure Application is created, MFA can be renabled.
 
 For reference purposes, here is what the application will give itself access to:
 
-75359482-378d-4052-8f01-80520e7db3cd Read and write files in all site collections
-5b567255-7703-4780-807c-7be8301ae99b Read all groups    
-62a82d76-70ea-41e2-9197-370581804d09 Read and write all groups 
-e2a3a72e-5f79-4c64-b1b1-878b674786c9 Read and write mail in all mailboxes   
-3aeca27b-ee3a-4c2b-8ded-80376e2134a4 Read all notes 
-9492366f-7969-46a4-8d15-ed1a20078fff Read and write all Sites
-df021288-bdef-4463-88db-98f22de89214 Read all users' full profiles   
-913b9306-0ce1-42b8-9137-6a7df690a760 Read all place
-35930dcf-aceb-4bd1-b99a-8ffed403c974 Read and write all ChannelMember
-7ab1d382-f21e-4acd-a863-ba3e13f7da61 Read directory data                                   
-294ce7c9-31ba-490a-ad7d-97a7d075e4ed Read and write all Chat 
+| GUID | Description | 
+|---|---|
+| 75359482-378d-4052-8f01-80520e7db3cd | Read and write files in all site collections |
+5b567255-7703-4780-807c-7be8301ae99b | Read all groups    
+62a82d76-70ea-41e2-9197-370581804d09 | Read and write all groups 
+e2a3a72e-5f79-4c64-b1b1-878b674786c9 | Read and write mail in all mailboxes   
+3aeca27b-ee3a-4c2b-8ded-80376e2134a4 | Read all notes 
+9492366f-7969-46a4-8d15-ed1a20078fff | Read and write all Sites
+df021288-bdef-4463-88db-98f22de89214 | Read all users' full profiles   
+913b9306-0ce1-42b8-9137-6a7df690a760 | Read all place
+35930dcf-aceb-4bd1-b99a-8ffed403c974 | Read and write all ChannelMember
+7ab1d382-f21e-4acd-a863-ba3e13f7da61 | Read directory data                                   
+294ce7c9-31ba-490a-ad7d-97a7d075e4ed | Read and write all Chat 
 
 ### The Country of the Destination
 
