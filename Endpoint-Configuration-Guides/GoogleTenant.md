@@ -36,3 +36,18 @@ For Goolge this is defined by the following requirements:
 </details>
 
 ---
+
+### What Region for the Virtual Machine
+
+Upon receipt of the license for CloudM Migrate you'll have a link to access the application. When selecting the link a prompt will come up asking to choose which region of the world the migration will be performed for the purpose of landing the VM. Select the region closest to the desintation. 
+
+### Authentication Method
+
+Google endpoints are accessed by a Super Admin account. 
+
+### Service Account
+
+### Service Account Scopes
+
+### Service Account P12 Access Key
+
