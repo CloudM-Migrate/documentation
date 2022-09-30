@@ -63,7 +63,7 @@ CloudM Migrate will test the connectivity with a Test Mailbox. Specify a typical
 
 ### O365 to SaaS Access
 
-After completing the configuration of the O365 as source and/or destination endpoint(s) a prompt to create the Azure AD Application will be avilable. Select this to begin creation and connectivity testing of the Application used to access the tenant. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
+After completing the configuration of the O365 as source and/or destination endpoint(s) a prompt to create the Azure AD Application will be avialable. Select this to begin the application creation and the connectivity testing to the tenant. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
 
 Once the Azure Application is created, MFA can be renabled. 
 
