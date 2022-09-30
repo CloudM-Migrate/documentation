@@ -2,7 +2,7 @@
 layout: default
 title: Google
 parent: Endpoint Configuration Guides
-nav_order: 1
+nav_order: 2
 ---
 
 ## Google Endpoint Configuration
