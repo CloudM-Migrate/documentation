@@ -71,7 +71,5 @@ The whole process can be performed via a PowerShell script.
 12. You can now add the Service Account email to CloudM Migrate. 
 13. The P12 Access key will be located under C:\CloudM\GCPConfig and can be uploaded into CloudM Migrate. 
 
-### Service Account Scopes
-
-### Service Account P12 Access Key
+:warning: Replication can cause a delay of 2 hours before these can be used to migrate data. 
 
