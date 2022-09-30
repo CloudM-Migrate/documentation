@@ -48,6 +48,8 @@ ClouldM Migrate uses Modern Authentication as a default. If Multi-Factor Authent
 
 If O365 is the source and MFA can not be disabled the Azure Application used to perform migration can be created with a PowerShell script <a href="https://bitbucket.org/cloudsols/cloudm-public/src/main/Migrate/PowerShell/CreateAzureADApplication.ps1">CreateAzureADApplication.ps1</a>. This script will output a PFX Certificate that will need to be uploaded to CloudM Migate.
 
+Once the Azure Application is created, MFA can be renabled. 
+
 ### Account Used
 
 In O365 the Global Admin account is needed to provide CloudM Migrate access to everything in scope for migration. Once the Global Admin account is used to create the SaaS application it can be removed from CloudM Migrate. 
@@ -67,8 +69,6 @@ If O365 is the destination it's important to set the country of the destination 
 ### O365 to SaaS Access
 
 After completing the configuration of the O365 as source and/or destination endpoint(s) a prompt to create the Azure AD Application will be avialable. Select this to begin the application creation and the connectivity testing to the tenant. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
-
-Once the Azure Application is created, MFA can be renabled. 
 
 For reference purposes, here is what the application will give itself access to:
 
