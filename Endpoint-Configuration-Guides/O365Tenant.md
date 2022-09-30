@@ -32,7 +32,7 @@ CloudM Migrate will need to have the right settings to successfully connect to b
 
 - An account that can access the data
 - The source or destination location of that data
-- SaaS to SaaS access rights for the transfer
+- Environment to SaaS access rights for the transfer
 
 For O365 this is defined by the following requirements:
 
