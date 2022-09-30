@@ -40,7 +40,7 @@ For O365 this is defined by the following requirements:
 - Account Used
 - O365 Tenant ID
 - Test Acount
-- SaaS to SaaS Access
+- O365 to SaaS Access
 - The Country of the Destination
 
 ### Authentication Method
@@ -63,7 +63,7 @@ When you specify the domain CloudM Migrate can auto populate the Tenant ID. If i
 
 CloudM Migrate will test the connectivity with a Test Mailbox. Specify a typical mailbox within the migration scope. 
 
-### SaaS to SaaS Access
+### O365 to SaaS Access
 
 After completing the configuration of the source and destination endpoints a prompt to create the Azure AD Application will be avilable. Select this will begin a connectivity test to both endpoints. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
 
