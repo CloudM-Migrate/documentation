@@ -37,8 +37,6 @@ For O365 this is defined by the following requirements:
 
 ---
 
-
-
 ### What Region for the Virtual Machine
 
 Upon receipt of the license for CloudM Migrate you'll have a link to access the application. When selecting the link a prompt will come up asking to choose which region of the world the migration will be performed for the purpose of landing the VM. Select the region closest to the desintation. 
@@ -62,6 +60,10 @@ When you specify the domain CloudM Migrate can auto populate the Tenant ID. If i
 
 CloudM Migrate will test the connectivity with a Test Mailbox. Specify a typical mailbox within the migration scope. 
 
+### The Country of the Destination
+
+If O365 is the destination it's important to set the country of the destination O365 tenant for ClouldM Migrate as Azure blocks connections from outside the country. Go to Step 2 on the left and select Platform Configuration and Provisioning. Under the Usage Location select the country that will host the O365 tenant, this is defaulted to the United Kingdom. 
+
 ### O365 to SaaS Access
 
 After completing the configuration of the O365 as source and/or destination endpoint(s) a prompt to create the Azure AD Application will be avialable. Select this to begin the application creation and the connectivity testing to the tenant. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
@@ -83,9 +85,5 @@ df021288-bdef-4463-88db-98f22de89214 | Read all users' full profiles
 35930dcf-aceb-4bd1-b99a-8ffed403c974 | Read and write all ChannelMember
 7ab1d382-f21e-4acd-a863-ba3e13f7da61 | Read directory data                                   
 294ce7c9-31ba-490a-ad7d-97a7d075e4ed | Read and write all Chat 
-
-### The Country of the Destination
-
-If O365 is the destination it's important to set the country of the destination O365 tenant for ClouldM Migrate as Azure blocks connections from outside the country. Go to Step 2 on the left and select Platform Configuration and Provisioning. Under the Usage Location select the country that will host the O365 tenant, this is defaulted to the United Kingdom. 
 
 When both your endpoints are ready our Project Migration Guide for your endpoint combination can fill in the next steps toward project completion. 
