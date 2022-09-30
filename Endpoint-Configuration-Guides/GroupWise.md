@@ -2,7 +2,7 @@
 layout: default
 title: GroupWise
 parent: Endpoint Configuration Guides
-nav_order: 1
+nav_order: 4
 ---
 
 ## GroupWise Endpoint Configuration
