@@ -42,7 +42,7 @@ For O365 this is defined by the following requirements:
 - Account Used
 - O365 Tenant ID
 - Test Acount
-- O365 to SaaS Access
+- O365 to SaaS Access Validation
 - The Country of the Destination
 
 ### What Region for the Virtual Machine
@@ -54,8 +54,6 @@ Upon receipt of the license for CloudM Migrate you'll have a link to access the 
 ClouldM Migrate uses Modern Authentication as a default. If Multi-Factor Authentication is enabled on the endpoint it'll need to be disabled temporarily or a PFX certificate has to be generated for access. As a destination it's recommended to disable MFA. 
 
 If O365 is the source and MFA can not be disabled the Azure Application used to perform migration can be created with a PowerShell script <a href="https://bitbucket.org/cloudsols/cloudm-public/src/main/Migrate/PowerShell/CreateAzureADApplication.ps1">CreateAzureADApplication.ps1</a>. This script will output a PFX Certificate that will need to be uploaded to CloudM Migate.
-
-Once the Azure Application is created, MFA can be renabled. 
 
 ### Account Used
 
@@ -71,7 +69,9 @@ CloudM Migrate will test the connectivity with a Test Mailbox. Specify a typical
 
 ### O365 to SaaS Access
 
-After completing the configuration of the source and destination endpoints a prompt to create the Azure AD Application will be avilable. Select this will begin a connectivity test to both endpoints. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
+After completing the configuration of the O365 as source and/or destination endpoint(s) a prompt to create the Azure AD Application will be avilable. Select this to begin creation and connectivity testing of the Application used to access the tenant. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
+
+Once the Azure Application is created, MFA can be renabled. 
 
 ### The Country of the Destination
 
