@@ -13,7 +13,7 @@ This site will contain the technical documentation for [CloudM Migrate](https://
 ---
 
 {: .new }
-21/9/22 - V1 Engineering Reference Completed. 
+30/9/22 - V1 O365 and Google Endpoint Guides Completed. 
 
 ---
 
