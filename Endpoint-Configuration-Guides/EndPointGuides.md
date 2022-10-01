@@ -16,4 +16,4 @@ CloudM Migrate will need to have the right settings to successfully connect to b
 - Environment to SaaS access rights for the transfer
 - What region should host the VM used to facilate the migration
 
-Select your endpoint for specific requirments.
+Select your endpoint for specific requirments:
