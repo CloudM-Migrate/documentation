@@ -12,7 +12,7 @@ nav_order: 20
 
 This guide will show how to configure Azure Storage as a source or destination endpoint. 
 
-For Azure Storage this is defined by the following requirements:
+CloudM Migrate has the following requirments for Azure Storage as a source:
 
 <a name="top"></a>
 <details open markdown="block">
