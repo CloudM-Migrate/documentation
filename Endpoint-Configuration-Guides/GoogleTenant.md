@@ -70,4 +70,3 @@ The whole process can be performed via a PowerShell script.
 13. The P12 Access key will be located under C:\CloudM\GCPConfig and can be uploaded into CloudM Migrate. 
 
 **NOTE:** Replication can cause a delay of 2 hours before these can be used to migrate data. 
-
