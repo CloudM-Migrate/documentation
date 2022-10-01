@@ -23,8 +23,6 @@ CloudM Migrate will need to have the right settings to successfully connect to b
 
 For O365 this is defined by the following requirements:
 
----
-
 <a name="top"></a>
 <details open markdown="block">
   <summary>
