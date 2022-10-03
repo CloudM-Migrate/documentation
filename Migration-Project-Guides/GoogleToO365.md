@@ -11,7 +11,7 @@ has_toc: false
 ## Google to O365
 {: .no_toc }
 
-Before starting your migration project, make sure you have have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">O365</a> using their repective configuration guides. 
+Before starting your migration project, make sure you have have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">O365</a> using their repective configuration guides. Both have passed their connectivity tests with no errors. 
 
 This guide will present the steps nessescary to perform a migration with relating child documents on each data type. 
 
@@ -33,8 +33,12 @@ On Step 4 on the left, select the Add items to migrate for options on how to col
 
 - Get items from source - This is fetch where CloudM Migrate will attempt to list all supported items within scope. 
 - Bulk add/import items - Provide CloudM Migrate a <a href="https://github.com/CloudM-Migrate/documentation/blob/main/assets/bulkimport.csv">CSV</a> of targeted items. 
+- Add User - Add a specific user to the project. 
+- Add Resource -  
+- Add Shared Drive - Add a file share to the project.
+- Add Group - 
 
-
+It's recommended to select Get items from source. 
 
 ### Creating a Batch
 
