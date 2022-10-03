@@ -1,0 +1,3 @@
+﻿Migrate,Priority,Id,ParentNodeId,ExportObjectType,ImportObjectType,ExportName,ImportName,GivenName,FamilyName,Password,ArchivePath,DocumentsPath,DocumentsDestinationPath,MigrateMail,MigrateContacts,MigrateCalendar,MigrateDrive,MigrateSites,MigrateTasks,MigrateChannels,MigrateGoogleChat,ExportObjectRef,ImportObjectRef,MigrateNotes
+True,False,85f53d94-5e1c-4a0d-b199-1eee8bf84779,,User,User,user1,user1,User,One,,,,,True,False,False,True,False,False,False,False,,,False
+True,False,772d0fb4-7037-4f2a-90d4-d008cea0e30f,,User,User,user2,user2,User,Two,,,,,True,False,True,True,False,True,False,False,,,False
