@@ -29,6 +29,13 @@ This guide will present the steps nessescary to perform a migration with relatin
 
 ### Adding Users
 
+On Step 4 on the left, select the Add items to migrate for options on how to collect targeted items to migrate from Google. The following options will be avilable:
+
+- Get items from source - This is fetch where CloudM Migrate will attempt to list all supported items within scope. 
+- Bulk add/import items - Provide CloudM Migrate a <a href="https://github.com/CloudM-Migrate/documentation/blob/main/assets/bulkimport.csv">CSV</a> of targeted items. 
+
+
+
 ### Creating a Batch
 
 ### Start Migration
