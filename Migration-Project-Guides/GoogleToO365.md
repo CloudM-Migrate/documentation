@@ -13,6 +13,18 @@ Before starting your migration project, make sure you have have setup <a href="h
 
 This guide will present the steps nessescary to perform a migration with relating child documents on each data type. 
 
+<a name="top"></a>
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
+
 ### Adding Users
 
 ### Creating a Batch
