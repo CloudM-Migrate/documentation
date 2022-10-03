@@ -13,7 +13,7 @@ has_toc: false
 
 Before starting your migration project, make sure you have have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">O365</a> using their repective configuration guides. Both have passed their connectivity tests with no errors. 
 
-This guide will present the steps nessescary to perform a migration with relating child documents on each data type. 
+This guide will present the steps nessescary to perform a migration with relating child documents on each data type. There are many options for customizing the migration but for the purposes of this guide it's assumed this is a typical full migration. 
 
 <a name="top"></a>
 <details open markdown="block">
@@ -38,7 +38,7 @@ On Step 3 on the left, select the Add items to migrate for options on how to col
 - Add Shared Drive - Add a file share to the project.
 - Add Group - 
 
-It's recommended to select Get items from source and allow CloudM Migrate to fetch all items in scope. There are many options for customizing the migration but for the purposes of this guide it's assumed this is a typical full migration. 
+It's recommended to select Get items from source and allow CloudM Migrate to fetch all items in scope. Select the Checkbox column header and select Select All. Select the Migrate column header and select Migrate Selected. 
 
 ### Creating a Batch
 
