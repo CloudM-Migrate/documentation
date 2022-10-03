@@ -42,6 +42,10 @@ It's recommended to select Get items from source.
 
 ### Creating a Batch
 
+#### Date Ranges
+
+#### Address Replacement
+
 ### Start Migration
 
 ### Statistics and Summary
