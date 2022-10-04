@@ -138,7 +138,7 @@ Default Value: None
 
 Optionally place all failed truncated folders in the specified 'Orphan Items Folder'. Leave empty to fail migration if folders can not be truncated.
 
-Change Conditions: ??
+Change Conditions: This option much be set to a foldername in order to relocate files with paths longer then 400 characters. If not set, this will be an error item during the migration. 
 
 ### Provision Sites Timeout Check <a name="provsitetime"></a>
 {: .no_toc }
