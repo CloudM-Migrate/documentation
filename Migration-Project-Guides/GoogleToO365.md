@@ -13,7 +13,7 @@ has_toc: false
 
 Before starting your migration project, make sure you have have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">O365</a> using their repective configuration guides. Both have passed their connectivity tests with no errors. 
 
-This guide will present the steps nessescary to perform a migration with relating child documents on each data type. There are many options for customizing the migration but for the purposes of this guide it's assumed this is a typical full migration. 
+There are many options for customizing the migration but for the purposes of this guide it's assumed this is a typical full migration. 
 
 <a name="top"></a>
 <details open markdown="block">
@@ -40,7 +40,14 @@ On Step 3 on the left, select the Add items to migrate for options on how to col
 
 ### Scanning the Source 
 
-It's recommended to perform a scan against your Google source environment to proactively look for problems. While in CloudM Migrate select Step 5 on the left and then select Start. Depeending on the size of the envornment 
+It's recommended to perform a scan against your Google source environment to proactively look for problems. While in CloudM Migrate select Step 5 on the left and then select Start. Depeending on the size of the envornment this can take some time to complete. When complete select Export Scan Results to download a zip of the scan results. 
+
+The import files to check are the FileScanReport.html and MailScanReport.html. Important errors to look for are:
+
+- Path Contains too many characters. These can be corrected before the migration or use the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#trunfoldfil">Truncate Folders and Files</a> option which is on be default and set the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#orphfold">Orphaned Items Folder</a> field to a target folder name.
+
+
+
 
 Go to Step 5. do the scan. open the file info, look for red users and solve the issues that are found. trncate long folder paths, dead users objects, external file shares. 
 
