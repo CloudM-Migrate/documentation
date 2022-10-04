@@ -23,7 +23,7 @@ nav_order: 2
 
 ---
 
-### The remote server returned an error: (403) Forbidden
+###  403 Forbidden: The remote server returned an error
 
 You should ensure that the <a href="https://developers.google.com/workspace/guides/configure-oauth-consent">Configure the OAuth consent screen</a> and the API Scopes added in the admin console.
 
@@ -45,7 +45,7 @@ An error 403 occurs when a usage limit has been exceeded or the user doesn't hav
 
 ---
 
-### 404 error: File not found
+### 404 error: File not found.
 
  404 error is "File not found." This can happen when a file is deleted or there is an error in a hyperlink. It can also happen if a file is copied and the original deleted. The new file will have a new address and previous links will not work.
  
@@ -67,7 +67,7 @@ Following the proper migration steps will help avoid a lot of this:
 - Delta migration with calendar, contacts
 
 ---
-### 400 Bad Request or 400 Invalid Sharing 
+### 400 error: Bad Request. 
 
 400 Bad Request a Google error and is typically caused by data that cannot be imported into Gmail for one of the following reasons:
 
@@ -87,13 +87,15 @@ This error can occur for several reasons. To determine the limit that has been e
 
 ---
 
-### Insufficient Permission 403 or 401 
+### 403 Error: Insufficient Permissions.
 
 This error for example is happening on Google Import, indicating that there is an issue with permissions in either for the service account or API Scopes.  Can you make sure that all the scopes have been added to the service account and that your API's all have been enabled?  Also, check if you have the Admin SDK API enabled. This sometimes causes the issue. For reason in the logs for every failure states " “ Not retrying Forbidden[403] error,”
 
 
 Not retrying Forbidden[403] error Google.Apis.Requests.RequestError Insufficient Permission [403] Errors [ Message[Insufficient Permission] Location[ - ] Reason[insufficientPermissions] Domain[global] ]
 
+---
+### 401 Error: Invalid credentials.
 
 For a 401 That particular error refers to the forwarding setting in a user's mailbox, for example when they are on holiday, to forward their mail to another member of staff. The error simply means there has been no forwarding instructions set up on the account. It can be ignored, but the way to get rid of it would be to set up account forwarding in the destination. 
 
@@ -105,7 +107,7 @@ For a 401 That particular error refers to the forwarding setting in a user's mai
 
 ---
 
-### 429 error: Too many requests
+### 429 Error: Too many requests.
 
 A rate LimitExceeded error occurs when the user has sent too many requests in a given amount of time
 
@@ -113,7 +115,7 @@ To fix this error, use exponential backoff to retry the request.
 
 ---
 
-### 500 error internal server errors 
+### 500 Error: Internal server.
 
 This error can occur when migrating to or from G Suite and the API requests being made by CloudMigrator are exceeding Google's rate limits.  
 
