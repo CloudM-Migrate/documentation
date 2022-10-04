@@ -40,6 +40,8 @@ On Step 3 on the left, select the Add items to migrate for options on how to col
 
 ### Scanning the Source 
 
+It's recommended to perform a scan against your Google source environment to proactively look for problems. While in CloudM Migrate select Step 5 on the left and then select Start. Depeending on the size of the envornment 
+
 Go to Step 5. do the scan. open the file info, look for red users and solve the issues that are found. trncate long folder paths, dead users objects, external file shares. 
 
 ### Purchasing Licensing for O365
@@ -90,6 +92,6 @@ Use filter to select the shared drives.
 
 ### Cutover 
 
-#### Delta Sync
+### Delta Sync
 
 ### Statistics and Summary
