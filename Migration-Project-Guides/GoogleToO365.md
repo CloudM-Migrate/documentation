@@ -42,42 +42,39 @@ On Step 3 on the left, select the Add items to migrate for options on how to col
 
 It's recommended to perform a scan against your Google source environment to proactively look for problems. While in CloudM Migrate select Step 5 on the left and then select Start. Depeending on the size of the envornment this can take some time to complete. When complete select Export Scan Results to download a zip of the scan results. 
 
-The import files to check are the FileScanReport.html and MailScanReport.html. Important errors to look for are:
+The import files to check are the FileScanReport.html and MailScanReport.html. Users that have items errors are highlighted in red. Important errors to look for are:
 
-- Path Contains too many characters. These can be corrected before the migration or use the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#trunfoldfil">Truncate Folders and Files</a> option which is on be default and set the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#orphfold">Orphaned Items Folder</a> field to a target folder name.
+- Path Contains too many characters. These can be corrected before the migration or use the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#trunfoldfil">Truncate Folders and Files</a> option which is on by default and set the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#orphfold">Orphaned Items Folder</a> field to a target folder name.
+- Dead User Objects. 
+- External File Shares. 
 
+### Purchasing Licenses for O365
 
+The scan will also help determine the exact license purchase for O365. It's recommend to purchase licensing and provision OneDrive and SharePoint before migrating. 
 
+### Setting the Domain on the O365 Tenant
 
-Go to Step 5. do the scan. open the file info, look for red users and solve the issues that are found. trncate long folder paths, dead users objects, external file shares. 
+For Google to O365 use the target vanity domain when configuring your destination name regardless if it's different from source or not. 
 
-### Purchasing Licensing for O365
+<a href="https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-domain?view=o365-worldwide">Add a domain to Microsoft 365</a>
 
-Number of users based on scan. Type isup to them. 
+### Create Users in O365
 
-If it's using the same domain, you can place the vanity domain in the destination. 
-
-### Setting the domain on the O365 tenant
-
-Technet Article 
-
-### Create Users in Desitnation
-
-Technet article
+<a href="https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/add-users?view=o365-worldwide">Add users and assign licenses at the same time</a>
 
 ### Provision OneDrive
 
-Technet article
+<a href="https://learn.microsoft.com/en-us/onedrive/pre-provision-accounts">Pre-provision OneDrive for users in your organization</a>
 
-### Provision Archives for users 
+### Provision O365 Archives  
  
-Technet Article 
+<a href="https://learn.microsoft.com/en-us/microsoft-365/compliance/enable-archive-mailboxes?view=o365-worldwide">Enable archive mailboxes for Microsoft 365</a>
 
-### Address Replacement for different alias 
+### Address Replacement for Different Alias 
 
-If you want to change the alias on destination. Change in the user list, step 3. 
+If you want to change the alias on O365 destination to fit a new naming convention. Change in the user list, step 3. Export. 
 
-Also change in advance project settings, stop getting confused, this is only alias. 
+Also change in advance project settings under address replacement. 
 
 ## Start Migration
 
