@@ -9,4 +9,4 @@ nav_order: 3
 
 Purchasing licenses for Google to O365 for the same vanity domain is done by the vanity domain. 
 
-Purchasing licenses for 0365 to 0365 for the same vanity domain is done by onmicrosoft.com.
+Purchasing licenses for O365 to O365 for the same vanity domain is done by onmicrosoft.com.
