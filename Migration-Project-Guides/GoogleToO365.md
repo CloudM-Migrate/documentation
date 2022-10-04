@@ -38,14 +38,58 @@ On Step 3 on the left, select the Add items to migrate for options on how to col
 - Add Shared Drive - Add a file share to the project.
 - Add Group - 
 
-It's recommended to select Get items from source and allow CloudM Migrate to fetch all items in scope. Select the Checkbox column header and select Select All. Select the Migrate column header and select Migrate Selected. 
+### Scanning the Source 
 
-### Creating a Batch
+Go to Step 5. do the scan. open the file info, look for red users and solve the issues that are found. trncate long folder paths, dead users objects, external file shares. 
 
-#### Date Ranges
+### Purchasing Licensing for O365
 
-#### Address Replacement
+Number of users based on scan. Type isup to them. 
 
-### Start Migration
+If it's using the same domain, you can place the vanity domain in the destination. 
+
+### Setting the domain on the O365 tenant
+
+Technet Article 
+
+### Create Users in Desitnation
+
+Technet article
+
+### Provision OneDrive
+
+Technet article
+
+### Provision Archives for users 
+ 
+Technet Article 
+
+### Address Replacement for different alias 
+
+If you want to change the alias on destination. Change in the user list, step 3. 
+
+Also change in advance project settings, stop getting confused, this is only alias. 
+
+## Start Migration
+
+### Creating the first Batch
+
+It's recommended to do email and documents in your first batch after waiting 24 hours after provisioning them. 
+
+Link to sub document for the settings
+
+#### Date Ranges First Batch
+
+We also recommend specifiy the date range of every older then the last 30 days. 
+
+Link to sub document for the settings
+
+### Second Batch Shared Drive to Sharepoint 
+
+Use filter to select the shared drives. 
+
+### Cutover 
+
+#### Delta Sync
 
 ### Statistics and Summary
