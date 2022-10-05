@@ -46,7 +46,7 @@ In O365 the Global Admin account is needed to provide CloudM Migrate access to e
 
 When you specify the domain CloudM Migrate can auto populate the Tenant ID. If it doesn't auto populate the Tenant ID can be found by in the <a href="https://learn.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id">Tenant Properties</a>.
 
-### Test Acount
+### Test Account
 
 CloudM Migrate will test the connectivity with a Test Mailbox. Specify a typical mailbox within the migration scope. 
 
@@ -56,7 +56,7 @@ If O365 is the destination it's important to set the country of the destination 
 
 ### O365 to SaaS Access
 
-After completing the configuration of the O365 as source and/or destination endpoint(s) a prompt to create the Azure AD Application will be avialable. Select this to begin the application creation and the connectivity testing to the tenant. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
+After completing the configuration of the O365 as source and/or destination endpoint(s) a prompt to create the Azure AD Application will be available. Select this to begin the application creation and the connectivity testing to the tenant. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
 
 For reference purposes, here is what the application will give itself access to:
 
