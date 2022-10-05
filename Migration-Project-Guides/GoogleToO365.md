@@ -79,17 +79,16 @@ Also change in advance project settings under address replacement.
 
 ## Start Migration
 
+There are multiple approaches available to migrating data with CloudM Migrate. The following approach will prestage email and documents older then 30 days as a first batch. The second batch migrates all Shared Drive content to SharePoint. The Delta Sync for recent data can be performed after DNS cutover for a complete lossless migration. 
+
 ### Creating the first Batch
 
-It's recommended to do email and documents in your first batch after waiting 24 hours after provisioning them. 
+It's recommended to wait at least 24 hours post-provisioning the destination before you start migrating data. 
 
-Link to sub document for the settings
+Select all users in scope on Step 3 using the first column header. Select the Migrate column header to enable all users to migrate. 
 
 #### Date Ranges First Batch
 
-We also recommend specifiy the date range of every older then the last 30 days. 
-
-Link to sub document for the settings
 
 ### Second Batch Shared Drive to Sharepoint 
 
