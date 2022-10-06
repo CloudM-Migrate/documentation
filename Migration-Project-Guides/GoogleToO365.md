@@ -8,13 +8,13 @@ has_toc: false
 
 ---
 
-## Google to O365
+## Google to O365 - Up to 2000 Users
 {: .no_toc }
 
 
 Before starting your migration project, make sure you have have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">O365</a> using their repective configuration guides. Both have passed their connectivity tests with no errors. 
 
-There are many options for customizing the migration but for the purposes of this guide it's assumed this is a typical full migration. 
+There are many options for customizing the migration, this guide will outline a user migration. 
 
 <a name="top"></a>
 <details open markdown="block">
@@ -41,13 +41,13 @@ On Step 3 on the left, select the Add items to migrate for options on how to col
 
 ### Scanning the Source 
 
-It's recommended to perform a scan against your Google source environment to proactively look for problems. While in CloudM Migrate select Step 5 on the left and then select Start. Depeending on the size of the envornment this can take some time to complete. When complete select Export Scan Results to download a zip of the scan results. 
+It's recommended to perform a scan against your Google source environment to proactively look for problems. While in CloudM Migrate select Step 5 on the left and then select Start. Depending on the size of the envornment this can take some time to complete. When complete select Export Scan Results to download a zip of the scan results. 
 
 The important files to check are the FileScanReport.html and MailScanReport.html. Users that have items errors are highlighted in red. Important errors to look for are:
 
 - Path Contains too many characters. These can be corrected before the migration or use the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#trunfoldfil">Truncate Folders and Files</a> option which is on by default and set the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#orphfold">Orphaned Items Folder</a> field to a target folder name.
-- Dead User Objects. 
-- External File Shares. 
+- Dead User Objects. Files owned by non-exisitnact accounts. 
+- External File Shares. Items CloudM Migrate can not migrate as they are exeternal to the environment. 
 
 ### Purchasing Licenses for O365
 
@@ -58,6 +58,8 @@ The scan will also help determine the exact license purchase for O365. It's reco
 For Google to O365 use the target vanity domain when configuring your destination name regardless if it's different from source or not. 
 
 <a href="https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-domain?view=o365-worldwide">Add a domain to Microsoft 365</a>
+
+Now is a good time to lower the TTL value for all mail related DNS records such as MX and SPF. 
 
 ### Create Users in O365
 
@@ -73,7 +75,7 @@ For Google to O365 use the target vanity domain when configuring your destinatio
 
 ### Address Replacement for Different Alias 
 
-If there is a need to change the alias on the O365 destination to fit a new naming convention this can be accomplished using the Export items function. This will export the user list to a CSV and the ImportName column changed to the new alias naming convention. 
+If there is a need to change the alias on the O365 destination to fit a new naming convention this can be accomplished using the Export items button. This will export the user list to a CSV and you can change the ImportName column value by user to the new alias naming convention. 
 
 Once the CSV has been updated to the new naming convention, re-import it into CloudM Migrate by using Add items to migrate and then selecting Bulk add/import items. This will overwrite the current user list and now show the new alias under the ImportName column. 
 
@@ -83,13 +85,19 @@ If the aliases are changing the CSV will also need to be uploaded to perserve pe
 
 There are multiple approaches available to migrating data with CloudM Migrate. The following approach will prestage email and documents older then 30 days as a  batch. This will be followed by a Delta Sync for recent data after DNS cutover for a complete lossless migration. 
 
+This apporach eliminates user confusion from recent items being moved as they created and catagorized. The result will be a more accurate account of recent changes on the destination. CloudM Migrate doesn't duplicate emails or documents. 
+
+Once an email is migrated it is not moved again or updated on the destination even if it has changed on the source. 
+
+Documents are not duplicated, but maybe overwritten based on either the Creation Date or Modified Date. 
+
 ### Creating the First Batch
 
-It's recommended to wait at least 24 hours post-provisioning the destination before you start migrating data. 
+It's recommended to wait at least 24 hours post-provisioning the destination before you start migrating data as replication for the tenant can take some time.  
 
-Select the Filter option and the select Users and the select create Batch. 
+Ther are mutiple methods for manipulatuing item lists. For this guide, Select the Filter option, select Users, check box thing and the select create Batch. 
 
-Select all users in scope on Step 3 using the first column header. Select the Migrate column header to enable all users to migrate. Validate all the item types are selected in the right most columns. 
+Select all users in scope on Step 3 using the first column header. Validate all the item types are selected in the right most columns. 
 
 ### Date Ranges for the First Batch
 
@@ -101,9 +109,11 @@ Select Next, Skip the Environment Scan and Select Start to begin execution again
 
 Once the first batch is completed a DNS cutover can be scheduled. After a successful and validated cutover the Delta Sync can be started to sync all recent data. 
 
+do on friday night, explain why cause mail slow, sharepoint fast. 
+
 ### Delta Sync
 
-Return to Step 4 and change the date ranges on the left set of columns to be same date as the right set of columns. Change the date listed in the right set of columns to one day after your DNS cutover was validated. 
+Return to Step 4 Change the date listed in the right set of columns to 50 years in the future. 
 
 Start the migration.
 
