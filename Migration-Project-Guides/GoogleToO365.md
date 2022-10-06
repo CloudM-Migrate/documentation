@@ -13,8 +13,6 @@ has_toc: True
 
 Before starting your migration project, make sure you have have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">O365</a> using their repective configuration guides. Both have passed their connectivity tests with no errors. 
 
-There are many options for customizing the migration start with one that best describes your requirements. 
-
 <a name="top"></a>
 <details open markdown="block">
   <summary>
@@ -27,9 +25,11 @@ There are many options for customizing the migration start with one that best de
 
 ---
 
+## Things to Consider
+
 ### Purchasing Licenses for O365
 
-The scan will also help determine the exact license purchase for O365. It's recommend to purchase licensing and provision OneDrive and SharePoint before migrating. 
+Under Step 5 in CloudM Migrate an option to scan the source can leveraged to help determine the exact numbers of license needed for O365. It's recommend to purchase licensing and provision OneDrive, SharePoint and Archive Mailboxes before migrating. 
 
 ### Setting the Domain on the O365 Tenant
 
