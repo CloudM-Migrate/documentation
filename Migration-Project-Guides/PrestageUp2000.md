@@ -49,7 +49,7 @@ Once the CSV has been updated to the new naming convention, re-import it into Cl
 
 If the aliases are changing the CSV will also need to be uploaded to perserve permission mapping. Make a copy of the CSV and remove all columns besides ExportName and ImportName. Go to Step 4 and expand the Advanced Settings. Select the Address Replacement tab and import the CSV to the Address Replacements (.csv) field. 
 
-## Start Migration
+### Start Migration
 
 There are multiple approaches available to migrating data with CloudM Migrate. The following approach will prestage email and documents older then 30 days as a  batch. This will be followed by a Delta Sync for recent data after DNS cutover for a complete lossless migration. 
 
