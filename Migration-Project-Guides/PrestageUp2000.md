@@ -8,7 +8,8 @@ has_children: false
 
 ---
 
-### Prestage Up to 2000 Users
+## Prestage Up to 2000 Users
+{: .no_toc }
 
 <a name="top"></a>
 <details open markdown="block">
