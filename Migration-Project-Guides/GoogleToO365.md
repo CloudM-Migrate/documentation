@@ -87,7 +87,11 @@ There are multiple approaches available to migrating data with CloudM Migrate. T
 
 It's recommended to wait at least 24 hours post-provisioning the destination before you start migrating data. 
 
+Select the Filter option and the select 
+
 Select all users in scope on Step 3 using the first column header. Select the Migrate column header to enable all users to migrate. 
+
+The right set of columns are what item types to migrate. Select all the users and select Exclude Selected under the Drive 
 
 ### Date Ranges First Batch
 
@@ -97,7 +101,7 @@ Select Next, Skip the Environment Scan and Select Start to beging execution agai
 
 ### Second Batch Shared Drive to Sharepoint 
 
-Use filter to select the shared drives. 
+Once the first batch is completed, create a 
 
 ### Cutover 
 
