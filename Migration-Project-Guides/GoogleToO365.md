@@ -97,15 +97,16 @@ Select Step 4 and validate the source and destination domains are correct. Chang
 
 Select Next, Skip the Environment Scan and Select Start to begin execution against the batch. 
 
-### Second Batch Shared Drive to Sharepoint 
-
-If you want to migrate Google Shared Resource to Sharepoint document collection. First Add items to migrate 
-
-
-Once the first batch is completed, create a 
-
 ### Cutover 
+
+Once the first batch is completed a DNS cutover can be scheduled. After a successful and validated cutover the Delta Sync can be started to sync all recent data. 
 
 ### Delta Sync
 
+Return to Step 4 and change the date ranges on the left set of columns to be same date as the right set of columns. Change the date listed in the right set of columns to one day after your DNS cutover was validated. 
+
+Start the migration.
+
 ### Statistics and Summary
+
+
