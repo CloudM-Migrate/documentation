@@ -1,8 +1,9 @@
 ---
 layout: default
 title: PST Archive
-parent: Endpoint Configuration Guides
-nav_order: 11
+grand_parent: Endpoint Configuration Guides
+parent: Self Hosted Guides
+nav_order: 1
 ---
 
 ## PST Archive Endpoint Configuration
