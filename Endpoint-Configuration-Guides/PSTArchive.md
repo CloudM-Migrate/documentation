@@ -10,7 +10,7 @@ nav_order: 11
 
 ---
 
-This guide will show how to configure Office 365 as a source endpoint. 
+This guide will show how to configure a PST Archive as a source endpoint. 
 
 For PST Archive this is defined by the following requirements:
 
@@ -25,3 +25,7 @@ For PST Archive this is defined by the following requirements:
 </details>
 
 ---
+
+### 
+
+
