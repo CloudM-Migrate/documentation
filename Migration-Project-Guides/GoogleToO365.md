@@ -73,9 +73,11 @@ For Google to O365 use the target vanity domain when configuring your destinatio
 
 ### Address Replacement for Different Alias 
 
-If you want to change the alias on O365 destination to fit a new naming convention. Change in the user list, step 3. Export. 
+If there is a need to change the alias on the O365 destination to fit a new naming convention this can be accomplished using the Export items function. This will export the user list to a CSV and the ImportName column changed to the new alias naming convention. 
 
-Also change in advance project settings under address replacement. 
+Once the CSV has been updated to the new naming convention, re-import it into CloudM Migrate by using Add items to migrate and then selecting Bulk add/import items. This will overwrite the current user list and now show the new alias under the ImportName column. 
+
+If the aliases are changing the CSV will also need to be uploaded to perserve permission mapping. Make a copy of the CSV and remove all columns besides ExportName and ImportName. Go to Step 4 and expand the Advanced Settings. Select the Address Replacement tab and import the CSV to the Address Replacements (.csv) field. 
 
 ## Start Migration
 
@@ -87,8 +89,11 @@ It's recommended to wait at least 24 hours post-provisioning the destination bef
 
 Select all users in scope on Step 3 using the first column header. Select the Migrate column header to enable all users to migrate. 
 
-#### Date Ranges First Batch
+### Date Ranges First Batch
 
+Select Step 4 and validate the source and destination domains are correct. Change the dates on the right set of columns to be 30 days before the current date. 
+
+Select Next, Skip the Environment Scan and Select Start to beging execution against the batch. 
 
 ### Second Batch Shared Drive to Sharepoint 
 
