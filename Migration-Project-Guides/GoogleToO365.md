@@ -83,7 +83,7 @@ If the aliases are changing the CSV will also need to be uploaded to perserve pe
 
 There are multiple approaches available to migrating data with CloudM Migrate. The following approach will prestage email and documents older then 30 days as a  batch. This will be followed by a Delta Sync for recent data after DNS cutover for a complete lossless migration. 
 
-### Creating the first Batch
+### Creating the First Batch
 
 It's recommended to wait at least 24 hours post-provisioning the destination before you start migrating data. 
 
@@ -91,7 +91,7 @@ Select the Filter option and the select Users and the select create Batch.
 
 Select all users in scope on Step 3 using the first column header. Select the Migrate column header to enable all users to migrate. Validate all the item types are selected in the right most columns. 
 
-### Date Ranges First Batch
+### Date Ranges for the First Batch
 
 Select Step 4 and validate the source and destination domains are correct. Change the dates on the right set of columns to be 30 days before the current date. 
 
