@@ -82,7 +82,7 @@ do on friday night, explain why cause mail slow, sharepoint fast.
 
 ### Delta Sync
 
-Return to Step 4 Change the date listed in the right set of columns to 50 years in the future. 
+Return to Step 4 change the date listed in the right set of columns to 50 years in the future. 
 
 Start the migration.
 
