@@ -51,6 +51,6 @@ Now is a good time to lower the TTL value for all mail related DNS records such 
  
 <a href="https://learn.microsoft.com/en-us/microsoft-365/compliance/enable-archive-mailboxes?view=o365-worldwide">Enable archive mailboxes for Microsoft 365</a>
 
-## Impact to users
+## Impact to Users
 
 ## Planning your DNS Cutover
