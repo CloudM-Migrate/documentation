@@ -29,7 +29,7 @@ Before starting your migration project, make sure you have have setup <a href="h
 
 ### Purchasing Licenses for O365
 
-Under Step 5 in CloudM Migrate an option to scan the source can leveraged to help determine the exact numbers of license needed for O365. It's recommend to purchase licensing and provision OneDrive, SharePoint and Archive Mailboxes before migrating. 
+Under Step 5 in CloudM Migrate an option to scan the source can be leveraged to help determine the exact numbers of licenses needed for O365. It's recommended to purchase licenses and provision OneDrive, SharePoint and Archive Mailboxes before migrating. 
 
 ### Setting the Domain on the O365 Tenant
 
