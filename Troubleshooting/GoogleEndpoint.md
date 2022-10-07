@@ -45,7 +45,7 @@ An error 403 occurs when a usage limit has been exceeded or the user doesn't hav
 
 ---
 
-### 404 error: File not found.
+### 404 Error: File not found.
 
  404 error is "File not found." This can happen when a file is deleted or there is an error in a hyperlink. It can also happen if a file is copied and the original deleted. The new file will have a new address and previous links will not work.
  
@@ -67,7 +67,7 @@ Following the proper migration steps will help avoid a lot of this:
 - Delta migration with calendar, contacts
 
 ---
-### 400 error: Bad Request. 
+### 400 Error: Bad Request. 
 
 400 Bad Request a Google error and is typically caused by data that cannot be imported into Gmail for one of the following reasons:
 
@@ -77,7 +77,7 @@ Following the proper migration steps will help avoid a lot of this:
 
 **Also focusing on 400 Invalid Sharing**
 
-Resolve a 400 error: Invalid sharing request
+Resolve a 400 Error: Invalid sharing request
 This error can occur for several reasons. To determine the limit that has been exceeded, evaluate the reason field of the returned JSON. This error most commonly occurs because:
 
 - Sharing succeeded, but the notification email was not correctly delivered.
