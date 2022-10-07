@@ -90,4 +90,4 @@ Start the migration.
 
 After starting the migration, you'll have the option to view progress and export a summary by select Start and then selecting View Progress. Select More Statistics to see a complete summary by item type. 
 
-To export a report of the migration for record keeping select Summary and then select Click here to download a zip of raw and summarized data. 
+To export a report of the migration for record keeping select Projects in the left navigaton. Select Item Progress and then select the orange User progress link. By selection the top and right most orange button a file of item success by user can be downloaded. 
