@@ -15,7 +15,7 @@ There are multiple approaches available to migrating data with CloudM Migrate. T
 
 This approach eliminates user confusion from recent items being moved as they created and categorized. The result will be a more accurate account of recent changes on the destination. 
 
-CloudM Migrate doesn't duplicate emails or documents. Once an email is migrated it is not moved again or updated on the destination even if it has changed on the source. Documents are not duplicated, but maybe overwritten based on either the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#filterdate">Creation Date or Modified Date</a>. 
+CloudM Migrate doesn't duplicate emails or documents. Once an email is migrated it is not moved again or updated on the destination even if it has changed on the source. Documents are not duplicated, but maybe <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#overwritedoc">overwritten</a> based on either the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#filterdate">Creation Date or Modified Date</a>. 
 
 <a name="top"></a>
 <details open markdown="block">
