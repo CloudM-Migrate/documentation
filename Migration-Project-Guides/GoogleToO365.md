@@ -53,13 +53,14 @@ For Google to O365 use the target vanity domain when configuring your destinatio
 
 ## Impact to Users
 
-### A
+### Options for Communications to Users
+
 
 ---
 
 ## Planning your DNS Cutover
 
-### TTL Preperation
+### DNS Record TTL Preperation
 Lower the TTL value for all mail related DNS records such as MX and SPF. 
 
 ---
