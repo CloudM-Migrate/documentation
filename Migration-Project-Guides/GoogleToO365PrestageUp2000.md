@@ -13,11 +13,9 @@ has_children: false
 
 There are multiple approaches available to migrating data with CloudM Migrate. The following approach will prestage email and documents older than 30 days as a batch. This will be followed by a Delta Sync for recent data after DNS cutover for a complete lossless migration. 
 
-This approach eliminates user confusion from recent items being moved as they created and categorized. The result will be a more accurate account of recent changes on the destination. CloudM Migrate doesn't duplicate emails or documents. 
+This approach eliminates user confusion from recent items being moved as they created and categorized. The result will be a more accurate account of recent changes on the destination. 
 
-Once an email is migrated it is not moved again or updated on the destination even if it has changed on the source. 
-
-Documents are not duplicated, but maybe overwritten based on either the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#filterdate">Creation Date or Modified Date</a>. 
+CloudM Migrate doesn't duplicate emails or documents. Once an email is migrated it is not moved again or updated on the destination even if it has changed on the source. Documents are not duplicated, but maybe overwritten based on either the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#filterdate">Creation Date or Modified Date</a>. 
 
 <a name="top"></a>
 <details open markdown="block">
