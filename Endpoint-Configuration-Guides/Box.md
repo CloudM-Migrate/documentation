@@ -38,3 +38,5 @@ For Box this is defined by the following requirements:
 8. In the section OAuth 2.0 Credentials copy the Client ID and Client Secret Key values.
 9. Update the Redirect URI field with the below URL: https://oauth.pingone.com/ocs/ppm/rest/v1/oauth/oastempcredresponse/
 10. Select **Save Changes**. 
+
+The
