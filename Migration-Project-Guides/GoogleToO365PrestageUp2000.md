@@ -78,7 +78,7 @@ Select Next, Skip the Environment Scan and Select Start to begin execution again
 
 Once the first batch is completed a DNS cutover can be scheduled. After a successful and validated cutover the Delta Sync can be started to sync all recent data. 
 
-It's recommened to use the longest strech of off peak hours available. This will greatly speed up the Delta Sync as less new mail is inbound and SharePoint thottling is reduced. 
+It's recommened to use the longest stretch of off-peak hours available. This will greatly speed up the Delta Sync as less new mail is inbound and SharePoint thottling is reduced. 
 
 ### Delta Sync
 
