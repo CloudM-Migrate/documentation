@@ -62,9 +62,9 @@ If the aliases are changing the CSV will also need to be uploaded to preserve pe
 
 It's recommended to wait at least 24 hours post-provisioning the destination before you start migrating data as replication for the tenant can take some time.  
 
-There are multiple methods for manipulating item lists. For this guide, Select the Filter option, select Users, check box thing and the select create Batch. 
+There are multiple methods for manipulating item lists. For this guide, Select the Filter option and then select Users. Select all users in scope on using the first column header. Validate all the item types are selected in the right most columns. 
 
-Select all users in scope on Step 3 using the first column header. Validate all the item types are selected in the right most columns. 
+Select Create Batch and name the Batch "Prestage". For Batch Configuration Type select disable migration items. 
 
 ### Date Ranges for the First Batch
 
