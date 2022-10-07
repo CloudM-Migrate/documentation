@@ -37,8 +37,6 @@ For Google to O365 use the target vanity domain when configuring your destinatio
 
 <a href="https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-domain?view=o365-worldwide">Add a domain to Microsoft 365</a>
 
-Now is a good time to lower the TTL value for all mail related DNS records such as MX and SPF. 
-
 ### Create Users in O365
 
 <a href="https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/add-users?view=o365-worldwide">Add users and assign licenses at the same time</a>
@@ -60,6 +58,8 @@ Now is a good time to lower the TTL value for all mail related DNS records such 
 ---
 
 ## Planning your DNS Cutover
+
+Lower the TTL value for all mail related DNS records such as MX and SPF. 
 
 ### B
 
