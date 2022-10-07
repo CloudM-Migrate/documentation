@@ -74,4 +74,4 @@ df021288-bdef-4463-88db-98f22de89214 | Read all users' full profiles
 7ab1d382-f21e-4acd-a863-ba3e13f7da61 | Read directory data                                   
 294ce7c9-31ba-490a-ad7d-97a7d075e4ed | Read and write all Chat 
 
-When both your endpoints are ready our Project Migration Guide for your endpoint combination can fill in the next steps toward project completion. 
+When both your endpoints are ready our <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/MigrationProjectGuides.html">Project Migration Guides</a> for your endpoint combination can fill in the next steps toward project completion. 
