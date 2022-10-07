@@ -53,4 +53,10 @@ Now is a good time to lower the TTL value for all mail related DNS records such 
 
 ## Impact to Users
 
+## A
+
 ## Planning your DNS Cutover
+
+## B
+
+## Migration Approaches
