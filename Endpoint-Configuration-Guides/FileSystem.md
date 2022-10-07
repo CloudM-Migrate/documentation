@@ -1,8 +1,9 @@
 ---
 layout: default
 title: File System
-parent: Endpoint Configuration Guides
-nav_order: 15
+grand_parent: Endpoint Configuration Guides
+parent: Self Hosted Guides
+nav_order: 2
 ---
 
 ## File System Endpoint Configuration
