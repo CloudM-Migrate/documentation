@@ -11,6 +11,14 @@ has_children: false
 ## Prestage Up to 2000 Users
 {: .no_toc }
 
+There are multiple approaches available to migrating data with CloudM Migrate. The following approach will prestage email and documents older than 30 days as a batch. This will be followed by a Delta Sync for recent data after DNS cutover for a complete lossless migration. 
+
+This approach eliminates user confusion from recent items being moved as they created and categorized. The result will be a more accurate account of recent changes on the destination. CloudM Migrate doesn't duplicate emails or documents. 
+
+Once an email is migrated it is not moved again or updated on the destination even if it has changed on the source. 
+
+Documents are not duplicated, but maybe overwritten based on either the Creation Date or Modified Date. 
+
 <a name="top"></a>
 <details open markdown="block">
   <summary>
@@ -51,16 +59,6 @@ If there is a need to change the alias on the O365 destination to fit a new nami
 Once the CSV has been updated to the new naming convention, re-import it into CloudM Migrate by using Add items to migrate and then selecting Bulk add/import items. This will overwrite the current user list and now show the new alias under the ImportName column. 
 
 If the aliases are changing the CSV will also need to be uploaded to preserve permission mapping. Make a copy of the CSV and remove all columns besides ExportName and ImportName. Go to Step 4 and expand the Advanced Settings. Select the Address Replacement tab and import the CSV to the Address Replacements (.csv) field. 
-
-### Start Migration
-
-There are multiple approaches available to migrating data with CloudM Migrate. The following approach will prestage email and documents older than 30 days as a batch. This will be followed by a Delta Sync for recent data after DNS cutover for a complete lossless migration. 
-
-This approach eliminates user confusion from recent items being moved as they created and categorized. The result will be a more accurate account of recent changes on the destination. CloudM Migrate doesn't duplicate emails or documents. 
-
-Once an email is migrated it is not moved again or updated on the destination even if it has changed on the source. 
-
-Documents are not duplicated, but maybe overwritten based on either the Creation Date or Modified Date. 
 
 ### Creating the First Batch
 
