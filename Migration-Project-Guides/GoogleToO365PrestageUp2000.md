@@ -21,6 +21,8 @@ has_children: false
 {:toc}
 </details>
 
+---
+
 ### Adding Users
 
 On Step 3 on the left, select the Add items to migrate for options on how to collect targeted items to migrate from Google. The following options will be available:
