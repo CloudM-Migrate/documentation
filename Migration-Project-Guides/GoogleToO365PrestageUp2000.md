@@ -23,7 +23,7 @@ has_children: false
 
 ### Adding Users
 
-On Step 3 on the left, select the Add items to migrate for options on how to collect targeted items to migrate from Google. The following options will be avilable:
+On Step 3 on the left, select the Add items to migrate for options on how to collect targeted items to migrate from Google. The following options will be available:
 
 - Get items from source - This is fetch where CloudM Migrate will attempt to list all supported items within scope. 
 - Bulk add/import items - Provide CloudM Migrate a <a href="https://github.com/CloudM-Migrate/documentation/blob/main/assets/bulkimport.csv">CSV</a> of targeted items. 
@@ -34,13 +34,13 @@ On Step 3 on the left, select the Add items to migrate for options on how to col
 
 ### Scanning the Source 
 
-It's recommended to perform a scan against your Google source environment to proactively look for problems. While in CloudM Migrate select Step 5 on the left and then select Start. Depending on the size of the envornment this can take some time to complete. When complete select Export Scan Results to download a zip of the scan results. 
+It's recommended to perform a scan against your Google source environment to proactively look for problems. While in CloudM Migrate select Step 5 on the left and then select Start. Depending on the size of the environment this can take some time to complete. When complete select Export Scan Results to download a zip of the scan results. 
 
 The important files to check are the FileScanReport.html and MailScanReport.html. Users that have items errors are highlighted in red. Important errors to look for are:
 
-- Path Contains too many characters. These can be corrected before the migration or use the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#trunfoldfil">Truncate Folders and Files</a> option which is on by default and set the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#orphfold">Orphaned Items Folder</a> field to a target folder name.
-- Dead User Objects. Files owned by non-exisitnact accounts. 
-- External File Shares. Items CloudM Migrate can not migrate as they are exeternal to the environment. 
+- Path contains too many characters. These can be corrected before the migration or use the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#trunfoldfil">Truncate Folders and Files</a> option which is on by default and set the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#orphfold">Orphaned Items Folder</a> field to a target folder name.
+- Dead User Objects. Files owned by non-existent accounts. 
+- External File Shares. Items CloudM Migrate cannot migrate as they are external to the environment. 
 
 ### Address Replacement for Different Alias 
 
@@ -48,13 +48,13 @@ If there is a need to change the alias on the O365 destination to fit a new nami
 
 Once the CSV has been updated to the new naming convention, re-import it into CloudM Migrate by using Add items to migrate and then selecting Bulk add/import items. This will overwrite the current user list and now show the new alias under the ImportName column. 
 
-If the aliases are changing the CSV will also need to be uploaded to perserve permission mapping. Make a copy of the CSV and remove all columns besides ExportName and ImportName. Go to Step 4 and expand the Advanced Settings. Select the Address Replacement tab and import the CSV to the Address Replacements (.csv) field. 
+If the aliases are changing the CSV will also need to be uploaded to preserve permission mapping. Make a copy of the CSV and remove all columns besides ExportName and ImportName. Go to Step 4 and expand the Advanced Settings. Select the Address Replacement tab and import the CSV to the Address Replacements (.csv) field. 
 
 ### Start Migration
 
-There are multiple approaches available to migrating data with CloudM Migrate. The following approach will prestage email and documents older then 30 days as a  batch. This will be followed by a Delta Sync for recent data after DNS cutover for a complete lossless migration. 
+There are multiple approaches available to migrating data with CloudM Migrate. The following approach will prestage email and documents older than 30 days as a batch. This will be followed by a Delta Sync for recent data after DNS cutover for a complete lossless migration. 
 
-This apporach eliminates user confusion from recent items being moved as they created and catagorized. The result will be a more accurate account of recent changes on the destination. CloudM Migrate doesn't duplicate emails or documents. 
+This approach eliminates user confusion from recent items being moved as they created and categorized. The result will be a more accurate account of recent changes on the destination. CloudM Migrate doesn't duplicate emails or documents. 
 
 Once an email is migrated it is not moved again or updated on the destination even if it has changed on the source. 
 
@@ -64,7 +64,7 @@ Documents are not duplicated, but maybe overwritten based on either the Creation
 
 It's recommended to wait at least 24 hours post-provisioning the destination before you start migrating data as replication for the tenant can take some time.  
 
-Ther are mutiple methods for manipulatuing item lists. For this guide, Select the Filter option, select Users, check box thing and the select create Batch. 
+There are multiple methods for manipulating item lists. For this guide, Select the Filter option, select Users, check box thing and the select create Batch. 
 
 Select all users in scope on Step 3 using the first column header. Validate all the item types are selected in the right most columns. 
 
@@ -78,7 +78,7 @@ Select Next, Skip the Environment Scan and Select Start to begin execution again
 
 Once the first batch is completed a DNS cutover can be scheduled. After a successful and validated cutover the Delta Sync can be started to sync all recent data. 
 
-It's recommened to use the longest stretch of off-peak hours available. This will greatly speed up the Delta Sync as less new mail is inbound and SharePoint thottling is reduced. 
+It's recommended to use the longest stretch of off-peak hours available. This will greatly speed up the Delta Sync as less new mail is inbound and SharePoint throttling is reduced. 
 
 ### Delta Sync
 
@@ -90,4 +90,4 @@ Start the migration.
 
 After starting the migration, you'll have the option to view progress and export a summary by select Start and then selecting View Progress. Select More Statistics to see a complete summary by item type. 
 
-To export a report of the migration for record keeping select Projects in the left navigaton. Select Item Progress and then select the orange User progress link. By selection the top and right most orange button a file of item success by user can be downloaded. 
+To export a report of the migration for record keeping select Projects in the left navigation. Select Item Progress and then select the orange User progress link. By selection the top and right most orange button a file of item success by user can be downloaded.
