@@ -13,7 +13,7 @@ This site will contain the technical documentation for [CloudM Migrate](https://
 ---
 
 {: .new }
-Welcome from Ignite. 
+Are you from Microsoft Ignite, Hi!, thanks for visiting.
 
 ---
 
