@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Prestage Up to 2000
+title: Prestage Approach
 grand_parent: Migration Project Guides
 parent: Google to O365
 nav_order: 1
@@ -8,8 +8,10 @@ has_children: false
 
 ---
 
-## Prestage Up to 2000 Users
+## Prestage Approach
 {: .no_toc }
+
+This approach is good for 2000 users or less. 
 
 There are multiple approaches available to migrating data with CloudM Migrate. The following approach will prestage email and documents older than 30 days as a batch. This will be followed by a Delta Sync to migrate recent data after your DNS cutover for a complete lossless migration. 
 
