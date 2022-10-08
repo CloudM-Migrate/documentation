@@ -13,7 +13,7 @@ This site will contain the technical documentation for [CloudM Migrate](https://
 ---
 
 {: .new }
-6/10/22 - V1 Google To O365 Migration Project Guide Completed. 
+Welcome from Ignite. 
 
 ---
 
