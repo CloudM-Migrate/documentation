@@ -75,3 +75,6 @@ df021288-bdef-4463-88db-98f22de89214 | Read all users' full profiles
 294ce7c9-31ba-490a-ad7d-97a7d075e4ed | Read and write all Chat 
 
 When both your endpoints are ready our <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/MigrationProjectGuides.html">Project Migration Guides</a> for your endpoint combination can fill in the next steps toward project completion. 
+
+- <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/GoogleToO365.html">Google to O365</a>
+- <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/O365ToO365.html">O365 to O365</a>
