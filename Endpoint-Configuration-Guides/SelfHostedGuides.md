@@ -23,13 +23,6 @@ CloudM Migrate can be installed on server(s) in your environment or your own Azu
 
 ---
 
-### Self Hosted Only Endpoints
-
-Several endpoints can only be used a source with the self-hosted install. 
-
-- PST Archive
-- File System
-
 ### Server Basic Requirements
 
 - 64 bit Operating system: Windows Server 2016+ (Clean build recommended)
@@ -48,3 +41,7 @@ Any available Windows updates should be installed and the machine rebooted prior
 ### GDPR
 
 All logs, project configuration and migration reports are autodeleted after 30 days on inactivty in the self-hosted CloudM Migrate. This is done to ensure that personally indentifable meta data is not stored to as required under GDPR regulations. 
+
+### Self Hosted Only Endpoints
+
+Several endpoints can only be used a source with the self-hosted install. 
