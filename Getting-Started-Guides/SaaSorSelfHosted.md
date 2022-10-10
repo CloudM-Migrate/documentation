@@ -41,7 +41,6 @@ Cons-
 
 Pros
 
-- ISO 27001:2013
 - Custom scaling, configure as many instances of the CloudM Migrate application with no additional charge.
 - The ingress and egress of data is contained within your network environment.
 - Only license meta data is submitted to CloudM servers.
