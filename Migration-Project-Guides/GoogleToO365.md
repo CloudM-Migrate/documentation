@@ -52,6 +52,7 @@ For Google to O365 use the target vanity domain when configuring your destinatio
 ---
 
 ## Impact to Users
+[Back to Top](#top)
 
 ### Options for Communications to Users
 
@@ -64,6 +65,7 @@ We also recommend preparing your support team for questions on new mail clients 
 ---
 
 ## Planning your DNS Cutover
+[Back to Top](#top)
 
 ### DNS Record TTL Preperation
 Lower the TTL value for all mail related DNS records such as MX and SPF. 
@@ -74,6 +76,7 @@ Lower the TTL value for all mail related DNS records such as MX and SPF.
 ---
 
 ## Standard Prestage Migration
+[Back to Top](#top)
 
 There are multiple approaches available to migrating data with CloudM Migrate. The following approach will prestage email and documents older than 30 days as a batch. This will be followed by a Delta Sync to migrate recent data after your DNS cutover for a complete lossless migration. 
 
