@@ -27,3 +27,4 @@ For Hosted Exchange this is defined by the following requirements:
 ---
 
 ### Hosted Exchange
+{: .no_toc }
