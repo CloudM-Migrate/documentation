@@ -7,17 +7,25 @@ nav_order: 2
 
 
 ## SaaS or Self-Hosted
+{: .no_toc }
 
 How to pick if an Self-Hosted install or our hosted SaaS solution is correct for you.
 
-1. [Overview](#overview)
-2. [Hosted](#hosted)
-3. [On-Premises](#onpremises)
-4. [Why CloudM](#whycloudm)
+<a name="top"></a>
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 ### Overview <a name="overview"></a>
 
-This document will give an overview of the reasons to use CloudM migrate as a hosted solution or an Self-Hosted solution. Self-Hosted refers to resources that are owned and managed by the customer regardless of if it is onsite or in a cloud tenant.
+This document will give an overview of the reasons to use CloudM Migrate as a hosted solution or a Self-Hosted solution. Self-Hosted refers to resources that are owned and managed by the you regardless of if it is onsite or in a cloud tenant such as Azure.
 
 This document will cover some security aspects of CloudM Migrate but will not be all inclusive. We at CloudM take security very seriously and if have any security questions or need to perform a security review please reach out to your sales rep and they can help get that setup for you.
 
