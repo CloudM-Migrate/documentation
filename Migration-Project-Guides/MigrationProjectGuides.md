@@ -7,4 +7,5 @@ has_children: true
 
 ## Migration Project Guides
 
-Take the advantage and use our guides as a template. We're OpenSource for that very reason, get an edge on documentation. 
+### Getting Support
+<a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
