@@ -55,6 +55,11 @@ For Google to O365 use the target vanity domain when configuring your destinatio
 
 ### Options for Communications to Users
 
+Migrations have business impact but good communication with your userbase make minimize the impact. 
+
+CloudM Migrate can send an email to the users when their migration is completed but you'll want to prepare your userbase before your migration cutover. 
+
+We also recommend preparing your support team for questions on new mail clients and where their data is located after cutover. 
 
 ---
 
@@ -63,6 +68,11 @@ For Google to O365 use the target vanity domain when configuring your destinatio
 ### DNS Record TTL Preperation
 Lower the TTL value for all mail related DNS records such as MX and SPF. 
 
+- MX - Mail Routing
+- SPF - Source IP of mail is allowed to send for the domain. 
+
 ---
 
 ## Migration Approaches
+
+
