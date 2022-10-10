@@ -7,9 +7,21 @@ nav_order: 23
 
 ---
 
-### Self Hosted Guides
+## Self Hosted Guides
 
 CloudM Migrate can be installed on server(s) in your environment or your own Azure instance. 
+
+<a name="top"></a>
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 ### Self Hosted Only Endpoints
 
