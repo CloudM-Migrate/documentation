@@ -1,8 +1,10 @@
 ---
 layout: default
 title: GroupWise
-parent: Endpoint Configuration Guides
-nav_order: 4
+grand_parent: Endpoint Configuration Guides
+parent: Self Hosted Guides
+nav_order: 1
+
 ---
 
 ## GroupWise Endpoint Configuration
