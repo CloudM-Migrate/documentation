@@ -11,7 +11,7 @@ has_toc: false
 ## Google to O365
 {: .no_toc }
 
-Before starting your migration project, make sure you have have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">O365</a> using their repective endpoint configuration guides. Both have passed their connectivity tests with no errors. 
+Before starting your migration project, make sure you have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">O365</a> using their respective endpoint configuration guides. Both have passed their connectivity tests with no errors. 
 
 <a name="top"></a>
 <details open markdown="block">
@@ -56,9 +56,9 @@ For Google to O365 use the target vanity domain when configuring your destinatio
 
 ### Options for Communications to Users
 
-Migrations have business impact but good communication with your userbase make minimize the impact. 
+Migrations have business impact but good communication with your user base can minimize the impact. 
 
-CloudM Migrate can send an email to the users when their migration is completed but you'll want to prepare your userbase before your migration cutover. 
+CloudM Migrate can send an email to the users when their migration is completed but you'll want to prepare your user base before your migration cutover. 
 
 We also recommend preparing your support team for questions on new mail clients and where their data is located after cutover. 
 
@@ -67,7 +67,7 @@ We also recommend preparing your support team for questions on new mail clients 
 ## Planning your DNS Cutover
 [Back to Top](#top)
 
-### DNS Record TTL Preperation
+### DNS Record TTL Preparation
 Lower the TTL value for all mail related DNS records such as MX and SPF. 
 
 - MX - Mail Routing
