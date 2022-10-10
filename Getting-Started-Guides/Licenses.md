@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Licenses
+title: 
 parent: Getting Started Guides
 nav_order: 3
 
 ---
 
-## CloudM Migrate Licenses
+CloudM Migrate Licenses
