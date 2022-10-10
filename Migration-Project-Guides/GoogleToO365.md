@@ -11,7 +11,7 @@ has_toc: false
 ## Google to O365
 {: .no_toc }
 
-Before starting your migration project, make sure you have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">O365</a> using their respective endpoint configuration guides. Both have passed their connectivity tests with no errors. 
+Before starting your migration project, make sure you have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">O365</a> using their respective endpoint configuration guides. Be sure to validate both tenants have passed their connectivity tests with no errors. 
 
 <a name="top"></a>
 <details open markdown="block">
