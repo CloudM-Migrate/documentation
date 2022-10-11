@@ -28,20 +28,16 @@ The 429 error is caused by throttling from Microsoft to protect their own system
  
 There are two ways that you can try to delay the throttling, divide the submission of your migrations into different batches, and use a different Global Admin account for each batch.
 
-#### Microsoft as Destination example
+#### Microsoft Throttling and Quotas
 {: .no_toc }
 
-- Team sites/document libraries
-- MS Throttling
-- MS Quotas
+Microsoft Graph allows you to access data in multiple services, such as Outlook or Azure Active Directory. These services impose their own throttling limits.
 
-Microsoft Graph allows you to access data in multiple services, such as Outlook or Azure Active Directory. These services impose their own throttling limits Request type Per app across all tenants
-
-Any 2000 requests per second that affect applications that use Microsoft Graph to access them.
+Microsoft limits the Graph API to 2000 requests per second.
 
 The specific limits described here are subject to change.
 
-the term tenant refers to the Microsoft 365 organization where the application is installed. This tenant can be the same as the one where the application was created in the case of a single-tenant application, or it can be different in the case of a multi-tenant application.
+The term tenant refers to the Microsoft 365 organization where the application is installed. This tenant can be the same as the one where the application was created in the case of a single-tenant application, or it can be different in the case of a multi-tenant application.
 
 Any request can be evaluated against multiple limits, depending on the scope of the limit (per app across all tenants, per tenant for all apps, per app per tenant, and so on), the request type (GET, POST, PATCH, and so on), and other factors. The first limit to be reached triggers throttling behaviour. In addition to the service specific-limits described in the section, the following global limits apply.
 
