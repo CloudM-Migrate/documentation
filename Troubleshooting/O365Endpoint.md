@@ -28,7 +28,7 @@ The 429 error is caused by throttling from Microsoft to protect their own system
  
 There are two ways that you can try to delay the throttling, divide the submission of your migrations into different batches, and use a different Global Admin account for each batch.
 
-###$ Microsoft as Destination example
+#### Microsoft as Destination example
 - Team sites/document libraries
 - MS Throttling
 - MS Quotas
