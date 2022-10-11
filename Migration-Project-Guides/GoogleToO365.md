@@ -71,7 +71,7 @@ We also recommend preparing your support team for questions on new mail clients 
 Lower the TTL value for all mail related DNS records such as MX and SPF. 
 
 - MX - Mail Routing
-- SPF - Source IP of mail is allowed to send for the domain. 
+- SPF - Source IP of mailserver domain that's used to prevent domian spoofing. 
 
 ---
 
