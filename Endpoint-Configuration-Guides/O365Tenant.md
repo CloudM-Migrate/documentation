@@ -8,8 +8,6 @@ nav_order: 2
 ## Office 365 Endpoint Configuration
 {: .no_toc }
 
----
-
 This guide will show how to configure Office 365 as a source or destination endpoint. 
 
 For O365 this is defined by the following requirements:
