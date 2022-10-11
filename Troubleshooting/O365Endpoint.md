@@ -55,11 +55,15 @@ Delete the existing app registration in Azure - https://portal.azure.com > App R
 
 Clear the Office 365 Auth tokens in CloudM - Projects Page
 
-Run the PowerShell script in the following article to create a new app registration - If you have Multi Factor Authentication (MFA) enabled, authenticate using the powershell script.
+If O365 is the source and MFA can not be disabled the Azure Application used to perform migrations can be created with a PowerShell script <a href="https://bitbucket.org/cloudsols/cloudm-public/src/main/Migrate/PowerShell/CreateAzureADApplication.ps1">CreateAzureADApplication.ps1</a> 
 
-Enter the new app registration details in step 1. Make sure to upload the new certificate.
+Enter the new app registration details in either the source or destination depending on the migration. 
+
+Make sure to upload the new certificate to CloudM Migrate.
 
 Run the connection test again.
+
+
 
 ---
 
