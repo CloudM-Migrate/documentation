@@ -55,7 +55,7 @@ Delete the existing app registration in Azure - https://portal.azure.com > App R
 
 Clear the Office 365 Auth tokens in CloudM - Projects Page
 
-Run the PowerShell script in the following article to create a new app registration - If you have Modern Factor Authentication (MFA) enabled, authenticate using the powershell script.
+Run the PowerShell script in the following article to create a new app registration - If you have Multi Factor Authentication (MFA) enabled, authenticate using the powershell script.
 
 Enter the new app registration details in step 1. Make sure to upload the new certificate.
 
