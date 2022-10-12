@@ -23,7 +23,7 @@ nav_order: 2
 
 ---
 
-###  403 Forbidden: The remote server returned an error
+###  403 Forbidden: The remote server returned an error.
 
 You should ensure that the <a href="https://developers.google.com/workspace/guides/configure-oauth-consent">Configure the OAuth consent screen</a> and the API Scopes added in the admin console.
 
@@ -56,7 +56,7 @@ This error usually means that after the permissions change the file no longer ha
 
 *Example Scenario*
 
-If a person is the sole owner of a folder and it's erroring out with a 404 error then you need to look at the user that's failing with the 404 error. That folder has more than likely been shared out to that user so there's two paths forward, either remove the share link or create an address replacement for that user that's being hit with the 404 error. 
+If a person is the sole owner of a folder and it's erroring out with a 404 error then please look at the user that's failing with the 404 error. That folder has more than likely been shared out to that user so there's two paths forward, either remove the share link or create an address replacement for that user that's being hit with the 404 error. 
 
 Following the proper migration steps will help avoid a lot of this:
 
@@ -75,10 +75,9 @@ Following the proper migration steps will help avoid a lot of this:
 - Emails containing virus attachments
 - Emails not conforming to RFC 822 per https://www.ietf.org/rfc/rfc2822.txt
 
-**Also focusing on 400 Invalid Sharing**
+Example - *Resolve a 400 Errors continued: Invalid sharing request*
 
-Resolve a 400 Error: Invalid sharing request
-This error can occur for several reasons. To determine the limit that has been exceeded, evaluate the reason field of the returned JSON. This error most commonly occurs because:
+This error can occur for several reasons. To determine the limit that has been exceeded, evaluate the reason. This error most commonly occurs because:
 
 - Sharing succeeded, but the notification email was not correctly delivered.
 - The Access Control List (ACL) change is not allowed for this user.
@@ -92,7 +91,7 @@ This error can occur for several reasons. To determine the limit that has been e
 This error for example is happening on Google Import, indicating that there is an issue with permissions in either for the service account or API Scopes.  Can you make sure that all the scopes have been added to the service account and that your API's all have been enabled?  Also, check if you have the Admin SDK API enabled. This sometimes causes the issue. For reason in the logs for every failure states " “ Not retrying Forbidden[403] error,”
 
 
-Not retrying Forbidden[403] error Google.Apis.Requests.RequestError Insufficient Permission [403] Errors [ Message[Insufficient Permission] Location[ - ] Reason[insufficientPermissions] Domain[global] ]
+Not retrying Forbidden[403] error Google.Apis.Requests.RequestError Insufficient Permission [403] Errors [ Message[Insufficient Permission] Location[ - ] Reason[insufficientPermissions] Domain[global]
 
 ---
 ### 401 Error: Invalid credentials.
@@ -109,7 +108,7 @@ For a 401 That particular error refers to the forwarding setting in a user's mai
 
 ### 429 Error: Too many requests.
 
-A rate LimitExceeded error occurs when the user has sent too many requests in a given amount of time
+A rate LimitExceeded error occurs when the user has sent too many requests in a given amount of time.
 
 To fix this error, use exponential backoff to retry the request.
 
