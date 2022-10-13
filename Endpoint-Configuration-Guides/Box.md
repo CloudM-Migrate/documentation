@@ -39,4 +39,46 @@ For Box this is defined by the following requirements:
 9. Update the Redirect URI field with the below URL: https://oauth.pingone.com/ocs/ppm/rest/v1/oauth/oastempcredresponse/
 10. Select **Save Changes**. 
 
-The
+---
+### Creating a Box application steps 
+
+Client ID
+
+- Client Id can be obtained by creating an app in the Box app creation page (see documentation).
+
+- Client Secret
+
+Client secret can be obtained by creating an app in the Box app creation page (see documentation).
+
+- Redirect URI
+Default Value: https://cloudm.co/callback
+
+Redirect URI entered in Box API console.
+
+- Admin Email
+
+Admin Email
+
+- Test User Name
+
+The login email address of a non-admin user within the system to test. This user must have the active status in Box.
+
+- Use JWT Authentication
+
+Select whether to enable JWT authentication for access to users and data.
+
+- Authorisation Code
+
+Authorisation Code
+
+- Retry Count
+Default Value:10
+
+The number of times an operation will be attempted before failing.
+
+- Timeout
+Default Value: 1800000
+
+The timeout that will apply to communications with the Box server.
+
+
