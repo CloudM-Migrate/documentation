@@ -42,13 +42,15 @@ For Box this is defined by the following requirements:
 ---
 ### Creating a Box application steps 
 
+These steps will show how to set up the box application step by step. 
+
 Client ID
 
-- Client Id can be obtained by creating an app in the Box app creation page (see documentation).
+- Client Id can be obtained by creating an app in the Box app creation page.
 
 - Client Secret
 
-Client secret can be obtained by creating an app in the Box app creation page (see documentation).
+Client secret can be obtained by creating an app in the Box app creation page 
 
 - Redirect URI
 Default Value: https://cloudm.co/callback
