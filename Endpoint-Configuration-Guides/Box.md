@@ -56,43 +56,40 @@ Steps to take and enter account details in the source platform area.
  
 
 To migrate files to Google Drive, check the Drive checkbox for each user. Please refer to the 
-<a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">GoogleTenant</a>
+<a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google Tenant</a>
 
 
-Click on Add items to migrate and select ‘Add Shared Drive' from the dropdown menu.
-Specify the ID of the Shared Drive to migrate from in Export Name.
-Also specify any folder within a Shared Drive. This is done by specifying the folder ID in the 'Documents Path' field. 
-Make sure the migrating account has Manager permissions for any Shared Drives that are being migrated.
+Click on Add items to migrate and select ‘Add Shared Drive' from the dropdown menu. Specify the ID of the Shared Drive to migrate from in Export Name. Also specify any folder within a Shared Drive. This is done by specifying the folder ID in the 'Documents Path' field. Make sure the migrating account has Manager permissions for any Shared Drives that are being migrated.
 
-*To migrate files to a Google Workspace Shared Drive* 
+To migrate files to a Google Workspace Shared Drive.
 
-Either select the item you wish to migrate and select 'Migrate as Shared Drive' from the actions menu, or specify the import type as 'Shared Drive' when adding an item. Specify the ID of the Shared Drive in the ‘Import Name’ field or the name of the Team Drive in the ‘Given Name’ field. If the Shared Drive specified doesn't exist, then it will be created. 
+Either select the item you wish to migrate and select 'Migrate as Shared Drive' from the actions menu, or specify the import type as 'Shared Drive' when adding an item. Specify the ID of the Shared Drive in the ‘Import Name’ field or the name of the Team Drive in the ‘Given Name’ field. If the Shared Drive specified doesn't exist, then it will be created.
 
 - Enter a unique ID in the 'Import Name' field to identify the Shared Drive across multiple migrations. 
 - Enter a specify a specific folder to migrate from in the 'Documents Path' field, and this will migrate only the specified folder and all subfolders. 
 - Enter specify a specific folder to migrate to in the 'Documents Destination Path' field. Documents will be migrated to the specific subfolder in the Shared Drive.
 
-*Ensure the account has Manager permissions for any Shared Drives that are being migrated. Configure multiple Managers to perform the migration with the configuration settings.To improve performance to Shared Drives success.*
+Ensure the account has Manager permissions for any Shared Drives that are being migrated. Configure multiple Managers to perform the migration with the configuration settings. To improve performance to Shared Drives success.
 
 ---
 
 ### Migrating to Microsoft OneDrive/SharePoint Destination Section 
 
-If Micosoft is the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365Tenant</a>
+If Micosoft is the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365 Tenant</a>
 
 Migrating files to Microsoft 365, Only use the Sharepoint Admin URL. The URL will look similar see example.
 
 https://tenant-admin.sharepoint.com. 
 
-To input the URL, click Advanced Settings and locate Sharepoint Admin URL under the OneDrive for Business/SharePoint settings.
-
+To input the URL, click Advanced Settings and locate SharePoint Admin URL under the One Drive for Business/SharePoint settings.
 Once entered and configured in Platform settings, click on Next. CloudM Migrate will now perform a small connection test to verify that the details entered are correct which check in green.
 
-*If this fails information has been entered incorrectly and will need to be corrected.*
+If this fails information has been entered incorrectly and will need to be corrected.
 
+---
 
 ### Address replacement section reminder ###
 
 If changing email addresses as part of the migration verify that the domain names are correct. Also specify <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.htmll">Address Replacement</a> in the respective section of the advanced settings.
 
-*Target Audience permissions can also be migrated but must be replaced using Address Replacements in order to migrate successfully. If present on the source but not migrated to the destination platform, any items shared with it will be shared back to the source Target Audience.*
+Target Audience permissions can also be migrated but must be replaced using Address Replacements in order to migrate successfully. If present on the source but not migrated to the destination platform, any items shared with it will be shared back to the source Target Audience.
