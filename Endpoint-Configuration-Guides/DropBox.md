@@ -36,16 +36,15 @@ A window will appear with instructions then proceed by clicking 'Continue' which
 - Enter the Dropbox 'Team Admin' email address and password and click 'Sign in' or click 'Sign in with Google' (Team Admin email address is required).
 - Once signed in a redirect will occur.
 - Click 'Allow', copy the authorization code  then enter it into the 'Authorization Code' area.
-- Click 'Next' to test connections, this will ensure everything is working correctly which will pass in all gree.
+- Click 'Next' to test connections, this will ensure everything is working correctly which will pass in all green.
 -  If this does not pass in all green please re-confirm proper credentials have been provided.
 
 ---
 ### Migrating to Google Workspace Section 
  
-To migrate files to Google Drive, check the Drive checkbox for each user. Please refer to the 
-<a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">GoogleTenant</a>
+To migrate files to Google Drive, check the Drive checkbox for each user. For Google as the destination refer to the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google Tenant Endpoint Configuration</a>
 
-*To migrate files to a Google Workspace Team Drive, either select the item you wish to migrate and select 'Migrate as Team Drive' from the actions menu or specify the import type as 'TeamDrive' when adding an item.*
+*To migrate files to a Google Workspace Team Drive, either select the item you wish to migrate and select 'Migrate as Team Drive' from the actions menu or specify the import type as 'Team Drive' when adding an item.*
 
 - Enter the ID of the Team Drive in the 'Given Name' field. If the Team Drive specified doesn't exist then it will be created. 
 - Use a unique ID in the 'Import Name' field to identify the Team Drive across multiple migrations. 
@@ -58,17 +57,17 @@ To migrate files to Google Drive, check the Drive checkbox for each user. Please
 
 ---
 
-### Migrating to Microsoft 0365 Section  
+### Migrating to Microsoft 0365 Section.  
 
-If Micosoft is the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365Tenant</a>
+Microsoft is the destination for Microsoft as the destination refer to to the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365 Tenant Endpoint Configuration</a>
 
-Enter your user's full email address within the Export Name field. If you have already created your Office 365 users then you will just need to enter their username.
+Enter the users full email address within the Export Name field. If this has already been created please use the Office 365 users you will need to enter their username.
 
-*If this fails information has been entered incorrectly and will need to be corrected.*
+If this fails validate the information has been entered correctly.
 
 ---
 ### Dropbox Teamspaces
 
-*Dropbox has recently made changes where Team Spaces folder structure may not appear in purple as previously used too. Dropbox support should be able to confirm if this is being used in a client's Dropbox enviroment if encountering errors when moving folders during a migration.*
+Dropbox has recently made changes where Team Spaces folder structure may not appear in purple as previously used too. Dropbox support should be able to confirm if this is being used in a client's Dropbox enviroment if encountering errors when moving folders during a migration.
 
 
