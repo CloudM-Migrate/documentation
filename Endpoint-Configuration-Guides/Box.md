@@ -40,47 +40,48 @@ For Box this is defined by the following requirements:
 10. Select **Save Changes**. 
 
 ---
-### Creating a Box application steps 
+### Migrating box as a source platform.
+ 
+ Migrating to Google Drive
 
-These steps will show how to set up the box application step by step. 
-
-Client ID
-
-- Client Id can be obtained by creating an app in the Box app creation page.
-
-- Client Secret
-
-Client secret can be obtained by creating an app in the Box app creation page 
-
-- Redirect URI
-Default Value: https://cloudm.co/callback
-
-Redirect URI entered in Box API console.
-
-- Admin Email
-
-Admin Email
-
-- Test User Name
-
-The login email address of a non-admin user within the system to test. This user must have the active status in Box.
-
-- Use JWT Authentication
-
-Select whether to enable JWT authentication for access to users and data.
-
-- Authorisation Code
-
-Authorisation Code
-
-- Retry Count
-Default Value:10
-
-The number of times an operation will be attempted before failing.
-
-- Timeout
-Default Value: 1800000
-
-The timeout that will apply to communications with the Box server.
+To migrate files to Google Drive, check the Drive checkbox for each user. Please refer to the 
+<ahttps://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html</a> to set up the destination correctly. 
 
 
+Click on Add items to migrate and select ‘Add Shared Drive' from the dropdown menu.
+Specify the ID of the Shared Drive you wish to migrate from in Export Name.
+Also specify any folder within a Shared Drive. This is done by specifying the folder ID in the 'Documents Path' field. 
+Make sure the migrating account has Manager permissions for any Shared Drives that are being migrated.
+To migrate files to a Google Workspace Shared Drive: 
+
+Either select the item you wish to migrate and select 'Migrate as Shared Drive' from the actions menu, or specify the import type as 'Shared Drive' when adding an item. Specify the ID of the Shared Drive in the ‘Import Name’ field or the name of the Team Drive in the ‘Given Name’ field. If the Shared Drive specified doesn't exist, then it will be created. 
+Enter a unique ID in the 'Import Name' field to identify the Shared Drive across multiple migrations. 
+Enter a specify a specific folder to migrate from in the 'Documents Path' field, and this will migrate only the specified folder and all subfolders. 
+Enter specify a specific folder to migrate to in the 'Documents Destination Path' field. Documents will be migrated to the specific subfolder in the Shared Drive.
+Finally, you must make sure your migrating account has Manager permissions for any Shared Drives that are being migrated.
+To improve performance to Shared Drives: 
+
+Configure multiple Managers to perform the migration with the configuration settings.
+
+---
+
+### Migrating to Microsoft OneDrive/SharePoint
+
+If Micosoft is the destination Please follow the <a https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html/a> and enable MFA
+
+Migrating files to Microsoft 365, Only use the Sharepoint Admin URL. The URL will look similar to the URL below:
+
+https://tenant-admin.sharepoint.com. 
+
+To input the URL, click Advanced Settings and locate Sharepoint Admin URL under the OneDrive for Business/SharePoint settings.
+
+Once you have configured the Platform settings, click on Next. CloudM Migrate will now perform a small connection test to verify that the details you have entered are correct which check in green.
+
+If this fails,something has been entered something incorrectly.
+
+
+### Address replacement section reminder ###
+
+If changing email addresses as part of the migration verify that the domain names are correct. Also specify <a https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#address-replacement/a> in the respective section of the advanced settings.
+
+Target Audience permissions can also be migrated but must be replaced using Address Replacements in order to migrate successfully. If present on the source but not migrated to the destination platform, any items shared with it will be shared back to the source Target Audience.
