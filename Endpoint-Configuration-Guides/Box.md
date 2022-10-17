@@ -42,10 +42,11 @@ For Box this is defined by the following requirements:
 ---
 ### Migrating box as a source platform.
  
+ 
  Migrating to Google Drive
 
 To migrate files to Google Drive, check the Drive checkbox for each user. Please refer to the 
-<ahttps://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html</a> to set up the destination correctly. 
+<a https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html</a> to set up the destination correctly. 
 
 
 Click on Add items to migrate and select ‘Add Shared Drive' from the dropdown menu.
