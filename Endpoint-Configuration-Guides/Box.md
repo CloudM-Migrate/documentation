@@ -39,8 +39,12 @@ For Box this is defined by the following requirements:
 9. Update the Redirect URI field with the below URL: https://oauth.pingone.com/ocs/ppm/rest/v1/oauth/oastempcredresponse/
 10. Select **Save Changes**. 
 
+### Box Application Source Section 
+
+
 ---
-### Migrating to Google Drive
+
+### Migrating to Google Drive Destination Section 
  
 
 To migrate files to Google Drive, check the Drive checkbox for each user. Please refer to the 
@@ -64,9 +68,9 @@ Configure multiple Managers to perform the migration with the configuration sett
 
 ---
 
-### Migrating to Microsoft OneDrive/SharePoint
+### Migrating to Microsoft OneDrive/SharePoint Destination Section 
 
-If Micosoft is the destination Please follow the <a href= https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html/a>0365Tenant 
+If Micosoft is the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365Tenant</a>
 
 Migrating files to Microsoft 365, Only use the Sharepoint Admin URL. The URL will look similar to the URL below:
 
