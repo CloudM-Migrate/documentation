@@ -55,8 +55,8 @@ Steps to take and enter account details in the source platform area.
 ### Migrating to Google Drive Destination Section 
  
 
-To migrate files to Google Drive, check the Drive checkbox for each user. Please refer to the 
-<a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google Tenant</a>
+When migrating files to Google Drive, check the Drive checkbox for each user. Please refer to the 
+<a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google Tenant Endpoint Configuration</a>
 
 
 Click on Add items to migrate and select ‘Add Shared Drive' from the dropdown menu. Specify the ID of the Shared Drive to migrate from in Export Name. Also specify any folder within a Shared Drive. This is done by specifying the folder ID in the 'Documents Path' field. Make sure the migrating account has Manager permissions for any Shared Drives that are being migrated.
@@ -75,7 +75,7 @@ Ensure the account has Manager permissions for any Shared Drives that are being 
 
 ### Migrating to Microsoft OneDrive/SharePoint Destination Section 
 
-If Micosoft is the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365 Tenant</a>
+When migrating Micosoft as the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365 Endpoint Configuration</a>
 
 Migrating files to Microsoft 365, Only use the Sharepoint Admin URL. The URL will look similar see example.
 
@@ -84,7 +84,7 @@ https://tenant-admin.sharepoint.com.
 To input the URL, click Advanced Settings and locate SharePoint Admin URL under the One Drive for Business/SharePoint settings.
 Once entered and configured in Platform settings, click on Next. CloudM Migrate will now perform a small connection test to verify that the details entered are correct which check in green.
 
-If this fails information has been entered incorrectly and will need to be corrected.
+If this fails validate the information has been entered correctly.
 
 ---
 
