@@ -70,5 +70,5 @@ If this fails validate the information has been entered correctly.
 
 ### Dropbox Teamspaces
 
-Dropbox has recently made changes to the Team Spaces folders structure an may not appear displayed in purple. Dropbox support should be able to confirm if this is being used in the client's Dropbox enviroment if encountering errors when moving folders during a migration.
+Dropbox has recently made changes to the Team Spaces folders structure an may not appear displayed in purple. Dropbox support should be able to confirm if this is being used in the client's Dropbox enviroment if encountering errors when moving folders during a migration. This is not supported by the CloudM Tool.
 
