@@ -72,10 +72,7 @@ Either select the item you wish to migrate and select 'Migrate as Shared Drive' 
 -Enter a specify a specific folder to migrate from in the 'Documents Path' field, and this will migrate only the specified folder and all subfolders. 
 -Enter specify a specific folder to migrate to in the 'Documents Destination Path' field. Documents will be migrated to the specific subfolder in the Shared Drive.
 
-Finally, you must make sure your migrating account has Manager permissions for any Shared Drives that are being migrated.
-To improve performance to Shared Drives: 
-
-Configure multiple Managers to perform the migration with the configuration settings.
+Ensure the account has Manager permissions for any Shared Drives that are being migrated. Configure multiple Managers to perform the migration with the configuration settings.To improve performance to Shared Drives success.
 
 ---
 
@@ -91,7 +88,7 @@ To input the URL, click Advanced Settings and locate Sharepoint Admin URL under 
 
 Once entered and configured in Platform settings, click on Next. CloudM Migrate will now perform a small connection test to verify that the details entered are correct which check in green.
 
-If this fails something has been entered something incorrectly and will required to be reviewed and corrected.
+If this fails information has been entered incorrectly and will need to be corrected.
 
 
 ### Address replacement section reminder ###
