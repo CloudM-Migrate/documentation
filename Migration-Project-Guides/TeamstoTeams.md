@@ -29,8 +29,8 @@ When doing a Teams to Teams migration it's recommmend to have already created th
 
 ## Standard Migration 
 
-This process assumes that the destinaton tenant contains all the users and the Teams site and Channels are created in the <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/graph-api/import-messages/import-external-messages-to-teams">Migrate Teams Creation Mode</a>. This essentailly prestages the Team is a special mode that restricts usage until the migration process is completed. 
+This process assumes that the destinaton tenant contains all the users and have already had mailboxes provisioned. A first migration pass is performed followed by a Delta with a Finalize Migration switch to make the Teams instance available to end users.
 
 ### First Migration Pass
 
-
+Create a 
