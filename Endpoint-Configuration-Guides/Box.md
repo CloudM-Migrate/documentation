@@ -39,7 +39,7 @@ For Box this is defined by the following requirements:
 9. Update the Redirect URI field with the below URL: https://oauth.pingone.com/ocs/ppm/rest/v1/oauth/oastempcredresponse/
 10. Select **Save Changes**. 
 
-### Box Application Source Section
+### Box Application Source Section Steps
 
 **Account Details**
 
