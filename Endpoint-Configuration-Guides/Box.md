@@ -52,7 +52,7 @@ Steps to take and enter account details in the source platform area.
 
 ---
 
-### Migrating to Google Drive Destination Section 
+### Migrating to Google Workspace Section 
  
 
 When migrating files to Google Drive, check the Drive checkbox for each user. Please refer to the 
@@ -73,11 +73,11 @@ Ensure the account has Manager permissions for any Shared Drives that are being 
 
 ---
 
-### Migrating to Microsoft OneDrive/SharePoint Destination Section 
+### Migrating to Microsoft 0365  OneDrive/SharePoint Section. 
 
 When migrating Micosoft as the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365 Endpoint Configuration</a>
 
-Migrating files to Microsoft 365, Only use the Sharepoint Admin URL. The URL will look similar see example.
+Migrating files to Microsoft 365 OneDrive/SharePoint, Only use the Sharepoint Admin URL. The URL will look similar see example.
 
 https://tenant-admin.sharepoint.com. 
 
