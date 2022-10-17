@@ -40,13 +40,11 @@ For Box this is defined by the following requirements:
 10. Select **Save Changes**. 
 
 ---
-### Migrating box as a source platform.
+### Migrating to Google Drive
  
- 
- Migrating to Google Drive
 
 To migrate files to Google Drive, check the Drive checkbox for each user. Please refer to the 
-<a https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html</a> to set up the destination correctly. 
+<a href= https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html</a> to set up the destination correctly. 
 
 
 Click on Add items to migrate and select ‘Add Shared Drive' from the dropdown menu.
@@ -68,7 +66,7 @@ Configure multiple Managers to perform the migration with the configuration sett
 
 ### Migrating to Microsoft OneDrive/SharePoint
 
-If Micosoft is the destination Please follow the <a https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html/a> and enable MFA
+If Micosoft is the destination Please follow the <a href= https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html/a> and enable MFA
 
 Migrating files to Microsoft 365, Only use the Sharepoint Admin URL. The URL will look similar to the URL below:
 
@@ -83,6 +81,6 @@ If this fails,something has been entered something incorrectly.
 
 ### Address replacement section reminder ###
 
-If changing email addresses as part of the migration verify that the domain names are correct. Also specify <a https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#address-replacement/a> in the respective section of the advanced settings.
+If changing email addresses as part of the migration verify that the domain names are correct. Also specify <a href= https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#address-replacement/a> in the respective section of the advanced settings.
 
 Target Audience permissions can also be migrated but must be replaced using Address Replacements in order to migrate successfully. If present on the source but not migrated to the destination platform, any items shared with it will be shared back to the source Target Audience.
