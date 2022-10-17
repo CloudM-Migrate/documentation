@@ -27,10 +27,10 @@ When doing a Teams to Teams migration it's recommmend to have already created th
 
 ---
 
-## Standard Migration 
+### Standard Migration 
 
 This process assumes that the destinaton tenant contains all the users and have already had mailboxes provisioned. A first migration pass is performed followed by a Delta with a Finalize Migration switch to make the Teams instance available to end users.
 
 ### First Migration Pass
 
-Create a 
+
