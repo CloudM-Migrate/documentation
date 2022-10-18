@@ -33,4 +33,4 @@ This process assumes that the destinaton tenant contains all the users and have 
 
 ### First Migration Pass
 
-
+In CloudM Migrate go to Step 3 and use the Filter opption to select Microsoft Teams under Export Type. Select Create Batch and name it MS Teams under Configuration Name. 
