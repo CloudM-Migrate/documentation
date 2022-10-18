@@ -53,9 +53,9 @@ To improve performance to Team Drives, configure multiple managers to perform th
 
 ---
 
-### Migrating to Microsoft 0365 Section.  
+### Migrating to Microsoft 0365 Section
 
-Microsoft is the destination for Microsoft as the destination refer to to the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365 Tenant Endpoint Configuration</a>
+For Microsoft as the destination refer to to the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365 Tenant Endpoint Configuration</a>
 
 Enter the users full email address within the Export Name field. If this has already been created please use the Office 365 users you will need to enter their username.
 
