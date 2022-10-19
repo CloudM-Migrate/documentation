@@ -26,9 +26,9 @@ For Hosted Exchange this is defined by the following requirements:
 
 ---
 
-### Hosted Exchange
+### Hosted Exchange Overview
 {: .no_toc }
-Hosted Exchange CloudM Migrate has preset configurations for the most providers, select the provider and the server along with the authentication details. If the provider is not supported then enter the details manually, but keep in mind need to obtain the Auto discover or Direct EWS URL, and the authentication method.
+When selecting Hosted Exchange CloudM Migrate has preset configurations for the most providers, choose the provider and the server along with the authentication details. If the provider is not supported then enter the details manually, but keep in mind need to obtain the Auto discover or Direct EWS URL, and the authentication method.
 
 ### Supported Hosted Exchanged Providers
 
