@@ -48,7 +48,7 @@ Select Step 1 for the Source Configuration and then select Advanced Settings. Na
 
 Select Step 2 for the Destination Configuration and then select Advanced Settings. Navigate to Microsoft Teams/Groups and turn on the option Teams Direct Migration. 
 
-**NOTE:** The Teams Direct Migration option will create the Teams on the distination in MigrationMode. This restrict visiblity and access to the Team on the destination. If the Team already exists and this option in enabled, the migration will fail as an exiting Team can't be set to MigrationMode. To migrate to an existing Team disable the Team Direct Migration. 
+**NOTE:** The Teams Direct Migration option will create the Teams on the distination in MigrationMode. This restricts visiblity and access to the Team on the destination. If the Team already exists and this option in enabled, the migration will fail as an exiting Team can't be set to MigrationMode. To migrate to an existing Team disable the Team Direct Migration. 
 
 Validate the Finalize Teams Direct Migration is set to Disabled. 
 
@@ -56,7 +56,9 @@ Execute the migration by select the paper airplane on the left and selecting Sta
 
 ### Delta Pass and Finalizing 
 
+After the first pass is completed you can set a date for the destination Teams to go live for your users. To do so, go to the batch perviously created for the first pass and then go to Step 2. Select Advanced Settings and set the option Finalize Teams Direct Migration to Enabled. 
 
+Execute the migration by select the paper airplane on the left and selecting Start. When this pass is completed, the Teams will be live on the destination.
 
 
 
