@@ -96,7 +96,7 @@ Setting up Delegated Access
 
 Delegated access gives a user account permission to access another. Delegated access must be set up if you are not using an Enterprise plan of Office 365.
 
-<a href="https://support.microsoft.com/en-us/office/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926.html#"><Setting up delegated access</a>
+<a href="https://support.microsoft.com/en-us/office/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926.html#">Setting up delegated access</a>
 
 
 
