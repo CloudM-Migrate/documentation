@@ -32,9 +32,7 @@ When selecting Hosted Exchange CloudM Migrate has preset configurations for the 
 
 ### Supported Hosted Exchanged Providers
 
-Please make sure that the following prerequisites are complete before continuing onto the CloudM Migrate setup.
-
-Currently supported Hosted Exchange Providers:
+These are CloudM's supported hosted exchange providers:
 
 -	1&1
 -	AppRiver
@@ -62,8 +60,8 @@ Currently supported Hosted Exchange Providers:
 If the Hosted Exchange provider is listed, select it from the list of providers and the server details will be populated. If the provider is not listed, select 'My Provider is Not Listed' and enter the below details manually.
 
 -	Auto discovery Service URL in order to connect to the correct server, auto discovery is used to obtain the server information. 
-Input the URL to the auto discovery service for your domain. The value for the Microsoft Exchange server is like https://yourserver/autodiscover/autodiscover.xml.
--	Admin Username  Enter the full email address of the Microsoft Exchange admin user.
+Input the URL to the auto discovery service for your domain. The value for the Microsoft Exchange server for example https://yourserver/autodiscover/autodiscover.xml.
+-	Admin Username Enter the full email address of the Microsoft Exchange admin user.
 -	Admin Password Enter the password of the admin user.
 -	Domain Name Enter the domain name that will be migrating from. This should be the Internet domain name, not the local domain name.
 -	Test User Name Enter an email address of an active user within Microsoft Exchange system. This account is used to test connections as in most cases the admin account will not be mailbox enabled.
@@ -75,12 +73,12 @@ CloudM Migrate will now perform a small connection test. If this fails validate 
 
 These steps should be completed in the Destination environment.
  
-When migrating to Google workspace please review the Google Workspace Prerequisites  
-<a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">**Google Tenant Endpoint Configuration**</a>
+When migrating to Google workspace review the Google Workspace Prerequisites  
+<a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">*Google Tenant Endpoint Configuration*</a>
 
 Select where the data will be migrated and if using Google Workspace for Business or Google Vault select to migrate data directly into Google Vault.
 
-To enable Google Vault for the domain, please see the following article <a href="https://support.google.com/vault/bin/answer.py?hl=en&answer=2584132.html">**Set up Vault for your organization**</a>
+To enable Google Vault for the domain, please see the following article <a href="https://support.google.com/vault/bin/answer.py?hl=en&answer=2584132.html">*Set up Vault for your organization*</a>
 
 Enter the user's full email address within the Export Name field. If already created in Google Workspace users then enter their username.
 
@@ -96,16 +94,11 @@ If this fails validate the information has been entered correctly.
 
 ### Migrating to Microsoft 0365 
 
-When migrating Microsoft as the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">**0365 Endpoint Configuration**</a>
+When migrating Microsoft as the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">*0365 Endpoint Configuration*</a>
 
-CloudM Migrate will perform a connection test against the O365 domain to verify that everything has been entered correctly.
+CloudM Migrate will perform a connection test against the O365 domain.
 
 If this fails validate the information has been entered correctly.
-
-The following will need to be done first and refer to these steps that should be completed in the Destination environment.
-Setting up Application Impersonation can be configured for the admin account within CloudM Migrate. 
-Select 'Setup Administrative Permissions' in the Destination Platform Settings page.
-<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/HostedExchangeSourceAO.html#">**Application Impersonation**</a>.
 
 Click Advanced Settings and under the Account Details section select Credential Method and change it to Delegated Access.
 
