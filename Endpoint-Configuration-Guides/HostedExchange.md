@@ -61,11 +61,11 @@ Currently supported Hosted Exchange Providers:
 
 If the  Hosted Exchange provider is listed, select it from the list of providers and the server details will be populated. If the provider is not listed, select 'My Provider is Not Listed' and enter the below details manually.
 
--	Auto discovery Service URL – In order to connect to the correct server, auto discovery is used to obtain the server information. Input the URL to the auto discovery service for your domain. The value for your Microsoft Exchange server is like https://yourserver/autodiscover/autodiscover.xml.
--	Admin Username – Enter the full email address of your Microsoft Exchange admin user.
--	Admin Password – Enter the password of the admin user.
--	Domain Name – Enter the domain name you will be migrating from. This should be the Internet domain name, not the local domain name.
--	Test User Name – Enter an email address of an active user within your Microsoft Exchange system. This account is used to test connections as in most cases the admin account will not be mailbox enabled.
+-	Auto discovery Service URL – In order to connect to the correct server, auto discovery is used to obtain the server information. Input the URL to the auto discovery service for your domain. The value for the Microsoft Exchange server is like https://yourserver/autodiscover/autodiscover.xml.
+-	Admin Username  Enter the full email address of the Microsoft Exchange admin user.
+-	Admin Password Enter the password of the admin user.
+-	Domain Name Enter the domain name that will be migrating from. This should be the Internet domain name, not the local domain name.
+-	Test User Name Enter an email address of an active user within Microsoft Exchange system. This account is used to test connections as in most cases the admin account will not be mailbox enabled.
 
 CloudM Migrate will now perform a small connection test. If this fails validate the information has been entered correctly.
 
@@ -82,7 +82,7 @@ When migrating to Google workspace please review the Google Workspace Prerequisi
 When migrating Microsoft as the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365 Endpoint Configuration</a>
 
 
-The following will need to be done first and refer to these steps that should be completed in your Destination environment.
+The following will need to be done first and refer to these steps that should be completed in the Destination environment.
 Setting up Application Impersonation can be configured for the admin account within CloudM Migrate. 
 Select 'Setup Administrative Permissions' in the Destination Platform Settings page.
 <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/HostedExchangeSourceAO.html#">Application Impersonation</a>.
