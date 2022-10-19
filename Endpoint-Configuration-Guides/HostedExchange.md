@@ -86,5 +86,18 @@ When migrating Microsoft as the destination Please follow the <a href="https://c
 The following will need to be done first and refer to these steps that should be completed in the Destination environment.
 Setting up Application Impersonation can be configured for the admin account within CloudM Migrate. 
 Select 'Setup Administrative Permissions' in the Destination Platform Settings page.
-<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/HostedExchangeSourceAO.html#">Application Impersonation</a>.
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/HostedExchangeSourceAO.html#">Application Impersonation</a>.>
+
+---
+
+### Delegated Access Steps
+
+Setting up Delegated Access
+
+Delegated access gives a user account permission to access another. Delegated access must be set up if you are not using an Enterprise plan of Office 365.
+
+<a href=https://support.microsoft.com/en-us/office/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926.html#"><Setting up delegated access</a>
+
+
+
 
