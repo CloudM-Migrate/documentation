@@ -80,8 +80,7 @@ When migrating to Google workspace please review the Google Workspace Prerequisi
 
 Select where the data will be migrated and if using Google Workspace for Business or Google Vault select to migrate data directly into Google Vault.
 
-To enable Google Vault for the domain, please see the following article <a href="https://support.google.com/vault/bin/answer.py?hl=en&answer=2584132.html">
->Set up Vault for your organization</a>
+To enable Google Vault for the domain, please see the following article <a href="https://support.google.com/vault/bin/answer.py?hl=en&answer=2584132.html">**Set up Vault for your organization**</a>
 
 Enter the user's full email address within the Export Name field. If already created in Google Workspace users then enter their username.
 
@@ -106,7 +105,7 @@ If this fails validate the information has been entered correctly.
 The following will need to be done first and refer to these steps that should be completed in the Destination environment.
 Setting up Application Impersonation can be configured for the admin account within CloudM Migrate. 
 Select 'Setup Administrative Permissions' in the Destination Platform Settings page.
-<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/HostedExchangeSourceAO.html#">Application Impersonation</a>.
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/HostedExchangeSourceAO.html#">**Application Impersonation**</a>.
 
 Click Advanced Settings and under the Account Details section select Credential Method and change it to Delegated Access.
 
@@ -118,7 +117,7 @@ Setting up Delegated Access
 
 Delegated access gives a user account permission to access another. Delegated access must be set up if not utlizing an Enterprise plan of Office 365.
 
-<a href="https://support.microsoft.com/en-us/office/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926.html#">Setting up delegated access</a>
+<a href="https://support.microsoft.com/en-us/office/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926.html#">**Setting up delegated access**</a>
 
 ---
   
