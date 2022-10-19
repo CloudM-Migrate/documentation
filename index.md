@@ -63,6 +63,9 @@ We're inline and agree with the <a href="https://docs.github.com/en/site-policy/
 
 CloudM is committed to fostering a welcoming community. Please be respectful and happy migrating!
 
+### Reporting Errors
+Report errors on the <a href="https://github.com/CloudM-Migrate/documentation/issues">Issues board</a>
+
 ### Contributing
 This repo is closed to submissions at this time. We're working on our V1 and will be open for contributions when completed. 
 
