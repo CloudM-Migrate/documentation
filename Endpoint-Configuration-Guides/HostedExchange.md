@@ -59,9 +59,10 @@ Currently supported Hosted Exchange Providers:
 ---
 ### Entering Hosted Exchange Information 
 
-If the  Hosted Exchange provider is listed, select it from the list of providers and the server details will be populated. If the provider is not listed, select 'My Provider is Not Listed' and enter the below details manually.
+If the Hosted Exchange provider is listed, select it from the list of providers and the server details will be populated. If the provider is not listed, select 'My Provider is Not Listed' and enter the below details manually.
 
--	Auto discovery Service URL – In order to connect to the correct server, auto discovery is used to obtain the server information. Input the URL to the auto discovery service for your domain. The value for the Microsoft Exchange server is like https://yourserver/autodiscover/autodiscover.xml.
+-	Auto discovery Service URL in order to connect to the correct server, auto discovery is used to obtain the server information. 
+Input the URL to the auto discovery service for your domain. The value for the Microsoft Exchange server is like https://yourserver/autodiscover/autodiscover.xml.
 -	Admin Username  Enter the full email address of the Microsoft Exchange admin user.
 -	Admin Password Enter the password of the admin user.
 -	Domain Name Enter the domain name that will be migrating from. This should be the Internet domain name, not the local domain name.
