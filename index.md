@@ -13,7 +13,7 @@ This site will contain the technical documentation for [CloudM Migrate](https://
 ---
 
 {: .new }
-Box and Dropbox endpoint guides completed. 
+Teams to Teams project guide completed. 
 
 ---
 
