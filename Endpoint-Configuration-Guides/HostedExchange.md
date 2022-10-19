@@ -57,9 +57,10 @@ These are CloudM's supported hosted exchange providers:
 ---
 ### Entering Hosted Exchange Information 
 
-If the Hosted Exchange provider is listed, select it from the list of providers and the server details will be populated. If the provider is not listed, select 'My Provider is Not Listed' and enter the below details manually.
+If the Hosted Exchange provider is listed, select it from the list of providers and the server details will be populated. If the provider is not listed, select 
+**My Provider is Not Listed and enter the below details manually.
 
--	Auto discovery Service URL in order to connect to the correct server, auto discovery is used to obtain the server information. 
+-	Auto discovery Service URL - in order to connect to the correct server, auto discovery is used to obtain the server information. 
 Input the URL to the auto discovery service for your domain. The value for the Microsoft Exchange server for example https://yourserver/autodiscover/autodiscover.xml.
 -	Admin Username Enter - the full email address of the Microsoft Exchange admin user.
 -	Admin Password Enter - the password of the admin user.
@@ -104,9 +105,7 @@ Click Advanced Settings and under the Account Details section select Credential 
 
 ---
 
-### Delegated Access Steps
-
-Setting up Delegated Access
+### Delegated Access 
 
 Delegated access gives a user account permission to access another. Delegated access must be set up if not utlizing an Enterprise plan of Office 365.
 
@@ -114,7 +113,7 @@ Delegated access gives a user account permission to access another. Delegated ac
 
 ---
   
-### Office 365 Configuration, Provisioning and Migration Considerations.
+### Office 365 Configuration, Provisioning and Migration Considerations
   
 CloudM Migrate includes a number of platform configuration and provisioning options for Office 365 migration that enable advanced automation scenarios. These options can be executed during the migration process and will run as part of the migration of users' data. 
 
