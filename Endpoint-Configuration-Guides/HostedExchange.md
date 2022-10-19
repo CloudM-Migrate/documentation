@@ -76,7 +76,7 @@ CloudM Migrate will now perform a small connection test. If this fails validate 
 These steps should be completed in the Destination environment.
  
 When migrating to Google workspace please review the Google Workspace Prerequisites  
-<a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google Tenant Endpoint Configuration</a>
+<a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">**Google Tenant Endpoint Configuration**</a>
 
 Select where the data will be migrated and if using Google Workspace for Business or Google Vault select to migrate data directly into Google Vault.
 
@@ -96,7 +96,7 @@ If this fails validate the information has been entered correctly.
 
 ### Migrating to Microsoft 0365 
 
-When migrating Microsoft as the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365 Endpoint Configuration</a>
+When migrating Microsoft as the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">**0365 Endpoint Configuration**</a>
 
 CloudM Migrate will perform a connection test against the O365 domain to verify that everything has been entered correctly.
 
