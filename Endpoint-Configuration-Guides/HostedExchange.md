@@ -61,10 +61,10 @@ If the Hosted Exchange provider is listed, select it from the list of providers 
 
 -	Auto discovery Service URL in order to connect to the correct server, auto discovery is used to obtain the server information. 
 Input the URL to the auto discovery service for your domain. The value for the Microsoft Exchange server for example https://yourserver/autodiscover/autodiscover.xml.
--	Admin Username Enter the full email address of the Microsoft Exchange admin user.
--	Admin Password Enter the password of the admin user.
--	Domain Name Enter the domain name that will be migrating from. This should be the Internet domain name, not the local domain name.
--	Test User Name Enter an email address of an active user within Microsoft Exchange system. This account is used to test connections as in most cases the admin account will not be mailbox enabled.
+-	Admin Username Enter - the full email address of the Microsoft Exchange admin user.
+-	Admin Password Enter - the password of the admin user.
+-	Domain Name Enter - the domain name that will be migrating from. This should be the Internet domain name, not the local domain name.
+-	Test User Name Enter - an email address of an active user within Microsoft Exchange system. This account is used to test connections as in most cases the admin account will not be mailbox enabled.
 
 CloudM Migrate will now perform a small connection test. If this fails validate the information has been entered correctly.
 
@@ -74,11 +74,11 @@ CloudM Migrate will now perform a small connection test. If this fails validate 
 These steps should be completed in the Destination environment.
  
 When migrating to Google workspace review the Google Workspace Prerequisites  
-<a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">*Google Tenant Endpoint Configuration*</a>
+<a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google Tenant Endpoint Configuration</a>
 
 Select where the data will be migrated and if using Google Workspace for Business or Google Vault select to migrate data directly into Google Vault.
 
-To enable Google Vault for the domain, please see the following article <a href="https://support.google.com/vault/bin/answer.py?hl=en&answer=2584132.html">*Set up Vault for your organization*</a>
+To enable Google Vault for the domain, please see the following article <a href="https://support.google.com/vault/bin/answer.py?hl=en&answer=2584132.html">Set up Vault for your organization</a>
 
 Enter the user's full email address within the Export Name field. If already created in Google Workspace users then enter their username.
 
@@ -94,7 +94,7 @@ If this fails validate the information has been entered correctly.
 
 ### Migrating to Microsoft 0365 
 
-When migrating Microsoft as the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">*0365 Endpoint Configuration*</a>
+When migrating Microsoft as the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365 Endpoint Configuration</a>
 
 CloudM Migrate will perform a connection test against the O365 domain.
 
@@ -110,7 +110,7 @@ Setting up Delegated Access
 
 Delegated access gives a user account permission to access another. Delegated access must be set up if not utlizing an Enterprise plan of Office 365.
 
-<a href="https://support.microsoft.com/en-us/office/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926.html#">**Setting up delegated access**</a>
+<a href="https://support.microsoft.com/en-us/office/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926.html#">Setting up delegated access</a>
 
 ---
   
