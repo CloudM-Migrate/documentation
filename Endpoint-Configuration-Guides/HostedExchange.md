@@ -71,7 +71,7 @@ Input the URL to the auto discovery service for your domain. The value for the M
 CloudM Migrate will now perform a small connection test. If this fails validate the information has been entered correctly.
 
 ---
-### Migrating to Google Workspace Section 
+### Migrating to Google Workspace 
 
 These steps should be completed in the Destination environment.
  
