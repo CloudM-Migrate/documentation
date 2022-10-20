@@ -45,6 +45,22 @@ Licenses for Self Hosted migrations are discounted from Cloudm Migrat SaaS optio
 
 Any available Windows updates should be installed and the machine rebooted prior to installation, and a full system administrator is recommended for installation.
 
+### Binary for v3.37 x64
+
+<a href="https://storage.googleapis.com/cloudmigrator/CloudM-Migrate-3.37.6.0-x64.exe">CloudM Migrate x64</a>
+
+**NOTE:** Not compatibable with GroupWise or Lotus Notes.
+
+SHA1 - f8a2d54bc2aa4d2572094e2501c53b6f74fa8094
+MD5 - a2a44382fe1c69cabd386d6552d4916f
+
+### Binary for v3.37 x86
+
+<a href="https://storage.googleapis.com/cloudmigrator/CloudM-Migrate-3.37.6.0.exe">CloudM Migrate x86</a>
+
+SHA1 - 1e8ba97b49a1f7fc05851d05603bf6daf24c77c1
+MD5 - 11cf29adb69ede490fd63a1ab242dc9c
+
 ### GDPR
 
 All logs, project configuration and migration reports are autodeleted after 30 days on inactivty in the self-hosted CloudM Migrate. This is done to ensure that personally indentifable meta data is not stored to as required under GDPR regulations. 
