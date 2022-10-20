@@ -12,7 +12,7 @@ has_toc: false
 ## Hosted Exchange to Google
 {: .no_toc }
 
-Before starting your migration project, make sure you have setup the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">Hosted Exchange</a> endpoint and the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google Tenant Configuration Guide</a>. Be sure to validate the tenant and the hosted environment have passed the connectivity tests with no errors. 
+Before starting your migration project, make sure you have setup the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">Hosted Exchange Endpoint Configuration Guide</a> and the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google Endpoint Configuration Guide</a>. Be sure to validate the tenant and the hosted environment have passed the connectivity tests with no errors. 
 
 <a name="top"></a>
 <details open markdown="block">
