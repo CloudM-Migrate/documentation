@@ -45,7 +45,7 @@ Licenses for Self Hosted migrations are discounted from Cloudm Migrat SaaS optio
 
 Any available Windows updates should be installed and the machine rebooted prior to installation, and a full system administrator is recommended for installation.
 
-### Binary for v3.37 x64
+### Binary for x64
 
 <a href="https://storage.googleapis.com/cloudmigrator/CloudM-Migrate-3.37.6.0-x64.exe">CloudM Migrate x64</a>
 
@@ -54,7 +54,7 @@ Any available Windows updates should be installed and the machine rebooted prior
 SHA1 - f8a2d54bc2aa4d2572094e2501c53b6f74fa8094
 MD5 - a2a44382fe1c69cabd386d6552d4916f
 
-### Binary for v3.37 x86
+### Binary for x86
 
 <a href="https://storage.googleapis.com/cloudmigrator/CloudM-Migrate-3.37.6.0.exe">CloudM Migrate x86</a>
 
