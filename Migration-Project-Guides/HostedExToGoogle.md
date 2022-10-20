@@ -26,12 +26,6 @@ Before starting your migration project, make sure you have setup both <a href="h
 
 ---
 
-## Things to Consider
-
-
-
-
-
 ### Migrating to Google Workspace 
 
 These steps should be completed in the Destination environment.
