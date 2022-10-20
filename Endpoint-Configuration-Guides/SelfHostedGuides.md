@@ -63,6 +63,18 @@ SHA1 - 1e8ba97b49a1f7fc05851d05603bf6daf24c77c1
 
 MD5 - 11cf29adb69ede490fd63a1ab242dc9c
 
+### Clustering
+
+For higher migration velocity mutiple CloudM Migrate servers can be deployed. Clustering is done using <a href="https://redis.io/docs/manual/scaling/">Redis</a> and will require the following ports to be open. 
+
+### Ports and Firewall
+
+Both primary and secondary CloudM Migrate servers communicate with source and destination endpoints over port 80 and 443. The CloudM Migrate licensing endpoint uses port 443.
+
+Depending on firewall restrictions it maybe nessecary to whitelist the licensing server portal.thecloudmigrator.com.
+
+For CloudM Migrate clustering the SQL server will need to use TCP port 1433 and UDP port 1434. 
+  
 ### GDPR
 
 All logs, project configuration and migration reports are autodeleted after 30 days on inactivty in the self-hosted CloudM Migrate. This is done to ensure that personally indentifable meta data is not stored to as required under GDPR regulations. 
