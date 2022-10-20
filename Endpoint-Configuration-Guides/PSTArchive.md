@@ -3,7 +3,7 @@ layout: default
 title: PST Archive
 grand_parent: Endpoint Configuration Guides
 parent: Self Hosted Guides
-nav_order: 2
+nav_order: 3
 
 ---
 
