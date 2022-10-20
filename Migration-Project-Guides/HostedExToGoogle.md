@@ -31,11 +31,11 @@ Before starting your migration project, make sure you have setup both <a href="h
 These steps should be completed in the Destination environment.
  
 When migrating to Google workspace please review the Google Workspace Prerequisites  
-<a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">**Google Tenant Endpoint Configuration**</a>
+<a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google Tenant Endpoint Configuration</a>
 
 Select where the data will be migrated and if using Google Workspace for Business or Google Vault select to migrate data directly into Google Vault.
 
-To enable Google Vault for the domain, please see the following article <a href="https://support.google.com/vault/bin/answer.py?hl=en&answer=2584132.html">**Set up Vault for your organization**</a>
+To enable Google Vault for the domain, please see the following article <a href="https://support.google.com/vault/bin/answer.py?hl=en&answer=2584132.html">Set up Vault for your organization</a>
 
 Enter the user's full email address within the Export Name field. If already created in Google Workspace users then enter their username.
 
