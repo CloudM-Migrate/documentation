@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Hosted Exchange to O365
-parent: Migration Project Guides
+grand_parent: Migration Project Guides
+parent: O365
 nav_order: 4
 has_children: false
 has_toc: false
