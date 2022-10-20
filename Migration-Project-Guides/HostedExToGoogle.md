@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Hosted Exchange to Google
-parent: Migration Project Guides
+grand_parent: Migration Project Guides
+parent: Google
 nav_order: 5
 has_children: false
 has_toc: false
