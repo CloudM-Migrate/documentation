@@ -3,7 +3,7 @@ layout: default
 title: GroupWise
 grand_parent: Endpoint Configuration Guides
 parent: Self Hosted Guides
-nav_order: 1
+nav_order: 2
 
 ---
 
