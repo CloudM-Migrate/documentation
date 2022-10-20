@@ -3,6 +3,8 @@ layout: default
 title: Release Notes
 nav_order: 9
 has_children: true
+has_toc: false
+
 ---
 
 ## Release Notes
