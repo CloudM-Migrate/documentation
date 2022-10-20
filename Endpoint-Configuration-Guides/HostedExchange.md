@@ -67,7 +67,9 @@ Input the URL to the auto discovery service for your domain. The value for the M
 -	Domain Name Enter - the domain name that will be migrating from. This should be the Internet domain name, not the local domain name.
 -	Test User Name Enter - an email address of an active user within Microsoft Exchange system. This account is used to test connections as in most cases the admin account will not be mailbox enabled.
 
-CloudM Migrate will now perform a small connection test. If this fails validate the information has been entered correctly.
+CloudM Migrate will now perform a small connection test. 
+
+If this fails validate the information has been entered correctly.
 
 ---
 ### Migrating to Google Workspace 
@@ -101,13 +103,14 @@ CloudM Migrate will perform a connection test against the O365 domain.
 
 If this fails validate the information has been entered correctly.
 
-Click Advanced Settings and under the Account Details section select Credential Method and change it to Delegated Access.
 
 ---
 
 ### Delegated Access 
 
 Delegated access gives a user account permission to access another. Delegated access must be set up if not utlizing an Enterprise plan of Office 365.
+
+Select Advanced Settings and under the Account Details section select Credential Method and change it to Delegated Access.
 
 <a href="https://support.microsoft.com/en-us/office/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926.html#">Setting up delegated access</a>
 
