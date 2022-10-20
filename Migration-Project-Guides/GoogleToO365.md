@@ -26,56 +26,6 @@ Before starting your migration project, make sure you have setup <a href="https:
 
 ---
 
-## Things to Consider
-
-### Purchasing Licenses for O365
-
-Under Step 5 in CloudM Migrate an option to scan the source can be leveraged to help determine the exact numbers of licenses needed for O365. It's recommended to purchase licenses and provision OneDrive, SharePoint and Archive Mailboxes before migrating. 
-
-### Setting the Domain on the O365 Tenant
-
-For Google to O365 use the target vanity domain when configuring your destination name regardless if it's different from source or not. 
-
-<a href="https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-domain?view=o365-worldwide">Add a domain to Microsoft 365</a>
-
-### Create Users in O365
-
-<a href="https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/add-users?view=o365-worldwide">Add users and assign licenses at the same time</a>
-
-### Provision OneDrive
-
-<a href="https://learn.microsoft.com/en-us/onedrive/pre-provision-accounts">Pre-provision OneDrive for users in your organization</a>
-
-### Provision O365 Archives  
- 
-<a href="https://learn.microsoft.com/en-us/microsoft-365/compliance/enable-archive-mailboxes?view=o365-worldwide">Enable archive mailboxes for Microsoft 365</a>
-
----
-
-## Impact to Users
-[Back to Top](#top)
-
-### Options for Communications to Users
-
-Migrations have business impact but good communication with your user base can minimize the impact. 
-
-CloudM Migrate can send an email to the users when their migration is completed but you'll want to prepare your user base before your migration cutover. 
-
-We also recommend preparing your support team for questions on new mail clients and where their data is located after cutover. 
-
----
-
-## Planning your DNS Cutover
-[Back to Top](#top)
-
-### DNS Record TTL Preparation
-Lower the TTL value for all mail related DNS records such as MX and SPF. 
-
-- MX - Mail Routing
-- SPF - Source IP of mailserver domain that's used to prevent domian spoofing. 
-
----
-
 ## Standard Prestage Migration
 [Back to Top](#top)
 
