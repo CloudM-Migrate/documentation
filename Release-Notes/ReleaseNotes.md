@@ -8,7 +8,7 @@ has_children: true
 ## Release Notes
 {: .no_toc }
 
-Find out what new in the latest version of CloudM Migrate. 
+Find out what's new in the latest version of CloudM Migrate. 
 
 <a name="top"></a>
 <details open markdown="block">
