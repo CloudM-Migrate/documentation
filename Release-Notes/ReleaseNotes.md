@@ -11,5 +11,3 @@ has_toc: true
 {: .no_toc }
 
 Find out what's new in the latest version of CloudM Migrate. 
-
----
