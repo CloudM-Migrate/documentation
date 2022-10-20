@@ -25,58 +25,8 @@ Before starting your migration project, make sure you have setup both <a href="h
 
 ---
 
-## Things to Consider
-
-### Purchasing Licenses for O365
-
-Under Step 5 in CloudM Migrate an option to scan the source can be leveraged to help determine the exact numbers of licenses needed for O365. It's recommended to purchase licenses and provision OneDrive, SharePoint and Archive Mailboxes before migrating. 
-
-### Setting the Domain on the O365 Tenant
-
-For Google to O365 use the target vanity domain when configuring your destination name regardless if it's different from source or not. 
-
-<a href="https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-domain?view=o365-worldwide">Add a domain to Microsoft 365</a>
-
-### Create Users in O365
-
-<a href="https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/add-users?view=o365-worldwide">Add users and assign licenses at the same time</a>
-
-### Provision OneDrive
-
-<a href="https://learn.microsoft.com/en-us/onedrive/pre-provision-accounts">Pre-provision OneDrive for users in your organization</a>
-
-### Provision O365 Archives  
- 
-<a href="https://learn.microsoft.com/en-us/microsoft-365/compliance/enable-archive-mailboxes?view=o365-worldwide">Enable archive mailboxes for Microsoft 365</a>
-
----
-
-## Impact to Users
-[Back to Top](#top)
-
-### Options for Communications to Users
-
-Migrations have business impact but good communication with your user base can minimize the impact. 
-
-CloudM Migrate can send an email to the users when their migration is completed but you'll want to prepare your user base before your migration cutover. 
-
----
-
-## Planning your DNS Cutover
-[Back to Top](#top)
-
-### DNS Record TTL Preparation
-Lower the TTL value for all mail related DNS records such as MX and SPF. 
-
-- MX - Mail Routing
-- SPF - Source IP of mail is allowed to send for the domain. 
-
----
-
-
----
-
 ### Migrating to Microsoft 0365 
+{: .no_toc }
 
 When migrating Microsoft as the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">**0365 Endpoint Configuration**</a>
 
