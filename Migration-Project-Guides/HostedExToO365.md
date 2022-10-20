@@ -28,7 +28,7 @@ Before starting your migration project, make sure you have setup both <a href="h
 ### Migrating to Microsoft 0365 
 {: .no_toc }
 
-When migrating Microsoft as the destination Please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">**0365 Endpoint Configuration**</a>
+When migrating Microsoft as the destination please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365 Endpoint Configuration Guide</a>.
 
 CloudM Migrate will perform a connection test against the O365 domain to verify that everything has been entered correctly.
 
@@ -37,13 +37,13 @@ If this fails validate the information has been entered correctly.
 The following will need to be done first and refer to these steps that should be completed in the Destination environment.
 Setting up Application Impersonation can be configured for the admin account within CloudM Migrate. 
 Select 'Setup Administrative Permissions' in the Destination Platform Settings page.
-<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/HostedExchangeSourceAO.html#">**Application Impersonation**</a>.
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/HostedExchangeSourceAO.html#">Application Impersonation</a>.
 
 Click Advanced Settings and under the Account Details section select Credential Method and change it to Delegated Access.
 
 ---
 
-### Office 365 Configuration, Provisioning and Migration Considerations.
+### Office 365 Configuration, Provisioning and Migration Considerations
   
 CloudM Migrate includes a number of platform configuration and provisioning options for Office 365 migration that enable advanced automation scenarios. These options can be executed during the migration process and will run as part of the migration of users' data. 
 
