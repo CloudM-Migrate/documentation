@@ -67,13 +67,15 @@ MD5 - 11cf29adb69ede490fd63a1ab242dc9c
 
 For higher migration velocity mutiple CloudM Migrate servers can be deployed. Clustering is done using <a href="https://redis.io/docs/manual/scaling/">Redis</a> and will require the following ports to be open. 
 
+- Redis (Clustering) port 6379
+- SQL server runs on TCP port 1433 and UDP port 1434 
+- Microsoft Messaging Queue on port 80
+
 ### Ports and Firewall
 
 Both primary and secondary CloudM Migrate servers communicate with source and destination endpoints over port 80 and 443. The CloudM Migrate licensing endpoint uses port 443.
 
 Depending on firewall restrictions it maybe nessecary to whitelist the licensing server portal.thecloudmigrator.com.
-
-For CloudM Migrate clustering the SQL server will need to use TCP port 1433 and UDP port 1434. 
   
 ### GDPR
 
