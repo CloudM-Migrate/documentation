@@ -33,6 +33,7 @@ For Lotus Notes this is defined by the following requirements:
 
 
 
+
 ### Authentication Method 
 
 In CloudM Migrate under Stap 1 the 
