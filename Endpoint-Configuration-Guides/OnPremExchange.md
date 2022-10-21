@@ -1,7 +1,8 @@
 ---
 layout: default
 title: On-Premesis Exchange
-parent: Endpoint Configuration Guides
+grand_parent: Endpoint Configuration Guides
+parent: Other Source Endpoints
 nav_order: 9
 ---
 
