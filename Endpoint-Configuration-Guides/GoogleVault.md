@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Google Vault
-parent: Endpoint Configuration Guides
-nav_order: 14
+grand_parent: Endpoint Configuration Guides
+parent: Other Source Endpoint
+nav_order: 6
 ---
 
 ## Google Vault Endpoint Configuration
