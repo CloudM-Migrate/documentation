@@ -2,7 +2,7 @@
 layout: default
 title: Box
 grand_parent: Endpoint Configuration Guides
-parent: Other Endpoint Guides
+parent: Other Source Endpoint
 nav_order: 1
 
 ---
