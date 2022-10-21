@@ -2,7 +2,7 @@
 layout: default
 title: Google Vault
 grand_parent: Endpoint Configuration Guides
-parent: Other Source Endpoint
+parent: Other Source Endpoints
 nav_order: 6
 ---
 
