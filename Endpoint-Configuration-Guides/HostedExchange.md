@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Hosted Exchange
-parent: Endpoint Configuration Guides
+grand_parent: Endpoint Configuration Guides
+parent: Other Source Endpoint
 nav_order: 3
 ---
 
