@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Box
-parent: Endpoint Configuration Guides
-nav_order: 17
+grand_parent: Endpoint Configuration Guides
+parent: Other Endpoint Guides
+nav_order: 1
+
 ---
 
 ## Box Endpoint Configuration
