@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Zimbra
-parent: Endpoint Configuration Guides
-nav_order: 6
+grand_parent: Endpoint Configuration Guides
+parent: Other Source Endpoints
+nav_order: 11
 ---
 
 ## Zimbra Endpoint Configuration
