@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Dropbox
-parent: Endpoint Configuration Guides
-nav_order: 16
+grand_parent: Endpoint Configuration Guides
+parent: Other Source Endpoint
+nav_order: 2
 ---
 
 ## Dropbox Endpoint Configuration
