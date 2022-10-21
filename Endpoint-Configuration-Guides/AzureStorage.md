@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Azure Storage
-parent: Endpoint Configuration Guides
-nav_order: 20
+grand_parent: Endpoint Configuration Guides
+parent: Other Source Endpoint
+nav_order: 7
 ---
 
 ## Azure Storage Endpoint Configuration
