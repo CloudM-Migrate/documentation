@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Scalix
-parent: Endpoint Configuration Guides
-nav_order: 7
+grand_parent: Endpoint Configuration Guides
+parent: Other Source Endpoint
+nav_order: 5
 ---
 
 ## Scalix Endpoint Configuration
