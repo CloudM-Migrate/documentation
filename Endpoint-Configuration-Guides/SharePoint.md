@@ -1,8 +1,9 @@
 ---
 layout: default
 title: SharePoint
-parent: Endpoint Configuration Guides
-nav_order: 19
+grand_parent: Endpoint Configuration Guides
+parent: Other Source Endpoint
+nav_order: 5
 ---
 
 ## SharePoint Endpoint Configuration
