@@ -2,7 +2,7 @@
 layout: default
 title: Office 365
 parent: Endpoint Configuration Guides
-nav_order: 2
+nav_order: 1
 ---
 
 ## Office 365 Endpoint Configuration
