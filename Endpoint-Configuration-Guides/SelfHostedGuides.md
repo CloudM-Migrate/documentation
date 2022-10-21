@@ -83,4 +83,4 @@ All logs, project configuration and migration reports are autodeleted after 30 d
 
 ### Self Hosted Only Endpoints
 
-Several endpoints can only be used a source with the self-hosted install. 
+Several endpoints can only be used as a source with the Self Hosted install. 
