@@ -2,7 +2,7 @@
 layout: default
 title: Azure Storage
 grand_parent: Endpoint Configuration Guides
-parent: Other Source Endpoint
+parent: Other Source Endpoints
 nav_order: 7
 ---
 
