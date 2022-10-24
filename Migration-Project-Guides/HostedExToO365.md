@@ -25,39 +25,10 @@ Before starting your migration project, make sure you have setup both <a href="h
 
 ---
 
-### Migrating to Microsoft 0365 
+### Standard Prestange Migration
 {: .no_toc }
 
-When migrating Microsoft as the destination please follow the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365 Endpoint Configuration Guide</a>.
-
-CloudM Migrate will perform a connection test against the O365 domain to verify that everything has been entered correctly.
-
-If this fails validate the information has been entered correctly.
-
-The following will need to be done first and refer to these steps that should be completed in the Destination environment.
-Setting up Application Impersonation can be configured for the admin account within CloudM Migrate. 
-Select 'Setup Administrative Permissions' in the Destination Platform Settings page.
-<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/HostedExchangeSourceAO.html#">Application Impersonation</a>.
-
-Click Advanced Settings and under the Account Details section select Credential Method and change it to Delegated Access.
+https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/O365ToO365.html
 
 ---
-
-### Office 365 Configuration, Provisioning and Migration Considerations
-  
-CloudM Migrate includes a number of platform configuration and provisioning options for Office 365 migration that enable advanced automation scenarios. These options can be executed during the migration process and will run as part of the migration of users' data. 
-
-There are special considerations when you need to preserve the user's domain in the target tenancy. It is not in good practice to have the same domain in two Office 365 tenancies at the same time. The recommended approach to achieve this is detailed below:
-
-All users to be migrated in the source tenancy will have a primary SMTP email address ending in their current domain e.g. 'user@company.com'. 
-Check that each of these also has at least one alias. This will be needed later to avoid having to delete users in order to stop mail going to their original mailboxes Provision users mailboxes in the target tenancy with their primary SMTP email addresses based on the '.onmicrosoft.com' domain.
-Configure CloudM Migrate with the target domain based on the new tenancy's '.onmicrosoft.com' domain. This will be used for both the bulk migration pass and the delta pass.
-  
-On completion of the delta pass, all the users should have their current primary SMTP address switched to their alias. This will in-effect stop mail from being received and be the start of the mail 'down-time'.
-Remove the 'company.com' domain from all users in the source tenancy. It is essential that no objects remain assigned to this domain otherwise you will not be able to remove the domain from the tenancy.
-Remove the 'company.com' domain from the source tenancy.
-Add the 'company.com' domain to the target tenancy
-Assign the 'company.com' domain to all the users in the target tenancy and make this the primary SMTP email address
-This ends the 'mail down-time' as mail will now successfully flow to the users again in the new tenancy.
- 
 
