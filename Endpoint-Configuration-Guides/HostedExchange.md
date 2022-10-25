@@ -105,8 +105,6 @@ CloudM Migrate will perform a connection test against the destination O365 tenan
 
 If this fails validate the information has been entered correctly.
 
----
-
 
 
 
