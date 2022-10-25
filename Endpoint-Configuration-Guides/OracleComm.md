@@ -2,11 +2,11 @@
 layout: default
 title: Oracle Communications
 grand_parent: Endpoint Configuration Guides
-parent: Other Source Endpoints
-nav_order: 10
+parent: Self Hosted Guides
+nav_order: 6
 ---
 
-## Office 365 Endpoint Configuration
+## Oracle Commumcations Endpoint Configuration
 {: .no_toc }
 
 ---
@@ -26,3 +26,15 @@ For Oracle Communications this is defined by the following requirements:
 </details>
 
 ---
+
+### Server Address and Port
+
+The IP or Hostname of the Oracle Communications server along with the port for IMAP, typically 143. 
+
+### Authentication
+
+An Admin Username and Password will need to be supplied to CloudM Migrate. 
+
+### Test Account
+
+A test mailbox within the scope of the migration will be need to test connectivity. 
