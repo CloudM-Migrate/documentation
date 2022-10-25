@@ -93,7 +93,7 @@ These steps should be completed in the Destination environment.
 When migrating to Google workspace review the Google Workspace Prerequisites  
 <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google Tenant Endpoint Configuration</a>
 
-To enable Google Vault for the destination, please see the following article <a href="https://support.google.com/vault/bin/answer.py?hl=en&answer=2584132.html">Set up Vault for your organization</a>.
+To enable Google Vault for the destination, please see the following article <a href="https://support.google.com/vault/answer/2584132?hl=en&ref_topic=2739742">Set up Vault for your organization</a>.
 
 ---
 
