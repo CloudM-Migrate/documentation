@@ -77,10 +77,6 @@ Both primary and secondary CloudM Migrate servers communicate with source and de
 
 Depending on firewall restrictions it maybe nessecary to whitelist the licensing server portal.thecloudmigrator.com.
   
-### GDPR
-
-All logs, project configuration and migration reports are autodeleted after 30 days on inactivty in the self-hosted CloudM Migrate. This is done to ensure that personally indentifable meta data is not stored to as required under GDPR regulations. 
-
 ### Self Hosted Only Endpoints
 
 Several endpoints can only be used as a source with the Self Hosted install. 
