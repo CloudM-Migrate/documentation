@@ -47,7 +47,7 @@ In an effort to better serve our customers and partners CloudM is going opensour
 ### Sales
 <a href = "mailto: sales@cloudm.io">Migrating to a Google Endpoint</a>
 
-<a href = "mailto: microsoft.sales@cloud.io">Migrating to a Microsoft Endpoint</a>
+<a href = "mailto: microsoft.sales@cloudm.io">Migrating to a Microsoft Endpoint</a>
 
 ### Getting Support
 <a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
