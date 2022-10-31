@@ -46,7 +46,7 @@ To migrate the Teams, validate the following item columns are selected:
 - OneDrive
 - Conversations
 
-Select Step 1 for the **Source Configuration** and then select **Advanced Settings**. Navigate to **Microsoft Teams/Groups** and turn on the option **Migrate Team Channel Tabs**. 
+Select **Step 1** for the **Source Configuration** and then select **Advanced Settings**. Navigate to **Microsoft Teams/Groups** and turn on the option **Migrate Team Channel Tabs**. 
 
 Select **Step 2** for the **Destination Configuration** and then select **Advanced Settings**. Navigate to **Microsoft Teams/Groups** and turn on the option **Teams Direct Migration**. Validate that the **Rehydrate Teams Private Chats** is off as these are done in the Delta Pass to avoid duplication. 
 
