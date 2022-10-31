@@ -71,9 +71,9 @@ For higher migration velocity mutiple CloudM Migrate servers can be deployed in 
 - SQL server runs on TCP port 1433 and UDP port 1434 
 - Microsoft Messaging Queue on port 80
 
-First a Primary Server is stood up followed by up to 5 secondary nodes. The limit of secondary nodes is mainly limited by throttling limits of destination tenants. If the project has multiple destination tenants then up to 6 nodes per destination can be utilized. 
+First a Primary node is stood up followed by up to 5 Secondary nodes. The limit of secondary nodes is mainly limited by throttling limits of destination tenants. If the project has multiple destination tenants then up to 6 nodes per destination can be utilized. 
 
-The Primary Server coordinates execution of migrations on the secondary nodes and can be configured to itself execute migration threads. For best performance it's recommended to not enable the secondary role on the primary node. 
+The Primary node coordinates execution of migrations on the Secondary nodes and can be configured to itself execute migration threads. For best performance it's recommended to not enable the secondary role on the primary node. 
 
 ### SQL Install
 
