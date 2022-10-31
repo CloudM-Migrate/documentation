@@ -77,7 +77,9 @@ The Primary node coordinates execution of migrations on the Secondary nodes and 
 
 ### SQL Install
 
-By default the Self Hosted install uses SQL Server Express. For larger migrations it may require a full SQL install to avoid limitations on SQL Server Express. It's recommend to do a full SQL install on migrations larger then 25k. To use an existing SQL instance use the Advanced Options when installing. 
+By default the Self Hosted install uses SQL Server Express. After installing the Primary node the installation will display details for the SQL Express install that will be needed when configuring the secondary nodes. 
+
+For larger migrations it may require a full SQL install to avoid limitations on SQL Server Express. It's recommend to do a full SQL install on migrations larger then 25k. To use an existing SQL instance use the Advanced Options when installing. 
 
 ### Ports and Firewall
 
