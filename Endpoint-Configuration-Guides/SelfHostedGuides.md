@@ -73,7 +73,7 @@ For higher migration velocity mutiple CloudM Migrate servers can be deployed in 
 
 First a Primary node is stood up followed by up to 5 Secondary nodes. The limit of secondary nodes is mainly limited by throttling limits of destination tenants. If the project has multiple destination tenants then up to 6 nodes per destination can be utilized. 
 
-The Primary node coordinates execution of migrations on the Secondary nodes and can be configured to itself execute migration threads. For best performance it's recommended to not enable the secondary role on the primary node. 
+The Primary node (Primary Service) coordinates execution of migrations on the Secondary nodes (Secondary Service) and can be configured to itself execute migration threads. For best performance it's recommended to not enable the secondary service on the primary node. The Primary Service can only be run on a single server in the same network. 
 
 ### SQL Install
 
@@ -86,7 +86,11 @@ For larger migrations it may require a full SQL install to avoid limitations on 
 Both primary and secondary CloudM Migrate servers communicate with source and destination endpoints over port 80 and 443. The CloudM Migrate licensing endpoint uses port 443.
 
 Depending on firewall restrictions it maybe nessecary to whitelist the licensing server portal.thecloudmigrator.com.
-  
+
+### Updating
+
+To update CloudM Migrate this can be performed from the Primary node using CloudM Migrate Service Manager. Validate the all cluster nodes are inactive and select Upgrade Servers from the Remote Connections tab. 
+
 ### Self Hosted Only Endpoints
 
 Several endpoints can only be used as a source with the Self Hosted install. 
