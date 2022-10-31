@@ -65,11 +65,17 @@ MD5 - 11cf29adb69ede490fd63a1ab242dc9c
 
 ### Clustering
 
-For higher migration velocity mutiple CloudM Migrate servers can be deployed. Clustering is done using <a href="https://redis.io/docs/manual/scaling/">Redis</a> and will require the following ports to be open. 
+For higher migration velocity mutiple CloudM Migrate servers can be deployed in a cluster. Clustering is done using <a href="https://redis.io/docs/manual/scaling/">Redis</a> and will require the following ports to be open. 
 
 - Redis (Clustering) port 6379
 - SQL server runs on TCP port 1433 and UDP port 1434 
 - Microsoft Messaging Queue on port 80
+
+First a Primary Server is stood up followed by up to 5 secondary nodes. The limit of secondary nodes is mainly limited by throttling limits of destination tenants. If the project has multiple destination tenants then up to 6 nodes per destination can be utilized. 
+
+### SQL Install
+
+By default the Self Hosted install uses SQL Server Express. For larger migrations it may require a full SQL install to avoid limitations on SQL Server Express. It's recommend to do a full SQL install on migrations larger then 25k. To use an existing SQL instance use the Advanced Options when installing. 
 
 ### Ports and Firewall
 
