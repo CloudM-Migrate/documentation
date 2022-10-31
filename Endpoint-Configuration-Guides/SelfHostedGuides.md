@@ -25,6 +25,7 @@ CloudM Migrate can be installed on server(s) in your environment, <a href="https
 ---
 
 ### A More Secure Implementation
+{: .no_toc }
 
 CloudM Migrate already has end to end encryption between migration endpoints. The option to Self Host CloudM Migrate will completly isolate your migration data to your source environment to the destination cloud tenant. 
 
