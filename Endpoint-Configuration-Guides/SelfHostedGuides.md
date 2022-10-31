@@ -10,7 +10,7 @@ nav_order: 3
 ## Self Hosted Guides
 {: .no_toc }
 
-CloudM Migrate can be installed on server(s) in your environment or your own Azure instance. 
+CloudM Migrate can be installed on server(s) in your environment, <a href="https://cloud.google.com/compute/docs/instances/create-start-instance">Google Cloud Platform</a> or <a href="https://learn.microsoft.com/en-us/training/modules/create-windows-virtual-machine-in-azure/">Azure</a> instance. 
 
 <a name="top"></a>
 <details open markdown="block">
