@@ -48,7 +48,9 @@ To migrate the Teams, validate the following item columns are selected:
 
 Select Step 1 for the Source Configuration and then select Advanced Settings. Navigate to Microsoft Teams/Groups and turn on the option Migrate Team Channel Tabs. 
 
-Select Step 2 for the Destination Configuration and then select Advanced Settings. Navigate to Microsoft Teams/Groups and turn on the option Teams Direct Migration. 
+Select Step 2 for the Destination Configuration and then select Advanced Settings. Navigate to Microsoft Teams/Groups and turn on the option Teams Direct Migration. Validate that the Rehydrate Teams Private Chats is off as these are done in the Delta Pass to avoid duplication. 
+
+1 to 1 chats are stored in a folder in the users mailbox and are completed during the first pass. 
 
 **NOTE:** The Teams Direct Migration option will create the Teams on the distination in MigrationMode. This restricts visiblity and access to the Team on the destination. If the Team already exists and this option in enabled, the migration will fail as an exiting Team can't be set to MigrationMode. To migrate to an existing Team disable the Team Direct Migration option. 
 
@@ -59,6 +61,8 @@ Execute the migration by selecting the paper airplane on the left and then selec
 ### Delta Pass and Finalizing 
 
 After the first pass is completed you can set a date for the destination Teams to go live for your users. To do so, go to the batch perviously created for the first pass and then go to Step 2. Select Advanced Settings and set the option Finalize Teams Direct Migration to Enabled. 
+
+CloudM Migrate has the option to rehydrate the last ten messages of users 1 to 1 chats. It's recommended to do this during the Delta Pass to avoid duplication. To set this feature go to Step 2 and expand the Advanced Settings. Navigate to Microsoft Teams/Groups and enable the Rehydrate Teams Private Chats option. 
 
 Execute the migration by selecting the paper airplane on the left and then selecting Start. When this pass is completed, the Teams will be live on the destination.
 
