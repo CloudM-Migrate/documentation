@@ -26,7 +26,7 @@ For Goolge this is defined by the following requirements:
 
 ### What Region for the Virtual Machine
 
-Upon receipt of the license for CloudM Migrate you'll have a link to access the application. When selecting the link a prompt will come up asking to choose which region of the world the migration will be performed for the purpose of landing the VM. Select the region closest to the desintation. 
+Upon receipt of the license for CloudM Migrate you'll have a link to access the application. When selecting the link a prompt will come up asking to choose which region of the world the migration will be performed for the purpose of landing the VM. Select the region closest to the destination. 
 
 ### Authentication Method
 
