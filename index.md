@@ -14,6 +14,7 @@ This site will contain the technical documentation for [CloudM Migrate](https://
 
 {: .new }
 Updated Self Hosted Guides
+Lloyd was here!
 
 ---
 
