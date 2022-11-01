@@ -35,11 +35,11 @@ Licenses for Self Hosted migrations are discounted from the Cloudm Migrate SaaS 
 
 - 64 bit Operating system: Windows Server 2016+ (Clean build recommended)
   - Microsoft .NET Framework 4.8
-- Recommended system specification - Primary Server:
+- Recommended minimum system specification - Primary Server:
   - 3GHz 8 Core Processor or better
   - 200+ GB Disk space
   - 16+ GB Memory
-- Recommended system specification - Secondary Server(s):
+- Recommended minimum system specification - Secondary Server(s):
   - 3GHz 4 Core Processor or better
   - 100 GB Disk space
   - 8+ GB Memory
