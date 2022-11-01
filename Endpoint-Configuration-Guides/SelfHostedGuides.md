@@ -84,7 +84,7 @@ For larger migrations it may require a full SQL install to avoid limitations on 
 
 ### Ports and Firewall
 
-Both primary and secondary CloudM Migrate servers communicate with source and destination endpoints over port 80 and 443. The CloudM Migrate licensing endpoint uses port 443.
+Both primary and secondary CloudM Migrate servers communicate with source and destination endpoints over port 80 and 443. The CloudM Migrate licensing servers use port 443.
 
 Depending on firewall restrictions it maybe nessecary to whitelist the licensing server portal.thecloudmigrator.com.
 
