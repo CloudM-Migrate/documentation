@@ -8,4 +8,4 @@ has_toc: false
 
 ---
 
-## Google as Destination
+## Google Destination Guides
