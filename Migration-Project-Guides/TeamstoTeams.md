@@ -27,6 +27,7 @@ When doing a Teams to Teams migration it's recommmend to have already created th
 </details>
 
 ## Graph API
+{: .no_toc }
 
 In order to get all messages from all chats that a user is a participant in, including one-on-one chats, group chats, and meeting chats the Graph API will be required to use. This is a <a href="https://learn.microsoft.com/en-us/graph/teams-protected-apis">protected API</a> and will require <a href="https://learn.microsoft.com/en-us/graph/teams-licenses">licensing and billing</a> information provided to Microsoft. 
 
