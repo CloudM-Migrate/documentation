@@ -98,8 +98,8 @@ To export a report of the migration for record keeping select Projects in the le
 
 ## Features to Add
 
-CloudM Migrate has several feature to enhance the migration, these can be configure before migrating based on desire result or to fit requirments. 
+CloudM Migrate has several feature to enhance the migration, these can be configure before migrating based on desired results or to fit requirements. 
 
-### Moving Attachmments to OneDrive
+### Moving Attachments to OneDrive
 
-There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#email-attachment-to-drive"several features</a> for manipulating attachments while migrations are inflight. These includes removing attachments from the emails and replacing them with OneDrive links to the former attachments. Migrated documents can also optionally be shared with the recipients of the original email. This can dramatically shrink mailboxes on the destination. 
+There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#email-attachment-to-drive"several features</a> for manipulating attachments while migrations are inflight. This includes removing attachments from the emails and replacing them with OneDrive links to the former attachments. Migrated documents can also optionally be shared with the recipients of the original email. This can dramatically shrink mailboxes on the destination.
