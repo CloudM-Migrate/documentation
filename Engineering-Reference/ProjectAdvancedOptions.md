@@ -404,7 +404,7 @@ Default Value: On
 
 Enable delta migrations, where a re-migration will cause any items that have been modified in the source since the last migration to be re-migrated and updated in the destination.
 
-Change Conditions: Turn off you not migrate document with a newer modified date. 
+Change Conditions: Turn off to not re-migrate updated documents.  
 
 ---
 ## Email Attachment to Drive
