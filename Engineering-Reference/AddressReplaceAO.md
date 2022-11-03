@@ -27,8 +27,6 @@ Default Value: None
 
 Specify a path to a CSV file containing replacement values to modify email addresses for appointments and contacts during migration. To perform no replacements, do not specify a file.
 
- Plain and simple - Here’s the actual events that are taking place.
-
 -	User A owns a file
 -	User B has access to the file
 -	User A isn’t being migrated to the destination domain
