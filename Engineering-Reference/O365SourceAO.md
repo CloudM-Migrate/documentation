@@ -290,7 +290,7 @@ Default Value: On
 
 Export Teams Private Chat Messages using EWS API instead of billable Graph API
 
-Change Conditions: When disabled CloudM Migrate will attempt to use the Graph API for Teams data. This is <a href="https://learn.microsoft.com/en-us/graph/api/chats-getallmessages?view=graph-rest-1.0&tabs=http">required</a> for in order to get one-on-one chats, group chats, and meeting chats.
+Change Conditions: When disabled CloudM Migrate will attempt to use the Graph API for Teams data. This is <a href="https://learn.microsoft.com/en-us/graph/api/chats-getallmessages?view=graph-rest-1.0&tabs=http">required</a> in order to get one-on-one chats, group chats, and meeting chats.
 
 Since it is a <a href="https://learn.microsoft.com/en-us/graph/teams-protected-apis">protected API</a> Microsoft will require <a href="https://learn.microsoft.com/en-us/graph/teams-licenses">licensing and billing</a> information. 
 
