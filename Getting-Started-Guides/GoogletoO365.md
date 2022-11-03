@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Migrate a Google Mailbox and MyDrive to O365
-parent: Getting Started Guides
+parent: Get Started with CloudM
 nav_order: 5
 ---
 
