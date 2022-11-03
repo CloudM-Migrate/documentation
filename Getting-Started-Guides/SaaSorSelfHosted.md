@@ -1,8 +1,9 @@
 ---
 layout: default
 title: SaaS or Self-Hosted
-parent: Getting Started Guides
+parent: Get Started with CloudM
 nav_order: 2
+
 ---
 
 
