@@ -340,6 +340,7 @@ Mark Teams Direct Migration as completed. Migrating Teams data with this option 
 Change Conditions: ??
 
 ### Rehydrate Teams Private Chats <a name="rehydpichat"></a>
+{: .no_toc }
 Default: On
 
 ??
