@@ -39,10 +39,12 @@ Be default, CloudM Migrate uses the EWS protocol to migrate Teams data which has
 
 ## Standard Migration 
 {: .no_toc }
+[Back to Top](#top)
 
 This process assumes that the destination tenant contains all the users and have already had mailboxes provisioned. A first migration pass is performed followed by a Delta with a Finalize Migration switch to make the Teams instance available to end users.
 
 ### First Migration Pass
+[Back to Top](#top)
 
 In CloudM Migrate go to **Step 3** and use the **Filter** option to select **Microsoft Teams** under Export Type. Select the selection column header and choose **Select All From Filter**. Select **Create Batch** and name it MS Teams under **Configuration Name**.
 
@@ -65,6 +67,7 @@ Validate the **Finalize Teams Direct Migration** is set to Disabled.
 Execute the migration by selecting the paper airplane on the left and then selecting **Start**. 
 
 ### Delta Pass and Finalizing 
+[Back to Top](#top)
 
 After the first pass is completed you can set a date for the destination Teams to go live for your users. To do so, go to the batch previously created for the first pass and then go to **Step 2**. Select **Advanced Settings** and set the option **Finalize Teams Direct Migration** to Enabled. 
 
