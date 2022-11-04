@@ -29,7 +29,7 @@ When doing a Teams to Teams migration it's recommend to have already created the
 ## Graph API
 {: .no_toc }
 
-In order to get all messages from all chats that a user is a participant in, including one-on-one chats, group chats, and meeting chats the Graph API will be required to use. This is a <a href="https://learn.microsoft.com/en-us/graph/teams-protected-apis">protected API</a> and will require <a href="https://learn.microsoft.com/en-us/graph/teams-licenses">licensing and billing</a> information provided to Microsoft. 
+In order to get all messages from all chats that a user is a participant in, including one-on-one chats, channel chats, and meeting chats the Graph API will be required to use. This is a <a href="https://learn.microsoft.com/en-us/graph/teams-protected-apis">protected API</a> and will require <a href="https://learn.microsoft.com/en-us/graph/teams-licenses">licensing and billing</a> information provided to Microsoft. 
 
 To <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#rehydrate-teams-private-chats-">Rehydrate Teams Private Chats</a> it is required to use the Graph API. 
 
