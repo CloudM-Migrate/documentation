@@ -343,7 +343,7 @@ Change Conditions: ??
 {: .no_toc }
 Default: On
 
-??
+Update Teams Private Chats with latest 10 exported messages
 
 Change Conditions: ??
 
