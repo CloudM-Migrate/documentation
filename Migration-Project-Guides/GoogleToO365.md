@@ -104,6 +104,8 @@ After starting the migration, you'll have the option to view progress and export
 
 To export a report of the migration for record keeping select Projects in the left navigation. Select Item Progress and then select the orange User progress link. By selection the top and right most orange button a file of item success by user can be downloaded.
 
+---
+
 ## Migration Enhancement Features 
 [Back to Top](#top)
 
