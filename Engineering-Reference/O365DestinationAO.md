@@ -338,6 +338,13 @@ Mark Teams Direct Migration as completed. Migrating Teams data with this option 
 
 Change Conditions: ??
 
+### Rehydrate Teams Private Chats
+Default: On
+
+??
+
+Change Conditions: ??
+
 ---
 ## Public Folders
 [Back to Top](#top)
