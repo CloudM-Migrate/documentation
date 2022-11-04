@@ -36,6 +36,7 @@ This approach eliminates user confusion from recent items being moved as they ar
 CloudM Migrate doesn't duplicate emails or documents. Once an email is migrated it is not moved again or updated on the destination even if it has changed on the source. Documents are not duplicated, but maybe <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#overwritedoc">overwritten</a> based on either the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#filterdate">Creation Date or Modified Date</a>. 
 
 ### Adding Users
+[Back to Top](#top)
 
 On Step 3 on the left, select the Add items to migrate for options on how to collect targeted items to migrate from Google. The following options will be available:
 
@@ -47,6 +48,7 @@ On Step 3 on the left, select the Add items to migrate for options on how to col
 - Add Group - 
 
 ### Scanning the Source 
+[Back to Top](#top)
 
 It's recommended to perform a scan against your Google source environment to proactively look for problems. While in CloudM Migrate select Step 5 on the left and then select Start. Depending on the size of the environment this can take some time to complete. When complete select Export Scan Results to download a zip of the scan results. 
 
@@ -57,6 +59,7 @@ The important files to check are the FileScanReport.html and MailScanReport.html
 - External File Shares. Items CloudM Migrate cannot migrate as they are external to the environment. 
 
 ### Address Replacement for Different Alias 
+[Back to Top](#top)
 
 If there is a need to change the alias on the O365 destination to fit a new naming convention this can be accomplished using the Export items button. This will export the user list to a CSV and you can change the ImportName column value by user to the new alias naming convention. 
 
@@ -65,6 +68,7 @@ Once the CSV has been updated to the new naming convention, re-import it into Cl
 If the aliases are changing the CSV will also need to be uploaded to preserve permission mapping. Make a copy of the CSV and remove all columns besides ExportName and ImportName. Go to Step 4 and expand the Advanced Settings. Select the Address Replacement tab and import the CSV to the Address Replacements (.csv) field. 
 
 ### Creating the First Batch
+[Back to Top](#top)
 
 It's recommended to wait at least 24 hours post-provisioning the destination before you start migrating data as replication for the tenant can take some time.  
 
@@ -73,30 +77,35 @@ There are multiple methods for manipulating item lists. For this guide, Select t
 Select Create Batch and name the Batch "Prestage". For Batch Configuration Type select disable migration items. 
 
 ### Date Ranges for the First Batch
+[Back to Top](#top)
 
 Select Step 4 and validate the source and destination domains are correct. Change the dates on the right set of columns to be 30 days before the current date. 
 
 Select Next, Skip the Environment Scan and Select Start to begin execution against the batch. 
 
 ### Cutover 
+[Back to Top](#top)
 
 Once the first batch is completed a DNS cutover can be scheduled. After a successful and validated cutover the Delta Sync can be started to sync all recent data. 
 
 It's recommended to use the longest stretch of off-peak hours available. This will greatly speed up the Delta Sync as less new mail is inbound and SharePoint throttling is reduced. 
 
 ### Delta Sync
+[Back to Top](#top)
 
 Return to Step 4 change the date listed in the right set of columns to 50 years in the future. 
 
 Start the migration.
 
 ### Statistics and Summary
+[Back to Top](#top)
 
 After starting the migration, you'll have the option to view progress and export a summary by selecting Start and then selecting View Progress. Select More Statistics to see a complete summary by item type for your current batch. 
 
 To export a report of the migration for record keeping select Projects in the left navigation. Select Item Progress and then select the orange User progress link. By selection the top and right most orange button a file of item success by user can be downloaded.
 
 ## Features to Add
+[Back to Top](#top)
 
 CloudM Migrate has several feature to enhance the migration, these can be configure before migrating based on desired results or to fit requirements. 
 
