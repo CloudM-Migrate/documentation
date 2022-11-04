@@ -249,6 +249,7 @@ Change Conditions: ??
 9. [Test Office 365 Group Email](#test365gemail)
 10. [Chat Message Library Name](#chatmeslib)
 11. [Finalize Teams Direct Migration](#finteamdir)
+12. [Rehydrate Teams Private Chat](#rehydpichat)
 
 ### Timeout <a name="ttimeout"></a>
 {: .no_toc }
@@ -338,7 +339,7 @@ Mark Teams Direct Migration as completed. Migrating Teams data with this option 
 
 Change Conditions: ??
 
-### Rehydrate Teams Private Chats
+### Rehydrate Teams Private Chats <a name="rehydpichat"></a>
 Default: On
 
 ??
