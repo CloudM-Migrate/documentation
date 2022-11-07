@@ -24,4 +24,4 @@ nav_order: 1
 
 ### The link you have followed has already been used and is no longer valid
 
-First try logging out and logging back in to CloudM Migrate. If still unsuccessful try using the browsers incognito mode. If this doesn't resolve the issue please contact our support team . 
+First try logging out and logging back in to CloudM Migrate. If still unsuccessful try using the browsers incognito mode. If this doesn't resolve the issue please contact our support team. 
