@@ -137,4 +137,4 @@ There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Re
 
 - Calendar: Acceptance status for meeting participants such as accepted, declined, tentative. 
 - Mail: Email Signatures from Google are not supported in Office 365.
-
+- Mail: Out of Office Notifications. 
