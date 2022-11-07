@@ -63,7 +63,11 @@ The whole process can be performed via a PowerShell script.
 
 Google Vault is heavliy throttled by default. Google has options for lifiting this throttling for an additional change. 
   
+### Chat 
+  
+By default Classic Chat History is not migrated. To migrate Classic Chat History as email on the destination enable the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/GoogleVaultSourceAO.html#chathist">Migrate Chat History</a> option.
+ 
 ### Spam
   
-By default SPAM is not migrated however it's possible to include SPAM by enabling <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/GoogleVaultSourceAO.html#export-spam-emails-">Export Spam Emails</a>.
+By default SPAM is not migrated however it's possible to include SPAM by enabling the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/GoogleVaultSourceAO.html#export-spam-emails-">Export Spam Emails</a> option.
 
