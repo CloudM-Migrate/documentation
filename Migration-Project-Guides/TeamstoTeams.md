@@ -42,6 +42,8 @@ In order to migrate Private Chat or 1 on 1 chats with **Rehydrate Teams Private 
 
 CloudM Migrate can create this application for you. Select the **Create Azure AD Delegated Application** button to create the application. Once the application has been created successfully a new button will be displayed, select **Consent Delegated Application** to add the specific scopes for delegating permissions to the specified admin account.
 
+If the Azure AD Application is being created by the <a href="https://bitbucket.org/cloudsols/cloudm-public/src/main/Migrate/PowerShell/CreateAzureADApplication.ps1">CreateAzureADApplication.ps1</a> PowerShell script a second script, <a href="https://bitbucket.org/cloudsols/cloudm-public/src/main/Migrate/PowerShell/CreateAzureADDelegatedApplication.ps1">CreateAzureADDelegatedApplication.ps1</a>, can be used for the Delegate permissions scope.
+
 ---
 
 ## Standard Migration 
