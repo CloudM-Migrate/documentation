@@ -36,6 +36,7 @@ To <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference
 By default, CloudM Migrate uses the EWS protocol to migrate Teams data which has no additional cost. 
 
 ## Delegated Permissions
+{: .no_toc }
 
 In order to migrate Private Chat or 1 on 1 chats with **Rehydrate Teams Private Chats** enabled to your Office 365 environment using modern authentication, you must install an Azure Active Directory application to grant API permissions. 
 
