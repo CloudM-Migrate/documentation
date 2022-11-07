@@ -160,7 +160,7 @@ Default Value: Off
 
 Migrate chat history.
 
-Change Conditions: ??
+Change Conditions: Enable to migrate Classic Chat History into the destination email. 
 
 ### Migrated Chat Label <a name="migchatlabel"></a>
 {: .no_toc }
@@ -168,4 +168,4 @@ Default Value: Migrated Chats
 
 The label that will be applied to migrated chats.
 
-Change Conditions: ??
+Change Conditions: Set the label applied to migrated Chat History on the destination. 
