@@ -33,7 +33,7 @@ In order to get all messages from all chats that a user is a participant in, inc
 
 To <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#rehydrate-teams-private-chats-">Rehydrate Teams Private Chats</a> it is required to use the Graph API. The majority of 1 to 1 chats are migrated to the users mailbox in a folder, only recent 1 to 1 chats are rehydrated into Teams if this option is enabled. 
 
-Be default, CloudM Migrate uses the EWS protocol to migrate Teams data which has no additional cost. 
+By default, CloudM Migrate uses the EWS protocol to migrate Teams data which has no additional cost. 
 
 ---
 
