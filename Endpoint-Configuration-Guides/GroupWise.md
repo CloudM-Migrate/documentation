@@ -28,18 +28,19 @@ For GroupWise this is defined by the following requirements:
 
 ---
 
-###
+### Server Details 
 
-These are the steps to migrate a single GroupWise mailbox.
+Following the steps are required to effectively set up Groupwise in the source endpoint configuration. 
 
-1. Default: The active user working currently in GroupWise gets migrated.
-2. Login: Credentials required to migrate the GroupWise mailbox
-3. Command Line: Without using credentials of the email address or being active on GroupWise
+- GroupWise Version select the version from the drop down. 
+- Server Address is required when entering this information in to the source endpoint
+- The Hostname or IP address is required of the Groupwise server. 
+- Provide or enter the Admin Password for the Groupwise server. 
 
 ---
 ### 
 
-Creating Application Key & Trusted Name 
+Creating Application Key & Trusted Name. 
 
 1.	Open the GroupWise Administration Console in the web browser.
 2.	Go to 'System - Trusted Applications
@@ -49,3 +50,14 @@ Creating Application Key & Trusted Name
 6.	You can either copy the key or click ‘Export’ to save it as a TXT file to make sure you do not lose the key.
 
 <a href="https://www.novell.com/documentation/groupwise-mailbox-management18/groupwise-mailbox-management/data/fmchapter10.html">Groupwise Application Key Process</a>   - Additional information can be referenced here 
+
+---
+### 
+
+Account Processing 
+
+The drop down indicates the selecation of accounts and archives to migrate. 
+
+- Account Only
+- Archive Only 
+- Account & Archive 
