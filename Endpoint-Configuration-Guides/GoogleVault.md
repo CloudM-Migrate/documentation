@@ -61,7 +61,7 @@ The whole process can be performed via a PowerShell script.
 
 ### Google Vault Throttling
 
-Google Vault is heavliy throttled by default. Google has <a href="https://support.google.com/vault/answer/2539616?hl=en#zippy=%2Cwhat-happens-to-a-vault-user-that-has-exceeded-the-google-workspace-storage-limit%2Chow-do-i-access-data-through-vault">options</a> for lifiting this throttling for an additional change. 
+Google Vault is heavliy throttled by default. Google has <a href="https://developers.google.com/vault/limits">options</a> for lifiting this throttling for an additional change. 
   
 ### Chat History
   
