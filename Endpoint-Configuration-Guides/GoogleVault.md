@@ -29,7 +29,7 @@ For Google Vault this is defined by the following requirements:
 
 ### Authentication
 
-The Google Vault endpoint requires the souce Domain and the Super Administrator account. 
+For either source or destination the Google Vault endpoint requires the source/destination Domain and the Super Administrator account. 
 
 ### Service Account and P12 Access Key for Google to SaaS Access
 
