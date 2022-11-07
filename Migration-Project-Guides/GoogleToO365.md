@@ -115,3 +115,26 @@ CloudM Migrate has several feature to enhance the migration, these can be config
 {: .no_toc }
 
 There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#email-attachment-to-drive">several features</a> for manipulating attachments while migrations are inflight. This includes removing attachments from the emails and replacing them with OneDrive links to the former attachments. Migrated documents can also optionally be shared with the recipients of the original email. This can dramatically shrink mailboxes on the destination.
+
+---
+
+## Unsupported Data Types for Migration
+[Back to Top](#top)
+
+### Google
+{: .no_toc }
+
+- Calendar: Calendar Reminders
+- Mail: Google Categories such as Social, Promotions, Updates, Forums.
+- Mail: Google Starred messages are not Flagged in Outlook.
+- Mail: Gmail Snoozed emails as limited by the Gmail API.
+- Mail: Gmail Scheduled emails are migrated to Office 365, but only as a draft in the All Mail folder, the scheduling is not migrated. 
+- Google Keep Notes.
+- Google Spaces cannot be migrated.
+
+### O365
+{: .no_toc }
+
+- Calendar: Acceptance status for meeting participants such as accepted, declined, tentative. 
+- Mail: Email Signatures from Google are not supported in Office 365.
+
