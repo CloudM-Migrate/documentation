@@ -63,7 +63,7 @@ The whole process can be performed via a PowerShell script.
 
 Google Vault is heavliy throttled by default. Google has options for lifiting this throttling for an additional change. 
   
-### Chat 
+### Chat History
   
 By default Classic Chat History is not migrated. To migrate Classic Chat History as email on the destination enable the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/GoogleVaultSourceAO.html#chathist">Migrate Chat History</a> option.
  
