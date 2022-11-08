@@ -14,7 +14,7 @@ has_toc: false
 
 Before starting your migration project, make sure you have setup both <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">O365</a> endpoints using the configuration guides. Be sure to validate both tenants have passed their connectivity tests with no errors. 
 
-When doing a Teams to Teams migration it's recommend to have already created the users on the destination tenant but not Teams instance. If this is not done it's possible for a channel to be created without the correct Team Owner. CloudM Migrate can create the new Teams instance on the destination for you in <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/graph-api/import-messages/import-external-messages-to-teams">MigrationMode</a> which will increase velocity. 
+When doing a Teams to Teams migration it's recommend to have already created the users on the destination tenant but not the Teams instance. If the users are not present it's possible for a channel to be created without the correct Team Owner. CloudM Migrate can create the new Teams instance on the destination for you in <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/graph-api/import-messages/import-external-messages-to-teams">MigrationMode</a> which will increase migration velocity. 
 
 <a name="top"></a>
 <details open markdown="block">
