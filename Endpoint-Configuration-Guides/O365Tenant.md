@@ -76,3 +76,4 @@ When both your endpoints are ready our <a href="https://cloudm-migrate.github.io
 
 - <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/GoogleToO365.html">Google to O365</a>
 - <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/O365ToO365.html">O365 to O365</a>
+- <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/TeamstoTeams.html">Teams to Teams</a>
