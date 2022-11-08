@@ -14,7 +14,7 @@ has_toc: false
 
 Before starting your migration project, make sure you have setup both <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">O365</a> endpoints using the configuration guides. Be sure to validate both tenants have passed their connectivity tests with no errors. 
 
-When doing a Teams to Teams migration it's recommend to have already created the users on the destination tenant. If this is not done it's possible for a channel to be created without the correct Team Owner. 
+When doing a Teams to Teams migration it's recommend to have already created the users on the destination tenant but not Teams instance. If this is not done it's possible for a channel to be created without the correct Team Owner. CloudM Migrate can create the new Teams instance on the destination for you in <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/graph-api/import-messages/import-external-messages-to-teams">MigrationMode</a> which will increase velocity. 
 
 <a name="top"></a>
 <details open markdown="block">
@@ -31,7 +31,7 @@ When doing a Teams to Teams migration it's recommend to have already created the
 
 In order to get all messages from all chats that a user is a participant in, including one-on-one chats, channel chats, and meeting chats the Graph API will be required to use. This is a <a href="https://learn.microsoft.com/en-us/graph/teams-protected-apis">protected API</a> and will require <a href="https://learn.microsoft.com/en-us/graph/teams-licenses">licensing and billing</a> information provided to Microsoft. 
 
-To <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#rehydrate-teams-private-chats-">Rehydrate Teams Private Chats</a> it is required to use the Graph API. The majority of 1 to 1 chats are migrated to the users mailbox in a folder, only recent 1 to 1 chats are rehydrated into Teams if this option is enabled. 
+To <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365DestinationAO.html#rehydrate-teams-private-chats-">Rehydrate Teams Private Chats</a> it is required to use the Graph API. The majority of Private Chats are migrated to the users mailbox in a folder, only recent Private Chats are rehydrated into Teams if this option is enabled. 
 
 By default, CloudM Migrate uses the EWS protocol to migrate Teams data which has no additional cost. 
 
