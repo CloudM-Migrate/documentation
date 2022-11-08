@@ -27,6 +27,10 @@ For Google Vault this is defined by the following requirements:
 
 ---
 
+### Throttling 
+
+Google Vault is heavly throttled by default with limits to <a href="https://developers.google.com/vault/limits">20 active</a> export threads per organization. You can <a href="https://cloud.google.com/docs/quota#requesting_higher_quota">request</a> these limits be raised but it takes a few days for the changes to take effect. 
+
 ### Authentication
 
 For either source or destination the Google Vault endpoint requires the source/destination Domain and the Super Administrator account. 
