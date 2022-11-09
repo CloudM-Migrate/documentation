@@ -34,7 +34,7 @@ Google endpoints are accessed by a Super Admin account.
 
 ### Service Account and P12 or JSON Access Key for Google to SaaS Access
 
-A Service Account needs to be created with the correct scopes for the data access and an associated P12 key. This account is entered in the endpoint configuration and the P12 or JSON key file is uploaded into CloudM Migrate. 
+A Service Account needs to be created with the correct scopes for the data access and an associated P12 or JSON key. This account is entered in the endpoint configuration and the P12 or JSON key file is uploaded into CloudM Migrate. 
 
 The whole process can be performed via a PowerShell script. 
 
