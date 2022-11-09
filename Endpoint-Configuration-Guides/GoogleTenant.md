@@ -32,9 +32,9 @@ Upon receipt of the license for CloudM Migrate you'll have a link to access the 
 
 Google endpoints are accessed by a Super Admin account. 
 
-### Service Account and P12 Access Key for Google to SaaS Access
+### Service Account and P12 or JSON Access Key for Google to SaaS Access
 
-A Service Account needs to be created with the correct scopes for the data access and an associated P12 key. This account is entered in the endpoint configuration and the P12 key file is uploaded into CloudM Migrate. 
+A Service Account needs to be created with the correct scopes for the data access and an associated P12 key. This account is entered in the endpoint configuration and the P12 or JSON key file is uploaded into CloudM Migrate. 
 
 The whole process can be performed via a PowerShell script. 
 
@@ -56,6 +56,6 @@ The whole process can be performed via a PowerShell script.
 10. The PowerShell script will have output the ClientID and OAuth Scopes to copy and paste in the Add New dialog. 
 11. Select Authorize. 
 12. You can now add the Service Account email to CloudM Migrate. 
-13. The P12 Access key will be located under C:\CloudM\GCPConfig and can be uploaded into CloudM Migrate. 
+13. The P12 or JSON Access key will be located under C:\CloudM\GCPConfig and can be uploaded into CloudM Migrate. 
 
 **NOTE:** Replication can cause a delay of 2 hours before these can be used to migrate data. 
