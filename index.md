@@ -13,7 +13,7 @@ This site will contain the technical documentation for [CloudM Migrate](https://
 ---
 
 {: .new }
-O365 Migration Project Guides updated. 
+Version 3.38 of CloudM Migrate is released. 
 
 ---
 
