@@ -40,7 +40,7 @@ The whole process can be performed via a PowerShell script.
 
 1. Download and install the <a href="https://cloud.google.com/sdk/docs/install">Google Cloud CLI</a>.
 2. Download the <a href="https://bitbucket.org/cloudsols/cloudm-public/src/main/Migrate/PowerShell/GCP_Configuration.ps1">GCP Configuration script<a/>.
-3. Run PowerShell as Admininstrator and execute the script. 
+3. Run PowerShell as Administrator and execute the script. 
 4. You'll be prompted to enter a Project ID and a Service Account ID which are arbitrary names. 
 5. You'll be prompted to enter the Scope, choose one of the following:
   - All - Recommended for Google to Google
