@@ -28,7 +28,7 @@ For O365 this is defined by the following requirements:
 
 Upon receipt of the license for CloudM Migrate you'll have a link to access the application. When selecting the link a prompt will come up asking to choose which region of the world the migration will be performed for the purpose of landing the VM. Select the region closest to the desintation. 
 
-### Authentication Method
+### Authentication Method - I made a change here
 
 ClouldM Migrate uses Modern Authentication as a default. If Multi-Factor Authentication is enabled on the endpoint it'll need to be disabled temporarily or a PFX certificate has to be generated for access. As a destination it's recommended to disable MFA. 
 
