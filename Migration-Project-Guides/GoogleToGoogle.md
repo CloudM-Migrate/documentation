@@ -61,7 +61,7 @@ The important files to check are the FileScanReport.html and MailScanReport.html
 ### Domain and Address Replacements 
 [Back to Top](#top)
 
-**Note**
+> **Note**
 Domains should always be mapped, but address replacements are optional and usually only need to be provided when you have specialist requirements. CloudM Migrate maps usernames and email addresses automatically if they have been configured in the user list however if you need to map unlisted users you can add them to the Address Replacements (File).
 
 There are a number of options which control how replacements are performed. It is important to understand how these applied, in which order and under which conditions. It is possible to end up with incorrect email addresses if the options are not fully understood.
@@ -205,14 +205,7 @@ Create a new CloudM MIgrate project/configuration to then migrate contacts, cale
 Change the primary domain on the destination
 Finally, you may need to perform a cleanup by removing the temporary destination domain/associated aliases. 
 
-*Changing the primary domain is not available for: 
-
-Google Workspace Free edition 
-Google Workspace or Cloud Identity accounts in a trial period
-Google Workspace or Cloud Identity accounts that included the purchase of your domain
-Google Workspace accounts purchased through Google Domains 
-Google Workspace Resellers
-Licensing
+> **Note** Changing the primary domain is not available for: Google Workspace Free edition, Google Workspace or Cloud Identity accounts in a trial period, Google Workspace or Cloud Identity accounts that included the purchase of your domain, Google Workspace accounts purchased through Google Domains, Google Workspace Resellers Licensing
 
 CloudM Migrate licenses are assigned to each destination domain. This means that when performing the delta migration, after renaming the accounts, it will require another CloudM Migrate license. If you are running such a migration, you should contact us through your account manager or via sales@cloudm.io and we will be able to provide additional licenses to mitigate this at no extra cost.
 
@@ -225,15 +218,13 @@ When using Get Items from source, groups will be populated in the userlist along
 
 It's important to check if there are existing groups in the destination Google Workspace instance. Any groups that are listed from the source could potentially have equivalent groups in the destination, so renaming the migrating groups import names in your items list, to create new ones and/or to distinguish them from the destination groups, would be advised. If you are renaming groups import names, these changes will need to be reflected in an address replacements CSV file (hyperlink to the address replacements article).
 
-**Note
-Google Group settings and content are not migrated - only the group itself and its' membership
+> **Note**
+Google Group settings and content are not migrated - only the group itself and its membership
 
 ---
 
 ## Unsupported Data Types for Migration
 [Back to Top](#top)
-
-{: .no_toc }
 
 - Calendar: Calendar Reminders
 - Mail: Google Categories such as Social, Promotions, Updates, Forums.
