@@ -6,6 +6,8 @@ has_children: true
 has_toc: false
 ---
 
+## Troubleshooting
+
 This is is our general overview on SLA Standards when submitting a service request and weekend support. 
 
 ### Getting Support
@@ -24,14 +26,10 @@ For urgent issues our response time is 4 hours from the initial receipt of the i
 | Low| 8 Hours |  48 Hours |
 | Service Requests | 12 Hours |  48 Hours |
 
-
-
-### CloudM: 24-hour Weekend Support 
-
-This service allows customers and partners to submit support tickets relating to issues directly related to the Cloud M software 24 hours a day, seven days a week. 
+### 24-hour Weekend Support 
 
 -  Weekend support for P1 issues with a 4-hour response SLA.
--  Support accessible 24/7 
+-  Support accessible 24/7. 
 -  Engineers located in US, Singapore, UK and utilizes a follow the sun rotation.
 
 
