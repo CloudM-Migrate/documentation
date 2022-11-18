@@ -249,6 +249,7 @@ Change Conditions: ??
 9. [Test Office 365 Group Email](#test365gemail)
 10. [Chat Message Library Name](#chatmeslib)
 11. [Finalize Teams Direct Migration](#finteamdir)
+12. [Rehydrate Teams Private Chat](#rehydpichat)
 
 ### Timeout <a name="ttimeout"></a>
 {: .no_toc }
@@ -335,6 +336,14 @@ Change Conditions: ??
 Default Value: Gmt
 
 Mark Teams Direct Migration as completed. Migrating Teams data with this option enabled will take Team out of the migration mode. This option opens the team and channel resources for general use by team members. No further migrations can be performed against finalized team.
+
+Change Conditions: ??
+
+### Rehydrate Teams Private Chats <a name="rehydpichat"></a>
+{: .no_toc }
+Default: On
+
+Update Teams Private Chats with latest 10 exported messages
 
 Change Conditions: ??
 

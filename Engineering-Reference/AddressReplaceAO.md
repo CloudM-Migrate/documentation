@@ -27,7 +27,12 @@ Default Value: None
 
 Specify a path to a CSV file containing replacement values to modify email addresses for appointments and contacts during migration. To perform no replacements, do not specify a file.
 
-Change Conditions: 
+-	User A owns a file
+-	User B has access to the file
+-	User A isn’t being migrated to the destination domain
+-	User B is being migrated to to the destination domain and will need to be able to access the file
+
+During the course of the migration the ACL for the file is amended adding user B new destination address. Which will allow User B to continue to access the file that’s still in the source platform. 
 
 ### Non-Matched Address Replacement Behaviour <a name="nonmatchreplace"></a>
 Default Value: Retain Original Address
@@ -42,4 +47,5 @@ Default Value: Off
 Perform email addresses and domain replacements from the CSV file specified in 'Address Replacements' and do not attempt to perform replacements using any other method.
 
 Change Conditions: Turn on to only change address of users specified in the CSV under Address Replacements (.csv)
+
 

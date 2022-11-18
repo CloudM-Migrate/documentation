@@ -8,4 +8,11 @@ has_toc: false
 
 ---
 
-## Google as Destination
+## Google Destination Guides
+
+
+### Things to Consider 
+
+### Impact to Users 
+
+### Planning your DNS Cutover 

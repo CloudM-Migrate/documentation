@@ -27,3 +27,28 @@ For GroupWise this is defined by the following requirements:
 </details>
 
 ---
+
+### Server Details 
+
+Following the steps are required to effectively set up GroupWise in the source endpoint configuration. 
+
+- GroupWise Version select the version from the drop down. 
+- Server Address is required when entering this information in to the source endpoint
+- The Hostname or IP address is required of the GroupWise server. 
+- Provide or enter the Admin Password for the GroupWise server. 
+
+Additional information as Groupwise as a source can be located here at the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/GroupWiseSourceAO.html"> 
+GroupWise Source Advanced Options</a>.
+
+
+Server Details</a>.
+
+---
+### Creating Application Key& Trusted Name. 
+
+- Open the GroupWise Administration Console in the web browser.
+- Go to **System - Trusted Applications**
+- Select **New** in the **Trusted Applications** window.
+- A popup for a **New Trusted App Key** will appear. Type GroupWise Mailbox Management in the Name field.
+- Select **OK**
+- You can either copy the key or select **Export** to save it as a TXT file to make sure you do not lose the key.

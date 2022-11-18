@@ -8,7 +8,7 @@ nav_order: 5
 ## How to Migrate a Google Mailbox and MyDrive to O365
 
 1. [Overview](#overview)
-2. [Google Source](#source)
+2. [Google Workspace Source](#source)
 3. [O365 Destination](#destination)
 4. [Creating a Migration Project](#project)
 
@@ -16,7 +16,7 @@ nav_order: 5
 
 This document will give an overview on to use CloudM Migrate to perform a test mailbox migration with files on MyDrive. Before attempting a migration you'll need to gather some information and prepare the source and destination tenants.
 
-### Google Source <a name="source"></a>
+### Google Workspace Source <a name="source"></a>
 
 A Domain Admin account will be needed in the source and a Service Account will need to be created for use in CloudM Migrate. When creating the Service Account a P12 key will need to be generated which you will upload into CloudM Migrate.
 
