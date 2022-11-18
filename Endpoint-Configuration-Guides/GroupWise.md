@@ -37,7 +37,7 @@ Following the steps are required to effectively set up GroupWise in the source e
 - The Hostname or IP address is required of the GroupWise server. 
 - Provide or enter the Admin Password for the GroupWise server. 
 
-Additional information can be referenced here on the following <a href=https://github.com/CloudM-Migrate/documentation/blob/main/Engineering-Reference/GroupWise.html> 
+Additional information can be referenced here on the following <a href="https://github.com/CloudM-Migrate/documentation/blob/main/Engineering-Reference/GroupWise.html"> 
 GroupWise Options</a>.
 
 Additional information can be referenced here for <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/GroupWiseSourceAO.html">
