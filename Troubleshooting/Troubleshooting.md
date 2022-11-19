@@ -48,7 +48,7 @@ To export your Logging and Trace Files:
  
 #### How to Locate Traces 
 
-When running a self hosted migration the locatation of a trace logs is is the C:\ProgramData\Cloud Technology Solutions folder on the primary server.
+When running a self hosted migration the locatation of a trace logs is the C:\ProgramData\Cloud Technology Solutions folder on the primary server.
 
 ### Exceptions 
 
