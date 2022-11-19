@@ -15,8 +15,7 @@ This is our general overview on SLA Standards when submitting a service request 
 
 ### Service Level Agreement & Response Times
 
-It is the responsibility of the CloudM Product Support Engineer to determine an appropriate priority and action based on business impact. 
-For urgent issues our response time is 4 hours from the initial receipt of the issue and all other issues is 8 hours.
+It is the responsibility of the CloudM Product Support Engineer to determine an appropriate priority and action based on business impact. For urgent issues our response time is 4 hours from the initial receipt of the issue and all other issues is 8 hours.
 
 | Priority level | Response Time| Update Schedule |
 | --- | --- | --- |
@@ -58,7 +57,7 @@ If migrating from Lotus Notes, GroupWise, Zimbra, Box, Dropbox, PST and Windows 
 
 In order to generate a trace file with full visibility on how the tool is handling data another pass is required please follow the steps on how to set the tool to debug level.  Select Step 4 - **Config Settings** > **Advanced Settings** > **System** and set **Trace Level** to **Debug**  within CloudM Migrate.
 
-### Cluster Migration Process 
+### Cluster Logs 
 
 When running CloudM Migrate in Cluster, different log files are written. The configurable storage location does not apply to clustered migrations, and logs are always written to the following locations.
 
