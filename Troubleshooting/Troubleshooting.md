@@ -59,7 +59,7 @@ In order to generate a trace file with full visibility on how the tool is handli
 
 ### Cluster Logs 
 
-When running CloudM Migrate in Cluster, different log files are written. The configurable storage location does not apply to clustered migrations, and logs are always written to the following locations.
+When running CloudM Migrate in a Cluster, different log files are written to a few different locations. The configurable storage location does not apply to clustered migrations, and logs are always written to the following locations:
 
 Migration logs are written to the secondary node on which the migration occurred. To determine which secondary node performed a migration for a user, refer to the progress tab or the CSV report files generated at the end of a migration.
 
