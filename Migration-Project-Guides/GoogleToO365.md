@@ -130,7 +130,7 @@ There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Re
 - Mail: Gmail Snoozed emails as limited by the Gmail API.
 - Mail: Gmail Scheduled emails are migrated to Office 365, but only as a draft in the All Mail folder, the scheduling is not migrated. 
 - Google Keep Notes.
-- Google Spaces cannot be migrated.
+- Google Spaces.
 
 ### O365
 {: .no_toc }
