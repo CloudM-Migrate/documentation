@@ -125,9 +125,9 @@ There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Re
 {: .no_toc }
 
 - Calendar: Calendar Reminders
-- Mail: Google Categories such as Social, Promotions, Updates, Forums.
+- Mail: Google Categories such as Social, Promotions or, Updates. 
 - Mail: Google Starred messages are not Flagged in Outlook.
-- Mail: Gmail Snoozed emails as limited by the Gmail API.
+- Mail: Gmail Snoozed emails.
 - Mail: Gmail Scheduled emails are migrated to Office 365, but only as a draft in the All Mail folder, the scheduling is not migrated. 
 - Google Keep Notes.
 - Google Spaces.
@@ -135,6 +135,6 @@ There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Re
 ### O365
 {: .no_toc }
 
-- Calendar: Acceptance status for meeting participants such as accepted, declined, tentative. 
+- Calendar: Acceptance status for meeting participants such as accepted, declined or tentative. 
 - Mail: Email Signatures from Google are not supported in Office 365.
 - Mail: Out of Office Notifications. 
