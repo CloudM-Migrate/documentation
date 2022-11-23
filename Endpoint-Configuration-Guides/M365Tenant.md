@@ -5,12 +5,12 @@ parent: Endpoint Configuration Guides
 nav_order: 1
 ---
 
-## Office 365 Endpoint Configuration
+## Microsoft 365 Endpoint Configuration
 {: .no_toc }
 
-This guide will show how to configure Office 365 as a source or destination endpoint. 
+This guide will show how to configure Microsoft 365 as a source or destination endpoint. 
 
-For O365 this is defined by the following requirements:
+For M365 this is defined by the following requirements:
 
 <a name="top"></a>
 <details open markdown="block">
