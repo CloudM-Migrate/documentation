@@ -19,11 +19,9 @@ It is the responsibility of the CloudM Product Support Engineer to determine an 
 
 | Priority level | Response Time| Update Schedule |
 | --- | --- | --- |
-| Critical | 1 Hour |  8 Hours |
 | High | 2 Hours |  24 Hours |
 | Medium | 4 Hours |  36 Hours |
 | Low| 8 Hours |  48 Hours |
-| Service Requests | 12 Hours |  48 Hours |
 
 ### 24-hour Weekend Support 
 
