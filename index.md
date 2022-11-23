@@ -18,7 +18,7 @@ Version 3.38 of CloudM Migrate is released.
 ---
 
 ## CloudM Migrate
-### Data Migration for Microsoft Office 365 and Google Workspace
+### Data Migration for Microsoft 365 and Google Workspace
 
 Scale your business, avoid vendor lock-in and experience true cloud freedom
 
