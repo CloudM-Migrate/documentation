@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Office 365
+title: M365
 parent: Endpoint Configuration Guides
 nav_order: 1
 ---
