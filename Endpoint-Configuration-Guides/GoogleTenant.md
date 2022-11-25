@@ -10,7 +10,7 @@ nav_order: 2
 
 This guide will show how to configure Google as a source or destination endpoint. 
 
-For Goolge this is defined by the following requirements:
+For Google this is defined by the following requirements:
 
 <a name="top"></a>
 <details open markdown="block">
