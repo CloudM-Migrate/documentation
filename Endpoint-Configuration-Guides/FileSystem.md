@@ -32,9 +32,17 @@ For File System this is defined by the following requirements:
 
 File stored in a local network file share can be migrated to either Google Drive, Microsoft OneDrive or a SharePoint Teams Site. CloudM Migrate will need to be <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/SelfHostedGuides.html">installed</a> on a server in the network. Once completed the server will need to have the desired shares <a href="https://support.microsoft.com/en-us/windows/map-a-network-drive-in-windows-29ce55d1-34e3-a7e2-4801-131475f9557d"> mapped</a> to the CloudM Migrate server. If using a Cluster, each Secondary server will need the drive mappings done the same as the Primary server. 
 
+### Authentication Method
+
+Once all the file shares are mapped as drives the account used to logon to the server(s) will need to have READ access to all files in scope for a migration. 
+
+### Document Options
+
+### Active Directory Options
+
 ### Supported Features by Destination
 
-| Feature | Google Drive |	Microsoft One Drive / SharePoint Team Sites |
+| Feature | Google Drive |	Microsoft OneDrive / SharePoint Team Sites |
 | --- | --- | --- |
 | Folder Hierarchies and Files | Yes| Yes | 	  	 
 | Truncate Oversize Paths | No | Yes |  	  	 
