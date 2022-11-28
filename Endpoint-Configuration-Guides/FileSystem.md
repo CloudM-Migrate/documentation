@@ -27,3 +27,19 @@ For File System this is defined by the following requirements:
 </details>
 
 ---
+
+
+| Feature | Google Drive |	Microsoft One Drive / SharePoint Team Sites |
+| --- | --- | --- |
+| Folder Hierarchies and Files | Yes| Yes | 	  	 
+| Truncate Oversize Paths | No | Yes |  	  	 
+| Rename Illegal File Names | No | Yes | 	  	 
+| Preserve File Dates | Yes | Yes | 
+| Folder and File ACLs | Yes | Yes | 
+| Active Directory Permissions | Yes | Yes | 
+| File Type Filters | Yes | Yes |
+| Copy Empty Folders 	| Yes | Yes |
+| Simultaneous Migrations | Yes | Yes | 
+| Provision Destination Account | Yes | Yes|
+| Warn on Size Limits | No | Yes | 
+| Full Reporting | Yes | Yes | 
