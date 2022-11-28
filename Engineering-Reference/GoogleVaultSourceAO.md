@@ -28,13 +28,47 @@ This document will give an overview on all the Google Vault Source Advanced Opti
 ---
 ## Vault
 
-1. [Polling Interval](#pollingint)
-2. [Chat Search Term](#chatterm)
-3. [Concurrent Download Limit](#condownlimit)
-4. [Preserve Matters On Completion](#perservecomp)
-5. [Mail Search Term](#mailterm)
+1. [Mail Search Term](#mailterm)
+2. [Drive Search Term](#driveterm)
+3. [Chat Search Term](#chatterm)
+4. [Search Timezone](#searchzone)
+5. [Polling Interval](#pollingint)
 6. [Concurrent Export Limit](#conexport)
-7. [Search Timezone](#searchzone)
+7. [Concurrent Download Limit](#condownlimit)
+8. [Preserve Matters On Completion](#perservecomp)
+
+
+### Mail Search Term <a name="mailterm"></a>
+{: .no_toc }
+Default Value: None
+
+Mail search term used to narrow or broaden the export search.
+
+Change Conditions: ??
+
+### Drive Search Term <a name="driveterm"></a>
+{: .no_toc }
+Default Value: None
+
+Drive search term used to narrow or broaden the export search.
+
+Change Conditions: ??
+
+### Chat Search Term <a name="chatterm"></a>
+{: .no_toc }
+Default Value: None
+
+Chat search term used to narrow or broaden the export search.
+
+Change Conditions: ??
+
+### Search Timezone <a name="searchzone"></a>
+{: .no_toc }
+Default Value: Europe Timezone
+
+The default timezone to use when building export search.
+
+Change Conditions: ??
 
 ### Polling Interval <a name="pollingint"></a>
 {: .no_toc }
@@ -44,11 +78,11 @@ The interval in minutes used to poll for the status of an export.
 
 Change Conditions: ??
 
-### Chat Search Term <a name="chatterm"></a>
+### Concurrent Export Limit <a name="conexport"></a>
 {: .no_toc }
-Default Value: None
+Default Value: 2
 
-Chat search term used to narrow or broaden the export search.
+The number of exports allowed at the same time.
 
 Change Conditions: ??
 
@@ -65,30 +99,6 @@ Change Conditions: ??
 Default Value: Off
 
 Preserve the Google Vault Matters created during the export process on migration completion (Success or Failure).
-
-Change Conditions: ??
-
-### Mail Search Term <a name="mailterm"></a>
-{: .no_toc }
-Default Value: None
-
-Mail search term used to narrow or broaden the export search.
-
-Change Conditions: ??
-
-### Concurrent Export Limit <a name="conexport"></a>
-{: .no_toc }
-Default Value: 2
-
-The number of exports allowed at the same time.
-
-Change Conditions: ??
-
-### Search Timezone <a name="searchzone"></a>
-{: .no_toc }
-Default Value: Europe Timezone
-
-The default timezone to use when building export search.
 
 Change Conditions: ??
 
