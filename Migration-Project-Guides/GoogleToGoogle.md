@@ -3,7 +3,7 @@ layout: default
 title: Google Workspace to Google Workspace
 grand_parent: Migration Project Guides
 parent: Google
-nav_order: 6
+nav_order: 1
 has_children: false
 has_toc: false
 
@@ -62,17 +62,15 @@ The important files to check are the FileScanReport.html and MailScanReport.html
 [Back to Top](#top)
 
 > **Note**
-Domains should always be mapped, but address replacements are optional and usually only need to be provided when you have specialist requirements. CloudM Migrate maps usernames and email addresses automatically if they have been configured in the user list however if you need to map unlisted users you can add them to the Address Replacements (File).
+Domains should always be mapped, but address replacements are optional and usually only need to be provided when you have specialist requirements. CloudM Migrate maps usernames and email addresses automatically if they have been configured in the user list however if you need to map unlisted users you can add them to the Address Replacements File.
 
 There are a number of options which control how replacements are performed. It is important to understand how these applied, in which order and under which conditions. It is possible to end up with incorrect email addresses if the options are not fully understood.
 
-**Replace Usernames** – Replace any re-mapped usernames from the users tab, when migrating the items specified in 'Domain Replacement Types' in Common settings. If this option is disabled and replacements are required, explicit mappings for email addresses and domain names should be provided via the other settings in this section. Only addresses that belong to source domains are automatically mapped. When migrating from Google Workspace, the source domains are automatically identified, but when migrating from other sources you should specify the domains in the next setting: Address Domain Replacements
+**Replace Usernames** – Replace any re-mapped usernames from the users tab, when migrating the items specified in **Domain Replacement Types** in Common settings. If this option is disabled and replacements are required, explicit mappings for email addresses and domain names should be provided via the other settings in this section. Only addresses that belong to source domains are automatically mapped. When migrating from Google Workspace, the source domains are automatically identified, but when migrating from other sources you should specify the domains in the next setting: Address Domain Replacements
 
-**Address Domain Replacements** - If migrating from one domain name to another, specify the domain names that should be replaced and the value with which they should be replaced with.  For example, when migrating from example.com to domain.com, you should provide example.com and domain.com in this setting. If migrating from one Google Workspace domain to another, domain replacements are performed automatically unless Replace CSV Addresses Only is selected and you have not provided the domain mappings within the file.
+**Address Domain Replacements** - If migrating from one domain name to another, specify the domain names that should be replaced and the value with which they should be replaced with.  For example, when migrating from example.com to domain.com, you should provide example.com and domain.com in this setting. If migrating from one Google Workspace domain to another, domain replacements are performed automatically unless **Replace CSV Addresses Only** is selected and you have not provided the domain mappings within the file.
 
 **Address Replacements (File)** – Use this option to provide an explicit list of email addresses to be mapped as part of a migration. If performing domain consolidation or if you have other specialized requirements then this option can be used to map any source email address to any other address. Addresses should be mapped using a simple CSV file containing two columns, the first for the address to be replaced and the second the replacement address.
-
-
 
 ### Batching
 [Back to Top](#top)
@@ -80,13 +78,12 @@ There are a number of options which control how replacements are performed. It i
 CloudM Migrate allows you to create a batch from your master user list, in a separate configuration. This enables you to quickly segment your user list and streamlines your migration process by running batches of users.
 
 Select the users you want in your migration batch
-From the menu, select "Create Batch"
+From the menu, select **Create Batch**
 Name your Child Configuration
 Select your configuration type
 Disable Migration Items - Use this if you want to modify the migration items for a subset of your users. e,g. Do not migrate Drive.
 Delete Migration Items - Use this if you want to create a subset of users to migrate. e.g. a VIP group of users.
-Click Create to Create the batch, or Create and Edit or create the batch, and be taken to the edit screen for that batch. Batches can be modified from the Projects screen, and work in the same way as normal configuration.
-
+Select Create to Create the batch, or Create and Edit or create the batch, and be taken to the edit screen for that batch. Batches can be modified from the Projects screen, and work in the same way as normal configuration.
 
 ### Date Ranges for the First Batch
 [Back to Top](#top)
@@ -98,7 +95,7 @@ Select Step 4 and validate the source and destination domains are correct. Chang
 
 Once the first batch is completed a DNS cutover can be scheduled. After a successful and validated cutover the Delta Sync can be started to sync all recent data. 
 
-It's recommended to use the longest stretch of off-peak hours available. This will greatly speed up the Delta Sync as less new mail is inbound and SharePoint throttling is reduced. 
+It's recommended to use the longest stretch of off-peak hours available. This will greatly speed up the Delta Sync as less new mail is inbound and throttling is reduced. 
 
 ### Delta Sync
 [Back to Top](#top)
@@ -110,9 +107,9 @@ Start the migration.
 ### Statistics and Summary
 [Back to Top](#top)
 
-After starting the migration, you'll have the option to view progress and export a summary by selecting Start and then selecting View Progress. Select More Statistics to see a complete summary by item type for your current batch. 
+After starting the migration, you'll have the option to view progress and export a summary by selecting Start and then selecting View Progress. Select **More Statistics** to see a complete summary by item type for your current batch. 
 
-To export a report of the migration for record keeping select Projects in the left navigation. Select Item Progress and then select the orange User progress link. By selection the top and right most orange button a file of item success by user can be downloaded.
+To export a report of the migration for record keeping select Projects in the left navigation. Select **Item Progress** and then select the orange User progress link. By selecting the top and right most orange button a file of item success by user can be downloaded.
 
 ---
 
@@ -121,10 +118,10 @@ To export a report of the migration for record keeping select Projects in the le
 
 CloudM Migrate has several feature to enhance the migration, these can be configure before migrating based on desired results or to fit requirements. 
 
-### Moving Attachments to OneDrive
+### Moving Attachments to MyDrive
 {: .no_toc }
 
-There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#email-attachment-to-drive">several features</a> for manipulating attachments while migrations are inflight. This includes removing attachments from the emails and replacing them with OneDrive links to the former attachments. Migrated documents can also optionally be shared with the recipients of the original email. This can dramatically shrink mailboxes on the destination.
+There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#email-attachment-to-drive">several features</a> for manipulating attachments while migrations are inflight. This includes removing attachments from the emails and replacing them with MyDrive links to the former attachments. Migrated documents can also optionally be shared with the recipients of the original email. This can dramatically shrink mailboxes on the destination.
 
 ---
 
@@ -164,17 +161,17 @@ Only files owned by users inside your domain are migrated. While it may be possi
 
 **Folder Hierarchies from Outside of the Domain**
 
-It is possible to add folders that have been shared with you into your folder hierarchy, and other users could also have done the same thing. If this is a folder from outside of your domain, then the first user to migrate the folder will become the new owner and it will then be treated as belonging to that user. All external ACLs will be removed from the folder (but all domain ACLs will be preserved).
+It is possible to add folders that have been shared with you into your folder hierarchy, and other users could also have done the same thing. If this is a folder from outside of your domain, then the first user to migrate the folder will become the new owner and it will then be treated as belonging to that user. All external ACLs will be removed from the folder but all domain ACLs will be preserved.
 
 **Comments and Revision History**
 
-Comments can be migrated but revision history cannot. See here for details on comments migration.
+Comments can be migrated but revision history cannot.
 
 **Deleted Files and Folders**
 
 Deleted files and folders a user owns are not migrated. 
 
-If a user has deleted a file that has been shared with them making the file invisible in their account (but not actually delete the source file or the sharing rights), then these files will be visible again in the ‘Shared with me’ folder following migration.  This particular case is not handled by CloudM Migrate as its usage is rare, and when encountered increases migration times. Additionally, even though the file may be invisible, the sharing rights as allocated by the sharer still exist.
+If a user has deleted a file that has been shared with them making the file invisible in their account but have not actually deleted the source file or the sharing rights, then these files will be visible again in the **Shared with me** folder following the migration. This particular case is not handled by CloudM Migrate as its usage is rare, and when encountered increases migration times. Additionally, even though the file may be invisible, the sharing rights as allocated by the sharer still exist.
 
 **Renaming Users and/or Groups**
 
@@ -185,23 +182,23 @@ CloudM Migrate has functionality to allow user or group email addresses to be ch
 ## Vanity Domain Switch
 [Back to Top](#top)
 
-Google Workspace domain-switch migrations can be performed in the same way as other Google Workspace migrations, however, if the source domain name is being migrated to the destination this adds an additional layer of complexity relating to the domain name registration and CloudM Migrate licensing. This guide explains how to perform such migrations without running into issues. It is very important to plan ahead to minimise downtime during this process, so we recommend this guide is reviewed thoroughly and all steps planned well in advance of a switch-over.
+Google Workspace domain-switch migrations can be performed in the same way as other Google Workspace migrations, however, if the source domain name is being migrated to the destination this adds an additional layer of complexity relating to the domain name registration and CloudM Migrate licensing. This guide explains how to perform such migrations without running into issues. It is very important to plan ahead to minimize downtime during this process, so we recommend this guide is reviewed thoroughly and all steps planned well in advance of a switch-over.
 
 If the source domain name(s) are not being migrated, then the migration can be configured and performed without any extra steps.
 
-Bbecause Google does not allow a domain to be associated with two instances at the same time. This means an initial migration must be performed to users with a temporary domain, then the domain must be deleted at the source and added to the destination before a delta migration is performed.
+Because Google does not allow a domain to be associated with two instances at the same time. This means an initial migration must be performed to users with a temporary domain, then the domain must be deleted at the source and added to the destination before a delta migration is performed.
 
-Configure CloudM Migrate to migrate from your source domain to your temporary destination domain;
-Migrate all historic email and Google Drive data (whatever is applicable)
-Rename all the migrated source users to another (sub-domain or temporary domain) 
-Change the primary domain at the source*
+Configure CloudM Migrate to migrate from your source domain to your temporary destination domain
+Migrate all historic email and Google Drive data, whatever is applicable
+Rename all the migrated source users to another, either a sub-domain or temporary domain
+Change the primary domain at the source
 Delete the original primary domain from the source per this guide
 Add the new domain to the destination instance as a secondary domain
 Add that domain to all new migrating destination users as aliases
 Update your CloudM Migrate config to migrate from the new primary domain to the temporary destination domain
 Run the delta migration for email and Google Drive
 Rename the users in the destination from the temporary domain to the new domain
-Create a new CloudM MIgrate project/configuration to then migrate contacts, calendars/resources and tasks (if applicable)
+Create a new CloudM MIgrate project/configuration to then migrate contacts, calendars/resources and tasks if applicable
 Change the primary domain on the destination
 Finally, you may need to perform a cleanup by removing the temporary destination domain/associated aliases. 
 
@@ -214,9 +211,9 @@ CloudM Migrate licenses are assigned to each destination domain. This means that
 ## Google Groups
 [Back to Top](#top)
 
-When using Get Items from source, groups will be populated in the userlist along with users, Shared Drives and calendar resources. When selected for migration, CloudM Migrate will create the Groups in the destination with the specified Import Name. It will add the members and their membership status (member / manager / owner) will be applied. Subsequent migrations will add new members (if they are added on the source) only. Member deletions and changes to member statuses are not applied. Alternatively, objects including Groups can be imported via CSV file.
+When using Get Items from source, groups will be populated in the userlist along with users, Shared Drives and calendar resources. When selected for migration, CloudM Migrate will create the Groups in the destination with the specified Import Name. It will add the members and their membership status (member / manager / owner) will be applied. Subsequent migrations will add new members if they are added on the source. Member deletions and changes to member statuses are not applied. Alternatively, objects including Groups can be imported via CSV file.
 
-It's important to check if there are existing groups in the destination Google Workspace instance. Any groups that are listed from the source could potentially have equivalent groups in the destination, so renaming the migrating groups import names in your items list, to create new ones and/or to distinguish them from the destination groups, would be advised. If you are renaming groups import names, these changes will need to be reflected in an address replacements CSV file (hyperlink to the address replacements article).
+It's important to check if there are existing groups in the destination Google Workspace instance. Any groups that are listed from the source could potentially have equivalent groups in the destination, so renaming the migrating groups import names in your items list, to create new ones and/or to distinguish them from the destination groups, would be advised. If you are renaming groups import names, these changes will need to be reflected in an address replacements CSV file.
 
 > **Note**
 Google Group settings and content are not migrated - only the group itself and its membership
