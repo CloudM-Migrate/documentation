@@ -38,7 +38,7 @@ CloudM Migrate doesn't duplicate emails or documents. Once an email is migrated 
 ### Adding Users
 [Back to Top](#top)
 
-On Step 3 on the left, select the Add items to migrate for options on how to collect targeted items to migrate from Google. The following options will be available:
+On Step 3 on the left, select **Add items to migrate** for options on how to collect targeted items to migrate from Google. The following options will be available:
 
 - Get items from source - This is fetch where CloudM Migrate will attempt to list all supported items within scope. 
 - Bulk add/import items - Provide CloudM Migrate a <a href="https://github.com/CloudM-Migrate/documentation/blob/main/assets/bulkimport.csv">CSV</a> of targeted items. 
@@ -77,13 +77,13 @@ There are a number of options which control how replacements are performed. It i
 
 CloudM Migrate allows you to create a batch from your master user list, in a separate configuration. This enables you to quickly segment your user list and streamlines your migration process by running batches of users.
 
-Select the users you want in your migration batch
-From the menu, select **Create Batch**
-Name your Child Configuration
-Select your configuration type
-Disable Migration Items - Use this if you want to modify the migration items for a subset of your users. e,g. Do not migrate Drive.
-Delete Migration Items - Use this if you want to create a subset of users to migrate. e.g. a VIP group of users.
-Select Create to Create the batch, or Create and Edit or create the batch, and be taken to the edit screen for that batch. Batches can be modified from the Projects screen, and work in the same way as normal configuration.
+1. Select the users you want in your migration batch.
+2. From the menu, select **Create Batch**.
+3. Name your Child Configuration.
+4. Select your configuration type.
+- Disable Migration Items - Use this if you want to modify the migration items for a subset of your users. e,g. Do not migrate Drive.
+- Delete Migration Items - Use this if you want to create a subset of users to migrate. e.g. a VIP group of users.
+5. Select Create to create the batch, or Create and Edit or create the batch, and be taken to the edit screen for that batch. Batches can be modified from the Projects screen, and work in the same way as normal configuration.
 
 ### Date Ranges for the First Batch
 [Back to Top](#top)
@@ -107,7 +107,7 @@ Start the migration.
 ### Statistics and Summary
 [Back to Top](#top)
 
-After starting the migration, you'll have the option to view progress and export a summary by selecting Start and then selecting View Progress. Select **More Statistics** to see a complete summary by item type for your current batch. 
+After starting the migration, you'll have the option to view progress and export a summary by selecting **Start** and then selecting **View Progress**. Select **More Statistics** to see a complete summary by item type for your current batch. 
 
 To export a report of the migration for record keeping select Projects in the left navigation. Select **Item Progress** and then select the orange User progress link. By selecting the top and right most orange button a file of item success by user can be downloaded.
 
@@ -128,7 +128,7 @@ There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Re
 ## Google Drive
 [Back to Top](#top)
 
-Due to the flexibility of how files and folders can be organized within Google Drive, CloudM Migrate has to perform Google Drive migrations in a specific way to maintain integrity in the destination Drive.  CloudM Migrate has been implemented to provide extremely high integrity and fidelity during a Google Drive migration.  All folder structures, included shared folder structures, file locations, item starring and modification dates are preserved during a migration.
+Due to the flexibility of how files and folders can be organized within Google Drive, CloudM Migrate has to perform Google Drive migrations in a specific way to maintain integrity in the destination Drive. CloudM Migrate has been implemented to provide extremely high integrity and fidelity during a Google Drive migration.  All folder structures, included shared folder structures, file locations, item starring and modification dates are preserved during a migration.
 
 There are a few things to be aware of when performing a Google Drive migration:
 
@@ -137,23 +137,23 @@ Provision all of your users and groups before performing a Drive migration. This
 
 You should ensure all of your Drive users have Drive enabled in the destination.
 
-Usage of the destination drive during a migration is not recommended. Items may not be moved into place for all users until the full migration for all users has completed.  If items are moved around in the destination domain during a migration multiple problems can occur with migration and may cause migration times to increase significantly.
+Usage of the destination drive during a migration is not recommended. Items may not be moved into place for all users until the full migration for all users has completed. If items are moved around in the destination domain during a migration multiple problems can occur with migration and may cause migration times to increase significantly.
 
-If you are renaming users as part of the migration, you must make sure all import and export names are present and have been updated to the names in the new system.  You should ensure you have provisioned all of your users before migrating your groups.  You should not rename groups during a migration. This must be done before the migration begins.  If you are migrating Drive items, the tool will warn you before the migration.
+If you are renaming users as part of the migration, you must make sure all import and export names are present and have been updated to the names in the new system.  You should ensure you have provisioned all of your users before migrating your groups. You should not rename groups during a migration. This must be done before the migration begins. If you are migrating Drive items, the tool will warn you before the migration.
 
 **Migrate Items Only From Listed Users**
 
-This option will migrate only Drive files from those users listed on the Users tab. 'Migrate All Drive Items' should be also set to true for this setting to work. If you want to migrate items from users other than those being migrated add them to the user tab but do not select them for migration.
+This option will migrate only Drive files from those users listed on the Users tab. **Migrate All Drive Items** should be also set to true for this setting to work. If you want to migrate items from users other than those being migrated add them to the user tab but do not select them for migration.
 
-'Migrate Items Only from Listed Users' should be used with care and only ever used if you are only migrating a subset of your users.  If you are migrating all of your users during a migration, you should not select this option for any part of your migration.  If you do use the option, you should ensure that your user list is fully correct before starting the first migration.
+**Migrate Items Only from Listed Users** should be used with care and only ever used if you are only migrating a subset of your users. If you are migrating all of your users during a migration, you should not select this option for any part of your migration. If you do use the option, you should ensure that your user list is fully correct before starting the first migration.
 
 **Migrate Contents of Non-Owned Folders**
 
-Migrate files from folders not owned by the migrating user/s. This usually only needs enabling when some users are not migrated but the Drive items need to be migrated. Folders will always be processed. This option should not be used in conjunction with 'Migrate Items Only From Listed Users'.
+Migrate files from folders not owned by the migrating users. This usually only needs enabling when some users are not migrated but the Drive items need to be migrated. Folders will always be processed. This option should not be used in conjunction with **Migrate Items Only From Listed Users**.
 
 **Files and Folders May be Migrated for Other Users**
 
-During a migration of the migrating user, files and folders that were shared with the migrating user may be migrated for the owning users, even when they are not being migrated at that time. This is essential to preserve the complex structure of Google Drive. It is possible to disable this action by setting the option ‘Migrate All Drive Items’ to False, but it is highly recommended to use the default behaviour to preserve Drive integrity.
+During a migration of the migrating user, files and folders that were shared with the migrating user may be migrated for the owning users, even when they are not being migrated at that time. This is essential to preserve the complex structure of Google Drive. It is possible to disable this action by setting the option **Migrate All Drive Items** to False, but it is highly recommended to use the default behaviour to preserve Drive integrity.
 
 **Files from Outside of the Domain**
 
@@ -188,19 +188,19 @@ If the source domain name(s) are not being migrated, then the migration can be c
 
 Because Google does not allow a domain to be associated with two instances at the same time. This means an initial migration must be performed to users with a temporary domain, then the domain must be deleted at the source and added to the destination before a delta migration is performed.
 
-Configure CloudM Migrate to migrate from your source domain to your temporary destination domain
-Migrate all historic email and Google Drive data, whatever is applicable
-Rename all the migrated source users to another, either a sub-domain or temporary domain
-Change the primary domain at the source
-Delete the original primary domain from the source per this guide
-Add the new domain to the destination instance as a secondary domain
-Add that domain to all new migrating destination users as aliases
-Update your CloudM Migrate config to migrate from the new primary domain to the temporary destination domain
-Run the delta migration for email and Google Drive
-Rename the users in the destination from the temporary domain to the new domain
-Create a new CloudM MIgrate project/configuration to then migrate contacts, calendars/resources and tasks if applicable
-Change the primary domain on the destination
-Finally, you may need to perform a cleanup by removing the temporary destination domain/associated aliases. 
+1. Configure CloudM Migrate to migrate from your source domain to your temporary destination domain.
+2. Migrate all historic email and Google Drive data, whatever is applicable.
+3. Rename all the migrated source users to another, either a sub-domain or temporary domain.
+4. Change the primary domain at the source.
+5. Delete the original primary domain from the source per this guide.
+6. Add the new domain to the destination instance as a secondary domain.
+7. Add that domain to all new migrating destination users as aliases.
+8. Update your CloudM Migrate config to migrate from the new primary domain to the temporary destination domain.
+9. Run the delta migration for email and Google Drive.
+10. Rename the users in the destination from the temporary domain to the new domain.
+11. Create a new CloudM MIgrate project/configuration to then migrate contacts, calendars/resources and tasks if applicable.
+12. Change the primary domain on the destination.
+13. Finally, you may need to perform a cleanup by removing the temporary destination domain/associated aliases. 
 
 > **Note** Changing the primary domain is not available for: Google Workspace Free edition, Google Workspace or Cloud Identity accounts in a trial period, Google Workspace or Cloud Identity accounts that included the purchase of your domain, Google Workspace accounts purchased through Google Domains, Google Workspace Resellers Licensing
 
@@ -211,7 +211,7 @@ CloudM Migrate licenses are assigned to each destination domain. This means that
 ## Google Groups
 [Back to Top](#top)
 
-When using Get Items from source, groups will be populated in the userlist along with users, Shared Drives and calendar resources. When selected for migration, CloudM Migrate will create the Groups in the destination with the specified Import Name. It will add the members and their membership status (member / manager / owner) will be applied. Subsequent migrations will add new members if they are added on the source. Member deletions and changes to member statuses are not applied. Alternatively, objects including Groups can be imported via CSV file.
+When using **Get Items from source**, groups will be populated in the userlist along with users, Shared Drives and calendar resources. When selected for migration, CloudM Migrate will create the Groups in the destination with the specified Import Name. It will add the members and their membership status (member / manager / owner) will be applied. Subsequent migrations will add new members if they are added on the source. Member deletions and changes to member statuses are not applied. Alternatively, objects including Groups can be imported via CSV file.
 
 It's important to check if there are existing groups in the destination Google Workspace instance. Any groups that are listed from the source could potentially have equivalent groups in the destination, so renaming the migrating groups import names in your items list, to create new ones and/or to distinguish them from the destination groups, would be advised. If you are renaming groups import names, these changes will need to be reflected in an address replacements CSV file.
 
@@ -229,4 +229,4 @@ Google Group settings and content are not migrated - only the group itself and i
 - Mail: Gmail Snoozed emails as limited by the Gmail API.
 - Mail: Gmail Scheduled emails are migrated to Office 365, but only as a draft in the All Mail folder, the scheduling is not migrated. 
 - Google Keep Notes.
-- Google Spaces cannot be migrated.
+- Google Spaces.
