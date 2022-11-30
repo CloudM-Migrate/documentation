@@ -32,7 +32,7 @@ Upon receipt of the license for CloudM Migrate you'll have a link to access the 
 
 ClouldM Migrate uses Modern Authentication as a default. If Multi-Factor Authentication (MFA) is enabled on the endpoint it'll need to be disabled temporarily or a Personal Exchange Format (PFX) certificate has to be generated for access. As a destination it's recommended to disable MFA. 
 
-If M365 is the source and MFA can not be disabled the Azure Application used to perform migrations can be created with a PowerShell script <a href="https://bitbucket.org/cloudsols/cloudm-public/src/main/Migrate/PowerShell/CreateAzureADApplication.ps1">CreateAzureADApplication</a>. This script will output a PFX Certificat that will need to be uploaded to CloudM Migate.
+If M365 is the source and MFA can not be disabled the Azure Application used to perform migrations can be created with a PowerShell script <a href="https://bitbucket.org/cloudsols/cloudm-public/src/main/Migrate/PowerShell/CreateAzureADApplication.ps1">CreateAzureADApplication</a>. This script will output a PFX Certificate that will need to be uploaded to CloudM Migate.
 
 During script execution you will be prompted to authenticate, be sure to leave the PowerShell instance running and keep it open to reference the output. 
 
