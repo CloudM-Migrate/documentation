@@ -307,7 +307,7 @@ Change Conditions: ??
 
 ### Trash Duplicate Items <a name="trashdupes"></a>
 {: .no_toc }
-Default Value: Off
+Default Value: On
 
 Trash duplicate items when performing Delta migrations.
 
