@@ -32,7 +32,7 @@ Upon receipt of the license for CloudM Migrate you'll have a link to access the 
 
 ClouldM Migrate uses Modern Authentication as a default. If Multi-Factor Authentication is enabled on the endpoint it'll need to be disabled temporarily or a PFX certificate has to be generated for access. As a destination it's recommended to disable MFA. 
 
-If O365 is the source and MFA can not be disabled the Azure Application used to perform migrations can be created with a PowerShell script <a href="https://bitbucket.org/cloudsols/cloudm-public/src/main/Migrate/PowerShell/CreateAzureADApplication.ps1">CreateAzureADApplication</a>. This script will output a PFX Certificat that will need to be uploaded to CloudM Migate.
+If M365 is the source and MFA can not be disabled the Azure Application used to perform migrations can be created with a PowerShell script <a href="https://bitbucket.org/cloudsols/cloudm-public/src/main/Migrate/PowerShell/CreateAzureADApplication.ps1">CreateAzureADApplication</a>. This script will output a PFX Certificat that will need to be uploaded to CloudM Migate.
 
 During script execution you will be prompted to authenticate, be sure to leave the PowerShell instance running and keep it open to reference the output. 
 
@@ -40,9 +40,9 @@ Once the Azure Application is created, MFA can be renabled.
 
 ### Account Used
 
-In O365 the Global Admin account is needed to grant CloudM Migrate access to the data in scope for migration. Once the Global Admin account is used to create the Azure AD application it can be removed from CloudM Migrate. 
+In M365 the Global Admin account is needed to grant CloudM Migrate access to the data in scope for migration. Once the Global Admin account is used to create the Azure AD application it can be removed from CloudM Migrate. 
 
-### O365 Tenant ID
+### M365 Tenant ID
 
 When you specify the domain CloudM Migrate can auto populate the Tenant ID. If it doesn't auto populate the Tenant ID can be found in the <a href="https://learn.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id">Tenant Properties</a>.
 
@@ -52,11 +52,11 @@ CloudM Migrate will test the connectivity with a Test Mailbox. Specify a typical
 
 ### The Country of the Destination
 
-If O365 is the destination it's important to set the country of the destination O365 tenant for ClouldM Migrate as Azure blocks connections from outside the country. Go to Step 2 on the left and select Platform Configuration and Provisioning. Under the Usage Location select the country that will host the O365 tenant, this is defaulted to the United Kingdom. 
+If M365 is the destination it's important to set the country of the destination M365 tenant for ClouldM Migrate as Azure blocks connections from outside the country. Go to Step 2 on the left and select Platform Configuration and Provisioning. Under the Usage Location select the country that will host the M365 tenant, this is defaulted to the United Kingdom. 
 
-### O365 to SaaS Access
+### M365 to SaaS Access
 
-After completing the configuration of the O365 as source and/or destination endpoint(s) a prompt to create the Azure AD Application will be available. Select this to begin the application creation and the connectivity testing to the tenant. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
+After completing the configuration of the M365 as source and/or destination endpoint(s) a prompt to create the Azure AD Application will be available. Select this to begin the application creation and the connectivity testing to the tenant. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
 
 For reference purposes, here is what the application will give itself access to:
 
