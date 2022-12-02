@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Getting Started Guides
+title: 
 nav_order: 2
-has_children: false
+has_children: true
+
 ---
  Getting Started Guides
 
