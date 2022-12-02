@@ -13,7 +13,7 @@ This site will contain the technical documentation for [CloudM Migrate](https://
 ---
 
 {: .new }
-Version 3.38.11 of CloudM Migrate is released. 
+Version <a href="https://docs.cloudm.io/Release-Notes/V33811.html">3.38.11</a> of CloudM Migrate is released. 
 
 ---
 
