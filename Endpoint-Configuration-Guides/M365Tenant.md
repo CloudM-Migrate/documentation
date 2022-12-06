@@ -76,6 +76,6 @@ df021288-bdef-4463-88db-98f22de89214 | Read all users' full profiles
 
 When both your endpoints are ready our <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/MigrationProjectGuides.html">Project Migration Guides</a> for your endpoint combination can fill in the next steps toward project completion. 
 
-- <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/GoogleToO365.html">Google to O365</a>
-- <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/O365ToO365.html">O365 to O365</a>
+- <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/GoogleToM365.html">Google to M365</a>
+- <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/M365ToM365.html">M365 to M365</a>
 - <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/TeamstoTeams.html">Teams to Teams</a>
