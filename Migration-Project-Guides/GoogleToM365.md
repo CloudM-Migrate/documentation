@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Google to O365
+title: Google to M365
 grand_parent: Migration Project Guides
 parent: O365
 nav_order: 1
@@ -9,10 +9,10 @@ has_toc: false
 
 ---
 
-## Google to O365
+## Google to M365
 {: .no_toc }
 
-Before starting your migration project, make sure you have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">O365</a> using their respective endpoint configuration guides. Be sure to validate both tenants have passed their connectivity tests with no errors. 
+Before starting your migration project, make sure you have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/M365Tenant.html">M365</a> using their respective endpoint configuration guides. Be sure to validate both tenants have passed their connectivity tests with no errors. 
 
 <a name="top"></a>
 <details open markdown="block">
