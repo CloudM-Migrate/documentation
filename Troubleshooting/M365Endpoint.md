@@ -1,12 +1,12 @@
 ---
 layout: default
-title: O365
+title: M365
 parent: Troubleshooting
 has_children: false
 nav_order: 2
 ---
 
-## O365 Troubleshooting
+## M365 Troubleshooting
 {: .no_toc }
 
 ---
@@ -60,8 +60,6 @@ Enter the new app registration details in either the source or destination depen
 Make sure to upload the new certificate to CloudM Migrate.
 
 Run the connection test again.
-
-
 
 ---
 
