@@ -14,6 +14,8 @@ has_toc: false
 
 Before starting your migration project, make sure you have setup the <a href="https://docs.cloudm.io/Endpoint-Configuration-Guides/FileSystem.html">File Share</a> endpoint and the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/M365Tenant.html">M365</a> endpoint using the configuration guides. Be sure to validate both tenants have passed their connectivity tests with no errors. 
 
+The <a href="https://docs.cloudm.io/Engineering-Reference/M365DestinationAO.html#sharepoint-admin-url-">SharePoint Admin URL</a> needs to be populated on the Destination Advanced Options. 
+
 <a name="top"></a>
 <details open markdown="block">
   <summary>
