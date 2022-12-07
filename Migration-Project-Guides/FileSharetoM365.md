@@ -23,3 +23,25 @@ Before starting your migration project, make sure you have setup the <a href="ht
 1. TOC
 {:toc}
 </details>
+
+### Self-Hosted Install
+
+CloudM Migate will need to be <a href="https://docs.cloudm.io/Endpoint-Configuration-Guides/SelfHostedGuides.html">installed</a> on a VM/Server in the source environment. 
+
+### Mapping File Shares 
+
+All source file shares need to be mapped as network drives to the CloudM Migrate server. If using a cluster all Secondary nodes will also need the same drives mapped. 
+
+The file share mappings will need to done using the server/node System account and made persistant. 
+
+Use the following steps to map the drives: 
+
+1. Download the SysInternals tool <a href="https://learn.microsoft.com/en-gb/sysinternals/downloads/psexec">PsExec</a> to the server/node. Extract the zip file to a working directory such as Temp. 
+2. Open a Command Prompt as Administrator. 
+3. Navigate to the working directory and enter `psexec -i -s cmd.exe`
+4. In the new command prompt from PsExec enter `net use e: \\servername\sharedfolder /persistent:yes`
+5. Each file share will need to be mapped in turn with the same drive letters used on any additional nodes.
+
+**Note**: The mapped drives will appears as disconnected when viewed from File Explorer. 
+
+
