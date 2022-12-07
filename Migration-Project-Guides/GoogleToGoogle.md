@@ -124,8 +124,6 @@ If a user has deleted a file that has been shared with them making the file invi
 
 CloudM Migrate has functionality to allow user or group email addresses to be changed or mapped during a migration. This is achieved via address replacements.
 
----
-
 ## Google Groups
 [Back to Top](#top)
 
