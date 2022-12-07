@@ -59,4 +59,4 @@ To add a File Share navigate to Step 3 within CloudM Migrate and select **+Add i
 - Password: N/A
 - Document Path: Mapped drive letter with subfolder path if needed
 
-Validate Migrate and Drive are checked and select **Save** to add the migration line item. 
+Validate **Migrate** and **Drive** are checked and select **Save** to add the migration line item. 
