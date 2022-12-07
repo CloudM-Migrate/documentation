@@ -46,6 +46,22 @@ With no AD access a <a href="https://cloudm-migrate.github.io/documentation/Engi
 
 By default CloudM Migrate will have **Migrate Top Level Folder** enabled which will collapse the source folder structure into one top level folder that can be specified under the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#top-level-folder-">Project Advanced Options</a>. Uncheck **Migrate Top Level Folder** to preserve the existing folder structure. 
 
+### Mapping File Shares 
+
+All source file shares need to be mapped as network drives to the CloudM Migrate server. If using a cluster all Secondary nodes will also need the same drives mapped. 
+
+The file share mappings will need to done using the server/node System account and made persistant. 
+
+Use the following steps to map the drives: 
+
+1. Download the SysInternals tool <a href="https://learn.microsoft.com/en-gb/sysinternals/downloads/psexec">PsExec</a> to the server/node. Extract the zip file to a working directory such as Temp. 
+2. Open a Command Prompt as Administrator. 
+3. Navigate to the working directory and enter `psexec -i -s cmd.exe`
+4. In the new command prompt from PsExec enter `net use e: \\servername\sharedfolder /persistent:yes`
+5. Each file share will need to be mapped in turn with the same drive letters used on any additional nodes.
+
+**Note**: The mapped drives will appears as disconnected when viewed from File Explorer. 
+
 ### Supported Features by Destination
 
 | Feature | Google Drive | Microsoft OneDrive / SharePoint Team Sites |
