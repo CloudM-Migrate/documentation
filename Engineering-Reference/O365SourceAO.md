@@ -1,18 +1,18 @@
 ---
 layout: default
-title: O365
+title: M365
 grand_parent: Engineering Reference
 parent: Source Advanced Options
 nav_order: 2
 ---
 
-## O365 Source Advanced Options
+## M365 Source Advanced Options
 {: .no_toc }
 
 ---
-This document will give an overview on all the O365 Source Advanced Options in CloudM Migrate. 
+This document will give an overview on all the M365 Source Advanced Options in CloudM Migrate. 
 
-<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/O365.html">O365 Source Options</a>
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/M365.html">M365 Source Options</a>
 
 ---
 <a name="top"></a>
