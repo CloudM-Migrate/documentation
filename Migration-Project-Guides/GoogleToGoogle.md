@@ -218,13 +218,3 @@ CloudM Migrate has several feature to enhance the migration, these can be config
 
 There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#email-attachment-to-drive">several features</a> for manipulating attachments while migrations are inflight. This includes removing attachments from the emails and replacing them with MyDrive links to the former attachments. Migrated documents can also optionally be shared with the recipients of the original email. This can dramatically shrink mailboxes on the destination.
 
----
-
-## Unsupported Data Types for Migration
-[Back to Top](#top)
-
-- Calendar: Calendar Reminders
-- Mail: Google Categories such as Social, Promotions, Updates, Forums.
-- Mail: Gmail Snoozed emails as limited by the Gmail API.
-- Google Keep Notes.
-- Google Spaces.
