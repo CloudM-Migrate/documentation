@@ -113,18 +113,6 @@ To export a report of the migration for record keeping select Projects in the le
 
 ---
 
-## Migration Enhancement Features 
-[Back to Top](#top)
-
-CloudM Migrate has several feature to enhance the migration, these can be configure before migrating based on desired results or to fit requirements. 
-
-### Moving Attachments to MyDrive
-{: .no_toc }
-
-There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#email-attachment-to-drive">several features</a> for manipulating attachments while migrations are inflight. This includes removing attachments from the emails and replacing them with MyDrive links to the former attachments. Migrated documents can also optionally be shared with the recipients of the original email. This can dramatically shrink mailboxes on the destination.
-
----
-
 ## Google Drive
 [Back to Top](#top)
 
@@ -217,6 +205,18 @@ It's important to check if there are existing groups in the destination Google W
 
 > **Note**
 Google Group settings and content are not migrated - only the group itself and its membership
+
+---
+
+## Migration Enhancement Features 
+[Back to Top](#top)
+
+CloudM Migrate has several feature to enhance the migration, these can be configure before migrating based on desired results or to fit requirements. 
+
+### Moving Attachments to MyDrive
+{: .no_toc }
+
+There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#email-attachment-to-drive">several features</a> for manipulating attachments while migrations are inflight. This includes removing attachments from the emails and replacing them with MyDrive links to the former attachments. Migrated documents can also optionally be shared with the recipients of the original email. This can dramatically shrink mailboxes on the destination.
 
 ---
 
