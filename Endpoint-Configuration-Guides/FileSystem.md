@@ -48,7 +48,7 @@ By default CloudM Migrate will have **Migrate Top Level Folder** enabled which w
 
 ### Migrating File ACL's
 
-To migrate permissions select either **Shared Documents** or **Shared Documents and Send Notification Emai**l under the File System Document Sharing dropdown. 
+To migrate permissions select either **Shared Documents** or **Shared Documents and Send Notification Email** under the **File System Document Sharing** dropdown. 
 
 ### Mapping File Shares 
 
