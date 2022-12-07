@@ -9,7 +9,7 @@ has_toc: false
 
 ---
 
-## Google Workspace to Google Workpsace
+## Google Workspace to Google Workspace
 {: .no_toc }
 
 Before starting your migration project, make sure you have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">the Google Workspace tenants</a> using the endpoint configuration guide. Be sure to validate both tenants have passed their connectivity tests with no errors. 
@@ -100,7 +100,7 @@ Migrate files from folders not owned by the migrating users. This usually only n
 
 **Files and Folders May be Migrated for Other Users**
 
-During a migration of the migrating user, files and folders that were shared with the migrating user may be migrated for the owning users, even when they are not being migrated at that time. This is essential to preserve the complex structure of Google Drive. It is possible to disable this action by setting the option **Migrate All Drive Items** to False, but it is highly recommended to use the default behaviour to preserve Drive integrity.
+During a migration of the migrating user, files and folders that were shared with the migrating user may be migrated for the owning users, even when they are not being migrated at that time. This is essential to preserve the complex structure of Google Drive. It is possible to disable this action by setting the option **Migrate All Drive Items** to False, but it is highly recommended to use the default behavior to preserve Drive integrity.
 
 **Files from Outside of the Domain**
 
@@ -127,7 +127,7 @@ CloudM Migrate has functionality to allow user or group email addresses to be ch
 ### Google Groups
 [Back to Top](#top)
 
-When using **Get Items from source**, groups will be populated in the userlist along with users, shared drives and calendar resources. When selected for migration, CloudM Migrate will create the Groups in the destination with the specified Import Name. It will add the members and their membership status (member / manager / owner) will be applied. Subsequent migrations will add new members if they are added on the source. Member deletions and changes to member statuses are not applied. Alternatively, objects including Groups can be imported via CSV file.
+When using **Get Items from source**, groups will be populated in the user list along with users, shared drives and calendar resources. When selected for migration, CloudM Migrate will create the Groups in the destination with the specified Import Name. It will add the members and their membership status (member / manager / owner) will be applied. Subsequent migrations will add new members if they are added on the source. Member deletions and changes to member statuses are not applied. Alternatively, objects including Groups can be imported via CSV file.
 
 It's important to check if there are existing groups in the destination Google Workspace instance. Any groups that are listed from the source could potentially have equivalent groups in the destination, so renaming the migrating groups import names in your items list, to create new ones and/or to distinguish them from the destination groups, would be advised. If you are renaming groups import names, these changes will need to be reflected in an address replacements CSV file.
 
