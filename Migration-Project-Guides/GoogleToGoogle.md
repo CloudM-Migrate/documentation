@@ -124,7 +124,7 @@ If a user has deleted a file that has been shared with them making the file invi
 
 CloudM Migrate has functionality to allow user or group email addresses to be changed or mapped during a migration. This is achieved via address replacements.
 
-## Google Groups
+### Google Groups
 [Back to Top](#top)
 
 When using **Get Items from source**, groups will be populated in the userlist along with users, shared drives and calendar resources. When selected for migration, CloudM Migrate will create the Groups in the destination with the specified Import Name. It will add the members and their membership status (member / manager / owner) will be applied. Subsequent migrations will add new members if they are added on the source. Member deletions and changes to member statuses are not applied. Alternatively, objects including Groups can be imported via CSV file.
