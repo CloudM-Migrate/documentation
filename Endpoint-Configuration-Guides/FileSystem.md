@@ -64,7 +64,7 @@ Use the following steps to map the drives:
 4. In the new command prompt from PsExec enter `net use e: \\servername\sharedfolder /persistent:yes`
 5. Each file share will need to be mapped in turn with the same drive letters used on any additional nodes.
 
-**Note**: The mapped drives will appears as disconnected when viewed from File Explorer. 
+> **Note**: The mapped drives will appears as disconnected when viewed from File Explorer. 
 
 ### Supported Features by Destination
 
