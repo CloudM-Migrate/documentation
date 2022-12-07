@@ -93,7 +93,7 @@ Select Step 4 and validate the source and destination domains are correct. Chang
 ### Cutover 
 [Back to Top](#top)
 
-Once the first batch is completed a DNS cutover can be scheduled. After a successful and validated cutover the Delta Sync can be started to sync all recent data. 
+Once the first batch is completed a DNS cutover can be scheduled including moving the <a href="https://docs.cloudm.io/Migration-Project-Guides/GoogleToGoogle.html#vanity-domain-switch">vanity domain</a>. After a successful and validated cutover the Delta Sync can be started to sync all recent data. 
 
 It's recommended to use the longest stretch of off-peak hours available. This will greatly speed up the Delta Sync as less new mail is inbound and throttling is reduced. 
 
@@ -131,7 +131,7 @@ If you are renaming users as part of the migration, you must make sure all impor
 
 **Migrate Items Only From Listed Users**
 
-This option will migrate only Drive files from those users listed on the Users tab. **Migrate All Drive Items** should be also set to true for this setting to work. If you want to migrate items from users other than those being migrated add them to the user tab but do not select them for migration.
+This option will migrate only Drive files from those users listed on the Users tab. Set **Migrate All Drive Items** to true for this setting to work. If you want to migrate items from users other than those being migrated add them to the user tab but do not select them for migration.
 
 **Migrate Items Only from Listed Users** should be used with care and only ever used if you are only migrating a subset of your users. If you are migrating all of your users during a migration, you should not select this option for any part of your migration. If you do use the option, you should ensure that your user list is fully correct before starting the first migration.
 
