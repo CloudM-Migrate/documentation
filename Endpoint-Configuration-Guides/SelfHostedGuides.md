@@ -48,7 +48,7 @@ Any available Windows updates should be installed and the machine rebooted prior
 
 ### Binary for x64
 
-<a href="https://storage.googleapis.com/cloudmigrator/CloudM-Migrate-3.38.4.0-x64.exe">CloudM Migrate x64</a>
+<a href="https://www.cloudm.io/CloudM-Migrate-Latest-x64.exe">CloudM Migrate x64</a>
 
 **NOTE:** Not compatible with GroupWise or Lotus Notes.
 
@@ -58,7 +58,7 @@ MD5 - 64b6716ba7d6e20d445a6672b1061c22
 
 ### Binary for x86
 
-<a href="https://storage.googleapis.com/cloudmigrator/CloudM-Migrate-3.38.4.0.exe">CloudM Migrate x86</a>
+<a href="https://www.cloudm.io/CloudM-Migrate-Latest.exe">CloudM Migrate x86</a>
 
 SHA1 - 93e42d5d7a63f0c104e3dce2e66d58526c345dc2
 

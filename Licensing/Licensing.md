@@ -1,9 +1,13 @@
 ---
 layout: default
-title: Licensing
+title: 
 has_children: false
 nav_order: 3
 ---
 
-## Licensing
+ Licensing
+
+ License Portal
+
+<a href="https://portal.cloudm.io/dashboard">CloudM License Portal</a>
 

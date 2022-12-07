@@ -1,11 +1,13 @@
 ---
 layout: default
-title: Migrate a Google Mailbox and MyDrive to O365
+title: 
 parent: Getting Started Guides
 nav_order: 5
+
 ---
 
-## How to Migrate a Google Mailbox and MyDrive to O365
+
+How to Migrate a Google Mailbox and MyDrive to O365
 
 1. [Overview](#overview)
 2. [Google Workspace Source](#source)

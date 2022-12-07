@@ -6,7 +6,6 @@ nav_order: 2
 
 ---
 
-
 ## SaaS or Self-Hosted
 {: .no_toc }
 

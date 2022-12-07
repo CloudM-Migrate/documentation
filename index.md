@@ -13,12 +13,12 @@ This site will contain the technical documentation for [CloudM Migrate](https://
 ---
 
 {: .new }
-Version 3.38 of CloudM Migrate is released. 
+Version <a href="https://docs.cloudm.io/Release-Notes/V33811.html">3.38.11</a> of CloudM Migrate is released. 
 
 ---
 
 ## CloudM Migrate
-### Data Migration for Microsoft Office 365 and Google Workspace
+### Data Migration for Microsoft 365 and Google Workspace
 
 Scale your business, avoid vendor lock-in and experience true cloud freedom
 
@@ -41,6 +41,16 @@ We know how important security is during migrations. Move to the cloud with conf
 
 ---
 
+## How to Use This Repository
+
+First use the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/EndPointGuides.html">Endpoint Configuration Guides</a> to configure your source and destination. When ready use the <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/MigrationProjectGuides.html">Migration Project Guides</a> to begin planning and executing your migration. 
+
+This repo can be used as a template for your own migration process. Requirments can differ so the guides will give you a standard migration approach with the ability to fold in functionality. Customize and complete to have your organizational plan and process for migrating. 
+
+All the options are found in the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/EngineeringReference.html">Engineering Reference<a/> and use the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/Troubleshooting.html">Troubleshooting</a> secton for help for known common errors. 
+
+---  
+  
 ## About This Repository
 In an effort to better serve our customers and partners CloudM is going opensource with our documentation. You can make contributions or clone anything you need to start building documenation for your migration projects using CloudM. 
 

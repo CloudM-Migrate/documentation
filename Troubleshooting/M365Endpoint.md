@@ -1,12 +1,12 @@
 ---
 layout: default
-title: O365
+title: M365
 parent: Troubleshooting
 has_children: false
 nav_order: 2
 ---
 
-## O365 Troubleshooting
+## M365 Troubleshooting
 {: .no_toc }
 
 ---
@@ -27,6 +27,8 @@ nav_order: 2
 The 429 error is caused by throttling from Microsoft to protect their own system resources. There is no way to work around this throttling short of asking Microsoft to lift it for your tenant.
  
 There are two ways that you can try to delay the throttling, divide the submission of your migrations into different batches, and use a different Global Admin account for each batch.
+
+This is also important, for blah. 
 
 #### Microsoft Throttling and Quotas
 {: .no_toc }
@@ -58,8 +60,6 @@ Enter the new app registration details in either the source or destination depen
 Make sure to upload the new certificate to CloudM Migrate.
 
 Run the connection test again.
-
-
 
 ---
 

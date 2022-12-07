@@ -1,18 +1,18 @@
 ---
 layout: default
-title: O365/Hosted/On-Premises to O365
+title: Google to M365
 grand_parent: Migration Project Guides
 parent: O365
-nav_order: 2
+nav_order: 1
 has_children: false
 has_toc: false
 
 ---
 
-## O365/Hosted Exchange/On-Premises to O365
+## Google to M365
 {: .no_toc }
 
-Before starting your migration project, make sure you have setup both <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">O365</a> endpoints using the configuration guides. Be sure to validate both tenants have passed their connectivity tests with no errors. 
+Before starting your migration project, make sure you have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/M365Tenant.html">M365</a> using their respective endpoint configuration guides. Be sure to validate both tenants have passed their connectivity tests with no errors. 
 
 <a name="top"></a>
 <details open markdown="block">
@@ -29,7 +29,7 @@ Before starting your migration project, make sure you have setup both <a href="h
 ## Standard Prestage Migration
 {: .no_toc }
 
-There are multiple approaches available to migrating data with CloudM Migrate. The following approach will prestage email and documents older than 30 days as a batch. This will be followed by a Delta Sync to migrate recent data after your DNS cutover for a complete lossless migration. 
+There are multiple approaches available to migrating data with CloudM Migrate. The following approach will prestage email older than 30 days as a batch. This will be followed by a Delta Sync to migrate recent data after your DNS cutover for a complete lossless migration. 
 
 This approach eliminates user confusion from recent items being moved as they are created and categorized during normal business. The result will be a more accurate account of recent changes on the destination and less user support. 
 
@@ -44,15 +44,13 @@ On Step 3 on the left, select the Add items to migrate for options on how to col
 - Bulk add/import items - Provide CloudM Migrate a <a href="https://github.com/CloudM-Migrate/documentation/blob/main/assets/bulkimport.csv">CSV</a> of targeted items. 
 - Add User - Add a specific user to the project. 
 - Add Resource -  
-- Add Public Folder
-- Add Office 365 Group
-- Add Team Site
-- Add Microsoft Team
+- Add Shared Drive - Add a file share to the project.
+- Add Group - 
 
 ### Scanning the Source 
 [Back to Top](#top)
 
-It's recommended to perform a scan against your O365 source environment to proactively look for problems. While in CloudM Migrate select Step 5 on the left and then select Start. Depending on the size of the environment this can take some time to complete. When complete select Export Scan Results to download a zip of the scan results. 
+It's recommended to perform a scan against your Google source environment to proactively look for problems. While in CloudM Migrate select Step 5 on the left and then select Start. Depending on the size of the environment this can take some time to complete. When complete select Export Scan Results to download a zip of the scan results. 
 
 The important files to check are the FileScanReport.html and MailScanReport.html. Users that have items errors are highlighted in red. Important errors to look for are:
 
@@ -68,11 +66,6 @@ If there is a need to change the alias on the O365 destination to fit a new nami
 Once the CSV has been updated to the new naming convention, re-import it into CloudM Migrate by using Add items to migrate and then selecting Bulk add/import items. This will overwrite the current user list and now show the new alias under the ImportName column. 
 
 If the aliases are changing the CSV will also need to be uploaded to preserve permission mapping. Make a copy of the CSV and remove all columns besides ExportName and ImportName. Go to Step 4 and expand the Advanced Settings. Select the Address Replacement tab and import the CSV to the Address Replacements (.csv) field. 
-
-### Same Vanity Domain
-[Back to Top](#top)
-
-If the vanity domain on the source O365 tenant needs to be moved as well to the destination tenant. Mailboxes on the destination will retain their onmicrosoft.com domain address. After MX cutover the domain can be switched on the destination mailboxes via Powershell. 
 
 ### Creating the First Batch
 [Back to Top](#top)
@@ -128,39 +121,20 @@ There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Re
 ## Unsupported Data Types for Migration
 [Back to Top](#top)
 
+### Google
+{: .no_toc }
+
+- Calendar: Calendar Reminders
+- Mail: Google Categories such as Social, Promotions or, Updates. 
+- Mail: Google Starred messages are not Flagged in Outlook.
+- Mail: Gmail Snoozed emails.
+- Mail: Gmail Scheduled emails are migrated to Office 365, but only as a draft in the All Mail folder, the scheduling is not migrated. 
+- Google Keep Notes.
+- Google Spaces.
+
 ### O365
 {: .no_toc }
 
-- Calendar: Notifications such as invitations, cancellations, etc.
-- Mail: Copies of emails which exist in multiple folders will only be migrated once, from the first folder in which they are found. For all other folders, they will be skipped as Already Exists. This may result in whole folders contents not being migrated.
-- Mail: Items that do not match folder types such as calendar responses within a mail folder.
-- Mail: Custom items that do not inherit from the core system types. These are items which are not true email, calendars, contacts, journals, mail, notes, or tasks.
-- Mail: Server-based Distribution Lists.
-- Mail: Dynamic Distribution Lists.
-- Mail: Non-Delivery Report/Receipt (NDR) or Delivery Status Notification (DSN).
-- Mail: Personal Messaging Resource Management (MRM) Tags.
-- Mail: Outlook Quick Steps.
-- Mail: Color-coding for categories.
-- Settings: Client-side rules are not migrated. Client-only rules do not execute until the user who created the rules logs into the Outlook client with the same profile used to create the rule.
-- Settings: Server-side rules are not migrate, these include rules created by a user within the Outlook Web App or via the Exchange Admin Center.
-- Settings: Linked mailboxes such as described in <a href="https://technet.microsoft.com/en-us/library/bb123524.aspx">Technet</a>. For linked mailboxes, Exchange creates a disabled user account in the local forest that is used as a stand-in for the foreign account. CloudM Migrate can migrate linked mailboxes only if the mailbox is accessible via web access (OWA/EWS).
-- Contacts: Pictures that have been added within a Business Card, under Contacts. Note: Pictures are included in the migration for the migration scenarios with high fidelity, e.g., for Exchange to Office 365, and Office 365 to Office 365.
-- Settings: Delegation - This is an EWS limitation, the setting cannot be exported.
-- Contacts: Contact categories.
-- Contacts: Group ACLs.
-- OneDrive: Direct/Individual link sharing 
-- InfoPath Forms
-- RSS feeds
-- SharePoint: Creation date gets changed to the "date of migration" date
-- SharePoint: Document history
-- SharePoint: Version history
-- SharePoint: Direct/individual shareable links cannot be migrated to Google Drive. For more information about shareable links see here.
-- SharePoint: Site logos and customizations
-- SharePoint: Task lists
-- SharePoint: Custom tasks
-- SharePoint: News feed
-- SharePoint: Versioning
-- SharePoint: Metadata
-
-
-
+- Calendar: Acceptance status for meeting participants such as accepted, declined or tentative. 
+- Mail: Email Signatures from Google are not supported in Office 365.
+- Mail: Out of Office Notifications. 

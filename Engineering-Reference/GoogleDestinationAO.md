@@ -238,7 +238,8 @@ Change Conditions: ??
 6. [Preserve Modified Date](#persmodda)
 7. [Allow Alternate Item Ownership](#allalitow)
 8. [Batch Permissions](#dbatperm)
-9. [Skip Post Processing of Existing Items ](#skippoproex)
+9. [Trash Duplicate Items](#trashdupes)
+10. [Skip Post Processing of Existing Items ](#skippoproex)
 
 ### Use Cached Items Mapping <a name="usecacitemap"></a>
 {: .no_toc }
@@ -301,6 +302,14 @@ Change Conditions: ??
 Default Value: Off
 
 Use batching to provide faster, but more error prone, Google Drive migrations.
+
+Change Conditions: ??
+
+### Trash Duplicate Items <a name="trashdupes"></a>
+{: .no_toc }
+Default Value: On
+
+Trash duplicate items when performing Delta migrations.
 
 Change Conditions: ??
 
