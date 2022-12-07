@@ -50,13 +50,13 @@ The auto discovery function within CloudM Migrate does not work for File Shares 
 
 To add a File Share navigate to Step 3 within CloudM Migrate and select **+Add items to migrate**. Select **Add User** and populate the following fields:
 
-Export Type: User
-Import Type: Team Site 
-Export Name: N/A
-Import Name: Default Site Collection URL
-Given Name \ Item Name: Custom Site Collection URL or OneDrive URL
-Family Nmae: N/A
-Password: N/A
-Document Path: Mapped drive letter with subfolder path if needed
+- Export Type: User
+- Import Type: Team Site 
+- Export Name: N/A
+- Import Name: Default Site Collection URL
+- Given Name \ Item Name: Custom Site Collection URL or OneDrive URL
+- Family Nmae: N/A
+- Password: N/A
+- Document Path: Mapped drive letter with subfolder path if needed
 
 Validate Migrate and Drive are checked and select **Save** to add the migration line item. 
