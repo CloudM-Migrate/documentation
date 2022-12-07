@@ -40,7 +40,7 @@ Once all the file shares are mapped as drives the account used to logon to the s
 
 The server and account used to access the CloudM Migrate server will need access to Active Directory (AD) to look up the users SMTP address to apply on the destination. If AD access is not available to the account or server then uncheck the option **Resolve Email Addresses** in CloudM Migrate. 
 
-With no AD access a <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#address-replacement">address replacement</a> file will need to be used where column A is domain/username and column B is SMTP address. 
+With no AD access a <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#address-replacement">address replacement</a> file will need to be used where column A is domain/username and column B is UPN address. 
 
 ### Document Options
 
