@@ -72,48 +72,7 @@ There are a number of options which control how replacements are performed. It i
 
 **Address Replacements (File)** – Use this option to provide an explicit list of email addresses to be mapped as part of a migration. If performing domain consolidation or if you have other specialized requirements then this option can be used to map any source email address to any other address. Addresses should be mapped using a simple CSV file containing two columns, the first for the address to be replaced and the second the replacement address.
 
-### Batching
-[Back to Top](#top)
-
-CloudM Migrate allows you to create a batch from your master user list, in a separate configuration. This enables you to quickly segment your user list and streamlines your migration process by running batches of users.
-
-1. Select the users you want in your migration batch.
-2. From the menu, select **Create Batch**.
-3. Name your Child Configuration.
-4. Select your configuration type.
-- Disable Migration Items - Use this if you want to modify the migration items for a subset of your users. e,g. Do not migrate Drive.
-- Delete Migration Items - Use this if you want to create a subset of users to migrate. e.g. a VIP group of users.
-5. Select Create to create the batch, or Create and Edit or create the batch, and be taken to the edit screen for that batch. Batches can be modified from the Projects screen, and work in the same way as normal configuration.
-
-### Date Ranges for the First Batch
-[Back to Top](#top)
-
-Select Step 4 and validate the source and destination domains are correct. Change the dates on the right set of columns to be 30 days before the current date. 
-
-### Cutover 
-[Back to Top](#top)
-
-Once the first batch is completed a DNS cutover can be scheduled including moving the <a href="https://docs.cloudm.io/Migration-Project-Guides/GoogleToGoogle.html#vanity-domain-switch">vanity domain</a>. After a successful and validated cutover the Delta Sync can be started to sync all recent data. 
-
-It's recommended to use the longest stretch of off-peak hours available. This will greatly speed up the Delta Sync as less new mail is inbound and throttling is reduced. 
-
-### Delta Sync
-[Back to Top](#top)
-
-Return to Step 4 change the date listed in the right set of columns to a future date - note all calendar events up to the selected date will be migrated. For recurring events the first event in the series must be within the date range selected for the entire series to be migrated.
-
-Start the migration.
-
-### Statistics and Summary
-[Back to Top](#top)
-
-After starting the migration, you'll have the option to view progress and export a summary by selecting **Start** and then selecting **View Progress**. Select **More Statistics** to see a complete summary by item type for your current batch. 
-
-To export a report of the migration for record keeping select Projects in the left navigation. Select **Item Progress** and then select the orange User progress link. By selecting the top and right most orange button a file of item success by user can be downloaded.
-
----
-
-## Google Drive
+### Google Drive
 [Back to Top](#top)
 
 Due to the flexibility of how files and folders can be organized within Google Drive, CloudM Migrate has to perform Google Drive migrations in a specific way to maintain integrity in the destination Drive. CloudM Migrate has been implemented to provide extremely high integrity and fidelity during a Google Drive migration.  All folder structures, included shared folder structures, file locations, item starring and modification dates are preserved during a migration.
@@ -167,7 +126,58 @@ CloudM Migrate has functionality to allow user or group email addresses to be ch
 
 ---
 
-## Vanity Domain Switch
+## Google Groups
+[Back to Top](#top)
+
+When using **Get Items from source**, groups will be populated in the userlist along with users, shared drives and calendar resources. When selected for migration, CloudM Migrate will create the Groups in the destination with the specified Import Name. It will add the members and their membership status (member / manager / owner) will be applied. Subsequent migrations will add new members if they are added on the source. Member deletions and changes to member statuses are not applied. Alternatively, objects including Groups can be imported via CSV file.
+
+It's important to check if there are existing groups in the destination Google Workspace instance. Any groups that are listed from the source could potentially have equivalent groups in the destination, so renaming the migrating groups import names in your items list, to create new ones and/or to distinguish them from the destination groups, would be advised. If you are renaming groups import names, these changes will need to be reflected in an address replacements CSV file.
+
+> **Note**
+Google Group settings and content are not migrated - only the group itself and its membership
+
+### Batching
+[Back to Top](#top)
+
+CloudM Migrate allows you to create a batch from your master user list, in a separate configuration. This enables you to quickly segment your user list and streamlines your migration process by running batches of users.
+
+1. Select the users you want in your migration batch.
+2. From the menu, select **Create Batch**.
+3. Name your Child Configuration.
+4. Select your configuration type.
+- Disable Migration Items - Use this if you want to modify the migration items for a subset of your users. e,g. Do not migrate Drive.
+- Delete Migration Items - Use this if you want to create a subset of users to migrate. e.g. a VIP group of users.
+5. Select Create to create the batch, or Create and Edit or create the batch, and be taken to the edit screen for that batch. Batches can be modified from the Projects screen, and work in the same way as normal configuration.
+
+### Date Ranges for the First Batch
+[Back to Top](#top)
+
+Select Step 4 and validate the source and destination domains are correct. Change the dates on the right set of columns to be 30 days before the current date. 
+
+### Cutover 
+[Back to Top](#top)
+
+Once the first batch is completed a DNS cutover can be scheduled including moving the <a href="https://docs.cloudm.io/Migration-Project-Guides/GoogleToGoogle.html#vanity-domain-switch">vanity domain</a>. After a successful and validated cutover the Delta Sync can be started to sync all recent data. 
+
+It's recommended to use the longest stretch of off-peak hours available. This will greatly speed up the Delta Sync as less new mail is inbound and throttling is reduced. 
+
+### Delta Sync
+[Back to Top](#top)
+
+Return to Step 4 change the date listed in the right set of columns to a future date - note all calendar events up to the selected date will be migrated. For recurring events the first event in the series must be within the date range selected for the entire series to be migrated.
+
+Start the migration.
+
+### Statistics and Summary
+[Back to Top](#top)
+
+After starting the migration, you'll have the option to view progress and export a summary by selecting **Start** and then selecting **View Progress**. Select **More Statistics** to see a complete summary by item type for your current batch. 
+
+To export a report of the migration for record keeping select Projects in the left navigation. Select **Item Progress** and then select the orange User progress link. By selecting the top and right most orange button a file of item success by user can be downloaded.
+
+---
+
+### Vanity Domain Switch
 [Back to Top](#top)
 
 Google Workspace domain-switch migrations can be performed in the same way as other Google Workspace migrations, however, if the source domain name is being migrated to the destination this adds an additional layer of complexity relating to the domain name registration and CloudM Migrate licensing. This guide explains how to perform such migrations without running into issues. It is very important to plan ahead to minimize downtime during this process, so we recommend this guide is reviewed thoroughly and all steps planned well in advance of a switch-over.
@@ -193,18 +203,6 @@ Because Google does not allow a domain to be associated with two instances at th
 > **Note** Changing the primary domain is not available for: Google Workspace Free edition, Google Workspace or Cloud Identity accounts in a trial period, Google Workspace or Cloud Identity accounts that included the purchase of your domain, Google Workspace accounts purchased through Google Domains, Google Workspace Resellers Licensing
 
 CloudM Migrate licenses are assigned to each destination domain. This means that when performing the delta migration, after renaming the accounts, it will require another CloudM Migrate license. If you are running such a migration, you should contact us through your account manager or via sales@cloudm.io and we will be able to provide additional licenses to mitigate this at no extra cost.
-
----
-
-## Google Groups
-[Back to Top](#top)
-
-When using **Get Items from source**, groups will be populated in the userlist along with users, shared drives and calendar resources. When selected for migration, CloudM Migrate will create the Groups in the destination with the specified Import Name. It will add the members and their membership status (member / manager / owner) will be applied. Subsequent migrations will add new members if they are added on the source. Member deletions and changes to member statuses are not applied. Alternatively, objects including Groups can be imported via CSV file.
-
-It's important to check if there are existing groups in the destination Google Workspace instance. Any groups that are listed from the source could potentially have equivalent groups in the destination, so renaming the migrating groups import names in your items list, to create new ones and/or to distinguish them from the destination groups, would be advised. If you are renaming groups import names, these changes will need to be reflected in an address replacements CSV file.
-
-> **Note**
-Google Group settings and content are not migrated - only the group itself and its membership
 
 ---
 
