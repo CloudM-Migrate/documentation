@@ -62,3 +62,7 @@ To add a File Share navigate to Step 3 within CloudM Migrate and select **+Add i
 Validate **Migrate** and **Drive** are checked and select **Save** to add the migration line item. Repeat for each file share in scope for migration. 
 
 **NOTE**: The destination for the file share can be a SharePoint site collection or a user OneDrive. 
+
+### Execute Migration
+
+When ready to execute select the Paper Airplane on the left and select **Start** to begin the migration. 
