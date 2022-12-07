@@ -1,17 +1,17 @@
 ---
 layout: default
-title: O365
+title: M365
 grand_parent: Engineering Reference
 parent: Destination Advanced Options
 nav_order: 1
 ---
 
-## O365 Destination Advanced Options
+## M365 Destination Advanced Options
 {: .no_toc }
 
 ---
 
-This document will give an overview on all the Office 365 Destination Advanced Options in CloudM Migrate. 
+This document will give an overview on all the Microsoft 365 Destination Advanced Options in CloudM Migrate. 
 
 ---
 <a name="top"></a>
