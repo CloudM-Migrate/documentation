@@ -14,6 +14,8 @@ has_toc: false
 
 Before starting your migration project, make sure you have setup the <a href="https://docs.cloudm.io/Endpoint-Configuration-Guides/FileSystem.html">File Share</a> endpoint and the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/M365Tenant.html">M365</a> endpoint using the configuration guides. Be sure to validate both tenants have passed their connectivity tests with no errors. 
 
+The destination for the file share can be a SharePoint document library or a user OneDrive. 
+
 The <a href="https://docs.cloudm.io/Engineering-Reference/M365DestinationAO.html#sharepoint-admin-url-">SharePoint Admin URL</a> needs to be populated on the Destination Advanced Options. 
 
 <a name="top"></a>
@@ -41,10 +43,8 @@ To add a File Share navigate to Step 3 within CloudM Migrate and select **+Add i
 - Password: N/A
 - Document Path: Mapped drive letter with subfolder path if needed
 
-Validate **Migrate** and **Drive** are checked and select **Save** to add the migration line item. Repeat for each file share in scope for migration. The folder structure entered under Document Path will be perserved on the destination unless otherwise specifed by having <a href="https://docs.cloudm.io/Engineering-Reference/FileSystem.html#migrate-top-level-folder">Migration Top Level Folder</a> checked and <a href="https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#topfolder">target folder</a> specified.
-
-**NOTE**: The destination for the file share can be a SharePoint site collection or a user OneDrive. 
+Validate **Migrate** and **Drive** are checked and select **Save** to add the migration line item. Repeat for each file share in scope for migration. The folder structure entered under Document Path will be preserved on the destination unless otherwise specified by having <a href="https://docs.cloudm.io/Engineering-Reference/FileSystem.html#migrate-top-level-folder">Migration Top Level Folder</a> checked and <a href="https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#topfolder">target folder</a> specified.
 
 ### Execute Migration
 
-When ready to execute select the Paper Airplane on the left and select **Start** to begin the migration. 
+When ready to execute select the Paper Airplane on the left and select **Start** to begin the migration.
