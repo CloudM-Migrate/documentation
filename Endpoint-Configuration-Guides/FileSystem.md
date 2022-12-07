@@ -30,7 +30,7 @@ For File System this is defined by the following requirements:
 
 ### Migrating to Google or M365
 
-File stored in a local network file share can be migrated to Google Drive, Microsoft OneDrive or a SharePoint Teams Site. CloudM Migrate will need to be <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/SelfHostedGuides.html">installed</a> on a server in the network. Once completed the server will need to have the desired shares <a href="https://support.microsoft.com/en-us/windows/map-a-network-drive-in-windows-29ce55d1-34e3-a7e2-4801-131475f9557d"> mapped</a> to the CloudM Migrate server. If using a <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/SelfHostedGuides.html#clustering">Cluster</a>, each Secondary server will need the drive mappings done the same as the Primary server. 
+File stored in a local network file share can be migrated to Google Drive, Microsoft OneDrive or a SharePoint Teams Site. CloudM Migrate will need to be <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/SelfHostedGuides.html">installed</a> on a server in the network. Once completed the server will need to have the desired shares <a href="https://docs.cloudm.io/Endpoint-Configuration-Guides/FileSystem.html#mapping-file-shares"> mapped</a> to the CloudM Migrate server. If using a <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/SelfHostedGuides.html#clustering">Cluster</a>, each Secondary server will need the drive mappings done the same as the Primary server. 
 
 ### Authentication Method
 
@@ -45,6 +45,10 @@ With no AD access a <a href="https://cloudm-migrate.github.io/documentation/Engi
 ### Document Options
 
 By default CloudM Migrate will have **Migrate Top Level Folder** enabled which will collapse the source folder structure into one top level folder that can be specified under the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#top-level-folder-">Project Advanced Options</a>. Uncheck **Migrate Top Level Folder** to preserve the existing folder structure. 
+
+### Migrating File ACL's
+
+To migrate permissions select either **Shared Documents** or **Shared Documents and Send Notification Emai**l under the File System Document Sharing dropdown. 
 
 ### Mapping File Shares 
 
