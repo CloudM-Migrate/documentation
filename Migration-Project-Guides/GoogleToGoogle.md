@@ -225,7 +225,6 @@ There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Re
 
 - Calendar: Calendar Reminders
 - Mail: Google Categories such as Social, Promotions, Updates, Forums.
-- Mail: Google Starred messages are not Flagged in Outlook.
 - Mail: Gmail Snoozed emails as limited by the Gmail API.
 - Mail: Gmail Scheduled emails are migrated to Office 365, but only as a draft in the All Mail folder, the scheduling is not migrated. 
 - Google Keep Notes.
