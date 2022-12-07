@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Google Workspace to Google Workspace
+title: Google to Google
 grand_parent: Migration Project Guides
 parent: Google
 nav_order: 1
