@@ -55,7 +55,7 @@ To add a File Share navigate to Step 3 within CloudM Migrate and select **+Add i
 - Export Name: Any value
 - Import Name: Default Site Collection URL
 - Given Name \ Item Name: Custom Site Collection URL or OneDrive URL
-- Family Nmae: N/A
+- Family Name: N/A
 - Password: N/A
 - Document Path: Mapped drive letter with subfolder path if needed
 
