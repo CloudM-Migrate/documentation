@@ -2,7 +2,7 @@
 layout: default
 title: File Share to Google
 grand_parent: Migration Project Guides
-parent: M365
+parent: Google
 nav_order: 4
 has_children: false
 has_toc: false
