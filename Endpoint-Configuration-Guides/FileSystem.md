@@ -7,7 +7,7 @@ nav_order: 3
 
 ---
 
-## File System Endpoint Configuration
+## File Share Endpoint Configuration
 {: .no_toc }
 
 ---
