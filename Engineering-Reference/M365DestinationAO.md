@@ -28,19 +28,22 @@ This document will give an overview on all the Microsoft 365 Destination Advance
 ## SharePoint Online
 
 1. [SharePoint Migration API](#sharepointapi)
-2. [Retry Backoff](#sretryback)
-3. [SharePoint Admin Url](#shareadurl)
-4. [Timeout](#stimeout)
-5. [Preserve File Created and Modified Dates](#persfilemoddate)
-6. [Provision Sites](#provsites)
-7. [Hybrid Environment](#hybridenv)
-8. [SharePoint Storage](#sharstor)
-9. [Retry Count](#sretry)
-10. [Retry Count](#sfretry)
-11. [Truncate Folders and Files](#trunfoldfil)
-12. [Orphaned Items Folder](#orphfold)
-13. [Provision Sites Timeout Check](#provsitetime)
-14. [Patch Permissions](#patchperm)
+2. [SharePoint Storage](#shareposto) 
+3. [Storage Account Name](#stoaccname)
+4. [Storage Account Key](#storacckey)
+5. [Retry Backoff](#sretryback)
+6. [SharePoint Admin Url](#shareadurl)
+7. [Timeout](#stimeout)
+8. [Preserve File Created and Modified Dates](#persfilemoddate)
+9. [Provision Sites](#provsites)
+10. [Hybrid Environment](#hybridenv)
+11. [SharePoint Storage](#sharstor)
+12. [Retry Count](#sretry)
+13. [Retry Count](#sfretry)
+14. [Truncate Folders and Files](#trunfoldfil)
+15. [Orphaned Items Folder](#orphfold)
+16. [Provision Sites Timeout Check](#provsitetime)
+17. [Patch Permissions](#patchperm)
 
 ### SharePoint Migration API <a name="docsharperm"></a>
 {: .no_toc }
@@ -49,6 +52,32 @@ Default Value: On
 SharePoint Migration API is recommended for all migrations to SharePoint Online and OneDrive for Business. For more information see the article here
 
 Change Conditions: Disable to use CSOM API which is much slower, not recommended. 
+
+### SharePoint Storage (dynamic) <a name="shareposto"></a>
+{: .no_toc }
+Default: Office 365
+
+Microsoft’s Import Migration API requires the use of an Azure container for temporary storage. When (Office 365) is selected files and manifests will be uploaded to containers provided by Microsoft. (Azure Hosted) allows you to provide your own storage/containers.
+
+CloudM takes a snapshot of your destination using the Export Migration API which utilises storage containers. 'Storage Account Name' and 'Storage Account Key' are required for both (Office 365 and Azure Hosted).
+
+Change Conditions: Only avilable if the options SharePoint Migration API is enabled.
+
+### Storage Account Name (dynamic) <a name="stoaccname"></a>
+{: .no_toc }
+Default: Blank
+
+The name of the Azure storage account.
+
+Change Conditions: Only avilable if the options SharePoint Migration API is enabled and SharePoint Storage is set to Azure Hosted. 
+
+### Storage Account Key (dynamic) <a name="storacckey"></a>
+{: .no_toc }
+Default: Blank
+
+The access key for the Azure storage account.
+
+Change Conditions: N/A
 
 ### Retry Backoff (seconds) <a name="sretryback"></a>
 {: .no_toc }
