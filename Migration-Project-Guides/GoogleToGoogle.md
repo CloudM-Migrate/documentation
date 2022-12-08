@@ -12,7 +12,7 @@ has_toc: false
 ## Google Workspace to Google Workspace
 {: .no_toc }
 
-Before starting your migration project, make sure you have setup <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">the Google Workspace tenants</a> using the endpoint configuration guide. Be sure to validate both tenants have passed their connectivity tests with no errors. 
+Before starting your migration project, make sure you have setup the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google Workspace</a> tenants using the endpoint configuration guide. Be sure to validate both tenants have passed their connectivity tests with no errors. 
 
 <a name="top"></a>
 <details open markdown="block">
