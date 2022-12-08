@@ -77,7 +77,7 @@ Default: Blank
 
 The access key for the Azure storage account.
 
-Change Conditions: N/A
+Change Conditions: Only avilable if the options SharePoint Migration API is enabled and SharePoint Storage is set to Azure Hosted. 
 
 ### Retry Backoff (seconds) <a name="sretryback"></a>
 {: .no_toc }
