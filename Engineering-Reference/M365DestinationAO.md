@@ -48,9 +48,7 @@ Default Value: On
 
 SharePoint Migration API is recommended for all migrations to SharePoint Online and OneDrive for Business. For more information see the article here
 
-https://support.cloudm.io/hc/en-us/articles/360021044840
-
-Change Conditions: ??
+Change Conditions: Disable to use CSOM API which is much slower, not recommended. 
 
 ### Retry Backoff (seconds) <a name="sretryback"></a>
 {: .no_toc }
