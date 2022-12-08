@@ -61,7 +61,7 @@ Microsoft’s Import Migration API requires the use of an Azure container for te
 
 CloudM takes a snapshot of your destination using the Export Migration API which utilises storage containers. 'Storage Account Name' and 'Storage Account Key' are required for both (Office 365 and Azure Hosted).
 
-Change Conditions: Only avilable if the options SharePoint Migration API is enabled.
+Change Conditions: Only avialable if the option SharePoint Migration API is enabled.
 
 ### Storage Account Name (dynamic) <a name="stoaccname"></a>
 {: .no_toc }
@@ -69,7 +69,7 @@ Default: Blank
 
 The name of the Azure storage account.
 
-Change Conditions: Only avilable if the options SharePoint Migration API is enabled and SharePoint Storage is set to Azure Hosted. 
+Change Conditions: Only avialable if the option SharePoint Migration API is enabled and SharePoint Storage is set to Azure Hosted. 
 
 ### Storage Account Key (dynamic) <a name="storacckey"></a>
 {: .no_toc }
@@ -77,7 +77,7 @@ Default: Blank
 
 The access key for the Azure storage account.
 
-Change Conditions: Only avilable if the options SharePoint Migration API is enabled and SharePoint Storage is set to Azure Hosted. 
+Change Conditions: Only avialable if the option SharePoint Migration API is enabled and SharePoint Storage is set to Azure Hosted. 
 
 ### Retry Backoff (seconds) <a name="sretryback"></a>
 {: .no_toc }
