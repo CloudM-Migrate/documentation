@@ -12,9 +12,9 @@ nav_order: 3
 
 ---
 
-This guide will show how to configure File System as a source endpoint. 
+This guide will show how to configure multiple File Shares as a source endpoints. 
 
-For File System this is defined by the following requirements:
+For File Share endpoints this is defined by the following requirements:
 
 <a name="top"></a>
 <details open markdown="block">
