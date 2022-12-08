@@ -45,7 +45,7 @@ We know how important security is during migrations. Move to the cloud with conf
 
 First use the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/EndPointGuides.html">Endpoint Configuration Guides</a> to configure your source and destination. When ready use the <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/MigrationProjectGuides.html">Migration Project Guides</a> to begin planning and executing your migration. 
 
-This repo can be used as a template for your own migration process. Requirments can differ so the guides will give you a standard migration approach with the ability to fold in functionality. Customize and complete to have your organizational plan and process for migrating. 
+This repo can be used as a template for your own migration process. Requirements can differ so the guides will give you a standard migration approach with the ability to fold in functionality. Customize and complete to have your organizational plan and process for migrating. 
 
 All the options are found in the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/EngineeringReference.html">Engineering Reference<a/> and use the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/Troubleshooting.html">Troubleshooting</a> secton for help for known common errors. 
 
