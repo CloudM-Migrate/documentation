@@ -130,8 +130,7 @@ When using **Get Items from source**, groups will be populated in the user list 
 
 It's important to check if there are existing groups in the destination Google Workspace instance. Any groups that are listed from the source could potentially have equivalent groups in the destination, so renaming the migrating groups import names in your items list, to create new ones and/or to distinguish them from the destination groups, would be advised. If you are renaming groups import names, these changes will need to be reflected in an address replacements CSV file.
 
-> **Note**
-Google Group settings and content are not migrated - only the group itself and its membership
+> **Note**: Google Group settings and content are not migrated - only the group itself and its membership
 
 ### Batching
 [Back to Top](#top)
@@ -197,7 +196,7 @@ Because Google does not allow a domain to be associated with two instances at th
 12. Change the primary domain on the destination.
 13. Finally, you may need to perform a cleanup by removing the temporary destination domain/associated aliases. 
 
-> **Note** Changing the primary domain is not available for: Google Workspace Free edition, Google Workspace or Cloud Identity accounts in a trial period, Google Workspace or Cloud Identity accounts that included the purchase of your domain, Google Workspace accounts purchased through Google Domains, Google Workspace Resellers Licensing
+> **Note**: Changing the primary domain is not available for: Google Workspace Free edition, Google Workspace or Cloud Identity accounts in a trial period, Google Workspace or Cloud Identity accounts that included the purchase of your domain, Google Workspace accounts purchased through Google Domains, Google Workspace Resellers Licensing
 
 CloudM Migrate licenses are assigned to each destination domain. This means that when performing the delta migration, after renaming the accounts, it will require another CloudM Migrate license. If you are running such a migration, you should contact us through your account manager or via sales@cloudm.io and we will be able to provide additional licenses to mitigate this at no extra cost.
 
