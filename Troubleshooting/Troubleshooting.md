@@ -7,6 +7,7 @@ has_toc: false
 ---
 
 ## Troubleshooting
+{: .no_toc }
 
 ---
 <a name="top"></a>
@@ -21,10 +22,7 @@ has_toc: false
 
 ---
 
-This is our general overview on SLA Standards when submitting a service request and weekend support. 
-
-### Getting Support
-<a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
+Answers to commons errors, if it's uncommon <a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
 
 ### Service Level Agreement & Response Times
 
