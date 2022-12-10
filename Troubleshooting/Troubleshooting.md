@@ -8,6 +8,19 @@ has_toc: false
 
 ## Troubleshooting
 
+---
+<a name="top"></a>
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
+
 This is our general overview on SLA Standards when submitting a service request and weekend support. 
 
 ### Getting Support
