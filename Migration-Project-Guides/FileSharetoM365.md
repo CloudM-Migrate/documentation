@@ -48,3 +48,11 @@ Validate **Migrate** and **Drive** are checked and select **Save** to add the mi
 ### Execute Migration
 
 When ready to execute select the Paper Airplane on the left and select **Start** to begin the migration.
+
+### File Name Conflicts
+
+If CloudM Migrate moves a file to the destination that already has a file with the same name the migrating file will be renamed with a _ character in the beggining of the file name. 
+
+If the file was perviously migrated and has been updated on the source, the <a href="https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#overwritedoc">Overwrite Files</a> can be enabled to overwrite based on <a href="https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#filterdate">Created Date or Modified Date</a>. 
+
+
