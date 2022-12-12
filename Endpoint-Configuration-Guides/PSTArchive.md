@@ -32,20 +32,12 @@ For PST Archive this is defined by the following requirements:
 
 ### File Locations 
 
- In order to migrate PST archives successfully ensure the following that the selected profile runs under the SYSTEM user. When performing this type of migration mapping a drive as a regular windows user so that it appears in the file explorer will not work.
+In order to migrate PST archives successfully that the profile runs under the SYSTEM user. When performing this type of migration and mapping a drive as a regular windows user in the file explorer will not work.
 
 ### Access to Mapped Drives using PSEXEC 
 
-If using clustering then ensure the CloudM Migrate service has access to mapped drives.
-
-Launch command prompt as system using psexec - psexec -i -s cmd.exe.
-
-Run the below command and take a screenshot of the results. 
-
-This should confirm you are logged in as nt authority\system.
-whoami. 
-
-Run the below command to map the drive as system. 
+If using clustering then ensure the CloudM Migrate service has access to mapped drives. Confirm you are logged in as nt authority\system. whoami. 
+Run the command to map the drive as system. launch command prompt as SYSTEM user using psexec - psexec -i -s cmd.exe.
 
 - Replace \\servername\sharedfolder with the UNC path of the folder you wish to map.
 - net use z: \\servername\sharedfolder /persistent:yes
@@ -57,6 +49,6 @@ Run the below command to map the drive as system.
 - dir
 
 If issues occur with mapping the drives follow these additional step start over and delete the mapped drives.
-- net use :Y /delete or net use * /delete to delete all mapped drives.
+- Net use: Y /delete or net use * /delete to delete all mapped drives.
 
 
