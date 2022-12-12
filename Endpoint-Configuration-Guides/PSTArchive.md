@@ -32,7 +32,8 @@ For PST Archive this is defined by the following requirements:
 
 ### File Locations 
 
-In order to migrate PST archives successfully that the profile runs under the SYSTEM user. When performing this type of migration and mapping a drive as a regular windows user in the file explorer will not work.
+In order to migrate PST archives successfully that the profile runs under the SYSTEM user. When performing this type of migration and select a drive letter and keep in mind mapping a drive as a regular windows user in the file explorer will not work. 
+
 
 ### Access to Mapped Drives using PSEXEC 
 
