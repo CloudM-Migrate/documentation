@@ -113,7 +113,7 @@ Other project related data is provided by:
 
 All of these store non-sensitive data such as item IDs in order to provide reporting on migrations.
 
-Where CloudM Migrate requires a username or password to interact with a system, and stores sensitive data like this, that data is stored encrypted within SQL Server (AES256). SQL Server 2019 Express is installed by default, or a customer can specify their own SQL server.
+Where CloudM Migrate requires a username or password to interact with a system, and stores sensitive data like this, that data is stored encrypted within SQL Server (AES256). SQL Server 2019 Express is installed by default but you can specify your own SQL instance. 
 
 ### Certification <a name="certification"></a>
 
