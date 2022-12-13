@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Personal Email
+title: 
 grand_parent: Endpoint Configuration Guides
 parent: Other Source Endpoints
 nav_order: 22
 ---
 
-## Personal Email Endpoint Configuration
+ Personal Email Endpoint Configuration
 {: .no_toc }
 
 ---
