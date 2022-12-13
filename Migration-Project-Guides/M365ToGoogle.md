@@ -12,7 +12,7 @@ has_toc: false
 ## Microsoft 365 to Google Workspace
 {: .no_toc }
 
-Before starting your migration project, make sure you have setup the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/M365Tenant.html">M365</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/Google.html">Google Workspace</a>endpoints using the configuration guides. Be sure to validate both endpoints have passed their connectivity tests with no errors. 
+Before starting your migration project, make sure you have setup the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/M365Tenant.html">M365</a> and <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/Google.html">Google Workspace</a> endpoints using the configuration guides. Be sure to validate both endpoints have passed their connectivity tests with no errors. 
 
 <a name="top"></a>
 <details open markdown="block">
