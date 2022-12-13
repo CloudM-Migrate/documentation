@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://docs.cloudm.io/</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/EndPointGuides.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/M365Tenant.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/GoogleTenant.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/SelfHostedGuides.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/LotusNotes.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/GroupWise.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/FileSystem.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/PSTArchive.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/OracleComm.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/OtherEndpoints.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/Box.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/Dropbox.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/HostedExchange.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/GoogleVault.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/AzureStorage.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/GenericIMAP.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/OnPremExchange.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/GoogleCloudStorage.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/Zimbra.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/MailArchive.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Endpoint-Configuration-Guides/M365Archive.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Migration-Project-Guides/MigrationProjectGuides.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Migration-Project-Guides/M365.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Migration-Project-Guides/GoogleToM365.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Migration-Project-Guides/M365ToM365.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Migration-Project-Guides/TeamstoTeams.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Migration-Project-Guides/FileSharetoM365.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Migration-Project-Guides/Google.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Migration-Project-Guides/GoogleToGoogle.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Migration-Project-Guides/FileSharetoGoogle.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Migration-Project-Guides/HostedExToGoogle.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/EngineeringReference.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/EndpointOptions.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/GoogleSource.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/M365.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/HostedExchange.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/GroupWise.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/LotusNotes.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/Zimbra.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/Scalix.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/GenericIMAP.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/OnPremExchange.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/OracleComm.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/PST.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/MailArchive.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/ExchangeOnlineArchive.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/GoogleVault.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/AzureStorage.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/GoogleCloudStorage.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/FileSystem.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/DropBox.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/Box.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/SharePoint.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/SourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/GoogleSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/M365SourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/HostedExchangeSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/GroupWiseSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/LotusNotesSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/ZimbraSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/ScalixSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/GenericIMAPSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/OnPremExchangeSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/OracleCommSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/PSTSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/ExchangeOnlineArchiveAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/GoogleVaultSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/AzureStorageSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/GoogleCloudStorageAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/DropBoxSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/BoxSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/SharePointSourceAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/DestinationAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/M365DestinationAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/GoogleDestinationAO.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/PlatformProvisioning.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Engineering-Reference/APIGuide.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Security/Security.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Security/SelfHostedArchitectureandSecurity.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Troubleshooting/Troubleshooting.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Troubleshooting/CloudMMigrateTS.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Troubleshooting/M365Endpoint.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Troubleshooting/GoogleEndpoint.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Troubleshooting/TeamsTS.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Release-Notes/ReleaseNotes.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Release-Notes/V33811.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Release-Notes/V338.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Release-Notes/V337.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Release-Notes/V336.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Release-Notes/V33516.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cloudm.io/Release-Notes/V335.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
