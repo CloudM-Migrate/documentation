@@ -70,3 +70,43 @@ There are a number of options which control how replacements are performed. It i
 
 **Address Replacements (File)** – Use this option to provide an explicit list of email addresses to be mapped as part of a migration. If performing domain consolidation or if you have other specialized requirements then this option can be used to map any source email address to any other address. Addresses should be mapped using a simple CSV file containing two columns, the first for the address to be replaced and the second the replacement address.
 
+### Batching
+[Back to Top](#top)
+
+CloudM Migrate allows you to create a batch from your master user list, in a separate configuration. This enables you to quickly segment your user list and streamlines your migration process by running batches of users.
+
+1. Select the users you want in your migration batch.
+2. From the menu, select **Create Batch**.
+3. Name your Child Configuration.
+4. Select your configuration type.
+- Disable Migration Items - Use this if you want to modify the migration items for a subset of your users. e,g. Do not migrate Drive.
+- Delete Migration Items - Use this if you want to create a subset of users to migrate. e.g. a VIP group of users.
+5. Select Create to create the batch, or Create and Edit or create the batch, and be taken to the edit screen for that batch. Batches can be modified from the Projects screen, and work in the same way as normal configuration.
+
+### Date Ranges for the First Batch
+[Back to Top](#top)
+
+Select Step 4 and validate the source and destination domains are correct. Change the dates on the right set of columns to be 30 days before the current date. 
+
+### Cutover 
+[Back to Top](#top)
+
+Once the first batch is completed a DNS cutover can be scheduled including moving the <a href="https://docs.cloudm.io/Migration-Project-Guides/GoogleToGoogle.html#vanity-domain-switch">vanity domain</a>. After a successful and validated cutover the Delta Sync can be started to sync all recent data. 
+
+It's recommended to use the longest stretch of off-peak hours available. This will greatly speed up the Delta Sync as less new mail is inbound and throttling is reduced. 
+
+### Delta Sync
+[Back to Top](#top)
+
+Return to Step 4 change the date listed in the right set of columns to a future date - note all calendar events up to the selected date will be migrated. For recurring events the first event in the series must be within the date range selected for the entire series to be migrated.
+
+Start the migration.
+
+### Statistics and Summary
+[Back to Top](#top)
+
+After starting the migration, you'll have the option to view progress and export a summary by selecting **Start** and then selecting **View Progress**. Select **More Statistics** to see a complete summary by item type for your current batch. 
+
+To export a report of the migration for record keeping select Projects in the left navigation. Select **Item Progress** and then select the orange User progress link. By selecting the top and right most orange button a file of item success by user can be downloaded.
+
+---
