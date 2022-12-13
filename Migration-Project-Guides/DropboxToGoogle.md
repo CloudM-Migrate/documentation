@@ -14,7 +14,7 @@ has_toc: false
 
 Before starting your migration project, make sure you have setup the <a href="https://docs.cloudm.io/Endpoint-Configuration-Guides/Dropbox.html">Dropbox</a> endpoint and the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/Google.html">Google Workspace</a> endpoint using the configuration guides. Be sure to validate both tenants have passed their connectivity tests with no errors. 
 
-The destination for the file share can be a SharePoint personal Google Drive or Shared Drive. 
+The destination for the file share can be a personal Google Drive or Shared Drive. 
 
 <a name="top"></a>
 <details open markdown="block">
