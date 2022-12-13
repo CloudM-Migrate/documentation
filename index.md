@@ -3,7 +3,8 @@ layout: default
 title: Get Started with CloudM
 nav_order: 1
 redirect_from: /404.html
-permalink: /
+Permalink: /
+
 ---
 
 # CloudM Migrate Documentation Repository
@@ -84,3 +85,5 @@ This repo is closed to submissions at this time. We're working on our V1 and wil
   </li>
 {% endfor %}
 </ul>
+
+<meta name='zd-site-verification' content='rnsxvtz6g5o6zxf9stma5b'/>
