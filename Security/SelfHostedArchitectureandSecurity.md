@@ -31,7 +31,7 @@ CloudM Migrate Self Hosted can be installed and used in a single or multi-server
           
 ### User Interface <a name="userinterface"></a>
 
-The user interface is the central point of administration for CloudM Migrate Self Hosted in both single and cluster configurations. Migrations are started and stopped from the interface, and feedback on the progress of the migration is provided through the interface. The user interface is always installed to the same server as the primary server.
+The user interface is the central point of administration for CloudM Migrate Self Hosted in both single server and cluster configurations. Migrations are started and stopped from the interface, and feedback on the progress of the migration is provided through the interface. The user interface is always installed to the same server as the primary server.
 
 ### Primary & Secondary Servers <a name="servers"></a>
 
