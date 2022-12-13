@@ -83,24 +83,17 @@ CloudM Migrate allows you to create a batch from your master user list, in a sep
 - Delete Migration Items - Use this if you want to create a subset of users to migrate. e.g. a VIP group of users.
 5. Select Create to create the batch, or Create and Edit or create the batch, and be taken to the edit screen for that batch. Batches can be modified from the Projects screen, and work in the same way as normal configuration.
 
-### Date Ranges for the First Batch
+### Date Ranges
 [Back to Top](#top)
 
-Select Step 4 and validate the source and destination domains are correct. Change the dates on the right set of columns to be 30 days before the current date. 
+You can filter files based on the selection and date ranges set for ‘Migrate Files From’ and ‘Migrate Files To’ settings. The <a href=https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#filterdate>Filter Date Type</a> setting allows you to specify whether the date used is based on the file's created date (by default) or the file's last modified date (the last date that the file was updated).
 
-### Cutover 
+### Delta Migrations
 [Back to Top](#top)
 
-Once the first batch is completed a DNS cutover can be scheduled including moving the <a href="https://docs.cloudm.io/Migration-Project-Guides/GoogleToGoogle.html#vanity-domain-switch">vanity domain</a>. After a successful and validated cutover the Delta Sync can be started to sync all recent data. 
+Delta migrations of files to Google Drive will migrate any new files that were not found as part of the previous migration(s), but will also detect if files have been modified or updated since the last migration.
 
-It's recommended to use the longest stretch of off-peak hours available. This will greatly speed up the Delta Sync as less new mail is inbound and throttling is reduced. 
-
-### Delta Sync
-[Back to Top](#top)
-
-Return to Step 4 change the date listed in the right set of columns to a future date - note all calendar events up to the selected date will be migrated. For recurring events the first event in the series must be within the date range selected for the entire series to be migrated.
-
-Start the migration.
+Files or folders that have been edited, have had permissions changed, have been renamed or otherwise changed will be re-migrated and the file or folder in the destination deleted and re-migrated. This results in a new destination document or folder ID.
 
 ### Statistics and Summary
 [Back to Top](#top)
@@ -108,5 +101,9 @@ Start the migration.
 After starting the migration, you'll have the option to view progress and export a summary by selecting **Start** and then selecting **View Progress**. Select **More Statistics** to see a complete summary by item type for your current batch. 
 
 To export a report of the migration for record keeping select Projects in the left navigation. Select **Item Progress** and then select the orange User progress link. By selecting the top and right most orange button a file of item success by user can be downloaded.
+
+### Execute Migration
+
+When ready to execute select the Paper Airplane on the left and select **Start** to begin the migration. 
 
 ---
