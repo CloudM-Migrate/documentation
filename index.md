@@ -7,6 +7,8 @@ Permalink: /
 
 ---
 
+<meta name='zd-site-verification' content='rnsxvtz6g5o6zxf9stma5b'/>
+
 # CloudM Migrate Documentation Repository
 
 This site will contain the technical documentation for [CloudM Migrate](https://www.cloudm.io/), a cloud migration solution.
