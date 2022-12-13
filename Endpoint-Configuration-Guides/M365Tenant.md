@@ -2,6 +2,7 @@
 layout: default
 title: M365
 parent: Endpoint Configuration Guides
+tag: M365
 nav_order: 1
 ---
 
