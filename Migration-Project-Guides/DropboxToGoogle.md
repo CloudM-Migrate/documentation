@@ -95,15 +95,15 @@ Delta migrations of files to Google Drive will migrate any new files that were n
 
 Files or folders that have been edited, have had permissions changed, have been renamed or otherwise changed will be re-migrated and the file or folder in the destination deleted and re-migrated. This results in a new destination document or folder ID.
 
+### Execute Migration
+
+When ready to execute select the Paper Airplane on the left and select **Start** to begin the migration. 
+
 ### Statistics and Summary
 [Back to Top](#top)
 
 After starting the migration, you'll have the option to view progress and export a summary by selecting **Start** and then selecting **View Progress**. Select **More Statistics** to see a complete summary by item type for your current batch. 
 
 To export a report of the migration for record keeping select Projects in the left navigation. Select **Item Progress** and then select the orange User progress link. By selecting the top and right most orange button a file of item success by user can be downloaded.
-
-### Execute Migration
-
-When ready to execute select the Paper Airplane on the left and select **Start** to begin the migration. 
 
 ---
