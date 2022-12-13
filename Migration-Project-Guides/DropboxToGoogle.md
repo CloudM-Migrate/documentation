@@ -43,14 +43,11 @@ On Step 3 on the left, select **Add items to migrate** for options on how to col
 - Get items from source - This is fetch where CloudM Migrate will attempt to list all supported items within scope. 
 - Bulk add/import items - Provide CloudM Migrate a <a href="https://github.com/CloudM-Migrate/documentation/blob/main/assets/bulkimport.csv">CSV</a> of targeted items. 
 - Add User - Add a specific user to the project. 
-- Add Resource - Add a specific calendar resource to the project.
-- Add Shared Drive - Add a Shared Drive to the project.
-- Add Group - Add a Google Group to the project.
 
 ### Scanning the Source 
 [Back to Top](#top)
 
-It's recommended to perform a scan against your Google source environment to proactively look for problems. While in CloudM Migrate select Step 5 on the left and then select Start. Depending on the size of the environment this can take some time to complete. When complete select Export Scan Results to download a zip of the scan results. 
+It's recommended to perform a scan against your Dropbox source environment to proactively look for problems. While in CloudM Migrate select Step 5 on the left and then select Start. Depending on the size of the environment this can take some time to complete. When complete select Export Scan Results to download a zip of the scan results. 
 
 The important files to check are the FileScanReport.html and MailScanReport.html. Users that have items errors are highlighted in red. Important errors to look for are:
 
@@ -64,7 +61,7 @@ The important files to check are the FileScanReport.html and MailScanReport.html
 
 There are a number of options which control how replacements are performed. It is important to understand how these applied, in which order and under which conditions. It is possible to end up with incorrect email addresses if the options are not fully understood.
 
-**Replace Usernames** – Replace any re-mapped usernames from the users tab, when migrating the items specified in **Domain Replacement Types** in Common settings. If this option is disabled and replacements are required, explicit mappings for email addresses and domain names should be provided via the other settings in this section. Only addresses that belong to source domains are automatically mapped. When migrating from Google Workspace, the source domains are automatically identified, but when migrating from other sources you should specify the domains in the next setting: Address Domain Replacements
+**Replace Usernames** – Replace any re-mapped usernames from the users tab, when migrating the items specified in **Domain Replacement Types** in Common settings. If this option is disabled and replacements are required, explicit mappings for email addresses and domain names should be provided via the other settings in this section. Only addresses that belong to source domains are automatically mapped.
 
 **Address Domain Replacements** - If migrating from one domain name to another, specify the domain names that should be replaced and the value with which they should be replaced with. For example, when migrating from example.com to domain.com, you should provide example.com and domain.com in this setting. If migrating from one Google Workspace domain to another, domain replacements are performed automatically unless **Replace CSV Addresses Only** is selected and you have not provided the domain mappings within the file.
 
