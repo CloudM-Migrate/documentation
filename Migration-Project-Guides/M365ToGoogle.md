@@ -101,6 +101,10 @@ Return to Step 4 change the date listed in the right set of columns to 50 years 
 
 Start the migration.
 
+### Execute Migration
+
+When ready to execute select the Paper Airplane on the left and select **Start** to begin the migration. 
+
 ### Statistics and Summary
 [Back to Top](#top)
 
