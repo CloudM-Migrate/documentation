@@ -3,8 +3,11 @@ layout: default
 title: Get Started with CloudM
 nav_order: 1
 redirect_from: /404.html
-permalink: /
+Permalink: /
+
 ---
+
+<meta name='zd-site-verification' content='rnsxvtz6g5o6zxf9stma5b'/>
 
 # CloudM Migrate Documentation Repository
 
@@ -13,7 +16,7 @@ This site will contain the technical documentation for [CloudM Migrate](https://
 ---
 
 {: .new }
-Version <a href="https://docs.cloudm.io/Release-Notes/V33811.html">3.38.11</a> of CloudM Migrate is released. 
+Version <a href="https://docs.cloudm.io/Release-Notes/V33817.html">3.38.17</a> of CloudM Migrate is released. 
 
 ---
 
@@ -84,3 +87,5 @@ This repo is closed to submissions at this time. We're working on our V1 and wil
   </li>
 {% endfor %}
 </ul>
+
+<meta name='zd-site-verification' content='rnsxvtz6g5o6zxf9stma5b'/>
