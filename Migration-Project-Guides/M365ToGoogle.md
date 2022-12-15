@@ -87,6 +87,10 @@ Select Step 4 and validate the source and destination domains are correct. Chang
 
 Select Next, Skip the Environment Scan and Select Start to begin execution against the batch. 
 
+### Execute Migration
+
+When ready to execute select the Paper Airplane on the left and select **Start** to begin the migration. 
+
 ### Cutover 
 [Back to Top](#top)
 
@@ -100,10 +104,6 @@ It's recommended to use the longest stretch of off-peak hours available. This wi
 Return to Step 4 change the date listed in the right set of columns to 50 years in the future. 
 
 Start the migration.
-
-### Execute Migration
-
-When ready to execute select the Paper Airplane on the left and select **Start** to begin the migration. 
 
 ### Statistics and Summary
 [Back to Top](#top)
