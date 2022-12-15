@@ -90,11 +90,11 @@ You can filter files based on the selection and date ranges set for **Migrate Fi
 
 Delta migrations of files to Google Drive will migrate any new files that were not found as part of the previous migration(s), but will also detect if files have been modified or updated since the last migration.
 
-Files or folders that have been edited, have had permissions changed, have been renamed or otherwise changed will be re-migrated and the file or folder in the destination deleted and re-migrated. This results in a new destination document or folder ID.
+Files or folders that have been edited, have had permissions changed, have been renamed or otherwise changed will have the destination copy deleted and then the file is re-migrated to the destination with the updated source file. 
 
 ### Execute Migration
 
-When ready to execute select the Paper Airplane on the left and select **Start** to begin the migration. 
+When ready to execute select the **Paper Airplane** on the left and select **Start** to begin the migration. 
 
 ### Statistics and Summary
 [Back to Top](#top)
