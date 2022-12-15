@@ -60,14 +60,18 @@ The important files to check are the FileScanReport.html and MailScanReport.html
 - Dead User Objects. Files owned by non-existent accounts. 
 - External File Shares. Items CloudM Migrate cannot migrate as they are external to the environment. 
 
-### Address Replacement for Different Alias 
+### Domain and Address Replacements 
 [Back to Top](#top)
 
-If there is a need to change the alias on the M365 destination to fit a new naming convention this can be accomplished using the Export items button. This will export the user list to a CSV and you can change the ImportName column value by user to the new alias naming convention. 
+> **Note**: Domains should always be mapped, but address replacements are optional and usually only need to be provided when you have specialist requirements. CloudM Migrate maps usernames and email addresses automatically if they have been configured in the user list however if you need to map unlisted users you can add them to the Address Replacements File.
 
-Once the CSV has been updated to the new naming convention, re-import it into CloudM Migrate by using Add items to migrate and then selecting Bulk add/import items. This will overwrite the current user list and now show the new alias under the ImportName column. 
+There are a number of options which control how replacements are performed. It is important to understand how these applied, in which order and under which conditions. It is possible to end up with incorrect email addresses if the options are not fully understood.
 
-If the aliases are changing the CSV will also need to be uploaded to preserve permission mapping. Make a copy of the CSV and remove all columns besides ExportName and ImportName. Go to Step 4 and expand the Advanced Settings. Select the Address Replacement tab and import the CSV to the Address Replacements (.csv) field. 
+**Replace Usernames** – Replace any re-mapped usernames from the users tab, when migrating the items specified in **Domain Replacement Types** in Common settings. If this option is disabled and replacements are required, explicit mappings for email addresses and domain names should be provided via the other settings in this section. Only addresses that belong to source domains are automatically mapped. When migrating from Google Workspace, the source domains are automatically identified, but when migrating from other sources you should specify the domains in the next setting: Address Domain Replacements
+
+**Address Domain Replacements** - If migrating from one domain name to another, specify the domain names that should be replaced and the value with which they should be replaced with. For example, when migrating from example.com to domain.com, you should provide example.com and domain.com in this setting. If migrating from one Google Workspace domain to another, domain replacements are performed automatically unless **Replace CSV Addresses Only** is selected and you have not provided the domain mappings within the file.
+
+**Address Replacements (File)** – Use this option to provide an explicit list of email addresses to be mapped as part of a migration. If performing domain consolidation or if you have other specialized requirements then this option can be used to map any source email address to any other address. Addresses should be mapped using a simple CSV file containing two columns, the first for the address to be replaced and the second the replacement address.
 
 ### Creating the First Batch
 [Back to Top](#top)
@@ -76,7 +80,7 @@ There are multiple methods for manipulating item lists. For this guide, Select t
 
 Select Create Batch and name the Batch "Prestage". For Batch Configuration Type select disable migration items. 
 
-### Date Ranges for the First Batch
+### Date Ranges
 [Back to Top](#top)
 
 Select Step 4 and validate the source and destination domains are correct. Change the dates on the right set of columns to be 30 days before the current date. 
