@@ -38,7 +38,7 @@ CloudM Migrate doesn't duplicate emails or documents. Once an email is migrated 
 ### Adding Users
 [Back to Top](#top)
 
-On Step 3 on the left, select the Add items to migrate for options on how to collect targeted items to migrate from Google. The following options will be available:
+On Step 3 on the left, select the Add items to migrate for options on how to collect targeted items to migrate from M365. The following options will be available:
 
 - Get items from source - This is fetch where CloudM Migrate will attempt to list all supported items within scope. 
 - Bulk add/import items - Provide CloudM Migrate a <a href="https://github.com/CloudM-Migrate/documentation/blob/main/assets/bulkimport.csv">CSV</a> of targeted items. 
@@ -89,7 +89,7 @@ Select Next, Skip the Environment Scan and Select Start to begin execution again
 
 ### Execute Migration
 
-When ready to execute select the Paper Airplane on the left and select **Start** to begin the migration. 
+When ready to execute select the **Paper Airplane** on the left and select **Start** to begin the migration. 
 
 ### Cutover 
 [Back to Top](#top)
@@ -155,7 +155,7 @@ There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Re
 - SharePoint: Creation date gets changed to the "date of migration" date
 - SharePoint: Document history
 - SharePoint: Version history
-- SharePoint: Direct/individual shareable links cannot be migrated to Google Drive. For more information about shareable links see here.
+- SharePoint: Direct/individual shareable links cannot be migrated to Google Drive. 
 - SharePoint: Site logos and customizations
 - SharePoint: Task lists
 - SharePoint: Custom tasks
