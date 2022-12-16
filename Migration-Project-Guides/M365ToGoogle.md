@@ -1,6 +1,6 @@
 ---
 layout: default
-title: M365 to Google
+title: M365 to Google Workspace
 grand_parent: Migration Project Guides
 parent: Google
 nav_order: 2
