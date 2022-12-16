@@ -26,14 +26,14 @@ Before starting your migration project, make sure you have setup the <a href="ht
 
 ### Adding File Shares as Migration Items
 
-The auto discovery function within CloudM Migrate does not work for File Shares so each file share need to be added manually. 
+The auto discovery function within CloudM Migrate does not work for File Shares so each file share need to be added manually or by importing a <a href="https://github.com/CloudM-Migrate/documentation/blob/main/assets/bulkimport.csv">CSV</a>. 
 
-To add a File Share navigate to Step 3 within CloudM Migrate and select **+Add items to migrate**. Select **Add User** and populate the following fields:
+To add a File Share manually navigate to Step 3 within CloudM Migrate and select **+Add items to migrate**. Select **Add User** and populate the following fields:
 
 - Export Type: User
 - Import Type: Team Site 
 - Export Name: Any value
-- Import Name: Google Shared Site (example: 0AC7COL1vLZKYUk9PVA)
+- Import Name: Google Shared Drive ID (example: 0AC7COL1vLZKYUk9PVA) or Google Workspace username (for personal Drive)
 - Given Name \ Item Name: N/A 
 - Family Name: N/A
 - Password: N/A
