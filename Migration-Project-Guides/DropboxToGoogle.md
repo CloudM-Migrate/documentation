@@ -83,7 +83,7 @@ CloudM Migrate allows you to create a batch from your master user list, in a sep
 ### Date Ranges
 [Back to Top](#top)
 
-You can filter files based on the selection and date ranges set for **Migrate Files From** and **Migrate Files To** settings. The <a href="https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#filterdate">Filter Date Type</a> setting allows you to specify whether the date used is based on the file's created date (by default) or the file's last modified date.
+You can filter files based on the selection and date ranges set for **Migrate Files From** and **Migrate Files To** settings. The <a href="https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#filterdate">Filter Date Type</a> setting allows you to specify whether the date used is based on the file's created date or the file's last modified date.
 
 ### Delta Migrations
 [Back to Top](#top)
