@@ -54,7 +54,7 @@ To migrate permissions select either **Shared Documents** or **Shared Documents 
 
 All source file shares need to be mapped as network drives to the CloudM Migrate server. If using a cluster all Secondary nodes will also need the same drives mapped. 
 
-The file share mappings will need to done using the server/node System account and made persistant. 
+The file share mappings will need to done using the server/node System account and made persistant. This will require the machine to be domain joined. 
 
 Use the following steps to map the drives: 
 
