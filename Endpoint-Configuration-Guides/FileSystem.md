@@ -12,7 +12,7 @@ nav_order: 3
 
 ---
 
-This guide will show how to configure multiple File Shares as a source endpoints. 
+This guide will show how to configure multiple File Shares as a source endpoint. 
 
 For File Share endpoints this is defined by the following requirements:
 
