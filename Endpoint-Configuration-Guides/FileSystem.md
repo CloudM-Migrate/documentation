@@ -14,7 +14,7 @@ nav_order: 3
 
 This guide will show how to configure multiple File Shares as a source endpoint. 
 
-For File Share endpoints this is defined by the following requirements:
+A File Share endpoint is defined by the following requirements:
 
 <a name="top"></a>
 <details open markdown="block">
