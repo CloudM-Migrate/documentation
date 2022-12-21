@@ -37,7 +37,7 @@ To add a File Share navigate to Step 3 within CloudM Migrate and select **+Add i
 - Export Type: User
 - Import Type: Team Site 
 - Export Name: Any value that refers to source such as E:\
-- Import Name: SharePoint Document Library (example: sites/site-name) or OneDrive UPN
+- Import Name: SharePoint Document Library (example: sites/site-name) or <a href="https://learn.microsoft.com/en-us/sharepoint/upn-changes"OneDrive UPN</a>
 - Given Name \ Item Name: Documents
 - Family Name: SharePoint Site Name
 - Password: N/A
