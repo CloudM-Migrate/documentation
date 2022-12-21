@@ -41,7 +41,7 @@ To add a File Share navigate to Step 3 within CloudM Migrate and select **+Add i
 - Given Name \ Item Name: Documents
 - Family Name: SharePoint Site Name
 - Password: N/A
-- Document Path: Full UNC path on source. (example: \\hostname\rootfolder\subfolder)
+- Document Path: Full UNC path on source (example: \\hostname\rootfolder\subfolder)
 
 Validate **Migrate** and **Drive** are checked and select **Save** to add the migration line item. Repeat for each file share in scope for migration. The folder structure entered under Document Path will be preserved on the destination unless otherwise specified by having <a href="https://docs.cloudm.io/Engineering-Reference/FileSystem.html#migrate-top-level-folder">Migration Top Level Folder</a> checked and <a href="https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#topfolder">target folder</a> specified.
 
