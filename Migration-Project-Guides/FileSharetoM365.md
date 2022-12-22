@@ -47,7 +47,7 @@ Validate **Migrate** and **Drive** are checked and select **Save** to add the mi
 
 ### Execute Migration
 
-When ready to execute select the Paper Airplane on the left and select **Start** to begin the migration.
+When ready to execute select the Paper Airplane on the left and select **Start** to begin the migration. CloudM Migrate will first index the source to validate access to the entire folder structure. Once completed the folder structure is applied to the SharePoint site. Files are then copied into an <a href="https://learn.microsoft.com/en-us/sharepointmigration/sharepoint-online-provided-azure-containers-and-queues-for-spo-migration-api">Azure container</a> before being surfaced in SharePoint. 
 
 ### File Name Conflicts
 
