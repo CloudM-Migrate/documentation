@@ -121,6 +121,25 @@ If a user has deleted a file that has been shared with them making the file invi
 
 CloudM Migrate has functionality to allow user or group email addresses to be changed or mapped during a migration. This is achieved via address replacements.
 
+**Shortcuts**
+[Back to Top](#top)
+
+Google Workspace now uses Drive Shortcuts to allow you to share access to a document or item with multiple people. This means that, instead of each person having their own local copy, they are able to use a shortcut to the location of the original document or item, as long as they have permission. The benefits of using Drive Shortcuts include increasing team collaboration and freeing up storage space (a shortcut takes up a fraction of the storage space compared to a local copy).
+
+When migrating items from a Google Workspace domain to another Google Workspace domain, CloudM Migrate also migrates a user's Drive Shortcuts. These Drive Shortcuts will be counted as an "item" in the Environment Scan, but can be filtered in the CSV by the mimetype to get a true count, if required.
+
+Here are a few scenarios where a shortcut file will not be migrated:
+
+- If the target file for the shortcut has been deleted, and either exists in or has been purged from the Deleted Bin, the shortcut will not be migrated. Both will be logged as export failures in the reporting.
+- If the target file exists in the Deleted Bin, the error message will read "Shortcut target file <target file name>, <target fileID> has been trashed, skip export of the shortcut file."
+- If the target file has been deleted and then purged, the error message will read "Shortcut target file with id: <target fileID> could not be found, skip export of the shortcut file."
+- If the target file exists in a different drive, the shortcut will not be migrated. In this case, a different drive means a shared drive target file if the shortcut exists in a user drive, and a different shared drive target file if the shortcut exists in a shared drive.
+- If the target file exists in a different drive, the error message will read "Migration of shortcut files pointing to files in different drives is not supported."
+- The shortcuts for externally owned target files that have not been shared with the account being migrated will not be migrated. Additionally, if the destination user is unable to see the external target file, the shortcut will not be migrated.
+- Changing the owner of a target file before delta migration will only change the owner of the target file on the destination. The shortcut file owner will not change.
+- When a target file is migrated to any destination platform other than Google Workspace or Google Cloud Storage, the shortcut will not be exported.
+In the trace file, you will see the following message - "<Migration of shortcut file is not supported for this platform. File name: 'target file name'>"
+
 ### Google Groups
 [Back to Top](#top)
 
