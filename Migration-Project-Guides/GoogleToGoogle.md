@@ -172,6 +172,28 @@ If you do not wish to maintain permissions for users who are not migrating, prep
 
 > **Note**: If migrating into a Google Workspace domain with existing users, conflicting addresses should be considered. If users exist at the destination domain with prefixes of existing source users, the replacements may cause items to be shared with those users. To avoid this, enable "Replace CSV Addresses Only" and list only ALL migrating users in the Address Replacements (File).
   
+**Shared Drives**
+
+CloudM Migrate supports the following migration scenarios for Shared Drives:
+
+- Migration from Shared Drives to Google Drive Users for different domains
+- Migration from Google Drive to Shared Drives for different domains
+- Migration from Shared Drives to Shared Drives for different domains
+- Migration from Google Drive to Shared Drives within the same domain
+  
+Requirements: 
+  
+- External sharing or whitelisting of the destination domain(s) on the source is required. This is set three different ways: by the domain-wide Google Drive setting, by the shared drive setting (below the prior) and by the shared drives own settings. External (destination domain) users need to be able to be added to the source shared drives and access the files in order to perform the migration. 
+- Ensure that the "Prevent non-members of the shared drive from accessing files in the shared drive" setting is set to disabled.
+- Your Google Workspace domain must have Shared Drives enabled. This is part of your contract with Google, so contact Google, or your reseller, if you do not have Shared Drives enabled.
+- Existing Shared Drives need to have at least one user with Manager permissions applied (if you use CloudM Migrate to create Shared Drives, however, the migration admin will become a Manager).
+- Managers must be an active user (not suspended and not a group) and have Drive enabled. 
+- Source Shared Drives must include at least one user (not group) that has 'Manager' permission set on the Shared Drive.
+  
+> **Note**: You must specify the ID or name of the Shared Drive in Export Name when migrating from Shared Drives, and the ID or name of the Shared Drive in Import Name when migrating to Shared Drives. 
+
+To improve performance to Shared Drives, configure multiple Managers to perform the migration with the configuration setting: Destination Platform Migration Settings > Shared Drive > Shared Drive Default Managers
+  
 ### Google Groups
 [Back to Top](#top)
 
