@@ -140,6 +140,32 @@ Here are a few scenarios where a shortcut file will not be migrated:
 - When a target file is migrated to any destination platform other than Google Workspace or Google Cloud Storage, the shortcut will not be exported.
 In the trace file, you will see the following message - "<Migration of shortcut file is not supported for this platform. File name: 'target file name'>"
 
+**Migrating a subset of users**
+  
+When performing a Google Workspace to Google Workspace migration and only a subset of the total source user base is migrating, there are special considerations when migrating Google Drive. CloudM Migrate has configuration options that can be used depending on the migration scenario. There are two general use cases to consider:
+
+- Maintaining source permissions for the non-migrating users, if you require non-migrating user's permissions to be maintained in the destination
+- Not maintaining or replacing the source permissions, if you do not wish to maintain non-migrating user permissions
+
+1. Per our documentation, the general guidance should always be followed. Primarily, you should always provision all of your users and groups before performing a Google Drive to Google Drive migration. This is required to ensure all sharing and Drive hierarchies are preserved correctly during the migration. In this use case, however, the following applies:
+
+- Ensure that all migrating users exist in the destination
+- Ensure that all groups and members are created or are mapped in the destination, also.
+
+2. Configure an Address Replacements CSV, replacing the migrating users (and any aliases), all groups and the migration domains
+
+3. Enable 'Address Replacements' / 'Replace CSV Addresses Only'.
+
+4. Enable 'Migrate Items Only From Listed Users' in the source Google Workspace settings.
+
+5. In Users, Get Users and then remove the non-migrating users, or import a CSV list of all migrating users.
+
+6. Migrate.
+  
+If you do not wish to maintain permissions for users who are not migrating, prepare and configure the migration using the default CloudM Migrate settings for Drive and list only migrating users in the user list and Address Replacements. When migrating Drive, any folders owned by non-migrating users will be migrated. Ownership will be changed to the migrating user and any explicit file and folder permissions will attempt to be replaced because the destination address does not exist. All migrating user permissions will be applied.
+
+> **Note**: If migrating into a Google Workspace domain with existing users, conflicting addresses should be considered. If users exist at the destination domain with prefixes of existing source users, the replacements may cause items to be shared with those users. To avoid this, enable "Replace CSV Addresses Only" and list only ALL migrating users in the Address Replacements (File).
+  
 ### Google Groups
 [Back to Top](#top)
 
