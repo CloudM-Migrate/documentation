@@ -16,7 +16,7 @@ This site will contain the technical documentation for [CloudM Migrate](https://
 ---
 
 {: .new }
-Version <a href="https://docs.cloudm.io/Release-Notes/V33817.html">3.38.17</a> of CloudM Migrate is released. 
+Version <a href="https://docs.cloudm.io/Release-Notes/V33817.html">3.38.17</a> of <a href="https://docs.cloudm.io/Endpoint-Configuration-Guides/SelfHostedGuides.html#binary-for-x64">CloudM Migrate</a> is released. 
 
 ---
 

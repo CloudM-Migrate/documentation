@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Microsoft 365 to Google Workspace
+title: M365 to Google Workspace
 grand_parent: Migration Project Guides
 parent: Google
-nav_order: 3
+nav_order: 2
 has_children: false
 has_toc: false
 
