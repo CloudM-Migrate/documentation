@@ -69,6 +69,12 @@ There are a number of options which control how replacements are performed. It i
 
 **Address Replacements (File)** – Use this option to provide an explicit list of email addresses to be mapped as part of a migration. If performing domain consolidation or if you have other specialized requirements then this option can be used to map any source email address to any other address. Addresses should be mapped using a simple CSV file containing two columns, the first for the address to be replaced and the second the replacement address.
 
+## Migrating Secondary Calendars
+
+In a Google to Google migration, where the primary source domain is being moved to a Google Workspace destination, calendars should be migrated before the source domain is deleted. Users' secondary calendars are deleted and cannot be recovered 'if the original primary domain (which becomes a secondary domain following the rename) is deleted'.
+
+As migrated calendar events cannot be changed/updated, it is recommended to carry out a full calendar migration shortly before carrying out the domain switch to ensure you migrate the most recent version of users' primary and/or secondary calendars.
+
 ### Google Drive
 [Back to Top](#top)
 
