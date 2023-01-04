@@ -23,8 +23,6 @@ Version <a href="https://docs.cloudm.io/Release-Notes/V33817.html">3.38.17</a> o
 ## CloudM Migrate
 ### Data Migration for Microsoft 365 and Google Workspace
 
-Scale your business, avoid vendor lock-in and experience true cloud freedom
-
 - Move to Microsoft 365 and Google Workspace
 - Migrate from 20+ Source Platforms
 - Serviced Migrations
