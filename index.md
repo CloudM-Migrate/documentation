@@ -84,4 +84,4 @@ This repo is closed to submissions at this time. We're working on our V1 and wil
 {% endfor %}
 </ul>
 
-<meta name='zd-site-verification' content='a6sm6sszurotk2wiyfpgpq' />
+<meta name='zd-site-verification' content='a6sm6sszurotk2wiyfpgpq'/>
