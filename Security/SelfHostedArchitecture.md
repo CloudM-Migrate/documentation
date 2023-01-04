@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Self Hosted Architecture & Security
+title: Self Hosted Architecture
 parent: Security
 nav_order: 1
 ---
@@ -27,11 +27,11 @@ Our Migration servers are configured in a way that you DO NOT have to open any i
 
 CloudM Migrate Self Hosted can be installed and used in a single or multi-server environment, it is useful to understand the architecture and how CloudM Migrate Self Hosted operates to highlight the security measures implemented.
 
-![image](https://user-images.githubusercontent.com/100392692/188200044-ba45f354-fc03-4f30-8dd9-33a157036f7b.png)
+![image](/Security/dataflowsecurity.png)
           
 ### User Interface <a name="userinterface"></a>
 
-The user interface is the central point of administration for CloudM Migrate Self Hosted in both single and multi-server modes. Migrations are started and stopped from the interface, and feedback on the progress of the migration is provided through the interface. The user interface is always installed to the same server as the primary server.
+The user interface is the central point of administration for CloudM Migrate Self Hosted in both single server and cluster configurations. Migrations are started and stopped from the interface, and feedback on the progress of the migration is provided through the interface. The user interface is always installed to the same server as the primary server.
 
 ### Primary & Secondary Servers <a name="servers"></a>
 
@@ -113,7 +113,7 @@ Other project related data is provided by:
 
 All of these store non-sensitive data such as item IDs in order to provide reporting on migrations.
 
-Where CloudM Migrate requires a username or password to interact with a system, and stores sensitive data like this, that data is stored encrypted within SQL Server (AES256). SQL Server 2019 Express is installed by default, or a customer can specify their own SQL server.
+Where CloudM Migrate requires a username or password to interact with a system, and stores sensitive data like this, that data is stored encrypted within SQL Server (AES256). SQL Server 2019 Express is installed by default but you can specify your own SQL instance. 
 
 ### Certification <a name="certification"></a>
 

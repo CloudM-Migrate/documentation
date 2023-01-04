@@ -28,12 +28,9 @@ For PST Archive this is defined by the following requirements:
 
 ---
 
-
-
 ### File Locations 
 
 In order to migrate PST archives successfully that the profile runs under the SYSTEM user. When performing this type of migration and select a drive letter and keep in mind mapping a drive as a regular windows user in the file explorer will not work. 
-
 
 ### Access to Mapped Drives using PSEXEC 
 
@@ -49,7 +46,5 @@ Run the command to map the drive as system. Launch command prompt as SYSTEM user
 - Run the below command and take another screenshot.
 - dir
 
-If issues occur with mapping the drives follow these additional step start over and delete the mapped drives.
-- Net use: Y /delete or net use * /delete to delete all mapped drives.
 
 

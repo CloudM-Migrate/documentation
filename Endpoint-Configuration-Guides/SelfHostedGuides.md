@@ -52,17 +52,17 @@ Any available Windows updates should be installed and the machine rebooted prior
 
 **NOTE:** Not compatible with GroupWise or Lotus Notes.
 
-SHA1 - 83cfa53d6eb7cb908886a71146d9521da5cd571c
+SHA1 - f6f2359def4d5f60f56463899c3d41dcc6424cb9
 
-MD5 - 64b6716ba7d6e20d445a6672b1061c22
+MD5 - 3281a4d18262d7e43c8e759ceab386d1
 
 ### Binary for x86
 
 <a href="https://www.cloudm.io/CloudM-Migrate-Latest.exe">CloudM Migrate x86</a>
 
-SHA1 - 93e42d5d7a63f0c104e3dce2e66d58526c345dc2
+SHA1 - 2c0b587d33f1bea25de5e74172073ecca6c52535
 
-MD5 - 7643b4a09b3ce709ef666ec2ca547a31
+MD5 - e3cdf42e741533f2ce51b771aeee7701
 
 ### Clustering
 

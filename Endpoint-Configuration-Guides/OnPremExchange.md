@@ -46,3 +46,9 @@ The domain of the source domain will be needed. If the destination is an O365 te
 ### Test Username
 
 A test mailbox within the migration scope will be needed to test connectivity. 
+
+### Application Impersonation or Mailbox Delegation 
+
+For Exchange 2007 to Exchange 2010 <a href="https://learn.microsoft.com/en-us/exchange/recipients/mailbox-permissions?view=exchserver-2019">Mailbox Delegation</a> can be used to avoid entering credentials for each mailbox in scope for migration. 
+
+For Exchange 2013+ <a href="https://learn.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-configure-impersonation">Application Impersonation</a> can be used to grant the Admin account rights to all mialboxes in scope for migration. 

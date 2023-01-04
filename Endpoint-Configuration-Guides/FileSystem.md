@@ -12,9 +12,9 @@ nav_order: 3
 
 ---
 
-This guide will show how to configure multiple File Shares as a source endpoints. 
+This guide will show how to configure multiple File Shares as a source endpoint. 
 
-For File Share endpoints this is defined by the following requirements:
+A File Share endpoint is defined by the following requirements:
 
 <a name="top"></a>
 <details open markdown="block">
@@ -54,7 +54,7 @@ To migrate permissions select either **Shared Documents** or **Shared Documents 
 
 All source file shares need to be mapped as network drives to the CloudM Migrate server. If using a cluster all Secondary nodes will also need the same drives mapped. 
 
-The file share mappings will need to done using the server/node System account and made persistant. 
+The file share mappings will need to done using the server/node System account and made persistant. This will require the machine to be domain joined. 
 
 Use the following steps to map the drives: 
 

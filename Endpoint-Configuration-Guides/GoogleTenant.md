@@ -5,10 +5,10 @@ parent: Endpoint Configuration Guides
 nav_order: 2
 ---
 
-## Google Endpoint Configuration
+## Google Workspace Endpoint Configuration
 {: .no_toc }
 
-This guide will show how to configure Google as a source or destination endpoint. 
+This guide will show how to configure Google Workspace as a source or destination endpoint. 
 
 For Google this is defined by the following requirements:
 

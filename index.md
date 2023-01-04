@@ -3,8 +3,11 @@ layout: default
 title: Get Started with CloudM
 nav_order: 1
 redirect_from: /404.html
-permalink: /
+Permalink: /
+
 ---
+
+<meta name='zd-site-verification' content='rnsxvtz6g5o6zxf9stma5b'/>
 
 # CloudM Migrate Documentation Repository
 
@@ -13,14 +16,12 @@ This site will contain the technical documentation for [CloudM Migrate](https://
 ---
 
 {: .new }
-Version <a href="https://docs.cloudm.io/Release-Notes/V33811.html">3.38.11</a> of CloudM Migrate is released. 
+Version <a href="https://docs.cloudm.io/Release-Notes/V33817.html">3.38.17</a> of <a href="https://docs.cloudm.io/Endpoint-Configuration-Guides/SelfHostedGuides.html#binary-for-x64">CloudM Migrate</a> is released. 
 
 ---
 
 ## CloudM Migrate
 ### Data Migration for Microsoft 365 and Google Workspace
-
-Scale your business, avoid vendor lock-in and experience true cloud freedom
 
 - Move to Microsoft 365 and Google Workspace
 - Migrate from 20+ Source Platforms
@@ -43,7 +44,7 @@ We know how important security is during migrations. Move to the cloud with conf
 
 ## How to Use This Repository
 
-First use the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/EndPointGuides.html">Endpoint Configuration Guides</a> to configure your source and destination. When ready use the <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/MigrationProjectGuides.html">Migration Project Guides</a> to begin planning and executing your migration. 
+First use the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/EndPointGuides.html">Endpoint Configuration Guides</a> to configure your source and destination endpoints. When ready use the <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/MigrationProjectGuides.html">Migration Project Guides</a> to begin planning and executing your migration. 
 
 This repo can be used as a template for your own migration process. Requirements can differ so the guides will give you a standard migration approach with the ability to fold in functionality. Customize and complete to have your organizational plan and process for migrating. 
 
@@ -84,3 +85,5 @@ This repo is closed to submissions at this time. We're working on our V1 and wil
   </li>
 {% endfor %}
 </ul>
+
+<meta name='zd-site-verification' content='a6sm6sszurotk2wiyfpgpq' />
