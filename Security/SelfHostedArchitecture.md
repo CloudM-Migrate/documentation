@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Self Hosted Architecture & Security
+title: Self Hosted Architecture
 parent: Security
 nav_order: 1
 ---
