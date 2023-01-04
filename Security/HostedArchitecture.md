@@ -10,12 +10,11 @@ nav_order: 2
 1. [Introduction](#introduction)
 2. [Architecture](#architecture)
 3. [User Interface](#userinterface)
-4. [Servers](#servers)
-5. [Endpoints](#endpoints)
-6. [Data Storage](#datastorage)
-7. [Certification](#certification)
-8. [GDPR](#GDPR)
-9. [Penetration Testing](#penetrationtesting)
+4. [Endpoints](#endpoints)
+5. [Data Storage](#datastorage)
+6. [Certification](#certification)
+7. [GDPR](#GDPR)
+8. [Penetration Testing](#penetrationtesting)
 
 ### Introduction <a name="introduction"></a>
 
