@@ -156,11 +156,8 @@ When performing a Google Workspace to Google Workspace migration and only a subs
 3. Validate that all groups and members are created or are mapped in the destination, also.
 2. Configure an <a href="https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#address-replacement">Address Replacements CSV</a>.
 3. Enable 'Address Replacements' / <a href="https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#replace-csv-addresses-only-">Replace CSV Addresses Only</a>.
-
 4. Enable 'Migrate Items Only From Listed Users' in the source Google Workspace settings.
-
-5. In Users, Get Users and then remove the non-migrating users, or import a CSV list of all migrating users.
-
+5. In Users, Get Users and then remove the non-migrating users or import a CSV list of all migrating users.
 6. Migrate.
   
 If you do not wish to maintain permissions for users who are not migrating, prepare and configure the migration using the default CloudM Migrate settings for Drive and list only migrating users in the user list and Address Replacements. When migrating Drive, any folders owned by non-migrating users will be migrated. Ownership will be changed to the migrating user and any explicit file and folder permissions will attempt to be replaced because the destination address does not exist. All migrating user permissions will be applied.
