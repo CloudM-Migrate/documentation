@@ -321,11 +321,15 @@ Default Value: Off
 
 Where possible, convert Text (.doc, .txt, etc.) documents to Google Documents format.
 
+Change Conditions:
+
 ### Convert Presentations <a name="dconpre"></a>
 {: .no_toc }
 Default Value: Off
 
 Where possible, convert Presentations (.ppt, etc.) to Google Documents format.
+
+Change Conditions:
 
 ### Convert OCR <a name="conocr"></a>
 {: .no_toc }
@@ -333,17 +337,23 @@ Default Value: Off
 
 Where possible, convert images (*.png, *.jpg, etc.) via OCR to Google Documents format.
 
+Change Conditions:
+
 ### Convert Spreadsheets <a name="conspread"></a>
 {: .no_toc }
 Default Value: Off
 
 Where possible, convert Spreadsheets (*.csv, *.xls, etc.) to Google Documents format.
 
+Change Conditions:
+
 ### Convert Drawings <a name="condraw"></a>
 {: .no_toc }
 Default Value: Off
 
 Where possible, convert Drawings (.wmf) to Google Documents format.
+
+Change Conditions:
 
 ---
 ## Shared Drive
@@ -363,7 +373,7 @@ Default Value: File
 
 Select how file permissions will be applied when migrating to Shared Drive.
 
-Change Conditions: None - no file permissions migrated. File - original file permissions migrated. Root - Any items on file ACLs will be added as members of the Shared Drive.
+Change Conditions: None - No file permissions migrated. File - Original file permissions migrated. Root - Any items on file ACLs will be added as members of the Shared Drive.
 
 ### Shared Drive Same Domain Migration Type <a name="shasammigt"></a>
 {: .no_toc }
@@ -387,7 +397,7 @@ Default Value: Off
 
 Migrate External Shared Drive members when migrating a Shared Drive to Shared Drive. Please note sharing with external users will also be migrated.
 
-Change Conditions: When enabled, external Shared Drive members will be migrated.
+Change Conditions: When enabled external Shared Drive members will be migrated.
 
 ### Shared Drive Folder Permissions <a name="shdrfolper"></a>
 {: .no_toc }
@@ -395,7 +405,7 @@ Default Value: None
 
 Select how folder permissions will be applied when migrating to Shared Drive.
 
-Change Conditions: None - no folder permissions migrated. Folder - original folder permissions migrated. Root - Any items on folder ACLs will be added as members of the Shared Drive.
+Change Conditions: None - No folder permissions migrated. Folder - Original folder permissions migrated. Root - Any items on folder ACLs will be added as members of the Shared Drive.
 
 ### Migrate Shared Drive Members <a name="migshdmem"></a>
 {: .no_toc }
@@ -411,7 +421,7 @@ Default Value: Off
 
 Remove the Shared Drive Default Managers specified in 'Shared Drive Default Managers' field.
 
-Change Conditions: When enabled, any default managers specified will be removed from the destination membership after the migration.
+Change Conditions: When enabled any default managers specified will be removed from the destination membership after the migration.
 
 ---
 ## User
@@ -428,7 +438,7 @@ Default Value: On
 
 Check that users/resources/groups/shared drives exist within the destination system.
 
-Change Conditions: When disabled, a check will not be performed before the migration.
+Change Conditions: When disabled a check will not be performed before the migration.
 
 ### Check Services Enabled <a name="cheseren"></a>
 {: .no_toc }
@@ -436,7 +446,7 @@ Default Value: Off
 
 When running the 'Check Users' action, also check if the selected Google services for that user are enabled.
 
-Change Conditions: When enabled, an additional check will be performed to check the Google services (Gmail, Drive etc.) are enabled for the users.
+Change Conditions: When enabled an additional check will be performed to check the Google services (Gmail, Drive etc.) are enabled for the users.
 
 ### Create Users/Resources/Groups/Shared Drives <a name="crergsd"></a>
 {: .no_toc }
@@ -444,7 +454,7 @@ Default Value: Off
 
 Create any Users (Resources, Groups or Shared Drives) that do not exist within the Google Workspace domain.
 
-Change Conditions: When enabled, any items that do not exist will be created prior to migration. Note: First Name, Last Name and Password is required to create users.
+Change Conditions: When enabled any items that do not exist will be created prior to migration. Note: First Name, Last Name and Password is required to create users.
 
 ### Change Password On Login <a name="chapasslog"></a>
 {: .no_toc }
@@ -452,7 +462,7 @@ Default Value: Off
 
 Set this to force the user to change their password on first login.
 
-Change Conditions: When enabled, destination users will be forced to change their password. This will occur after each migration run if enabled.
+Change Conditions: When enabled destination users will be forced to change their password. This will occur after each migration run if enabled.
 
 ---
 ## Transfer and Performance
@@ -488,7 +498,7 @@ Default Value: Off
 
 Remove the 'Expect-100' header from requests (required for use behind some proxies).
 
-Change Conditions: When enabled, the 'Expect-100' header' will be removed. Only required in specific proxy scenario.
+Change Conditions: When enabled the 'Expect-100' header' will be removed. Only required in specific proxy scenario.
 
 ### Drive Locks from Listed Users <a name="drilolisuse"></a>
 {: .no_toc }
