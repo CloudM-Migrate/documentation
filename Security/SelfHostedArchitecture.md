@@ -72,15 +72,18 @@ See below an overview for each source endpoint:
 | Novell GroupWise 6.5.6 to 2012 | NA | Y |
 | Novell GroupWise 2014 or higher | Y | Y |
 | Lotus Notes 6.0.2 or higher | NA | Y |
-| Microsoft Exchange 2000-2016 | Y | NA |
+| Microsoft Exchange 2000-2019 | Y | NA |
 | Microsoft Office 365 | Y | NA |
+| Azure Storage | Y | NA |
 | Exchange Online Archives | Y | NA |
+| SharePoint 2007+ | Y | NA |
 | PST archives | NA | NA |
 | OneDrive for Business | Y | NA |
 | Scalix 11 or higher | Y | NA |
 | Zimbra 7.2.2 or higher | Y | NA |
 | Generic IMAP | NA | Y |
 | Google Workspace for Business/Education | Y | NA |
+| Google Cloud Storage | Y | NA |
 | File System | NA | NA |
 | Mail Archives (mbox, EML) | NA | NA |
 | Box | Y | NA |
@@ -92,8 +95,11 @@ See below an overview for each destination endpoint:
 | --- | --- | --- |
 | Google Workspace for  Business/Enterprise and Google Drive | Y | NA |
 | Google Vault | Y | NA |
+| Google Cloud Storage | Y | NA |
 | Microsoft Office 365 and SharePoint Online | Y | NA |
 | Microsoft Exchange 2007+ | Y | NA |
+| Exchange Online Archives | Y | NA |
+| Azure Storage | Y | NA |
 | SharePoint 2007+ | Y | NA |
 
 For details on native encryption please refer to the native API documentation for the endpoint in question.
