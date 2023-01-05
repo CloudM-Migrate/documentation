@@ -162,7 +162,7 @@ When performing a Google Workspace to Google Workspace migration and only a subs
   
 If you do not wish to maintain permissions for users who are not migrating, prepare and configure the migration using the default CloudM Migrate settings for Drive and list only migrating users in the user list and Address Replacements. When migrating Drive, any folders owned by non-migrating users will be migrated. Ownership will be changed to the migrating user and any explicit file and folder permissions will attempt to be replaced because the destination address does not exist. All migrating user permissions will be applied.
 
-> **Note**: If migrating into a Google Workspace domain with existing users, conflicting addresses should be considered. If users exist at the destination domain with prefixes of existing source users, the replacements may cause items to be shared with those users. To avoid this, enable "Replace CSV Addresses Only" and list only ALL migrating users in the Address Replacements (File).
+> **Note**: If migrating into a Google Workspace domain with existing users, conflicting addresses should be considered. If users exist at the destination domain with prefixes of existing source users, the replacements may cause items to be shared with those users. To avoid this, enable <a href="https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#replacecsvonly">Replace CSV Addresses Only</a> and list only migrating users in the Address Replacements CSV file.
   
 **Shared Drives**
 
