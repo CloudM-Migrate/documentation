@@ -40,7 +40,7 @@ Default Value: Off
 
 Use Limited Scopes requires the following scopes to be enabled: 'https://www.googleapis.com/auth/gmail.labels' and 'https://www.googleapis.com/auth/gmail.readonly'.
 
-Change Conditions: When enabled, only the Gmail API scopes will be used. For email only migrations.
+Change Conditions: When enabled only the Gmail API scopes will be used. For email only migrations.
 
 ### Enable Gmail Discovery throttle <a name="gmaildiscoverythrottle"></a>
 {: .no_toc }
@@ -48,7 +48,7 @@ Default Value: Off
 
 Enable request per second/minute limits for Gmail Discovery Service.
 
-Change Conditions: When enabled, the below per second and per 100 second max request limits will be used. Can be used to lessen throttling.
+Change Conditions: When enabled the below per second and per 100 second max request limits will be used. Can be used to lessen throttling.
 
 ### Gmail Discovery request per 100 seconds limit <a name="gmaildiscoveryper100"></a>
 {: .no_toc }
@@ -56,11 +56,15 @@ Default Value: 1000
 
 Gmail Discovery maximum requests per 100 seconds before throttling.
 
+Change Conditions:
+
 ### Gmail Discovery request per second limit <a name="gmailrequestper"></a>
 {: .no_toc }
 Default Value: 10
 
 Gmail Discovery maximum requests per second before throttling
+
+Change Conditions:
 
 ### Gmail API Filter Override <a name="gmailapifilter"></a>
 {: .no_toc }
@@ -156,7 +160,7 @@ Default Value: Off
 
 Allow migration of suspicious files from Google Drive to other platforms.
 
-Change Conditions: When enabled, this setting will allow you to migrate any suspicious files with an "acknowledgeAbuse" flag, so that the process does not fail. When set to false (disabled), suspicious files will not be migrated and the process will fail quicker. Please note that migrating suspicious files carries a risk to your domain. This setting will not be visible for Google Workspace to Google Workspace migrations
+Change Conditions: When enabled this setting will allow you to migrate any suspicious files with an "acknowledgeAbuse" flag, so that the process does not fail. When set to false (disabled), suspicious files will not be migrated and the process will fail quicker. Please note that migrating suspicious files carries a risk to your domain. This setting will not be visible for Google Workspace to Google Workspace migrations
 
 ### Exclude External Permissions <a name="excludeexternalperms"></a>
 {: .no_toc }
