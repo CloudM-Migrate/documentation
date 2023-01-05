@@ -177,14 +177,14 @@ Requirements:
   
 - External sharing or whitelisting of the destination domain(s) on the source is required. This is set three different ways: by the domain-wide Google Drive setting, by the shared drive setting (below the prior) and by the shared drives own settings. External (destination domain) users need to be able to be added to the source shared drives and access the files in order to perform the migration. 
 - Ensure that the "Prevent non-members of the shared drive from accessing files in the shared drive" setting is set to disabled.
-- Your Google Workspace domain must have Shared Drives enabled. This is part of your contract with Google, so contact Google, or your reseller, if you do not have Shared Drives enabled.
-- Existing Shared Drives need to have at least one user with Manager permissions applied (if you use CloudM Migrate to create Shared Drives, however, the migration admin will become a Manager).
-- Managers must be an active user (not suspended and not a group) and have Drive enabled. 
-- Source Shared Drives must include at least one user (not group) that has 'Manager' permission set on the Shared Drive.
+- Your Google Workspace domain must have Shared Drives enabled. This is part of your contract with Google, if you do not have Shared Drives enabled contact Google or your reseller. 
+- Existing Shared Drives need to have at least one user with Manager permissions applied. If you use CloudM Migrate to create Shared Drives, however, the migration admin will become a Manager.
+- Managers must be an active user, not suspended and not a group, and have Drive enabled. 
+- Source Shared Drives must include at least one user, not group, that has 'Manager' permission set on the Shared Drive.
   
 > **Note**: You must specify the ID or name of the Shared Drive in Export Name when migrating from Shared Drives, and the ID or name of the Shared Drive in Import Name when migrating to Shared Drives. 
 
-To improve performance to Shared Drives, configure multiple Managers to perform the migration with the configuration setting: Destination Platform Migration Settings > Shared Drive > Shared Drive Default Managers
+To improve performance to Shared Drives, configure multiple Managers to perform the migration with the configuration setting <a href="https://docs.cloudm.io/Engineering-Reference/GoogleDestinationAO.html#shared-drive-default-managers-">Shared Drive Default Managers</a>.
   
 ### Google Groups
 [Back to Top](#top)
@@ -193,7 +193,7 @@ When using **Get Items from source**, groups will be populated in the user list 
 
 It's important to check if there are existing groups in the destination Google Workspace instance. Any groups that are listed from the source could potentially have equivalent groups in the destination, so renaming the migrating groups import names in your items list, to create new ones and/or to distinguish them from the destination groups, would be advised. If you are renaming groups import names, these changes will need to be reflected in an address replacements CSV file.
 
-> **Note**: Google Group settings and content are not migrated - only the group itself and its membership
+> **Note**: Google Group settings and content are not migrated, only the group itself and its membership.
 
 ### Batching
 [Back to Top](#top)
@@ -299,4 +299,4 @@ There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Re
 - Drive: Google Data Studio
 - Drive: Any third party shortcuts added using "Connect more apps"
 
-> **Note**: Google Forms and the answers gsheets are supported, but the links will be broken as they will have new URLs in the destination. You can use Document Mappings to determine what the new links are to fix that post-migration (GAM should offer a solution in this regard).
+> **Note**: Google Forms and the answers gsheets are supported, but the links will be broken as they will have new URLs in the destination. You can use Document Mappings to determine what the new links are to fix that post-migration.
