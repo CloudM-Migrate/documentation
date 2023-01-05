@@ -51,8 +51,7 @@ Default Value: On
 
 Modify the 'From' header on sent emails to the email address of the destination account if required to enable correct display in Google Workspace.
 
-Change Conditions: Disabling will prevent modification of the sent address of migrated emails. This is required for sent mail to be correctly labelled, but can be disabled if performing 
-a domain-switch migration and the destination domain name will be changed to the primary after switchover.
+Change Conditions: Disabling will prevent modification of the sent address of migrated emails. This is required for sent mail to be correctly labelled, but can be disabled if performing a domain-switch migration and the destination domain name will be changed to the primary after switchover.
 
 ### Email Import Thread Count <a name="emailthread"></a>
 {: .no_toc }
@@ -60,7 +59,7 @@ Default Value: 50
 
 Set the number of threads that will be used per-user to migrate email to Google Workspace.
 
-Change Conditions: The number of email threads can be increased or decreased. Increasing can result in throttling issues, not recommended.
+Change Conditions: The number of email threads can be increased or decreased. Increasing can result in throttling issues and is not recommended.
 
 ### Use Limited Scopes <a name="uselimsco"></a>
 {: .no_toc }
@@ -68,7 +67,7 @@ Default Value: Off
 
 Use Limited Scopes requires the following scopes to be enabled: 'https://www.googleapis.com/auth/gmail.labels' and 'https://www.googleapis.com/auth/gmail.insert'
 
-Change Conditions: When enabled, only the Gmail API scopes will be used. For email only migrations.
+Change Conditions: When enabled only the Gmail API scopes will be used. For email only migrations.
 
 ### Create Sub Labels <a name="cresublab"></a>
 {: .no_toc }
@@ -76,7 +75,7 @@ Default Value: On
 
 Create sub-labels when creating labels for messages.
 
-Change Conditions: When disabled, sub-labels will not be created and any label structure will be flattened.
+Change Conditions: When disabled sub-labels will not be created and any label structure will be flattened.
 
 ### Apply Inbox Label to Sub-Folders <a name="appinsubfol"></a>
 {: .no_toc }
@@ -92,7 +91,7 @@ Default Value: 0
 
 Specify the time (in milliseconds) to wait between sending messages. Normally this can be left at zero (0), but may need to be adjusted in some circumstances.
 
-Change Conditions: A delay can be added between email imports, will reduce speed but can help with throttling.
+Change Conditions: A delay can be added between email imports which will reduce speed but can help with throttling.
 
 ### Maximum Batch Count <a name="maxbatc"></a>
 {: .no_toc }
@@ -100,7 +99,7 @@ Default Value: 0
 
 Specify the maximum number of messages in a single batch. Specify 0 to let CloudM Migrate automatically allocate batches. Only applicable for immediate migrations.
 
-Change Conditions: The number of emails in an import batch can be specified. Not recommended to change, can cause performance issues.
+Change Conditions: The number of emails in an import batch can be specified. Not recommended to change as it can cause performance issues.
 
 ### Explode Message Labels <a name="explmeslab"></a>
 {: .no_toc }
@@ -108,7 +107,7 @@ Default Value: Off
 
 Instead of labels based on nested folder structure create one label per folder.
 
-Change Conditions: When enabled, labels will be 'expolded' - one label per source folder.
+Change Conditions: When enabled labels will be 'expolded' with one label per source folder.
 
 ---
 ## Contact
@@ -121,7 +120,7 @@ Default Value: On
 
 Migrate user contacts to 'My Contacts' instead of only to 'All Contacts'.
 
-Change Conditions: When disabled, contacts will be migrated to the 'All Contacts' label only.
+Change Conditions: When disabled contacts will be migrated to the 'All Contacts' label only.
 
 ---
 ## Calendar
@@ -145,7 +144,7 @@ Default Value: Off
 
 Force acceptance of all migrated appointments.
 
-Change Conditions: All calendar events will be accepted when enabled, regardless of source status.
+Change Conditions: All calendar events will be accepted when enabled regardless of source status.
 
 ### Appointment Privacy <a name="apppriv"></a>
 {: .no_toc }
@@ -169,7 +168,7 @@ Default Value: On
 
 Color appointments based on categories in the source system when the source system supports categories.
 
-Change Conditions: When disabled, colour categories of calendar appointments will not be migrated.
+Change Conditions: When disabled color categories of calendar appointments will not be migrated.
 
 ### Migrate Attachments <a name="migatta"></a>
 {: .no_toc }
@@ -193,7 +192,7 @@ Default Value: Off
 
 Force busy status when appointments have been tentatively accepted.
 
-Change Conditions: When enabled, all tentatively accepted events will show as busy in the user's calendar.
+Change Conditions: When enabled all tentatively accepted events will show as busy in the users calendar.
 
 ### Maximum Attendees <a name="maxattend"></a>
 {: .no_toc }
@@ -209,7 +208,7 @@ Default Value: Off
 
 Send individual appointment events rather than as a batch (recommended in some cases if rate limits are exceeded).
 
-Change Conditions: When enabled, appointments will be migrated individually. Should only be changed when advised by CloudM.
+Change Conditions: When enabled appointments will be migrated individually. Should only be changed when advised by CloudM Support.
 
 ### Appointment Attachment Document Sharing <a name="appattdocs"></a>
 {: .no_toc }
@@ -217,7 +216,7 @@ Default Value: On
 
 When migrating appointment attachments to Drive, choose whether the attachment should be shared with the appointment attendees.
 
-Change Conditions: When disabled, attachments will not be shared with the original email recipients when migrated to Drive.
+Change Conditions: When disabled attachments will not be shared with the original email recipients when migrated to Drive.
 
 ### Migrate Attachments Folder <a name="migattfol"></a>
 {: .no_toc }
@@ -225,7 +224,7 @@ Default Value: None
 
 Migrate appointment attachments to the specified folder when 'Migrate Attachments' is enabled.
 
-Change Conditions: If no folder is specified, attachments will go to the Drive root.
+Change Conditions: If no folder is specified attachments will go to the Drive root.
 
 ---
 ## Document
@@ -248,7 +247,7 @@ Default Value: On
 
 Use cached item mappings when migrating to Drive. (Not applicable for Google to Google migrations)
 
-Change Conditions: When disabled, Drive items will not be cached. Can slow down delta migrations.
+Change Conditions: When disabled Drive items will not be cached. Can slow down delta migrations.
 
 ### Allow Non-Google Sharing <a name="allnogoosha"></a>
 {: .no_toc }
@@ -272,7 +271,7 @@ Default Value: Off
 
 Replace an email address mention in a comment with the associated user's display name.
 
-Change Conditions: When enabled, internal email addresses will be replaced in file comments with the user's display name - preventing email notification.
+Change Conditions: When enabled internal email addresses will be replaced in file comments with the user's display name which prevents email notification.
 
 ### Preserve Modified Date <a name="persmodda"></a>
 {: .no_toc }
@@ -288,7 +287,7 @@ Default Value: Off
 
 When migrating items, allow the owner to be changed if the actual owner does not exist or is disabled in the destination Google Workspace domain. WARNING: setting this option can cause the ownership of items to change, use only in specialized scenarios.
 
-Change Conditions: When enabled, items can change ownership if the owner does not exist in the destination. Not recommended unless advised by CloudM.
+Change Conditions: When enabled items can change ownership if the owner does not exist in the destination. Not recommended unless advised by CloudM Support.
 
 ### Batch Permissions <a name="dbatperm"></a>
 {: .no_toc }
@@ -296,7 +295,7 @@ Default Value: Off
 
 Use batching to provide faster, but more error prone, Google Drive migrations.
 
-Change Conditions: When enabled, permissions will be batched. This can result in more errors and/or retries.
+Change Conditions: When enabled permissions will be batched which can result in more errors and/or retries.
 
 ### Skip Post Processing of Existing Items <a name="skippoproex"></a>
 {: .no_toc }
@@ -304,7 +303,7 @@ Default Value: Off
 
 Skip permission and parent folder patching of existing Drive items. Items that have been explicitly updated will still be processed.
 
-Change Conditions: When enabled, folders and permissions will not be patched when running delta migrations. This will improve performance but changes could be lost.
+Change Conditions: When enabled folders and permissions will not be patched when running delta migrations. This will improve performance but changes could be lost.
 
 ---
 ## Document Conversion
