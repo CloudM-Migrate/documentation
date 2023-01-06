@@ -2,7 +2,7 @@
 layout: default
 title: Hosted Architecture
 parent: Security
-nav_order: 3
+nav_order: 2
 ---
 
 ## CloudM Migrate Hosted Architecture & Security
