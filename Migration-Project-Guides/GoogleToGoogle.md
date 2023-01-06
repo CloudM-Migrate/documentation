@@ -72,7 +72,7 @@ There are a number of options which control how replacements are performed. It i
 ## Migrating Secondary Calendars
 [Back to Top](#top)
 
-In a Google to Google migration, where the primary source domain is being moved to a Google Workspace destination, calendars should be migrated before the source domain is deleted. Users' secondary calendars are deleted and cannot be recovered 'if the original primary domain (which becomes a secondary domain following the rename) is deleted'.
+In a Google to Google domain-switch migration, where the primary source domain is being moved to the Google Workspace destination, calendars should be migrated before the source domain is deleted. This is because when the domain is removed from the source secondary calendars are deleted and cannot be recovered.
 
 As migrated calendar events cannot be changed/updated, it is recommended to carry out a full calendar migration shortly before carrying out the domain switch to ensure you migrate the most recent version of users' primary and/or secondary calendars.
 
@@ -90,7 +90,7 @@ You should ensure all of your Drive users have Drive enabled in the destination.
 
 Usage of the destination drive during a migration is not recommended. Items may not be moved into place for all users until the full migration for all users has completed. If items are moved around in the destination domain during a migration multiple problems can occur with migration and may cause migration times to increase significantly.
 
-If you are renaming users as part of the migration, you must make sure all import and export names are present and have been updated to the names in the new system.  You should ensure you have provisioned all of your users before migrating your groups and do not rename groups during a migration. Renaming Groups must be done before the migration begins. If you are migrating Drive items, the tool will warn you before the migration.
+If you are renaming users as part of the migration, you must make sure all import and export names are present and have been updated to the names in the new system.  You should ensure you have provisioned all of your users before migrating your groups and do not rename groups during a migration. Renaming Groups must be done before the migration begins.
 
 **Migrate Items Only From Listed Users**
 
