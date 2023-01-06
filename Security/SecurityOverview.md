@@ -52,4 +52,4 @@ CloudM implements various technical and organisational measures to protect the c
 
 * Monitoring updates from ICO and NCSC
 
-If you have any questions please get in touch at <a href="mailto:info@cloudm.io">info@cloudm.io</a>
+If you have any questions please get in touch at <a href="https://www.cloudm.io/contact-us">https://www.cloudm.io/contact-us</a>
