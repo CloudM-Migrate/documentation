@@ -43,7 +43,7 @@ Default Value: Off
 
 Migrated Inbox email directly into 'All Mail' within Google Workspace and not to the Inbox.
 
-Change Conditions: Enabling will remove the Inbox label and effectively archive inbox email.
+Change Conditions: Enabling will remove the Inbox label and effectively archive any migrated email from the Inbox in the 'All Mail' label.
 
 ### Modify Sent Address <a name="modsentadd"></a>
 {: .no_toc }
@@ -59,7 +59,7 @@ Default Value: 50
 
 Set the number of threads that will be used per-user to migrate email to Google Workspace.
 
-Change Conditions: The number of email threads can be increased or decreased. Increasing can result in throttling issues and is not recommended.
+Change Conditions: The number of email threads can be increased or decreased. Increasing can result in throttling issues and should only be changed if instructed by CloudM Support.
 
 ### Use Limited Scopes <a name="uselimsco"></a>
 {: .no_toc }
@@ -91,7 +91,7 @@ Default Value: 0
 
 Specify the time (in milliseconds) to wait between sending messages. Normally this can be left at zero (0), but may need to be adjusted in some circumstances.
 
-Change Conditions: A delay can be added between email imports which will reduce speed but can help with throttling.
+Change Conditions: A delay can be added between email imports which will reduce speed but can help with throttling. Should only be changed if instructed by CloudM Support.
 
 ### Maximum Batch Count <a name="maxbatc"></a>
 {: .no_toc }
@@ -373,7 +373,7 @@ Default Value: File
 
 Select how file permissions will be applied when migrating to Shared Drive.
 
-Change Conditions: None - No file permissions migrated. File - Original file permissions migrated. Root - Any items on file ACLs will be added as members of the Shared Drive.
+Change Conditions: There are three options for how to handle file permissions: None - No file permissions migrated. File - Original file permissions migrated. Root - Any items on file ACLs will be added as members of the Shared Drive.
 
 ### Shared Drive Same Domain Migration Type <a name="shasammigt"></a>
 {: .no_toc }
@@ -405,7 +405,7 @@ Default Value: None
 
 Select how folder permissions will be applied when migrating to Shared Drive.
 
-Change Conditions: None - No folder permissions migrated. Folder - Original folder permissions migrated. Root - Any items on folder ACLs will be added as members of the Shared Drive.
+Change Conditions: There are three options for how to handle folder permissions: None - No folder permissions migrated. Folder - Original folder permissions migrated. Root - Any items on folder ACLs will be added as members of the Shared Drive.
 
 ### Migrate Shared Drive Members <a name="migshdmem"></a>
 {: .no_toc }
@@ -438,7 +438,7 @@ Default Value: On
 
 Check that users/resources/groups/shared drives exist within the destination system.
 
-Change Conditions: When disabled a check will not be performed before the migration.
+Change Conditions: When disabled the check for existing users/resources/groups/shared drives will not be performed before the migration. 
 
 ### Check Services Enabled <a name="cheseren"></a>
 {: .no_toc }
@@ -446,7 +446,7 @@ Default Value: Off
 
 When running the 'Check Users' action, also check if the selected Google services for that user are enabled.
 
-Change Conditions: When enabled an additional check will be performed to check the Google services (Gmail, Drive etc.) are enabled for the users.
+Change Conditions: When enabled an additional check will be performed to check the Google services (Gmail, Drive etc.) are enabled for the users. An error will be returned if any services are not enabled. 
 
 ### Create Users/Resources/Groups/Shared Drives <a name="crergsd"></a>
 {: .no_toc }
@@ -498,7 +498,7 @@ Default Value: Off
 
 Remove the 'Expect-100' header from requests (required for use behind some proxies).
 
-Change Conditions: When enabled the 'Expect-100' header' will be removed. Only required in specific proxy scenario.
+Change Conditions: When enabled the 'Expect-100' header' will be removed. Only required in specific proxy scenario. Do not change unless instructed by CloudM Support.
 
 ### Drive Locks from Listed Users <a name="drilolisuse"></a>
 {: .no_toc }
