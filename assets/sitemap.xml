@@ -408,6 +408,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://docs.cloudm.io/Security/SecurityOverview.html</loc>
+  <lastmod>2022-12-13T05:45:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://docs.cloudm.io/Security/SelfHostedArchitectureandSecurity.html</loc>
   <lastmod>2022-12-13T05:45:42+00:00</lastmod>
   <priority>0.80</priority>
