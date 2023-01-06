@@ -20,15 +20,6 @@ nav_order: 2
 {:toc}
 </details>
 
----
-
-### Migration Failed Remote Server Returned an Error 429 
-
-The 429 error is caused by throttling from Microsoft to protect their own system resources. There is no way to work around this throttling short of asking Microsoft to lift it for your tenant.
- 
-There are two ways that you can try to delay the throttling, divide the submission of your migrations into different batches, and use a different Global Admin account for each batch.
-
-This is also important, for blah. 
 
 #### Microsoft Throttling and Quotas
 {: .no_toc }
@@ -42,6 +33,21 @@ The specific limits described here are subject to change.
 The term tenant refers to the Microsoft 365 organization where the application is installed. This tenant can be the same as the one where the application was created in the case of a single-tenant application, or it can be different in the case of a multi-tenant application.
 
 Any request can be evaluated against multiple limits, depending on the scope of the limit (per app across all tenants, per tenant for all apps, per app per tenant, and so on), the request type (GET, POST, PATCH, and so on), and other factors. The first limit to be reached triggers throttling behaviour. In addition to the service specific-limits described in the section, the following global limits apply.
+
+Example Error - [2022-10-13 20:09:13.6813] [MailImporter] [Error] [6] [Test@cloudm.com] [] Unexpected exception processing import. Message is: "Destination: Exchange response error. Code: 'ErrorInternalServerError'. Message: 'An internal server error occurred. The operation failed.'. InnerErrorResponseCode: 'ErrorQuotaExceeded' InnerErrorMessageText: 'Cannot save changes made to an item to store.'" cloud.solutions.Migration.ExchangeWS.ExchangeWSImporterException
+Destination: Exchange response error. Code: 'ErrorInternalServerError'. Message: 'An internal server error occurred. The operation failed.'. InnerErrorResponseCode: 'ErrorQuotaExceeded' InnerErrorMessageText: 'Cannot save changes made to an item to store.'
+
+This error is tied to the number of messages with Exchange Online which is a limitation of 1 million messages per folder.
+
+<a href="https://learn.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#mailbox-folder-limits">Mailbox folder limits</a> 
+
+---
+
+### Common Microsoft Errors
+
+### Migration Failed The remote server returned an error: (401) Unauthorized
+
+Validate that the admin has full access rights over the users are failing and to check the credentials.
 
 ---
 
@@ -63,6 +69,9 @@ Run the connection test again.
 
 ---
 
-### Migration Failed The remote server returned an error: (401) Unauthorized
+### Migration Failed Remote Server Returned an Error 429 
 
-Validate that the admin has full access rights over the users are failing and to check the credentials.
+The 429 error is caused by throttling from Microsoft to protect their own system resources. There is no way to work around this throttling short of asking Microsoft to lift it for your tenant.
+ 
+There are two ways that you can try to delay the throttling, divide the submission of your migrations into different batches, and use a different Global Admin account for each batch.
+
