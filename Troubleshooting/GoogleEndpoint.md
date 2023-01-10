@@ -10,7 +10,6 @@ nav_order: 3
 {: .no_toc }
 
 ---
-
 <a name="top"></a>
 <details open markdown="block">
   <summary>
@@ -22,12 +21,43 @@ nav_order: 3
 </details>
 
 ---
+### 400 Error: Bad Request. 
+
+400 Bad Request a Google error and is typically caused by data that cannot be imported into Gmail for one of the following reasons:
+
+- Blocked attachment types which are not allowed in Gmail per https://support.google.com/mail/answer/6590
+- Emails containing virus attachments
+- Emails not conforming to RFC 822 per https://www.ietf.org/rfc/rfc2822.txt
+
+Example - *Resolve a 400 Errors continued: Invalid sharing request*
+
+This error can occur for several reasons. To determine the limit that has been exceeded, evaluate the reason. This error most commonly occurs because:
+
+- Sharing succeeded, but the notification email was not correctly delivered.
+- The Access Control List (ACL) change is not allowed for this user.
+- The message field indicates the actual error.
+-  Sharing succeeded, but the notification email was not correctly delivered
+
+
+---
+
+### 401 Error: Invalid credentials.
+
+For a 401 That particular error refers to the forwarding setting in a user's mailbox, for example when they are on holiday, to forward their mail to another member of staff. The error simply means there has been no forwarding instructions set up on the account. It can be ignored, but the way to get rid of it would be to set up account forwarding in the destination. 
+
+- Ensure that the admin user you are using to migrate has logged into Google Workspace at least once
+- Check you have followed all of the steps in the documentation for configuring the source and destination platforms
+- Double check all usernames and password
+- Check that OAuth access is setup and enabled correctly
+- Ensure that the time on the workstation/server that is running the migration tool is correct
+
+---
 
 ###  403 Forbidden: The remote server returned an error.
 
 You should ensure that the <a href="https://developers.google.com/workspace/guides/configure-oauth-consent">Configure the OAuth consent screen</a> and the API Scopes added in the admin console.
 
-- 403 error: The user does not have sufficient permissions for file {fileId}
+403 error: The user does not have sufficient permissions for file {fileId}
 A insufficientFilePermissions error occurs when the user doesn't have write access to a file, and your app is attempting to modify the file.
 To fix this error, instruct the user to contact the file's owner and request edit access. You can also check user access levels in the metadata retrieved by files.get and display a read-only UI when permissions are missing.
 
@@ -42,6 +72,17 @@ An error 403 occurs when a usage limit has been exceeded or the user doesn't hav
 - Your app can't be used within the signed in user's domain.
 - Number of items in a folder was exceeded.
 - For information on Drive API limits, refer to Usage limits. For information on Drive folder limits, refer to Folder limits in Google Drive.
+
+---
+
+### 403 Error: Insufficient Permissions.
+
+This error for example is happening on Google Import, indicating that there is an issue with permissions in either for the service account or API Scopes.  Can you make sure that all the scopes have been added to the service account and that your API's all have been enabled?  Also, check if you have the Admin SDK API enabled. This sometimes causes the issue. For reason in the logs for every failure states " “ Not retrying Forbidden[403] error,”
+
+
+Not retrying Forbidden[403] error Google.Apis.Requests.RequestError Insufficient Permission [403] Errors [ Message[Insufficient Permission] Location[ - ] Reason[insufficientPermissions] Domain[global]
+
+
 
 ---
 
@@ -65,44 +106,6 @@ Following the proper migration steps will help avoid a lot of this:
 - Run a small test migration.
 - Then run the bulk migration email and drive
 - Delta migration with calendar, contacts
-
----
-### 400 Error: Bad Request. 
-
-400 Bad Request a Google error and is typically caused by data that cannot be imported into Gmail for one of the following reasons:
-
-- Blocked attachment types which are not allowed in Gmail per https://support.google.com/mail/answer/6590
-- Emails containing virus attachments
-- Emails not conforming to RFC 822 per https://www.ietf.org/rfc/rfc2822.txt
-
-Example - *Resolve a 400 Errors continued: Invalid sharing request*
-
-This error can occur for several reasons. To determine the limit that has been exceeded, evaluate the reason. This error most commonly occurs because:
-
-- Sharing succeeded, but the notification email was not correctly delivered.
-- The Access Control List (ACL) change is not allowed for this user.
-- The message field indicates the actual error.
--  Sharing succeeded, but the notification email was not correctly delivered
-
----
-
-### 403 Error: Insufficient Permissions.
-
-This error for example is happening on Google Import, indicating that there is an issue with permissions in either for the service account or API Scopes.  Can you make sure that all the scopes have been added to the service account and that your API's all have been enabled?  Also, check if you have the Admin SDK API enabled. This sometimes causes the issue. For reason in the logs for every failure states " “ Not retrying Forbidden[403] error,”
-
-
-Not retrying Forbidden[403] error Google.Apis.Requests.RequestError Insufficient Permission [403] Errors [ Message[Insufficient Permission] Location[ - ] Reason[insufficientPermissions] Domain[global]
-
----
-### 401 Error: Invalid credentials.
-
-For a 401 That particular error refers to the forwarding setting in a user's mailbox, for example when they are on holiday, to forward their mail to another member of staff. The error simply means there has been no forwarding instructions set up on the account. It can be ignored, but the way to get rid of it would be to set up account forwarding in the destination. 
-
-- Ensure that the admin user you are using to migrate has logged into Google Workspace at least once
-- Check you have followed all of the steps in the documentation for configuring the source and destination platforms
-- Double check all usernames and password
-- Check that OAuth access is setup and enabled correctly
-- Ensure that the time on the workstation/server that is running the migration tool is correct
 
 ---
 
