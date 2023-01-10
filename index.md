@@ -7,8 +7,6 @@ Permalink: /
 
 ---
 
-<meta name='zd-site-verification' content='rnsxvtz6g5o6zxf9stma5b'/>
-
 # CloudM Migrate Documentation Repository
 
 This site will contain the technical documentation for [CloudM Migrate](https://www.cloudm.io/), a cloud migration solution.
@@ -22,8 +20,6 @@ Version <a href="https://docs.cloudm.io/Release-Notes/V33817.html">3.38.17</a> o
 
 ## CloudM Migrate
 ### Data Migration for Microsoft 365 and Google Workspace
-
-Scale your business, avoid vendor lock-in and experience true cloud freedom
 
 - Move to Microsoft 365 and Google Workspace
 - Migrate from 20+ Source Platforms
@@ -88,4 +84,4 @@ This repo is closed to submissions at this time. We're working on our V1 and wil
 {% endfor %}
 </ul>
 
-<meta name='zd-site-verification' content='rnsxvtz6g5o6zxf9stma5b'/>
+<meta name='zd-site-verification' content='a6sm6sszurotk2wiyfpgpq'/>
