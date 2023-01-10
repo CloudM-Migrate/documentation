@@ -21,6 +21,9 @@ nav_order: 3
 </details>
 
 ---
+
+You may encounter the following errors when running a migration when using the Cloud M tool here are the most common Google Workspace Errors explained. 
+
 ### 400 Error: Bad Request. 
 
 400 Bad Request a Google error and is typically caused by data that cannot be imported into Gmail for one of the following reasons:
