@@ -69,6 +69,13 @@ There are a number of options which control how replacements are performed. It i
 
 **Address Replacements (File)** – Use this option to provide an explicit list of email addresses to be mapped as part of a migration. If performing domain consolidation or if you have other specialized requirements then this option can be used to map any source email address to any other address. Addresses should be mapped using a simple CSV file containing two columns, the first for the address to be replaced and the second the replacement address.
 
+## Migrating Secondary Calendars
+[Back to Top](#top)
+
+In a Google to Google domain-switch migration, where the primary source domain is being moved to the Google Workspace destination, calendars should be migrated before the source domain is deleted. This is because when the domain is removed from the source secondary calendars are deleted and cannot be recovered.
+
+As migrated calendar events cannot be changed/updated, it is recommended to carry out a full calendar migration shortly before carrying out the domain switch to ensure you migrate the most recent version of users' primary and/or secondary calendars.
+
 ### Google Drive
 [Back to Top](#top)
 
@@ -83,7 +90,7 @@ You should ensure all of your Drive users have Drive enabled in the destination.
 
 Usage of the destination drive during a migration is not recommended. Items may not be moved into place for all users until the full migration for all users has completed. If items are moved around in the destination domain during a migration multiple problems can occur with migration and may cause migration times to increase significantly.
 
-If you are renaming users as part of the migration, you must make sure all import and export names are present and have been updated to the names in the new system.  You should ensure you have provisioned all of your users before migrating your groups. You should not rename groups during a migration. This must be done before the migration begins. If you are migrating Drive items, the tool will warn you before the migration.
+If you are renaming users as part of the migration, you must make sure all import and export names are present and have been updated to the names in the new system.  You should ensure you have provisioned all of your users before migrating your groups and do not rename groups during a migration. Renaming Groups must be done before the migration begins.
 
 **Migrate Items Only From Listed Users**
 
@@ -121,6 +128,64 @@ If a user has deleted a file that has been shared with them making the file invi
 
 CloudM Migrate has functionality to allow user or group email addresses to be changed or mapped during a migration. This is achieved via address replacements.
 
+**Shortcuts**
+[Back to Top](#top)
+
+Google Workspace now uses Drive Shortcuts to allow you to share access to a document or item with multiple people. This means that, instead of each person having their own local copy, they are able to use a shortcut to the location of the original document or item, as long as they have permission. The benefits of using Drive Shortcuts include increasing team collaboration and freeing up storage space as a shortcut takes up a fraction of the storage space compared to a local copy.
+
+When migrating items from a Google Workspace domain to another Google Workspace domain, CloudM Migrate also migrates a user's Drive Shortcuts. These Drive Shortcuts will be counted as an "item" in the Environment Scan, but can be filtered in the CSV by the mimetype to get a true count if required.
+
+Here are a few scenarios where a shortcut file will not be migrated:
+
+- If the target file for the shortcut has been deleted, and either exists in or has been purged from the Deleted Bin, the shortcut will not be migrated. Both will be logged as export failures in the reporting.
+- If the target file exists in the Deleted Bin, the error message will read `Shortcut target file <target file name>, <target fileID> has been trashed, skip export of the shortcut file.`
+- If the target file has been deleted and then purged, the error message will read `Shortcut target file with id: <target fileID> could not be found, skip export of the shortcut file.`
+- If the target file exists in a different drive, the shortcut will not be migrated. In this case, a different drive means a shared drive target file if the shortcut exists in a user drive, and a different shared drive target file if the shortcut exists in a shared drive.
+- If the target file exists in a different drive, the error message will read `Migration of shortcut files pointing to files in different drives is not supported.`
+- The shortcuts for externally owned target files that have not been shared with the account being migrated will not be migrated. Additionally, if the destination user is unable to see the external target file, the shortcut will not be migrated.
+- Changing the owner of a target file before delta migration will only change the owner of the target file on the destination. The shortcut file owner will not change.
+- When a target file is migrated to any destination platform other than Google Workspace or Google Cloud Storage, the shortcut will not be exported.
+In the trace file, you will see the following message - `<Migration of shortcut file is not supported for this platform. File name: 'target file name'>`
+
+**Migrating a subset of users**
+  
+When performing a Google Workspace to Google Workspace migration and only a subset of the total source user base is migrating in a batch there are special considerations when including Google Drive.
+
+1. Always provision all of your users and groups before performing a Google Drive to Google Drive migration in batches. This is required to ensure all sharing and Drive hierarchies are preserved correctly thoughout the full migration. 
+2. Validate that all migrating users exist in the destination.
+3. Validate that all groups and members are created or are mapped in the destination, also.
+2. Configure an <a href="https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#address-replacement">Address Replacements CSV</a>.
+3. Enable 'Address Replacements' / <a href="https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#replace-csv-addresses-only-">Replace CSV Addresses Only</a>.
+4. Enable 'Migrate Items Only From Listed Users' in the source Google Workspace settings.
+5. In Users, Get Users and then remove the non-migrating users or import a CSV list of all migrating users.
+6. Migrate.
+  
+If you do not wish to maintain permissions for users who are not migrating, prepare and configure the migration using the default CloudM Migrate settings for Drive and list only migrating users in the user list and Address Replacements. When migrating Drive, any folders owned by non-migrating users will be migrated. Ownership will be changed to the migrating user and any explicit file and folder permissions will attempt to be replaced because the destination address does not exist. All migrating user permissions will be applied.
+
+> **Note**: If migrating into a Google Workspace domain with existing users, conflicting addresses should be considered. If users exist at the destination domain with prefixes of existing source users, the replacements may cause items to be shared with those users. To avoid this, enable <a href="https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#replacecsvonly">Replace CSV Addresses Only</a> and list only migrating users in the Address Replacements CSV file.
+  
+**Shared Drives**
+
+CloudM Migrate supports the following migration scenarios for Shared Drives:
+
+- Migration from Shared Drives to Google Drive Users for different domains
+- Migration from Google Drive to Shared Drives for different domains
+- Migration from Shared Drives to Shared Drives for different domains
+- Migration from Google Drive to Shared Drives within the same domain
+  
+Requirements: 
+  
+- External sharing or whitelisting of the destination domain(s) on the source is required. This is set three different ways: by the domain-wide Google Drive setting, by the shared drive setting (below the prior) and by the shared drives own settings. External (destination domain) users need to be able to be added to the source shared drives and access the files in order to perform the migration. 
+- Ensure that the "Prevent non-members of the shared drive from accessing files in the shared drive" setting is set to disabled.
+- Your Google Workspace domain must have Shared Drives enabled. This is part of your contract with Google, if you do not have Shared Drives enabled contact Google or your reseller. 
+- Existing Shared Drives need to have at least one user with Manager permissions applied. If you use CloudM Migrate to create Shared Drives, however, the migration admin will become a Manager.
+- Managers must be an active user, not suspended and not a group, and have Drive enabled. 
+- Source Shared Drives must include at least one user, not group, that has 'Manager' permission set on the Shared Drive.
+  
+> **Note**: You must specify the ID or name of the Shared Drive in Export Name when migrating from Shared Drives, and the ID or name of the Shared Drive in Import Name when migrating to Shared Drives. 
+
+To improve performance to Shared Drives, configure multiple Managers to perform the migration with the configuration setting <a href="https://docs.cloudm.io/Engineering-Reference/GoogleDestinationAO.html#shared-drive-default-managers-">Shared Drive Default Managers</a>.
+  
 ### Google Groups
 [Back to Top](#top)
 
@@ -128,7 +193,7 @@ When using **Get Items from source**, groups will be populated in the user list 
 
 It's important to check if there are existing groups in the destination Google Workspace instance. Any groups that are listed from the source could potentially have equivalent groups in the destination, so renaming the migrating groups import names in your items list, to create new ones and/or to distinguish them from the destination groups, would be advised. If you are renaming groups import names, these changes will need to be reflected in an address replacements CSV file.
 
-> **Note**: Google Group settings and content are not migrated - only the group itself and its membership
+> **Note**: Google Group settings and content are not migrated, only the group itself and its membership.
 
 ### Batching
 [Back to Top](#top)
@@ -210,3 +275,28 @@ CloudM Migrate has several feature to enhance the migration, these can be config
 
 There are <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/ProjectAdvancedOptions.html#email-attachment-to-drive">several features</a> for manipulating attachments while migrations are inflight. This includes removing attachments from the emails and replacing them with MyDrive links to the former attachments. Migrated documents can also optionally be shared with the recipients of the original email. This can dramatically shrink mailboxes on the destination.
 
+## Unsupported Data Types for Migration
+[Back to Top](#top)
+
+- Mail: Spam label
+- Mail: Categories
+- Mail: Filters
+- Mail: Settings
+- Groups: Messages
+- Groups: Settings
+- Calendar: Subscriptions
+- Calendar: Settings
+- Calendar: Appointment Slots
+- Contatcs: Directory
+- Contacts: Fields
+- Drive: File/folder creation date (will be reset to the date the file was migrated)
+- Drive: Shared with data (will be reset to the date the file was migrated)
+- Drive: Trash/Deleted Items
+- Drive: Revision history of Google format files
+- Drive: Externally owned files
+- Drive: Google My Maps
+- Drive: (New) Google Sites
+- Drive: Google Data Studio
+- Drive: Any third party shortcuts added using "Connect more apps"
+
+> **Note**: Google Forms and the answers gsheets are supported, but the links will be broken as they will have new URLs in the destination. You can use Document Mappings to determine what the new links are to fix that post-migration.
