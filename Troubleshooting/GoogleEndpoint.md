@@ -22,7 +22,7 @@ nav_order: 3
 
 ---
 
-You may encounter the following errors when running a migration when using the Cloud M tool these are the most common Google Workspace errors explained. 
+You may encounter the following when running a migration using the Cloud M software these are the most common Google Workspace errors explained. 
 
 ### 400 Error: Bad Request. 
 
