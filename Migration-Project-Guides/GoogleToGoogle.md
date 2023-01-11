@@ -84,6 +84,7 @@ Due to the flexibility of how files and folders can be organized within Google D
 There are a few things to be aware of when performing a Google Drive migration:
 
 **Provision all Users and Groups Before Migration**
+
 Provision all of your users and groups before performing a Drive migration. This is required to ensure all sharing and Drive hierarchies are preserved correctly during the migration. 
 
 You should ensure all of your Drive users have Drive enabled in the destination.
@@ -93,34 +94,45 @@ Usage of the destination drive during a migration is not recommended. Items may 
 If you are renaming users as part of the migration, you must make sure all import and export names are present and have been updated to the names in the new system.  You should ensure you have provisioned all of your users before migrating your groups and do not rename groups during a migration. Renaming Groups must be done before the migration begins.
 
 **Migrate Items Only From Listed Users**
+
 This option will migrate only Drive files from those users listed on the Users tab. Set **Migrate All Drive Items** to true for this setting to work. If you want to migrate items from users other than those being migrated add them to the user tab but do not select them for migration.
 
-**Migrate Items Only from Listed Users** should be used with care and only ever used if you are only migrating a subset of your users. If you are migrating all of your users during a migration, you should not select this option for any part of your migration. If you do use the option, you should ensure that your user list is fully correct before starting the first migration.
+**Migrate Items Only from Listed Users**
+
+This should be used with care and only ever used if you are only migrating a subset of your users. If you are migrating all of your users during a migration, you should not select this option for any part of your migration. If you do use the option, you should ensure that your user list is fully correct before starting the first migration.
 
 **Migrate Contents of Non-Owned Folders**
+
 Migrate files from folders not owned by the migrating users. This usually only needs enabling when some users are not migrated but the Drive items need to be migrated. Folders will always be processed. This option should not be used in conjunction with **Migrate Items Only From Listed Users**.
 
 **Files and Folders May be Migrated for Other Users**
+
 During a migration of the migrating user, files and folders that were shared with the migrating user may be migrated for the owning users, even when they are not being migrated at that time. This is essential to preserve the complex structure of Google Drive. It is possible to disable this action by setting the option **Migrate All Drive Items** to False, but it is highly recommended to use the default behavior to preserve Drive integrity.
 
 **Files from Outside of the Domain**
+
 Only files owned by users inside your domain are migrated. While it may be possible to migrate files from outside of the domain where the user has edit access, this involves making changes to files outside of the migrating domain which raises many security issues for the external domains and is therefore not enabled.
 
 **Folder Hierarchies from Outside of the Domain**
+
 It is possible to add folders that have been shared with you into your folder hierarchy, and other users could also have done the same thing. If this is a folder from outside of your domain, then the first user to migrate the folder will become the new owner and it will then be treated as belonging to that user. All external ACLs will be removed from the folder but all domain ACLs will be preserved.
 
 **Comments and Revision History**
+
 Comments can be migrated but revision history cannot.
 
 **Deleted Files and Folders**
+
 Deleted files and folders a user owns are not migrated. 
 
 If a user has deleted a file that has been shared with them making the file invisible in their account but have not actually deleted the source file or the sharing rights, then these files will be visible again in the **Shared with me** folder following the migration. This particular case is not handled by CloudM Migrate as its usage is rare, and when encountered increases migration times. Additionally, even though the file may be invisible, the sharing rights as allocated by the sharer still exist.
 
 **Renaming Users and/or Groups**
+
 CloudM Migrate has functionality to allow user or group email addresses to be changed or mapped during a migration. This is achieved via address replacements.
 
 **Shortcuts**
+
 Google Workspace now uses Drive Shortcuts to allow you to share access to a document or item with multiple people. This means that, instead of each person having their own local copy, they are able to use a shortcut to the location of the original document or item, as long as they have permission. The benefits of using Drive Shortcuts include increasing team collaboration and freeing up storage space as a shortcut takes up a fraction of the storage space compared to a local copy.
 
 When migrating items from a Google Workspace domain to another Google Workspace domain, CloudM Migrate also migrates a user's Drive Shortcuts. These Drive Shortcuts will be counted as an "item" in the Environment Scan, but can be filtered in the CSV by the mimetype to get a true count if required.
@@ -138,6 +150,7 @@ Here are a few scenarios where a shortcut file will not be migrated:
 In the trace file, you will see the following message - `<Migration of shortcut file is not supported for this platform. File name: 'target file name'>`
 
 **Migrating a subset of users**
+
 When performing a Google Workspace to Google Workspace migration and only a subset of the total source user base is migrating in a batch there are special considerations when including Google Drive.
 
 1. Always provision all of your users and groups before performing a Google Drive to Google Drive migration in batches. This is required to ensure all sharing and Drive hierarchies are preserved correctly thoughout the full migration. 
@@ -154,6 +167,7 @@ If you do not wish to maintain permissions for users who are not migrating, prep
 > **Note**: If migrating into a Google Workspace domain with existing users, conflicting addresses should be considered. If users exist at the destination domain with prefixes of existing source users, the replacements may cause items to be shared with those users. To avoid this, enable <a href="https://docs.cloudm.io/Engineering-Reference/ProjectAdvancedOptions.html#replacecsvonly">Replace CSV Addresses Only</a> and list only migrating users in the Address Replacements CSV file.
   
 **Shared Drives**
+
 CloudM Migrate supports the following migration scenarios for Shared Drives:
 
 - Migration from Shared Drives to Google Drive Users for different domains
