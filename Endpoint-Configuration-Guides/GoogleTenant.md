@@ -39,7 +39,7 @@ A Service Account needs to be created with the correct scopes for the data acces
 The whole process can be performed via a PowerShell script. 
 
 1. Download and install the <a href="https://cloud.google.com/sdk/docs/install">Google Cloud CLI</a>.
-2. Right click and save the <a href="[https://bitbucket.org/cloudsols/cloudm-public/src/main/Migrate/PowerShell/GCP_Configuration.ps1](https://bitbucket.org/cloudsols/cloudm-public/raw/9b4bf82a3ff82572e61a1fea877f6d9091958b1d/Migrate/PowerShell/GCP_Configuration.ps1)">GCP Configuration script</a> to a working directory.
+2. Right click and save the <a href="https://bitbucket.org/cloudsols/cloudm-public/raw/9b4bf82a3ff82572e61a1fea877f6d9091958b1d/Migrate/PowerShell/GCP_Configuration.ps1">GCP Configuration script</a> to a working directory.
 3. Run PowerShell as Administrator and execute the script. 
 4. You'll be prompted to enter a Project ID and a Service Account ID.
 5. You'll be prompted to enter the Scope, choose one of the following:
