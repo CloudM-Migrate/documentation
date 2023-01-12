@@ -38,7 +38,7 @@ A Service Account needs to be created with the correct scopes for the data acces
 
 The whole process can be performed via a PowerShell script. 
 
-### Install the Google Cloud SDK
+**Install the Google Cloud SDK**
 1. Download and install the <a href="https://cloud.google.com/sdk/docs/install">Google Cloud CLI</a>.
 2. Run PowerShell as Administrator and initilize the Google Cloud SDK with `gcloud init`.
 3. Enter 1 to choose `Re-initialize this configuration [default] with new settings`
@@ -49,7 +49,7 @@ The whole process can be performed via a PowerShell script.
 
 >Note: An error `Operation failed: 7: Permission 'resourcemanager.projects.create' denied on parent resource ' is returned if not using a Super Admin. 
 
-### Create the Key
+**Create the Key**
 1. Right click and save the <a href="https://bitbucket.org/cloudsols/cloudm-public/raw/9b4bf82a3ff82572e61a1fea877f6d9091958b1d/Migrate/PowerShell/GCP_Configuration.ps1">GCP Configuration script</a> to a working directory.
 2. Execute the script in PowerShell as Administrator. 
 3. You'll be prompted to enter a Project ID which is the Project Name created previously. 
