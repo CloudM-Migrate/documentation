@@ -41,7 +41,7 @@ The whole process can be performed via a PowerShell script.
 1. Download and install the <a href="https://cloud.google.com/sdk/docs/install">Google Cloud CLI</a>.
 2. Download the <a href="https://bitbucket.org/cloudsols/cloudm-public/src/main/Migrate/PowerShell/GCP_Configuration.ps1">GCP Configuration script<a/>.
 3. Run PowerShell as Administrator and execute the script. 
-4. You'll be prompted to enter a Project ID and a Service Account ID which are arbitrary names. 
+4. You'll be prompted to enter a Project ID and a Service Account ID.
 5. You'll be prompted to enter the Scope, choose one of the following:
   - All - Recommended for Google to Google
   - Standard
@@ -49,13 +49,14 @@ The whole process can be performed via a PowerShell script.
   - DestinationLimited
   - Vault
   - Storage
-6. You'll be prompted to continue the process by navigating to a URL to Configure OAuth Consent. Do not close PowerShell. 
-7. On the OAuth consent page, set the User Type to Internal and select Create.
-8. Set the App name to CloudM Migrate, and add a User Support email and a Developer Contact email address.
-9. Navigate to Security > API Controls > Domain-wide Delegation page, select Add New.
-10. The PowerShell script will have output the ClientID and OAuth Scopes to copy and paste in the Add New dialog. 
-11. Select Authorize. 
-12. You can now add the Service Account email to CloudM Migrate. 
-13. The P12 or JSON Access key will be located under C:\CloudM\GCPConfig and can be uploaded into CloudM Migrate. 
+6. You'll be prompted for the key type, enter P12 or JSON. 
+7. You'll be prompted to continue the process by navigating to a URL to Configure OAuth Consent. Do not close PowerShell. 
+8. On the OAuth consent page, set the User Type to Internal and select Create.
+9. Set the App name to CloudM Migrate, and add a User Support email and a Developer Contact email address.
+10. Navigate to Security > API Controls > Domain-wide Delegation page, select Add New.
+11. The PowerShell script will have output the ClientID and OAuth Scopes to copy and paste in the Add New dialog. 
+12. Select Authorize. 
+13. You can now add the Service Account email to CloudM Migrate. 
+14. The P12 or JSON Access key will be located under C:\CloudM\GCPConfig and can be uploaded into CloudM Migrate. 
 
 > **Note**: Replication can cause a delay of 2 hours before these can be used to migrate data. 
