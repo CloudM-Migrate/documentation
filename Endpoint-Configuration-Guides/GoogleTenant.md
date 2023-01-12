@@ -47,7 +47,7 @@ The whole process can be performed via a PowerShell script.
 6. Enter Y to create a new project. 
 7. Enter a Project Name between 6-30 all lowercase letters. 
 
->Note: An error `Operation failed: 7: Permission 'resourcemanager.projects.create' denied on parent resource ' is returned if not using a Super Admin. 
+>Note: An error `Operation failed: 7: Permission 'resourcemanager.projects.create' denied on parent resource` is returned if not using a Super Admin. 
 
 **Create the Key**
 1. Right click and save the <a href="https://bitbucket.org/cloudsols/cloudm-public/raw/9b4bf82a3ff82572e61a1fea877f6d9091958b1d/Migrate/PowerShell/GCP_Configuration.ps1">GCP Configuration script</a> to a working directory.
