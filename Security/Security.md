@@ -3,9 +3,23 @@ layout: default
 title: Security
 nav_order: 7
 has_children: true
+no
 ---
 
 ## CloudM Security Overview
+{: .no_toc }
+
+---
+
+<a name="top"></a>
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 CloudM implements various technical and organisational measures to protect the confidentiality, integrity and availability of information (including personal data) in-line with the assessed risk and requirements of UK GDPR Art. 5.1(f) the 'Security Principle' and Art. 32 Security of Processing, primarily through controls adopted from ISO27001 and ISO27701  including, but not limited to:
 
