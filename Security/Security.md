@@ -3,7 +3,7 @@ layout: default
 title: Security
 nav_order: 7
 has_children: true
-no
+no_toc: yes
 ---
 
 ## CloudM Security Overview
