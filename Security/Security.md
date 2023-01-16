@@ -7,7 +7,6 @@ no
 ---
 
 ## CloudM Security Overview
-{: .no_toc }
 
 ---
 
