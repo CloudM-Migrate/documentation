@@ -18,7 +18,7 @@ nav_order: 7
 ### Replace Usernames <a name="replaceuser"></a>
 Default Value: On
 
-Replace any remapped usernames from the users page, when migrating the items specified in 'Domain Replacement Types' tab. If this option is disabled and replacements are required, explicit mappings for email addresses and domain names should be provided.
+Replace any remapped usernames from the users page, when migrating the items specified in **Domain Replacement Types** tab. If this option is disabled and replacements are required, explicit mappings for email addresses and domain names should be provided.
 
 Change Conditions: 
 
@@ -37,15 +37,15 @@ During the course of the migration the ACL for the file is amended adding user B
 ### Non-Matched Address Replacement Behaviour <a name="nonmatchreplace"></a>
 Default Value: Retain Original Address
 
-When 'Replace Usernames' is enabled, and a CSV has been provided for address replacement, set the behaviour when an address has not been matched. Either replace the domain name of the address, or leave the original address.
+When **Replace Usernames** is enabled, and a CSV has been provided for address replacement, set the behavior when an address has not been matched. Either replace the domain name of the address, or leave the original address.
 
 Change Conditions: ??
 
 ### Replace CSV Addresses Only <a name="replacecsvonly"></a>
 Default Value: Off
 
-Perform email addresses and domain replacements from the CSV file specified in 'Address Replacements' and do not attempt to perform replacements using any other method.
+Perform email addresses and domain replacements from the CSV file specified in **Address Replacements** and do not attempt to perform replacements using any other method.
 
-Change Conditions: Turn on to only change address of users specified in the CSV under Address Replacements (.csv)
+Change Conditions: Turn on to only change address of users specified in the CSV under Address Replacements (.csv).
 
 
