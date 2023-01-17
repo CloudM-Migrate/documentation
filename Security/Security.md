@@ -8,8 +8,6 @@ no_toc: yes
 
 ## CloudM Security Overview
 
----
-
 CloudM implements various technical and organisational measures to protect the confidentiality, integrity and availability of information (including personal data) in-line with the assessed risk and requirements of UK GDPR Art. 5.1(f) the 'Security Principle' and Art. 32 Security of Processing, primarily through controls adopted from ISO27001 and ISO27701  including, but not limited to:
 
 * A dedicated Security Lead and Data Protection Manager responsible for the operational delivery of information security and data protection in the business
