@@ -37,14 +37,8 @@ In order to migrate PST archives successfully that the profile runs under the SY
 If using clustering then ensure the CloudM Migrate service has access to mapped drives. Confirm you are logged in as nt authority\system. whoami. 
 Run the command to map the drive as system. Launch command prompt as SYSTEM user using psexec - psexec -i -s cmd.exe.
 
-- Replace \\servername\sharedfolder with the UNC path of the folder you wish to map.
-- net use z: \\servername\sharedfolder /persistent:yes
-- Run the below command and take another screenshot.
-- net use
-- Run the below command.
-- z:
-- Run the below command and take another screenshot.
-- dir
-
+- Replace \\servername\sharedfolder with the UNC path of the folder you wish to map `net use z: \\servername\sharedfolder /persistent:yes`
+- Run `net use` command and a screenshot.
+- Run `dir` and take another screenshot.
 
 
