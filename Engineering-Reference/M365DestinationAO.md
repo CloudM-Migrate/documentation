@@ -49,7 +49,7 @@ This document will give an overview on all the Microsoft 365 Destination Advance
 {: .no_toc }
 Default Value: On
 
-SharePoint Migration API is recommended for all migrations to SharePoint Online and OneDrive for Business. For more information see the article here
+SharePoint Migration API is recommended for all migrations to SharePoint Online and OneDrive for Business. For more information see the <a href="https://learn.microsoft.com/en-us/sharepoint/dev/apis/migration-api-overview">article here</a>.
 
 Change Conditions: Disable to use CSOM API which is much slower, not recommended. 
 
@@ -69,7 +69,7 @@ Default: Blank
 
 The name of the Azure storage account.
 
-Change Conditions: Only avialable if the option SharePoint Migration API is enabled and SharePoint Storage is set to Azure Hosted. 
+Change Conditions: Only available if the option SharePoint Migration API is enabled and SharePoint Storage is set to Azure Hosted. 
 
 ### Storage Account Key (dynamic) <a name="storacckey"></a>
 {: .no_toc }
