@@ -1,19 +1,19 @@
 ---
 layout: default
-title: On-Premesis Exchange
+title: On-Premise Exchange
 grand_parent: Endpoint Configuration Guides
 parent: Other Source Endpoints
 nav_order: 9
 ---
 
-## On-Premesis Exchange Endpoint Configuration
+## On-Premise Exchange Endpoint Configuration
 {: .no_toc }
 
 ---
 
 This guide will show how to configure On-Premesis Exchange as a source endpoint.
 
-For On-Premesis Exchange this is defined by the following requirements:
+For On-Premise Exchange this is defined by the following requirements:
 
 <a name="top"></a>
 <details open markdown="block">
