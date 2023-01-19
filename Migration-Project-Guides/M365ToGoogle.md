@@ -26,7 +26,7 @@ Before starting your migration project, make sure you have setup the <a href="ht
 
 ---
 
-## Standard Prestage Migration
+## Standard Pre-stage Migration
 {: .no_toc }
 
 There are multiple approaches available to migrating data with CloudM Migrate. The following approach will prestage email and documents older than 30 days as a batch. This will be followed by a Delta Sync to migrate recent data after your DNS cutover for a complete lossless migration. 
