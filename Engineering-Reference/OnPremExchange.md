@@ -1,19 +1,19 @@
 ---
 layout: default
-title: On-Premesis Exchange
+title: On-Premise Exchange
 grand_parent: Engineering Reference
 parent: Endpoint Options
 nav_order: 9
 ---
 
-## On-Premesis Exchange Endpoint Options
+## On-Premise Exchange Endpoint Options
 {: .no_toc }
 
 ---
 
-This document will give an overview on all the On Premises Exchange Endpoint Options in CloudM Migrate. 
+This document will give an overview on all the On-Premise Exchange Endpoint Options in CloudM Migrate. 
 
-<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/OnPremExchangeSourceAO.html">On Premises Exchange Source Advanced Options</a>
+<a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/OnPremExchangeSourceAO.html">On-Premise Exchange Source Advanced Options</a>
 
 ---
 <a name="top"></a>
