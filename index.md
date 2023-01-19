@@ -30,9 +30,9 @@ Version <a href="https://docs.cloudm.io/Release-Notes/V33817.html">3.38.17</a> o
 
 If business is going well, there’s always another migration ahead. Whether you’re switching vendors, acquiring businesses, or employing more staff; migrations are a regular rite of passage for a company in motion. But they’re risky, because a poorly-executed migration can lead to downtime and data loss.
 
-You need the right tools for the job, and the right hands holding them. Our experts have delivered almost 60 million migrations, for more than 40,000 customers around the world using our trusted cloud migration tool and their knowledge.
+You need the right tools for the job, and the right hands holding them. Our experts have delivered over 70 million migrations, for more than 40,000 customers around the world using our trusted cloud migration tool and their knowledge.
 
-Enjoy a straightforward and user-friendly experience, with a choice of Self Hosted and browser-based interfaces. Or make it even easier with a managed migration and let our experts take care of it for you.
+Enjoy a straightforward and user-friendly experience, with a choice of Self Hosted and browser-based interfaces (Hosted). Or make it even easier with a serviced migration and let our experts take care of it for you.
 
 No need to wait to get the most out of the cloud. Our cloud migration tool lets you speed through the process with scalable infrastructure, multi-threaded architecture and user-friendly features.
 
