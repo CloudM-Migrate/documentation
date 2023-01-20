@@ -6,7 +6,7 @@ has_children: false
 nav_order: 2
 ---
 
-## M365 Troubleshooting
+ M365 Troubleshooting
 {: .no_toc }
 
 ---
