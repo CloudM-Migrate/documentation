@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Teams
+title: 
 parent: Troubleshooting
 has_children: false
 nav_order: 5
