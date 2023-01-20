@@ -6,7 +6,7 @@ has_children: false
 nav_order: 3
 ---
 
-## Google Troubleshooting
+Google Troubleshooting
 {: .no_toc }
 
 ---
