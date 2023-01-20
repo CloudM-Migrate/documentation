@@ -1,6 +1,6 @@
 ---
 layout: default
-title: License
+title: 
 has_children: false
 nav_order: 2
 ---
