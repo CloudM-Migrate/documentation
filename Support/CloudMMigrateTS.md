@@ -3,7 +3,7 @@ layout: default
 title: CloudM Migrate
 parent: Support
 has_children: false
-nav_order: 1
+nav_order: 4
 ---
 
 ## General CloudM Migrate Troubleshooting
