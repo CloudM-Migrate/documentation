@@ -11,8 +11,6 @@ tag: Support
 ## Support
 {: .no_toc }
 
-Answers to commons errors, if it's uncommon <a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
-
 ---
 <a name="top"></a>
 <details open markdown="block">
