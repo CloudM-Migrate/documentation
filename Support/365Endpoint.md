@@ -3,7 +3,7 @@ layout: default
 title: M365
 parent: Support
 has_children: false
-nav_order: 2
+nav_order: 3
 ---
 
 ## M365 Troubleshooting
