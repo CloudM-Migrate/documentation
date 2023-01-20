@@ -3,10 +3,10 @@ layout: default
 title: Traces and Projects
 parent: Support
 has_children: false
-nav_order: 9
+nav_order: 1
 ---
 
-## Traces and Configurations
+## Traces and Proejcts
 {: .no_toc }
 
 ---
