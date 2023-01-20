@@ -6,7 +6,7 @@ has_children: false
 nav_order: 1
 ---
 
-## General CloudM Migrate Troubleshooting
+General CloudM Migrate Troubleshooting
 {: .no_toc }
 
 ---
