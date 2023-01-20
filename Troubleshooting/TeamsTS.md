@@ -6,7 +6,7 @@ has_children: false
 nav_order: 5
 ---
 
-## Teams Troubleshooting
+Teams Troubleshooting
 {: .no_toc }
 
 ---
