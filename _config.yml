@@ -5,7 +5,7 @@ color_scheme: nil
 logo: /assets/cloudmlogo.png
 
 search.button: true
-search.heading_level: 6
+search.heading_level: 1
 
 back_to_top: true
 back_to_top_text: "Back to top"
