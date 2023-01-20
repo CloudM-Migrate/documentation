@@ -1,7 +1,7 @@
 ---
 layout: default
 title: M365
-parent: Troubleshooting
+parent: Support
 has_children: false
 nav_order: 2
 ---
