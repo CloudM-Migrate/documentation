@@ -4,6 +4,7 @@ remote_theme: just-the-docs/just-the-docs
 color_scheme: nil
 logo: /assets/cloudmlogo.png
 
+search_enabled: true
 search.button: true
 search.heading_level: 1
 
