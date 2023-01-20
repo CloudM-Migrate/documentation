@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Traces and Configurations
+title: Traces and Projects
 parent: Support
 has_children: false
 nav_order: 9
@@ -22,7 +22,7 @@ nav_order: 9
 
 ---
 
-### Sending Traces and Project Configs to Support
+### Sending Traces and Projects to Support
 
 Answers to commons errors, if it's uncommon <a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
 
