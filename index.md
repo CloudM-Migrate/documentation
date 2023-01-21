@@ -46,7 +46,7 @@ First use the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-C
 
 This repo can be used as a template for your own migration process. Requirements can differ so the guides will give you a standard migration approach with the ability to fold in functionality. Customize and complete to have your organizational plan and process for migrating. 
 
-All the options are found in the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/EngineeringReference.html">Engineering Reference<a/> and use the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/Troubleshooting.html">Troubleshooting</a> secton for help for known common errors. 
+All the options are found in the <a href="https://cloudm-migrate.github.io/documentation/Engineering-Reference/EngineeringReference.html">Engineering Reference<a/> and use the <a href="https://docs.cloudm.io/Support/Support.html">Support</a> secton for help for known common errors. 
 
 ---  
   
