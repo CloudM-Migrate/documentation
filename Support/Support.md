@@ -9,6 +9,7 @@ tag: Support
 
 ## Support
 {: .no_toc }
+
 Answers to commons errors, if it's uncommon Contact our 24/7 support team.
 
 ---
