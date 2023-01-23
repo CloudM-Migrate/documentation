@@ -30,7 +30,8 @@ For IMAP this is defined by the following requirements:
 ### IMAP Overview
 
 Select the credentials (username and password) of the administrator account within the IMAP environment. 
-When migrating from Gmail to IMAP select less secure apps in order to gain access.
+When migrating from Gmail to IMAP select less secure apps in order to gain access. IMAP will not migrate contacts and calendars this is expected behavior.
+
 
 ---
 
