@@ -2,7 +2,7 @@
 layout: default
 title: Dropbox to Google Workspace
 grand_parent: Migration Project Guides
-parent: Google
+parent: Google Workspace
 nav_order: 3
 has_children: false
 has_toc: false
