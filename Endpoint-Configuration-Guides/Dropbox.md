@@ -66,5 +66,10 @@ If this fails validate the information has been entered correctly.
 
 ### Dropbox Teamspaces
 
-Dropbox has recently made changes to the Team Spaces folders structure an may not appear displayed in purple. Dropbox support should be able to confirm if this is being used in the client's Dropbox enviroment if encountering errors when moving folders during a migration. This is not supported by the CloudM Tool.
+Dropbox has recently made changes to the Team Spaces folders structure an may not appear displayed in purple.  Dropbox team spaces can be identified by running the following curl command:
+
+curl -X POST https://api.dropboxapi.com/2/team/team_folder/list ^ --header "Authorization: Bearer [BearerID] ^ --header "Content-Type: application/json" ^ --data "{\"limit\": 100}"
+
+Note that some Dropbox Business teams use the <a href="https://www.dropbox.com/developers/documentation/http/teams"> Team Space. Accessing its contents requires passing the Dropbox-API-Path-Root header to calls to the<a href="https://www.dropbox.com/developers/documentation/http/teams#documentation"> Dropbox User API.
+
 
