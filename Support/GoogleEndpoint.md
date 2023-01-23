@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 
-parent: Troubleshooting
+title: Google
+parent: Support
 has_children: false
-nav_order: 3
+nav_order: 2
 ---
 
-Google Troubleshooting
+## Google Troubleshooting
 {: .no_toc }
 
 ---

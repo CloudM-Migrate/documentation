@@ -1,17 +1,13 @@
 ---
 layout: default
 title: 
-nav_order: 8
-has_children: true
-has_toc: false
-tag: Troubleshooting
-
+parent: Support
+has_children: false
+nav_order: 1
 ---
 
- Troubleshooting
+Traces and Proejcts
 {: .no_toc }
-
-Answers to commons errors, if it's uncommon <a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
 
 ---
 <a name="top"></a>
@@ -26,23 +22,9 @@ Answers to commons errors, if it's uncommon <a href="https://support.cloudm.io/h
 
 ---
 
-### Service Level Agreement & Response Times
+### Sending Traces and Projects to Support
 
-It is the responsibility of the CloudM Product Support Engineer to determine an appropriate priority and action based on business impact. For urgent issues our response time is 4 hours from the initial receipt of the issue and all other issues is 8 hours.
-
-| Priority level | Response Time| Update Schedule |
-| --- | --- | --- |
-| High | 2 Hours |  24 Hours |
-| Medium | 4 Hours |  36 Hours |
-| Low| 8 Hours |  48 Hours |
-
-### 24-hour Weekend Support 
-
--  Weekend support for P1 issues is a 4-hour response SLA.
--  Support accessible 24/7. 
--  Engineers are located in US, Singapore, UK and utilizes a follow the sun model.
-
-### Sending Traces and Project Configs to Support
+Answers to commons errors, if it's uncommon <a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
 
 To expedite the request please fill out the support ticket with the relevent information about the issue that is occuring. Providing screenshots, trace logs, and configuration files can assist us with providing answers faster. There is not an option to export the configuration from the hosted version of the tool, Support already has access to this information.
 
@@ -55,7 +37,8 @@ To export your Logging and Trace Files:
 - Go to the Projects page with in CloudM Migrate. 
 - Click the Gear Cog icon in the upper right. 
 - Select the Export Configuration icon.
- 
+
+
 #### How to Locate Traces 
 
 When running a self hosted migration the locatation of a trace logs is the C:\ProgramData\Cloud Technology Solutions folder on the primary server.
@@ -95,4 +78,3 @@ Migration logs are written to the secondary node on which the migration occurred
 - Service logs provide information about the management of migrations and communication between system components.
 - Service logs are kept on a rolling basis, the latest has no number.
  
-

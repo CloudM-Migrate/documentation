@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Google Cloud Storage
-parent: Endpoint Configuration Guides
+parent: Other Source Endpoints
+grand_parent: Endpoint Configuration Guides
 nav_order: 10
 ---
 

@@ -1,17 +1,16 @@
 ---
 layout: default
-title: 
+title: Support
 nav_order: 8
 has_children: true
 has_toc: false
-tag: Troubleshooting
-
+tag: Support
 ---
 
- Troubleshooting
+## Support
 {: .no_toc }
 
-Answers to commons errors, if it's uncommon <a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
+Answers to commons errors, if it's uncommon Contact our 24/7 support team.
 
 ---
 <a name="top"></a>
@@ -38,11 +37,13 @@ It is the responsibility of the CloudM Product Support Engineer to determine an 
 
 ### 24-hour Weekend Support 
 
--  Weekend support for P1 issues is a 4-hour response SLA.
+-  Weekend support for P1 issues has a 4-hour response SLA.
 -  Support accessible 24/7. 
--  Engineers are located in US, Singapore, UK and utilizes a follow the sun model.
+-  Engineers are located in the US, APAC, and EMEA regions.
 
-### Sending Traces and Project Configs to Support
+### Sending Traces and Projects to Support
+
+Answers to commons errors, if it's uncommon <a href="https://support.cloudm.io/hc/en-us/requests/new">Contact our 24/7 support team.</a>
 
 To expedite the request please fill out the support ticket with the relevent information about the issue that is occuring. Providing screenshots, trace logs, and configuration files can assist us with providing answers faster. There is not an option to export the configuration from the hosted version of the tool, Support already has access to this information.
 
@@ -55,7 +56,8 @@ To export your Logging and Trace Files:
 - Go to the Projects page with in CloudM Migrate. 
 - Click the Gear Cog icon in the upper right. 
 - Select the Export Configuration icon.
- 
+
+
 #### How to Locate Traces 
 
 When running a self hosted migration the locatation of a trace logs is the C:\ProgramData\Cloud Technology Solutions folder on the primary server.
@@ -95,4 +97,3 @@ Migration logs are written to the secondary node on which the migration occurred
 - Service logs provide information about the management of migrations and communication between system components.
 - Service logs are kept on a rolling basis, the latest has no number.
  
-

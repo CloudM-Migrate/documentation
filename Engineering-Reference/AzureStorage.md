@@ -28,7 +28,7 @@ This document will give an overview on all the Azure Storage Endpoint Options in
 ---
 ### Domain Name
 
-The domain name (see documentation).
+The domain name.
 
 ### Storage Account Name
 

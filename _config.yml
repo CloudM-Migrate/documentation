@@ -4,7 +4,15 @@ remote_theme: just-the-docs/just-the-docs
 color_scheme: nil
 logo: /assets/cloudmlogo.png
 
+search_enabled: true
 search.button: true
+search:
+  # Split pages into sections that can be searched individually
+  # Supports 1 - 6, default: 2
+  heading_level: 1
+  # Maximum amount of previews per search result
+  # Default: 3
+  previews: 1
 
 back_to_top: true
 back_to_top_text: "Back to top"

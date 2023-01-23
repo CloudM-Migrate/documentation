@@ -11,7 +11,7 @@ nav_order: 8
 
 ---
 
-This guide will show how to configure Office 365 as a source or destination endpoint. 
+This guide will show how to configure IMAP as a source endpoint. 
 
 For IMAP this is defined by the following requirements:
 
