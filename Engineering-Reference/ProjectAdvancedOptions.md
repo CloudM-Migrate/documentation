@@ -68,7 +68,7 @@ Default Value: 250
 
 Specify the minimum available system memory in MB required to prevent rate limiting.
 
-Change Conditions: ??
+Change Conditions: Minimum Available Memory can be increased or decreased. Not recommended to change unless instructed by CloudM.
 
 ### Item Export Delay <a name="itemexportdelay"></a>
 {: .no_toc }
@@ -84,7 +84,7 @@ Default Value: Off
 
 If a user migration fails due to a crash, restart the migration. Failures due to none-crash conditions will not be auto-restarted.
 
-Change Conditions: ??
+Change Conditions: When enabled any migration thread that unexpetedly crashes will be restarted automatically.
 
 ### Trace Level <a name="tracelevel"></a>
 {: .no_toc }
@@ -100,7 +100,7 @@ Default Value: 30000
 
 Set the interval between aggregating migration history records in milliseconds.
 
-Change Conditions: ??
+Change Conditions: History interval can be increased or decreased. Can impact performance, not recommended to change.
 
 ### Memory Usage Check <a name="memuse"></a>
 {: .no_toc }
@@ -108,7 +108,7 @@ Default Value: Off
 
 Rate limit the migration using available system memory.
 
-Change Conditions: ??
+Change Conditions: 
 
 ### Simultaneous Migrations per Configuration Limit <a name="simmigateper"></a>
 {: .no_toc }
@@ -116,7 +116,7 @@ Default Value: 0
 
 The number of migrations to run per configuration. Zero turns the setting off. Service level configuration 'Maximum User Migrations' per server will always override this setting.
 
-Change Conditions: ??
+Change Conditions: Can be used to limit the number of threads run per configuration, to below that of the 'Maximum User Migrations' per server setting.
 
 ### Drive Thread Count <a name="drivethread"></a>
 {: .no_toc }
@@ -132,7 +132,7 @@ Default Value: Off
 
 Allow the migration of multiple source items, of the same type, to a single destination item.
 
-Change Conditions: ??
+Change Conditions: When enabled it is possible to specify duplicate import names in the Items page and migrate from multiple sources into one.
 
 ---
 ## Email <a name="email"></a> 
@@ -182,7 +182,7 @@ Default Value: Modified
 
 The label/category to use when labeling modified messages if the 'Label Modified Messages' option has been set.
 
-Change Conditions: ??
+Change Conditions: The label name for modified messages can be entered.
 
 ### Message Labels <a name="messagelabel"></a>
 {: .no_toc }
@@ -230,7 +230,7 @@ Default Value: On
 
 Attempt to modify messages if they are oversized or have bad attachments before importing to the destination system.
 
-Change Conditions: ??
+Change Conditions: If disabled any invalid messages (headers, size etc.) will not be modified and will fail to import.
 
 ### Label Modified Messages <a name="labelmodified"></a>
 {: .no_toc }
@@ -254,7 +254,7 @@ Default Value: None
 
 The name of the base folder when using 'Archive Folder Structure'.
 
-Change Conditions: ??
+Change Conditions: The name of the folder used for 'Archive Folder Structure' an be entered.
 
 ---
 ## Contact
@@ -277,7 +277,7 @@ Default Value: Off
 
 Do not process contacts that may have been created with Quest Migration Manager.
 
-Change Conditions: ??
+Change Conditions: Can be enabled if a previous migration has been performed to the source with Quest Migration Manager, to disable to processing of migration-related contact objects.
 
 ---
 ## Calendar
@@ -312,7 +312,7 @@ Default Value:
 
 The prefix ID to apply to appointment Common IDs.
 
-Change Conditions: ??
+Change Conditions: An ID prefix can be added to calendar event IDs to prevent conflicts. A custom ID prefix can be added here.
 
 ### Shared Calendar Information <a name="sharedcalendarinfo"></a>
 {: .no_toc }
@@ -328,7 +328,7 @@ Default Value: Off
 
 Prefix the common appointment ID (ICAL UID) to prevent ID clashes between systems. Turn off when performing calendar co-existence.
 
-Change Conditions: ??
+Change Conditions: Enable to apply the prefix ID.
 
 ### Send Calendar Sharing Notifications <a name="sendcalendarsharing"></a>
 {: .no_toc }
@@ -336,7 +336,7 @@ Default Value: Off
 
 Send notifications on calendar sharing change.
 
-Change Conditions: ??
+Change Conditions: Enable to send calendar sharing notifications.
 
 ---
 ## Document
@@ -380,7 +380,7 @@ Default Value: File Created Date
 
 When 'Migrate Files From' - 'Migrate Files To' ranges are set, filter files based on this selection.
 
-Change Conditions: ??
+Change Conditions: Set the file date range filter to use the creation date or last modified date.
 
 ### File Extensions/MIME Type Include <a name="fileexeinclude"></a>
 {: .no_toc }
@@ -433,7 +433,7 @@ Default Value: All
 
 Specify the list of file extensions, one per line in the format '.ext', that will be migrated from email attachments (*.* for all).
 
-Change Conditions: ??
+Change Conditions: File extension types can be added.
 
 ### Drop Migrated Attachments <a name="dropmigrateattach"></a>
 {: .no_toc }
@@ -506,15 +506,13 @@ Default Value: None
 
 Specify a path to a CSV file containing replacement values to modify email addresses for appointments and contacts during migration. To perform no replacements, do not specify a file.
 
-Change Conditions: 
-
 ### Non-Matched Address Replacement Behaviour <a name="nonmatchreplace"></a>
 {: .no_toc }
 Default Value: Retain Original Address
 
 When 'Replace Usernames' is enabled, and a CSV has been provided for address replacement, set the behaviour when an address has not been matched. Either replace the domain name of the address, or leave the original address.
 
-Change Conditions: ??
+Change Conditions: Disable to not perform replacements using the migration userlist.
 
 ### Replace CSV Addresses Only <a name="replacecsvonly"></a>
 {: .no_toc }
@@ -593,15 +591,13 @@ Default Value: None
 
 Specify the path to an image file which can optionally replace the default one in reports.
 
-Change Conditions: 
-
 ### Create Migration Report <a name="createreport"></a>
 {: .no_toc }
 Default Value: On
 
 Create report(s) when the migration completes. This process can take some time.
 
-Change Conditions: 
+Change Conditions: Turn off to not create migration reports.
 
 ### Error Reason Modifications <a name="errormod"></a>
 {: .no_toc }
@@ -609,7 +605,7 @@ Default Value: ??
 
 Specify replacement values for error messages in user reports.
 
-Change Conditions: ??
+Change Conditions: Specify a list of replacement values for error messages in the reports.
 
 ### Include Document Mappings in Report <a name="includedocmap"></a>
 {: .no_toc }
@@ -617,7 +613,7 @@ Default Value: Off
 
 If true, write a CSV file containing recorded document mappings for migrated Drive items.
 
-Change Conditions: 
+Change Conditions: Turn on to record document mappings.
 
 ### Report Title <a name="reporttitle"></a>
 {: .no_toc }
@@ -649,7 +645,7 @@ Default Value: Off
 
 Write CSV report files as each user migration completes rather than at the end of all migrations.
 
-Change Conditions: ??
+Change Conditions: Turn on to create reports at the end of each individual migration.
 
 ---
 ## Proxy
@@ -666,15 +662,11 @@ Default Value: None
 
 Specify the proxy type to use: 'Default' for the default system proxy; or ‘Explicit’ to specify a proxy. Changing this option may require a restart of CloudM Migrate.
 
-Change Conditions: 
-
 ### Username <a name="user"></a>
 {: .no_toc }
 Default Value: None
 
 The username for the specified non-default proxy (optional).
-
-Change Conditions: 
 
 ### Address <a name="address"></a>
 {: .no_toc }
@@ -682,15 +674,11 @@ Default Value: None
 
 The address of the proxy that will be used to perform migrations that require HTTP. For example, http://my.proxy.com:8080.
 
-Change Conditions: 
-
 ### Password <a name="password"></a>
 {: .no_toc }
 Default Value: None
 
 The password for the specified non-default proxy (optional)
-
-Change Conditions: 
 
 ---
 ## Virtru
@@ -711,7 +699,7 @@ Default Value: Off
 
 Enable Virtru encryption for migrated emails.
 
-Change Conditions: ??
+Change Conditions: Turn on to enable Virtru encryption of migrated items.
 
 ### Virtru Default Policy Owner Email Address <a name="defaultowneremail"></a>
 {: .no_toc }
@@ -719,7 +707,7 @@ Default Value: None
 
 Specify the default policy owner email address for Virtru encryption.
 
-Change Conditions: ??
+Change Conditions: Enter a policy owner.
 
 ### Virtru Secret <a name="virtsecret"></a>
 {: .no_toc }
@@ -727,15 +715,11 @@ Default Value: None
 
 Specify the Virtru Secret, obtained from Virtru.
 
-Change Conditions: ??
-
 ### Include Folders <a name="includefold"></a>
 {: .no_toc }
 Default Value: None
 
 When using Virtru to encrypt messages encrypt only those in the specified folders. Leave empty to encrypt all messages.
-
-Change Conditions: ??
 
 ### Migration Domains <a name="migratedom"></a>
 {: .no_toc }
@@ -743,15 +727,11 @@ Default Value: None
 
 Specify the list of migration domains to provide for Virtru encryption.
 
-Change Conditions: ??
-
 ### Virtru Token ID <a name="tokenid"></a>
 {: .no_toc }
 Default Value: None
 
 Specify the Virtru Token ID, obtained from Virtru.
-
-Change Conditions: ??
 
 ### Virtru Organization Public Key <a name="publickey"></a>
 {: .no_toc }
@@ -759,12 +739,8 @@ Default Value: None
 
 Specify the Virtru Public Key, optional and obtained from Virtru.
 
-Change Conditions: ??
-
 ### Include Categories <a name="includecat"></a>
 {: .no_toc }
 Default Value: None
 
 When using Virtru to encrypt messages encrypt those only tagged with the specified categories. Leave empty to encrypt all messages.
-
-Change Conditions: ??
