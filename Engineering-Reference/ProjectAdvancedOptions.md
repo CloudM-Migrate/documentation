@@ -84,7 +84,7 @@ Default Value: Off
 
 If a user migration fails due to a crash, restart the migration. Failures due to none-crash conditions will not be auto-restarted.
 
-Change Conditions: When enabled, any migration thread that unexpetedly crashes will be restarted automatically.
+Change Conditions: When enabled any migration thread that unexpetedly crashes will be restarted automatically.
 
 ### Trace Level <a name="tracelevel"></a>
 {: .no_toc }
@@ -132,7 +132,7 @@ Default Value: Off
 
 Allow the migration of multiple source items, of the same type, to a single destination item.
 
-Change Conditions: When enabled, it is possible to specify duplicate import names in the Items page and migrate from multiple sources into one.
+Change Conditions: When enabled it is possible to specify duplicate import names in the Items page and migrate from multiple sources into one.
 
 ---
 ## Email <a name="email"></a> 
@@ -230,7 +230,7 @@ Default Value: On
 
 Attempt to modify messages if they are oversized or have bad attachments before importing to the destination system.
 
-Change Conditions: If disabled, any invalid messages (headers, size etc.) will not be modified and will fail to import.
+Change Conditions: If disabled any invalid messages (headers, size etc.) will not be modified and will fail to import.
 
 ### Label Modified Messages <a name="labelmodified"></a>
 {: .no_toc }
