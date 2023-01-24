@@ -61,7 +61,7 @@ Microsoft’s Import Migration API requires the use of an Azure container for te
 
 CloudM takes a snapshot of your destination using the Export Migration API which utilises storage containers. 'Storage Account Name' and 'Storage Account Key' are required for both (Office 365 and Azure Hosted).
 
-Change Conditions: Only avialable if the option SharePoint Migration API is enabled.
+Change Conditions: Only available if the option SharePoint Migration API is enabled.
 
 ### Storage Account Name (dynamic) <a name="stoaccname"></a>
 {: .no_toc }
@@ -77,7 +77,7 @@ Default: Blank
 
 The access key for the Azure storage account.
 
-Change Conditions: Only avialable if the option SharePoint Migration API is enabled and SharePoint Storage is set to Azure Hosted. 
+Change Conditions: Only available if the option SharePoint Migration API is enabled and SharePoint Storage is set to Azure Hosted. 
 
 ### Retry Backoff (seconds) <a name="sretryback"></a>
 {: .no_toc }
@@ -85,7 +85,7 @@ Default Value: 3
 
 SharePoint Migration API Retry Backoff in seconds.
 
-Change Conditions: ??
+Change Conditions: Retry backoff time can be changed. Can cause performance issues, not recommended.
 
 ### SharePoint Admin Url <a name="shareadurl"></a>
 {: .no_toc }
@@ -93,15 +93,13 @@ Default Value: None
 
 The Url for the SharePoint admin center e.g. https://tenant-admin.sharepoint.com
 
-Change Conditions: ??
-
 ### Timeout <a name="stimeout"></a>
 {: .no_toc }
 Default Value: 1800000
 
 The timeout that will apply to communications with the SharePoint server.
 
-Change Conditions: ??
+Change Conditions: Timeout value (miliseconds) can be changed. Can cause performance issues, not recommended.
 
 ### Preserve File Created and Modified Dates <a name="persfilemoddate"></a>
 {: .no_toc }
@@ -109,7 +107,7 @@ Default Value: On
 
 Preserve the Original File Created and Modified Dates.
 
-Change Conditions: ??
+Change Conditions: Disable to not preserve creation and modified dates of migrated files.
 
 ### Provision Sites <a name="provsites"></a>
 {: .no_toc }
@@ -117,7 +115,7 @@ Default Value: On
 
 Provision any Sites that do not exist.
 
-Change Conditions: ??
+Change Conditions: Disable to to provision Sharepoint sites.
 
 ### Hybrid Environment <a name="hybridenv"></a>
 {: .no_toc }
@@ -125,15 +123,15 @@ Default Value: On
 
 Allows a custom 'SharePoint Admin Url' and 'SharePoint My Sites Url' to be entered for hybrid migration.
 
-Change Conditions: ??
-
 ### SharePoint Storage <a name="sharstor"></a>
 {: .no_toc }
 Default Value: Office 365
 
-Choose whether the document should be shared as per the source file ACLs if they can be resolved to email addresses (see documentation).
+Microsoft’s Import Migration API requires the use of an Azure container for temporary storage. When (Office 365) is selected files and manifests will be uploaded to containers provided by Microsoft. Azure Hosted allows you to provide your own storage/containers.
 
-Change Conditions: ??
+CloudM takes a snapshot of your destination using the Export Migration API which utilises storage containers. 'Storage Account Name' and 'Storage Account Key' are required for both (Office 365 and Azure Hosted).
+
+Change Conditions: Choose the storage used, Office 365 or Azure Hosted.
 
 ### Retry Count <a name="sretry"></a>
 {: .no_toc }
@@ -141,7 +139,7 @@ Default Value: 20
 
 SharePoint Migration API Retry Count
 
-Change Conditions: ??
+Change Conditions: Retry count can be changed. Can cause performance issues, not recommended.
 
 ### Retry Count <a name="sfretry"></a>
 {: .no_toc }
@@ -149,7 +147,7 @@ Default Value: 10
 
 The number of times an operation will be attempted before failing.
 
-Change Conditions: ??
+Change Conditions: Retry count can be changed. Can cause performance issues, not recommended.
 
 ### Truncate Folders and Files <a name="trunfoldfil"></a>
 {: .no_toc }
@@ -157,7 +155,7 @@ Default Value: On
 
 Attempt to truncate folders and files to fall within the 400 characters limit.
 
-Change Conditions: ??
+Change Conditions: If disabled, any folders and files with a path that exceeds Sharepoint's 400 character limit will fail to migrate.
 
 ### Orphaned Items Folder <a name="orphfold"></a>
 {: .no_toc }
@@ -173,7 +171,7 @@ Default Value: 180000
 
 The maximum period of time used to check if a OneDrive site has been provisioned.
 
-Change Conditions: ??
+Change Conditions: Timeout value can be changed. Can cause performance issues, not recommended.
 
 ### Patch Permissions <a name="patchperm"></a>
 {: .no_toc }
@@ -181,7 +179,7 @@ Default Value: None
 
 Add/Update/Delete permissions for existing items. If disabled, only new permissions will be applied to existing items (see documentation).
 
-Change Conditions: ??
+Change Conditions: When enabled all permissions will be completely reapplied when performing delta migrations.
 
 ---
 ## Email
@@ -198,7 +196,7 @@ Default Value: 52428800
 
 The maximum message size (in bytes) that will be migrated.
 
-Change Conditions: ??
+Change Conditions: The maximum message size can be increased or decreased to allow or prevent emails above or below that size migrating.
 
 ### Use Chunked HTTP Web Requests <a name="usehttpweb"></a>
 {: .no_toc }
@@ -206,7 +204,7 @@ Default Value: Off
 
 When creating Mail items in Exchange, use HTTP web request chunking to increase performance. WARNING: some hosted Exchange environments do not support this method of communication.
 
-Change Conditions: ??
+Change Conditions: When enabled, chunked HTTP web requests will be used. Not recommended unless advised.
 
 ### Strip Received Headers <a name="striprechead"></a>
 {: .no_toc }
@@ -214,7 +212,7 @@ Default Value: Off
 
 Strip any 'Received' headers and add a single 'Received' header with a value the same as the 'Date' header.
 
-Change Conditions: ??
+Change Conditions: Enable to reokace received headers with the date.
 
 ### Recoverable Items Destination <a name="recovitemdes"></a>
 {: .no_toc }
@@ -222,7 +220,7 @@ Default Value: Recoverable Items
 
 When migrating items from the recoverable items folders, choose whether to place them in Recoverable Items or in the Mailbox.
 
-Change Conditions: ??
+Change Conditions: The default migrated recoverable items as is. Select Mailbox to rehyrate recoverable items into the mailbox.
 
 ---
 ## Calendar
@@ -237,7 +235,7 @@ Default Value: Gmt
 
 The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
 
-Change Conditions: ??
+Change Conditions: In the rare event that a calendar event does not have a timezone associated with it, the default zone selected here will be applied to ensure the item can be migrated.
 
 ### Exchange 2010/Office 365 Calendar Timezone <a name="exc2010cal"></a>
 {: .no_toc }
@@ -245,7 +243,7 @@ Default Value: GMT Stadard Time
 
 The default timezone to use with appointments when migrating to Exchange 2010/Office 365 when the timezone is not identified by other means.
 
-Change Conditions: ??
+Change Conditions: In the rare event that a calendar event does not have a timezone associated with it, the default zone selected here will be applied to ensure the item can be migrated.
 
 ---
 ## Calendar Appointments
@@ -258,8 +256,6 @@ Change Conditions: ??
 Default Value: Undefined
 
 Identifies how the appointment body content is formatted. If left undefined it will be assigned based on appointment HtmlContent or TextContent properties. If set to 'Best' the body will be formatted based on the richest available content.
-
-Change Conditions: ??
 
 ---
 ## Microsoft Teams/Group 
@@ -284,7 +280,7 @@ Default Value: 1800000
 
 The timeout for operations with the server.
 
-Change Conditions: ??
+Change Conditions: Timeout value can be changed. Can cause performance issues, not recommended.
 
 ### Maximum Results Per Request <a name="maxresreq"></a>
 {: .no_toc }
@@ -292,7 +288,7 @@ Default Value: 999
 
 The maximum number of results to return for individual queries.
 
-Change Conditions: ??
+Change Conditions: Value can be changed. Can cause performance issues, not recommended.
 
 ### Provision Office 365 Group Timeout Check <a name="prov365time"></a>
 {: .no_toc }
@@ -300,15 +296,13 @@ Default Value: 600000
 
 The maximum period of time used to check if an Office 365 Group has been created.
 
-Change Conditions: ??
+Change Conditions: Timeout value can be changed. Can cause performance issues, not recommended.
 
 ### Default Document Library Name <a name="defdoclib"></a>
 {: .no_toc }
 Default Value: Documents
 
-The default timezone to use with appointments when migrating to Exchange 2007 when the timezone is not identified by other means.
-
-Change Conditions: ??
+When migrating Microsoft Teams and Microsoft Groups and the source platform is not Office 365 or SharePoint On Premise, documents will be migrated to this library
 
 ### Teams Direct Migration <a name="teamdirmig"></a>
 {: .no_toc }
@@ -316,55 +310,49 @@ Default Value: Off
 
 If the Teams site does not exist in the destination, keep this off so the migration uses a Prestage Teams location. This is a faster migration and more user friendly. If the destination Team site already exists, turn this on to prevent an error from occuring.
 
-Change Conditions: ??
-
 ### Migrate Team Channel Tabs <a name="migteamtab"></a>
 {: .no_toc }
 Default Value: Off
 
 Migrate Team channel tabs such as: Web, Document (Word, Excel, PDF, Powerpoint). For more information, see article 'Team Channel Tabs'
 
-Change Conditions: ??
+Change Conditions: Disable to prevent migration of tabs.
 
 ### Retry Count <a name="tretryc"></a>
 {: .no_toc }
-Default Value: Gmt
+Default Value: 10
 
 The number of times an operation will be attempted before failing.
 
-Change Conditions: ??
+Change Conditions: Value can be changed. Can cause performance issues, not recommended.
 
 ### Create Office 365 Group <a name="crea365grou"></a>
 {: .no_toc }
-Default Value: Gmt
+Default Value: On
 
 Create Office 365 Group if it does not exist.
 
-Change Conditions: ??
+Change Conditions: Turn off to not create groups.
 
 ### Test Office 365 Group Email <a name="test365gemail"></a>
 {: .no_toc }
-Default Value: Gmt
+Default Value: none
 
 The email address of an Office 365 Group that already exists.
 
-Change Conditions: ??
+Change Conditions: Specify an address used to verify 365 Group settings.
 
 ### Chat Message Library Name <a name="chatmeslib"></a>
 {: .no_toc }
-Default Value: Gmt
+Default Value: Documents
 
 When migrating 'Microsoft Teams' and 'Export Chat Message Type' is set to 'Document' or 'Email and Document', the channel conversation history document will be migrated to this library.
 
-Change Conditions: ??
-
 ### Finalize Teams Direct Migration <a name="finteamdir"></a>
 {: .no_toc }
-Default Value: Gmt
+Default Value: Off
 
 Mark Teams Direct Migration as completed. Migrating Teams data with this option enabled will take Team out of the migration mode. This option opens the team and channel resources for general use by team members. No further migrations can be performed against finalized team.
-
-Change Conditions: ??
 
 ### Rehydrate Teams Private Chats <a name="rehydpichat"></a>
 {: .no_toc }
@@ -372,7 +360,7 @@ Default: On
 
 Update Teams Private Chats with latest 10 exported messages
 
-Change Conditions: ??
+Change Conditions: Turn off to disable the migration of private chats.
 
 ---
 ## Public Folders
@@ -387,7 +375,7 @@ Default Value: On
 
 Nest Public Folders under a specific top-level Public Folder.
 
-Change Conditions: ??
+Change Conditions: Turn off to not migrate folder nesting.
 
 ### Nested Public Folder Name <a name="nestpubfolna"></a>
 {: .no_toc }
@@ -395,7 +383,7 @@ Default Value: Top Level Folder
 
 The name of the top-level Public Folder under which other Public Folders will be nested if 'Nest Public Folders' is true.
 
-Change Conditions: ??
+Change Conditions: Custom top level folder name can be entered.
 
 ---
 ## Authentication
@@ -410,15 +398,11 @@ Default Value: Microsoft Exchange 2019
 
 The version of the Exchange destination platform.
 
-Change Conditions: ??
-
 ### Use Workstation Credentials <a name="useworkcred"></a>
 {: .no_toc }
 Default Value: Off
 
 Use the credentials of the logged in user of the workstation to perform migrations rather than the provided username and password. The admin username and password is still required for auto-discovery.
-
-Change Conditions: ??
 
 ---
 ## Transfer and Performance
@@ -433,9 +417,9 @@ Change Conditions: ??
 {: .no_toc }
 Default Value: 10
 
-The version of the Exchange destination platform.
+The number of times an operation will be attempted before failing.
 
-Change Conditions: ??
+Change Conditions: Value can be changed. Can cause performance issues, not recommended.
 
 ### Timeout <a name="tptimeout"></a>
 {: .no_toc }
@@ -443,7 +427,7 @@ Default Value: 1200000
 
 The timeout that will apply to communications with the Exchange server.
 
-Change Conditions: ??
+Change Conditions: Value can be changed. Can cause performance issues, not recommended.
 
 ### Max Wait Time <a name="maxwaitt"></a>
 {: .no_toc }
@@ -451,7 +435,7 @@ Default Value: 120000
 
 Specify the maximum time that a wait operation can wait between exponential backoff retry attempts.
 
-Change Conditions: ??
+Change Conditions: Value can be changed. Can cause performance issues, not recommended.
 
 ### Use X-AnchorMailbox Header <a name="uxauthhead"></a>
 {: .no_toc }
@@ -459,7 +443,7 @@ Default Value: On
 
 When using application impersonation, use the X-AnchorMailbox header to improve performance.
 
-Change Conditions: ??
+Change Conditions: Turn off to not use the X-AnchorMailbox header in import requests. Not recommended.
 
 ---
 ## PowerShell
@@ -481,15 +465,11 @@ Default Value: [!ps-url]:https://ps.outlook.com/PowerShell-LiveID;[!o365-locatio
 
 The collection of user-defined substitution variables that can be used in PowerShell scripts.
 
-Change Conditions: ??
-
 ### PowerShell Init Script <a name="psinits"></a>
 {: .no_toc }
 Default Value: # Set this so that errors are thrown from Cmdlets
 
 The PowerShell script that will be run once at the start of a migration.
-
-Change Conditions: ??
 
 ### PowerShell Before Script <a name="psbefore"></a>
 {: .no_toc }
@@ -497,15 +477,11 @@ Default Value: # Set this so that errors are thrown from Cmdlets
 
 The PowerShell script that will be run at the beginning of every user migration.
 
-Change Conditions: ??
-
 ### PowerShell After Script <a name="psafter"></a>
 {: .no_toc }
 Default Value: None
 
 The PowerShell script that will be run at the end of every user migration.
-
-Change Conditions: ??
 
 ### PowerShell Finalize Script <a name="psfinal"></a>
 {: .no_toc }
@@ -513,15 +489,11 @@ Default Value: try{Get-PSSession | Remove-PSSession}catch
 
 The PowerShell script that will be run when all migrations have been completed.
 
-Change Conditions: ??
-
 ### Run PowerShell Init Script <a name="runpsinit"></a>
 {: .no_toc }
 Default Value: Never
 
 Choose whether to run the PowerShell initialisation script. This script will be run once only per migration (not once per user).
-
-Change Conditions: ??
 
 ### Run PowerShell Before Script <a name="runpsbefore"></a>
 {: .no_toc }
@@ -529,21 +501,15 @@ Default Value: Never
 
 Choose whether to run the PowerShell before script. This script will be run at the start of every user migration.
 
-Change Conditions: ??
-
 ### Run PowerShell After Script <a name="runpsafter"></a>
 {: .no_toc }
 Default Value: Never
 
 Choose whether to run the PowerShell after script. This script will be run at the end of every user migration.
 
-Change Conditions: ??
-
 ### Run PowerShell Finalize Script <a name="runpsfin"></a>
 {: .no_toc }
 Default Value: Always
 
 Choose whether to run the PowerShell finalize script. This script will be run when all migrations have completed.
-
-Change Conditions: ??
 
