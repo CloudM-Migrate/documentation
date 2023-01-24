@@ -41,7 +41,7 @@ If this fails validate the information has been entered correctly.
 ---
 ### Migrating to Google Workspace Section 
  
-To migrate files to Google Drive, check the Drive checkbox for each user. For Google as the destination refer to the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/GoogleTenant.html">Google Tenant Endpoint Configuration</a>
+To migrate files to Google Drive, check the Drive checkbox for each user. For Google as the destination refer to the <a href="https://docs.cloudm.io/Endpoint-Configuration-Guides/GoogleTenant.html">Google Tenant Endpoint Configuration</a>
 
 To migrate files to a Google Workspace Team Drive, either select the item you wish to migrate and select **Migrate as Team Drive** from the actions menu or specify the import type as **Team Drive** when adding an item.
 
@@ -56,7 +56,7 @@ To improve performance to Team Drives, configure multiple managers to perform th
 
 ### Migrating to Microsoft 0365 Section
 
-For Microsoft as the destination refer to to the <a href="https://cloudm-migrate.github.io/documentation/Endpoint-Configuration-Guides/O365Tenant.html">0365 Tenant Endpoint Configuration</a>
+For Microsoft as the destination refer to to the <a href="https://docs.cloudm.io/Endpoint-Configuration-Guides/O365Tenant.html">0365 Tenant Endpoint Configuration</a>
 
 Enter the users full email address within the Export Name field. If this has already been created please use the Office 365 users you will need to enter their username.
 
@@ -66,5 +66,10 @@ If this fails validate the information has been entered correctly.
 
 ### Dropbox Teamspaces
 
-Dropbox has recently made changes to the Team Spaces folders structure an may not appear displayed in purple. Dropbox support should be able to confirm if this is being used in the client's Dropbox enviroment if encountering errors when moving folders during a migration. This is not supported by the CloudM Tool.
+Dropbox has recently made changes to the Team Spaces folders structure an may not appear displayed in purple.  Dropbox team spaces can be identified by running the following curl command:
+
+`curl -X POST https://api.dropboxapi.com/2/team/team_folder/list ^ --header "Authorization: Bearer [BearerID] ^ --header "Content-Type: application/json" ^ --data "{\"limit\": 100}"`
+
+Note that some Dropbox Business teams use the <a href="https://www.dropbox.com/developers/documentation/http/teams">Team Space</a>. Accessing its contents requires passing the Dropbox-API-Path-Root header to calls to the <a href="https://www.dropbox.com/developers/documentation/http/teams#documentation">Dropbox User API</a>.
+
 
