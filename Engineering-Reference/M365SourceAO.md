@@ -43,7 +43,7 @@ Default Value: Off
 
 SharePoint Migration API is recommended for all migrations to SharePoint Online and OneDrive for Business. For more information see the article here.
 
-Change Conditions: Turn on to use the SharePoint Migration API
+Change Conditions: Turn on to use the CSOM API instead of the Migration API. Not recommended unless instructed by support.
 
 ### SharePoint Admin Url <a name="sharepointadmin"></a>
 {: .no_toc }
@@ -83,7 +83,7 @@ Default Value: Share Documents
 
 Choose whether the document should be shared as per the source file ACLs if they can be resolved to email addresses (see documentation).
 
-Change Conditions: Select 'No Sharing' to prevent the migration of file/folder permissions or 'Share Documents and Send Notifications' to migrate permissions *and* send email notifications to recipients.
+Change Conditions: Select 'No Sharing' to prevent the migration of file/folder permissions other than the owner or 'Share Documents and Send Notifications' to migrate permissions *and* send email notifications to recipients.
 
 ### Default Document Library Name <a name="defdoclibnam"></a>
 {: .no_toc }
@@ -175,7 +175,7 @@ Default Value: Off
 
 Exclude additional email addresses (aliases) when resolving a Group GAL contact.
 
-Change Conditions: Turn on to exclude alias addresses in GAL contacts.
+Change Conditions: Turn on to resolve alias addresses in a group or off to just use the group alias.
 
 ---
 ## Calendar
@@ -344,7 +344,7 @@ Default Value: On
 
 Migrate user Out Of Office settings.
 
-Change Conditions: Turn off to disable migration of account OoO settings.
+Change Conditions: Turn off to disable migration of account out of office settings.
 
 ### Migrate Signature <a name="migsig"></a>
 {: .no_toc }
