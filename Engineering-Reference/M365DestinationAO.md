@@ -85,7 +85,7 @@ Default Value: 3
 
 SharePoint Migration API Retry Backoff in seconds.
 
-Change Conditions: Retry backoff time can be changed. Can cause performance issues, not recommended.
+Change Conditions: Retry backoff time can be changed. Can cause performance issues, not recommended to change unless instructed by support.
 
 ### SharePoint Admin Url <a name="shareadurl"></a>
 {: .no_toc }
@@ -99,7 +99,7 @@ Default Value: 1800000
 
 The timeout that will apply to communications with the SharePoint server.
 
-Change Conditions: Timeout value (miliseconds) can be changed. Can cause performance issues, not recommended.
+Change Conditions: Timeout value (miliseconds) can be changed. Can cause performance issues, not recommended to be changed unless instructed by support.
 
 ### Preserve File Created and Modified Dates <a name="persfilemoddate"></a>
 {: .no_toc }
@@ -107,7 +107,7 @@ Default Value: On
 
 Preserve the Original File Created and Modified Dates.
 
-Change Conditions: Disable to not preserve creation and modified dates of migrated files.
+Change Conditions: If disabled the creation and modified dates will not be migrated.
 
 ### Provision Sites <a name="provsites"></a>
 {: .no_toc }
@@ -115,7 +115,7 @@ Default Value: On
 
 Provision any Sites that do not exist.
 
-Change Conditions: Disable to to provision Sharepoint sites.
+Change Conditions: Disable to not provision Sharepoint sites.
 
 ### Hybrid Environment <a name="hybridenv"></a>
 {: .no_toc }
@@ -131,7 +131,7 @@ Microsoft’s Import Migration API requires the use of an Azure container for te
 
 CloudM takes a snapshot of your destination using the Export Migration API which utilises storage containers. 'Storage Account Name' and 'Storage Account Key' are required for both (Office 365 and Azure Hosted).
 
-Change Conditions: Choose the storage used, Office 365 or Azure Hosted.
+Change Conditions: Choose the storage used, Office 365 free storage account or Azure Hosted.
 
 ### Retry Count <a name="sretry"></a>
 {: .no_toc }
@@ -139,7 +139,7 @@ Default Value: 20
 
 SharePoint Migration API Retry Count
 
-Change Conditions: Retry count can be changed. Can cause performance issues, not recommended.
+Change Conditions: Retry count can be changed. Can cause performance issues, not recommended unless instructed by support.
 
 ### Retry Count <a name="sfretry"></a>
 {: .no_toc }
@@ -147,7 +147,7 @@ Default Value: 10
 
 The number of times an operation will be attempted before failing.
 
-Change Conditions: Retry count can be changed. Can cause performance issues, not recommended.
+Change Conditions: Retry count can be changed. Can cause performance issues, not recommended unless instructed by support.
 
 ### Truncate Folders and Files <a name="trunfoldfil"></a>
 {: .no_toc }
@@ -212,7 +212,7 @@ Default Value: Off
 
 Strip any 'Received' headers and add a single 'Received' header with a value the same as the 'Date' header.
 
-Change Conditions: Enable to reokace received headers with the date.
+Change Conditions: Enable to replace received headers with the date.
 
 ### Recoverable Items Destination <a name="recovitemdes"></a>
 {: .no_toc }
@@ -220,7 +220,7 @@ Default Value: Recoverable Items
 
 When migrating items from the recoverable items folders, choose whether to place them in Recoverable Items or in the Mailbox.
 
-Change Conditions: The default migrated recoverable items as is. Select Mailbox to rehyrate recoverable items into the mailbox.
+Change Conditions: The default migrates recoverable items as is. Select 'Mailbox' to rehyrate recoverable items into the mailbox.
 
 ---
 ## Calendar
@@ -280,7 +280,7 @@ Default Value: 1800000
 
 The timeout for operations with the server.
 
-Change Conditions: Timeout value can be changed. Can cause performance issues, not recommended.
+Change Conditions: Timeout value can be changed. Can cause performance issues, not recommended unless instructed by support.
 
 ### Maximum Results Per Request <a name="maxresreq"></a>
 {: .no_toc }
@@ -288,7 +288,7 @@ Default Value: 999
 
 The maximum number of results to return for individual queries.
 
-Change Conditions: Value can be changed. Can cause performance issues, not recommended.
+Change Conditions: Value can be changed. Can cause performance issues, not recommended unless instructed by support.
 
 ### Provision Office 365 Group Timeout Check <a name="prov365time"></a>
 {: .no_toc }
@@ -296,13 +296,13 @@ Default Value: 600000
 
 The maximum period of time used to check if an Office 365 Group has been created.
 
-Change Conditions: Timeout value can be changed. Can cause performance issues, not recommended.
+Change Conditions: Timeout value can be changed. Can cause performance issues, not recommended unless instructed by support.
 
 ### Default Document Library Name <a name="defdoclib"></a>
 {: .no_toc }
 Default Value: Documents
 
-When migrating Microsoft Teams and Microsoft Groups and the source platform is not Office 365 or SharePoint On Premise, documents will be migrated to this library
+When migrating Microsoft Teams and Microsoft Groups, documents will be migrated to this library
 
 ### Teams Direct Migration <a name="teamdirmig"></a>
 {: .no_toc }
@@ -316,7 +316,7 @@ Default Value: Off
 
 Migrate Team channel tabs such as: Web, Document (Word, Excel, PDF, Powerpoint). For more information, see article 'Team Channel Tabs'
 
-Change Conditions: Disable to prevent migration of tabs.
+Change Conditions: Disable to prevent migration of Microsoft Teams tabs.
 
 ### Retry Count <a name="tretryc"></a>
 {: .no_toc }
@@ -330,7 +330,7 @@ Change Conditions: Value can be changed. Can cause performance issues, not recom
 {: .no_toc }
 Default Value: On
 
-Create Office 365 Group if it does not exist.
+Create Office 365 Group if it does not exist. If a group is exists in the source but not in the destination and this is turned off the migration will fail.
 
 Change Conditions: Turn off to not create groups.
 
@@ -360,7 +360,7 @@ Default: On
 
 Update Teams Private Chats with latest 10 exported messages
 
-Change Conditions: Turn off to disable the migration of private chats.
+Change Conditions: Turn off to disable the migration of Microsoft Teams 1-to-1 and 1-to-many private chats
 
 ---
 ## Public Folders
