@@ -22,7 +22,7 @@ Version <a href="https://docs.cloudm.io/Release-Notes/V33817.html">3.38.17</a> o
 ### Data Migration for Microsoft 365 and Google Workspace
 
 - Move to Microsoft 365 and Google Workspace
-- Migrate from 20+ Source Platforms
+- Migrate from 20+ Source Endpoints
 - Serviced Migrations
 - Pre-migration Assessment
 - Multiple Deployment Options
