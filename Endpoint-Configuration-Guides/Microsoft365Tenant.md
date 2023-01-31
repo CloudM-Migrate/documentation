@@ -55,7 +55,7 @@ CloudM Migrate will test the connectivity with a Test Mailbox. Specify a typical
 
 If Microsoft 365 is the destination it's important to set the country of the destination M365 tenant for ClouldM Migrate as Azure blocks connections from outside the country. Go to Step 2 on the left and select Platform Configuration and Provisioning. Under the Usage Location select the country that will host the Microsoft 365 tenant, this is defaulted to the United Kingdom. 
 
-### Micosoft 365 to SaaS Access
+### Microsoft 365 to SaaS Access
 
 After completing the configuration of the Microsoft 365 as source and/or destination endpoint(s) a prompt to create the Azure AD Application will be available. Select this to begin the application creation and the connectivity testing to the tenant. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
 
