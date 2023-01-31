@@ -2,7 +2,7 @@
 layout: default
 title: File Share to M365
 grand_parent: Migration Project Guides
-parent: M365
+parent: Microsoft 365
 nav_order: 5
 has_children: false
 has_toc: false
