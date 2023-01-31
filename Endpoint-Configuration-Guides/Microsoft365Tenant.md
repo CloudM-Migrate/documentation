@@ -11,7 +11,7 @@ nav_order: 1
 
 This guide will show how to configure Microsoft 365 as a source or destination endpoint. 
 
-For M365 this is defined by the following requirements:
+For Microsoft 365 this is defined by the following requirements:
 
 <a name="top"></a>
 <details open markdown="block">
