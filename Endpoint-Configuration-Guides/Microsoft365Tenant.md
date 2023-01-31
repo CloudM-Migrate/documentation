@@ -1,8 +1,8 @@
 ---
 layout: default
-title: M365
+title: Microsoft 365
 parent: Endpoint Configuration Guides
-tag: M365
+tag: Microsoft 365
 nav_order: 1
 ---
 
@@ -33,7 +33,7 @@ Upon receipt of the license for CloudM Migrate you'll have a link to access the 
 
 ClouldM Migrate uses Modern Authentication as a default. If Multi-Factor Authentication (MFA) is enabled on the endpoint it'll need to be disabled temporarily or a Personal Exchange Format (PFX) certificate has to be generated for access. As a destination it's recommended to disable MFA. 
 
-If M365 is the source and MFA can not be disabled the Azure Application used to perform migrations can be created with a PowerShell script <a href="https://bitbucket.org/cloudsols/cloudm-public/raw/9b4bf82a3ff82572e61a1fea877f6d9091958b1d/Migrate/PowerShell/CreateAzureADApplication.ps1">CreateAzureADApplication</a>. This script will output a PFX Certificate that will need to be uploaded to CloudM Migate.
+If Microsoft 365 is the source and MFA can not be disabled the Azure Application used to perform migrations can be created with a PowerShell script <a href="https://bitbucket.org/cloudsols/cloudm-public/raw/9b4bf82a3ff82572e61a1fea877f6d9091958b1d/Migrate/PowerShell/CreateAzureADApplication.ps1">CreateAzureADApplication</a>. This script will output a PFX Certificate that will need to be uploaded to CloudM Migate.
 
 During script execution you will be prompted to authenticate, be sure to leave the PowerShell instance running and keep it open to reference the output. 
 
@@ -41,9 +41,9 @@ Once the Azure Application is created, MFA can be renabled.
 
 ### Account Used
 
-In M365 the Global Admin account is needed to grant CloudM Migrate access to the data in scope for migration. Once the Global Admin account is used to create the Azure AD application it can be removed from CloudM Migrate. 
+In Mircosoft 365 the Global Admin account is needed to grant CloudM Migrate access to the data in scope for migration. Once the Global Admin account is used to create the Azure AD application it can be removed from CloudM Migrate. 
 
-### M365 Tenant ID
+### Microsoft 365 Tenant ID
 
 When you specify the domain CloudM Migrate can auto populate the Tenant ID. If it doesn't auto populate the Tenant ID can be found in the <a href="https://learn.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id">Tenant Properties</a>.
 
@@ -53,11 +53,11 @@ CloudM Migrate will test the connectivity with a Test Mailbox. Specify a typical
 
 ### The Country of the Destination
 
-If M365 is the destination it's important to set the country of the destination M365 tenant for ClouldM Migrate as Azure blocks connections from outside the country. Go to Step 2 on the left and select Platform Configuration and Provisioning. Under the Usage Location select the country that will host the M365 tenant, this is defaulted to the United Kingdom. 
+If Microsoft 365 is the destination it's important to set the country of the destination M365 tenant for ClouldM Migrate as Azure blocks connections from outside the country. Go to Step 2 on the left and select Platform Configuration and Provisioning. Under the Usage Location select the country that will host the Microsoft 365 tenant, this is defaulted to the United Kingdom. 
 
-### M365 to SaaS Access
+### Micosoft 365 to SaaS Access
 
-After completing the configuration of the M365 as source and/or destination endpoint(s) a prompt to create the Azure AD Application will be available. Select this to begin the application creation and the connectivity testing to the tenant. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
+After completing the configuration of the Microsoft 365 as source and/or destination endpoint(s) a prompt to create the Azure AD Application will be available. Select this to begin the application creation and the connectivity testing to the tenant. Any errors can be resolved by referencing the <a href="https://cloudm-migrate.github.io/documentation/Troubleshooting/O365Endpoint.html">Troubleshooting section</a>.
 
 For reference purposes, here is what the application will give itself access to:
 
@@ -77,6 +77,6 @@ df021288-bdef-4463-88db-98f22de89214 | Read all users' full profiles
 
 When both your endpoints are ready our <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/MigrationProjectGuides.html">Project Migration Guides</a> for your endpoint combination can fill in the next steps toward project completion. 
 
-- <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/GoogleToM365.html">Google to M365</a>
-- <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/M365ToM365.html">M365 to M365</a>
+- <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/GoogleToM365.html">Google to Microsoft 365</a>
+- <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/M365ToM365.html">Microsoft 365 to 365</a>
 - <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/TeamstoTeams.html">Teams to Teams</a>
