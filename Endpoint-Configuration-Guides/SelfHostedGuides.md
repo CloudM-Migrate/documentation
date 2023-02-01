@@ -46,7 +46,7 @@ Licenses for Self Hosted migrations are discounted from the CloudM Migrate SaaS 
 
 Any available Windows updates should be installed and the machine rebooted prior to installation, a full system administrator is recommended for installation.
 
-### Binary for x64
+### Download for x64
 
 <a href="https://www.cloudm.io/CloudM-Migrate-Latest-x64.exe">CloudM Migrate x64</a>
 
@@ -56,7 +56,7 @@ SHA1 - f6f2359def4d5f60f56463899c3d41dcc6424cb9
 
 MD5 - 3281a4d18262d7e43c8e759ceab386d1
 
-### Binary for x86
+### Download for x86
 
 <a href="https://www.cloudm.io/CloudM-Migrate-Latest.exe">CloudM Migrate x86</a>
 
