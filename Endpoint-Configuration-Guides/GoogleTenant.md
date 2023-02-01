@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Google
+title: Google Workspace
 parent: Endpoint Configuration Guides
 nav_order: 2
 ---
