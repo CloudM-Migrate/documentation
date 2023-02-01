@@ -1,6 +1,6 @@
 ---
 layout: default
-title: File System
+title: File Share
 grand_parent: Endpoint Configuration Guides
 parent: Self Hosted Guides
 nav_order: 3
