@@ -32,28 +32,9 @@ For IMAP this is defined by the following requirements:
 Select the credentials (username and password) of the administrator account within the IMAP environment. 
 When migrating from Gmail to IMAP select less secure apps in order to gain access. IMAP will not migrate contacts and calendars this is expected behavior.
 
-
----
-
-### Supported IMAP Providers
-These are CloudM’s Supported IMAP Providers 
-
 Following these prerequisites steps are required before continuing onto the CloudM Migrate setup.
 
--	Bluehost
--	Dovecot Email Server
--	MDaemon
--	Zoho Mail
--	Amazon Work Mail
--	HCL (IBM) Verse
--	Fasthosts
--	Ionos
--	Scalahosting
--	Hostinger
--	Dreamhost
-
 ---
-
 
 ### Delegated Access 
 
