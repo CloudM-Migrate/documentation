@@ -76,7 +76,7 @@ In a Google to Google domain-switch migration, where the primary source domain i
 
 As migrated calendar events cannot be changed/updated, it is recommended to carry out a full calendar migration shortly before carrying out the domain switch to ensure you migrate the most recent version of users' primary and/or secondary calendars.
 
-### Google Drive
+### Google Drive Watchpoints and Best Practices
 [Back to Top](#top)
 
 Due to the flexibility of how files and folders can be organized within Google Drive, CloudM Migrate has to perform Google Drive migrations in a specific way to maintain integrity in the destination Drive. CloudM Migrate has been implemented to provide extremely high integrity and fidelity during a Google Drive migration.  All folder structures, included shared folder structures, file locations, item starring and modification dates are preserved during a migration.

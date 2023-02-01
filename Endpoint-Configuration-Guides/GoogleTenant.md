@@ -30,7 +30,7 @@ Upon receipt of the license for CloudM Migrate you'll have a link to access the 
 
 ### Authentication Method
 
-Google endpoints are accessed by a Super Admin account. 
+It is recommended to use a Super Admin to authenticate.
 
 ### Service Account and P12 or JSON Access Key for Google to SaaS Access
 
@@ -72,3 +72,8 @@ The whole process can be performed via a PowerShell script.
 14. The P12 or JSON Access key will be located under C:\CloudM\GCPConfig and can be uploaded into CloudM Migrate. 
 
 > Note: Replication can cause a delay of 2 hours before these can be used to migrate data. 
+
+When both your endpoints are ready our <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/MigrationProjectGuides.html">Project Migration Guides</a> for your endpoint combination can fill in the next steps toward project completion. 
+
+- <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/GoogleToGoogle.html">Google to Google</a>
+- <a href="https://cloudm-migrate.github.io/documentation/Migration-Project-Guides/M365ToGoogle.html">Microsoft 365 to Google</a>
