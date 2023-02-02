@@ -44,6 +44,7 @@ This document will give an overview on all the Microsoft 365 Destination Advance
 15. [Orphaned Items Folder](#orphfold)
 16. [Provision Sites Timeout Check](#provsitetime)
 17. [Patch Permissions](#patchperm)
+18. [Include Document Metadata](#docmeta)
 
 ### SharePoint Migration API <a name="docsharperm"></a>
 {: .no_toc }
@@ -180,6 +181,15 @@ Default Value: None
 Add/Update/Delete permissions for existing items. If disabled, only new permissions will be applied to existing items (see documentation).
 
 Change Conditions: When enabled all permissions will be completely reapplied when performing delta migrations.
+
+### Include Document Metadata <a name="docmeta"></a>
+{: .no_toc }
+Default Value: Off
+
+Migrate standard document metadata, as well as Text, Boolean, Number and Datetime custom metadata.
+
+Change Conditions: When enabled Migrate will export the following custom metadata; Single line text, Multi line text, Number, Yes/No and DateTime.
+
 
 ---
 ## Email
@@ -358,7 +368,7 @@ Mark Teams Direct Migration as completed. Migrating Teams data with this option 
 {: .no_toc }
 Default: On
 
-Update Teams Private Chats with latest 10 exported messages
+Update Teams Private Chats with latest 10 exported messages.
 
 Change Conditions: Turn off to disable the migration of Microsoft Teams 1-to-1 and 1-to-many private chats
 
