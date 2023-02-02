@@ -1,12 +1,12 @@
 ---
 layout: default
-title: M365
+title: Microsoft 365
 parent: Support
 has_children: false
-nav_order: 3
+nav_order: 1
 ---
 
-## M365 Troubleshooting
+## Microsoft 365 Troubleshooting
 {: .no_toc }
 
 ---
