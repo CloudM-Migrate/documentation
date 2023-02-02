@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Google
+title: Google Workspace
 parent: Support
 has_children: false
 nav_order: 2
 ---
 
-## Google Troubleshooting
+## Google Workspace Troubleshooting
 {: .no_toc }
 
 ---
