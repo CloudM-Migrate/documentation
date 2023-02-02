@@ -22,7 +22,6 @@ nav_order: 3
 
 
 #### Microsoft Throttling and Quotas
-{: .no_toc }
 
 Microsoft Graph allows you to access data in multiple services, such as Outlook or Azure Active Directory. These services impose their own throttling limits.
 
