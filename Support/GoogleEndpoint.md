@@ -24,7 +24,7 @@ nav_order: 2
 
 You may encounter the following when running a migration using the Cloud M software these are the most common Google Workspace errors explained. 
 
-### 400 Error: Bad Request. 
+### 400 Error: Bad Request
 
 400 Bad Request a Google error and is typically caused by data that cannot be imported into Gmail for one of the following reasons:
 
@@ -56,7 +56,7 @@ For a 401 That particular error refers to the forwarding setting in a user's mai
 
 ---
 
-###  403 Forbidden: The remote server returned an error.
+###  403 Forbidden: The remote server returned an error
 
 You should ensure that the <a href="https://developers.google.com/workspace/guides/configure-oauth-consent">Configure the OAuth consent screen</a> and the API Scopes added in the admin console.
 
@@ -78,7 +78,7 @@ An error 403 occurs when a usage limit has been exceeded or the user doesn't hav
 
 ---
 
-### 403 Error: Insufficient Permissions.
+### 403 Error: Insufficient Permissions
 
 This error for example is happening on Google Import, indicating that there is an issue with permissions in either for the service account or API Scopes.  Can you make sure that all the scopes have been added to the service account and that your API's all have been enabled?  Also, check if you have the Admin SDK API enabled. This sometimes causes the issue. For reason in the logs for every failure states " “ Not retrying Forbidden[403] error,”
 
@@ -89,7 +89,7 @@ Not retrying Forbidden[403] error Google.Apis.Requests.RequestError Insufficient
 
 ---
 
-### 404 Error: File not found.
+### 404 Error: File not found
 
  404 error is "File not found." This can happen when a file is deleted or there is an error in a hyperlink. It can also happen if a file is copied and the original deleted. The new file will have a new address and previous links will not work.
  
@@ -112,7 +112,7 @@ Following the proper migration steps will help avoid a lot of this:
 
 ---
 
-### 429 Error: Too many requests.
+### 429 Error: Too many requests
 
 A rate LimitExceeded error occurs when the user has sent too many requests in a given amount of time.
 
@@ -120,7 +120,7 @@ To fix this error, use exponential backoff to retry the request.
 
 ---
 
-### 500 Error: Internal server.
+### 500 Error: Internal server
 
 This error can occur when migrating to or from G Suite and the API requests being made by CloudMigrator are exceeding Google's rate limits.  
 
